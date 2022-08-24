@@ -1,5 +1,5 @@
 body {
-  background-color: #212121;
+  background-color: #181a1b;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -8,7 +8,7 @@ body {
 .siderbar {
   height: 100%;
   width: 200px;
-  background-color: 2f2f2f;
+  background-color: #2f2f2f;
   position: fixed !important;
   z-index: 1;
   overflow: auto;
