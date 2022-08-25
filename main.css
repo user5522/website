@@ -21,18 +21,18 @@ body {
 h1 {
   color: white;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 h2 {
   color: white;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
 }
 h3 {
   color: white;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
 }
