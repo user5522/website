@@ -1,41 +1,45 @@
 body {
-  background-color: #181a1b;
+  background: linear-gradient(-45deg, #e85a2f, #6d0b90, #3a8ed4, #23d5b4);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
   text-align: center;
   align-items: center;
-  justify-content: center;
-  background-size: cover;
+  justify-content: center;  
 }
-.siderbar {
-  height: 100%;
-  width: 200px;
-  background-color: #2f2f2f;
-  position: fixed !important;
-  z-index: 1;
-  overflow: auto;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
-.siderbarItem {
-  padding: 8px 16px;
-  float: left;
-  width: auto;
-  border: none;
-  display: block;
-  outline: 0;
-}
+
 h1 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 100;
+  top: 50%;
+  right: 50%;
 }
 h2 {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 100;
+  top: 50%;
+  right: 50%;
 }
 h3 {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 40px;
   font-weight: 100;
+  top: 50%;
+  right: 50%;
 }
