@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 export default function Navbar(props) {
@@ -63,7 +62,6 @@ export default function Navbar(props) {
               className="items-center h-10 rounded-full bg-dark_light"
             />
           </motion.div>
-          <Link to="https://react.semantic-ui.com/" />
           <button
             href="/"
             id="logo_text"

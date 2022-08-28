@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "/src/components/navbar";
+import Navbar from "/components/navbar";
 import WaveStart from "./components/wave_start";
 
 function App() {
