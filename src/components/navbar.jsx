@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 export default function Navbar() {
   const [isShown, setIsShown] = useState(false);
-  const [imgURL, setImgURL] = useState("/public/burger.svg");
+  const [imgURL, setImgURL] = useState("/burger.svg");
   const [isActive, setIsActive] = useState(false);
 
   function handleButtonClick() {
-    setImgURL("/public/close.svg");
+    setImgURL("/close.svg");
   }
 
   const handleClick = () => {
@@ -32,7 +32,7 @@ export default function Navbar() {
             }}
           >
             <img
-              src="/public/Logo-flat.svg"
+              src="/Logo-flat.svg"
               className="items-center h-10 rounded-full bg-dark_light"
             />
           </motion.div>

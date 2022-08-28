@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "/src/components/navbar";
-import WaveStart from "/src/components/wave_start";
+import WaveStart from "./components/wave_start";
 
 function App() {
   return (
@@ -16,6 +16,9 @@ function App() {
       <div className="flex flex-col items-center justify-center">
         <div className="mt-24 text-5xl">Hello, world!</div>
         <div className="m-5">
+          {" "}
+          This is still in the beta phase, come back later!!
+          <br />
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
