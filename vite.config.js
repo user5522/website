@@ -14,8 +14,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
-        vbot: resolve(root, "vbot", "index.html"),
-        NotFound: resolve(root, "*", "index.html"),
+        test: resolve(root, "vbot", "index.html"),
       },
     },
   },
