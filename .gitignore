@@ -6,8 +6,3 @@ node_modules
 .env
 .env.*
 !.env.example
-<<<<<<< Updated upstream
-.vercel
-.output
-=======
->>>>>>> Stashed changes

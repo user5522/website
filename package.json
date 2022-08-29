@@ -1,12 +1,7 @@
 {
-<<<<<<< Updated upstream
 	"name": "user5522.github.io",
 	"version": "0.0.1",
-=======
-	"name": "website-svelte",
-	"version": "0.0.1",
 	"private": true,
->>>>>>> Stashed changes
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -19,17 +14,6 @@
 		"@playwright/test": "^1.25.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
-<<<<<<< Updated upstream
-		"prettier": "^2.6.2",
-		"prettier-plugin-svelte": "^2.7.0",
-		"svelte": "^3.46.0",
-		"vite": "^3.0.8"
-	},
-	"type": "module",
-	"dependencies": {
-		"@fontsource/fira-mono": "^4.5.0",
-		"cookie": "^0.4.1"
-=======
 		"autoprefixer": "^10.4.8",
 		"postcss": "^8.4.16",
 		"prettier": "^2.6.2",
@@ -44,6 +28,5 @@
 	"type": "module",
 	"dependencies": {
 		"svelte-simple-modal": "^1.4.1"
->>>>>>> Stashed changes
 	}
 }
