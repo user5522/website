@@ -4,10 +4,7 @@ import preprocess from "svelte-preprocess";
 /** @type {import(""@sveltejs/kit").Config} */
 const config = {
   kit: {
-    adapter: adapter({
-      pages: "builds",
-      assets: "builds",
-    }),
+    adapter: adapter(),
     prerender: {
       default: true,
     },
