@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @import '@fontsource/fira-mono';
 
 :root {
@@ -103,5 +104,42 @@ button:focus:not(:focus-visible) {
 @media (min-width: 720px) {
 	h1 {
 		font-size: 2.4rem;
+=======
+@tailwind base;
+@tailwind components;
+@layer base {
+	html {
+		@apply text-white;
+		@apply bg-black;
+	}
+}
+@tailwind utilities;
+
+.spacer_start {
+	position: absolute;
+	top: 10;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.spacer_start svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 115px;
+}
+
+.spacer_start .shape-fill {
+	fill: #ffffff;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+	.spacer_start svg {
+		width: calc(150% + 1.3px);
+		height: 110px;
+>>>>>>> Stashed changes
 	}
 }

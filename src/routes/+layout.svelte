@@ -1,4 +1,5 @@
 <script>
+<<<<<<< Updated upstream
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 </script>
@@ -43,3 +44,9 @@
 		}
 	}
 </style>
+=======
+	import '../app.css';
+</script>
+
+<slot />
+>>>>>>> Stashed changes
