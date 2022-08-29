@@ -45,7 +45,7 @@
           class="p-5 text-blue-300 duration-200 bg-blue-800 rounded-xl hover:scale-110 active:scale-90"
           on:click={showModal}
         >
-          View
+          View false accusations
         </button>
       </a>
     </Modal>
