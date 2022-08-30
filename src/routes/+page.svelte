@@ -1,7 +1,6 @@
 <script>
   import Navbar from "../components/navbar.svelte";
   import WavesStart from "../components/waves_start.svelte";
-  import WavesEnd from "../components/waves_end.svelte";
   import { writable } from "svelte/store";
   import Modal, { bind } from "svelte-simple-modal";
   import Popup from "../components/crimes.svelte";
@@ -13,10 +12,12 @@
 </script>
 
 <div class="bg-white">
-  <div class="pb-32"><Navbar /></div>
+  <div class="pb-32">
+    <Navbar />
+  </div>
   <div><WavesStart /></div>
 </div>
-<div class="pt-24 pb-3 bg-black">
+<div class="pt-28 bg-black">
   <div class="flex flex-col items-center justify-center pb-20">
     <div class="flex flex-row">
       <p class="ml-16 text-4xl">User5522</p>
@@ -52,6 +53,4 @@
       </Modal>
     </div>
   </div>
-  <div><WavesEnd /></div>
 </div>
-<div class="bg-white text-black">test</div>

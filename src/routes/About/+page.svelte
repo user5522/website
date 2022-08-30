@@ -1,4 +1,10 @@
-<h1>
-  a 15 year old Tunisia young piece of shit that pretends to be the funniest
-  person in the group
-</h1>
+<div class="flex justify-center">
+  <div class="flex-row">
+    <div class="self-center">
+      <div>User5522 or Username5522</div>
+      <div>
+        15 year old that makes too much sarcastic jokes that he became one
+      </div>
+    </div>
+  </div>
+</div>

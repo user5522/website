@@ -2,7 +2,7 @@
   <nav id="navbar" class="flex flex-row items-center p-5 rounded-xl bg-dark">
     <div class="flex flex-row items-center gap-2 duration-300" id="logo">
       <img
-        src="/Logo-flat.svg"
+        src="/Logo_flat.svg"
         class="items-center h-10 rounded-full bg-dark_light"
         alt="logo"
       />
