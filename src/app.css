@@ -1,37 +1,64 @@
 @tailwind base;
 @tailwind components;
 @layer base {
-	html {
-		@apply text-white;
-		@apply bg-black;
-	}
+  html {
+    @apply text-white;
+    @apply bg-black;
+  }
 }
 @tailwind utilities;
 
 .spacer_start {
-	position: absolute;
-	top: 10;
-	left: 0;
-	width: 100%;
-	overflow: hidden;
-	line-height: 0;
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .spacer_start svg {
-	position: relative;
-	display: block;
-	width: calc(100% + 1.3px);
-	height: 115px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 115px;
 }
 
 .spacer_start .shape-fill {
-	fill: #ffffff;
+  fill: #ffffff;
 }
 
-/** For mobile devices **/
 @media (max-width: 767px) {
-	.spacer_start svg {
-		width: calc(150% + 1.3px);
-		height: 110px;
-	}
+  .spacer_start svg {
+    width: calc(150% + 1.3px);
+    height: 110px;
+  }
+}
+
+.spacer_end {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.spacer_end svg {
+  display: block;
+  bottom: 0;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.spacer_end .shape-fill {
+  fill: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .spacer_end svg {
+    width: calc(150% + 1.3px);
+    height: 133px;
+  }
 }

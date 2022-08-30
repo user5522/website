@@ -1,69 +1,73 @@
-<script>
-  let isShown = false;
-  const setIsShown = () => (isShown = !isShown);
-  let imgURL = "/burger.svg";
-  const setImgURL = () => (imgURL = "/burger_king.svg");
-
-  let isActive = false;
-  const setIsActive = () => (isActive = !isActive);
-
-  // window.onscroll = function () {
-  // 	scrollFunction();
-  // };
-
-  // function scrollFunction() {
-  // 	if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80	) {
-  // 		document.getElementById('navbar').style.padding = '5px';
-  // 		document.getElementById('logo').style.height = '50px';
-  // 		document.getElementById('logo_text').style.padding = '8px';
-  // 		document.getElementById('burgerking_menu').style.padding = '8px';
-  // 		setIsShown(false);
-  // 	} else {
-  // 		document.getElementById('navbar').style.padding = '10px';
-  // 		document.getElementById('logo').style.height = '60px';
-  // 		document.getElementById('logo_text').style.padding = '12px';
-  // 		document.getElementById('burgerking_menu').style.padding = '12px';
-  // 	}
-  // }
-
-  const showMenu = () => {
-    setIsShown((current) => !current);
-  };
-</script>
-
 <div class="fixed top-0 z-50 w-screen p-3">
-  <nav class="flex flex-row items-center p-5 rounded-xl bg-dark">
+  <nav id="navbar" class="flex flex-row items-center p-5 rounded-xl bg-dark">
     <div class="flex flex-row items-center gap-2 duration-300" id="logo">
       <img
         src="/Logo-flat.svg"
         class="items-center h-10 rounded-full bg-dark_light"
         alt="logo"
       />
-      <button
-        href="/"
-        id="logo_text"
-        class="p-3 text-xl font-semibold duration-200 rounded-lg hover:bg-dark_light hover:scale-110 active:scale-90"
-        alt="logo"
-      >
-        User5522
-      </button>
+      <a href="/">
+        <button
+          id="logo_text"
+          class="p-3 text-xl font-semibold duration-200 rounded-lg hover:bg-dark_light hover:scale-110 active:scale-90"
+          alt="logo"
+        >
+          User5522
+        </button>
+      </a>
     </div>
-    <div class="md:hidden">
+    <div id="largeScreenItems" class="absolute right-10">
+      <a href="/Vbot">
+        <button
+          class="p-3 hover:scale-110 text-xl active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
+        >
+          Vbot
+        </button>
+      </a>
+      <a href="/About">
+        <button
+          href="/About"
+          class="p-3 hover:scale-110 text-xl active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
+        >
+          About
+        </button>
+      </a>
+    </div>
+    <script>
+      let y = 0;
+
+      function toggleBurgerMenu() {
+        var x = document.getElementById("BurgerMenu");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+    <div class="sm:hidden">
       <div class="flex items-center">
         <button
-          id="burgerking_menu button"
+          onClick="toggleBurgerMenu()"
           class="absolute p-3 text-xl duration-100 rounded-lg hover:bg-dark_light hover:scale-110 active:scale-90 right-10"
-          onClick={() => {
-            showMenu();
-          }}
         >
-          <img src={imgURL} alt="hamburger menu" />
+          <img src="/burger.svg" alt="hamburger menu" />
         </button>
+      </div>
+      <div id="BurgerMenu" class="">
+        <div class="w-40 h-96">
+          <div>Test</div>
+        </div>
       </div>
     </div>
   </nav>
 </div>
 
-<!-- <div id="HamburgerMenu" class:open={isShown} /> -->
-
 <!-- svelte-ignore a11y-missing-attribute -->
+<style>
+  @media only screen and (max-width: 640px) {
+    #largeScreenItems {
+      display: none;
+    }
+  }
+</style>
