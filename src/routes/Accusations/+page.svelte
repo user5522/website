@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center self-center justify-center text-white">
+<div class="flex flex-col items-center justify-center text-white">
   <br />
   Abusive Sexual Contact<br />
   Advocating Overthrow of Government<br />
