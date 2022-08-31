@@ -28,7 +28,7 @@
   fill: #ffffff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   .spacer_start svg {
     width: calc(150% + 1.3px);
     height: 110px;
