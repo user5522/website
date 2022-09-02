@@ -37,7 +37,7 @@
       I am an innocent individual, and I definitely didn't commit any of these
       crimes:
     </div>
-    <div>
+    <div class="flex flex-row gap-4">
       <!-- svelte-ignore a11y-missing-attribute -->
       <Modal
         show={$modal}
@@ -45,7 +45,7 @@
         closeButton={CloseButton}
         styleContent={{ backgroundColor: "#121212", borderRadius: "0.75rem" }}
       >
-        <a class="mr-2">
+        <a class="">
           <button
             class="sm:p-5 p-4 sm:text-base text-sm text-blue-200 duration-200 bg-blue-800 rounded-xl hover:scale-110 active:scale-90"
             on:click={showModal}

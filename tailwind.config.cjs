@@ -7,8 +7,8 @@ module.exports = {
         dark: "#121212",
         dark_light: "#1f1f1f",
         dark_darker: "#101010",
-        true_gray: "#292929",
-        light_true_gray: "#404040",
+        true_gray: "#191919",
+        light_true_gray: "#2f2f2f",
       },
       rotate: {
         158: "158deg",

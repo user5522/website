@@ -5,11 +5,12 @@
     " dumbass",
     " h lover",
     " h enjoyer",
-    "ly depressed poor fuck",
+    "ly idot idot",
     "ly dumb developer",
+    " serial killer",
   ];
   var subtitleWord =
     subtitleSentences[Math.floor(Math.random() * subtitleSentences.length)];
 </script>
 
-<div class="pb-10 text-xl">A professional{subtitleWord}</div>
+<div class="pb-10 text-xl">A professional{subtitleWord}.</div>

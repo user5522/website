@@ -11,20 +11,23 @@
   <div><WavesStart /></div>
 </div>
 <div class="pt-28 bg-black">
-  <div class="flex flex-col items-center justify-center pb-20">
+  <div class="flex flex-col p-10 items-center justify-center pb-20">
     <div class="flex flex-row">
       <p class="text-4xl">Projects</p>
     </div>
-    <div class="flex flex-row gap-2">
+    <div class="flex flex-row gap-1">
       <div class="text-xl">
-        Some projects I made/working on that I want to share with you
+        Some projects I made/working on that I want to share with you <img
+          src="/flushed.svg"
+          alt="flushed emote"
+          class="h-7"
+        />
       </div>
-      <img src="/flushed.svg" alt="flushed emote" class="h-7" />
     </div>
   </div>
   <div>
     <div id="TwoPosts" class="gap-3 flex sm:flex-row flex-col p-3">
-      <div id="post1" class="bg-dark h-auto  w-screen rounded-2xl">
+      <div id="post1" class="bg-dark h-auto w-auto rounded-2xl">
         <div class="">
           <img
             src="/placeholder.png"
@@ -44,7 +47,7 @@
         </div>
       </div>
 
-      <div id="post2" class="bg-dark h-auto  w-screen rounded-2xl">
+      <div id="post1" class="bg-dark h-auto w-auto rounded-2xl">
         <div class="">
           <img
             src="/placeholder.png"
