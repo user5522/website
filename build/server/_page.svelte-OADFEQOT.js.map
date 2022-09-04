@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../.svelte-kit/adapter-node/entries/pages/Vbot/_page.svelte.js"],
+  "sourcesContent": ["import { c as create_ssr_component } from \"../../../chunks/index.js\";\nconst Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {\n  return `<h1>Hello, world!</h1>`;\n});\nexport {\n  Page as default\n};\n"],
+  "mappings": ";;;;;;AACA,IAAM,OAAO,qBAAqB,CAAC,UAAU,SAAS,YAAY,UAAU;AAC1E,SAAO;AACT,CAAC;",
+  "names": []
+}
