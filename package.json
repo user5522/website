@@ -32,6 +32,7 @@
   "dependencies": {
     "@sveltejs/adapter-auto": "^1.0.0-next.71",
     "npm": "^8.19.1",
+    "svelte-adapter-github": "^0.0.1-next.0",
     "svelte-simple-modal": "^1.4.1"
   }
 }

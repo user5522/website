@@ -11,6 +11,7 @@
         </div>
         <div>
           -
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <a href=""><button href="">(WIP) 404 page</button></a>
         </div>
         <div>

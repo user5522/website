@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../.svelte-kit/adapter-node/nodes/6.js"],
-  "sourcesContent": ["\n\nexport const index = 6;\nexport const component = async () => (await import('../entries/pages/Vbot/_page.svelte.js')).default;\nexport const file = '_app/immutable/components/pages/Vbot/_page.svelte-c9c84e20.js';\nexport const imports = [\"_app/immutable/components/pages/Vbot/_page.svelte-c9c84e20.js\",\"_app/immutable/chunks/index-46a18418.js\"];\nexport const stylesheets = [];\n"],
-  "mappings": ";;;AAEO,IAAM,QAAQ;AACd,IAAM,YAAY,aAAa,MAAM,OAAO,+BAA0C;AACtF,IAAM,OAAO;AACb,IAAM,UAAU,CAAC,iEAAgE,yCAAyC;AAC1H,IAAM,cAAc,CAAC;",
-  "names": []
-}

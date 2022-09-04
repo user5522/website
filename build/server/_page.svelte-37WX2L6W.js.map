@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../.svelte-kit/adapter-node/entries/pages/About/_page.svelte.js"],
-  "sourcesContent": ["import { c as create_ssr_component } from \"../../../chunks/index.js\";\nconst Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {\n  return `<div class=\"${\"flex justify-center\"}\"><div class=\"${\"flex-row\"}\"><div class=\"${\"self-center\"}\"><div>User5522 or Username5522</div>\n      <div>15 year old that makes too much sarcastic jokes that he became one\n      </div></div></div></div>`;\n});\nexport {\n  Page as default\n};\n"],
-  "mappings": ";;;;;;AACA,IAAM,OAAO,qBAAqB,CAAC,UAAU,SAAS,YAAY,UAAU;AAC1E,SAAO,eAAe,sCAAsC,2BAA2B;AAAA;AAAA;AAGzF,CAAC;",
-  "names": []
-}
