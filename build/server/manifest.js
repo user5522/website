@@ -6,10 +6,10 @@ var manifest = {
   assets: /* @__PURE__ */ new Set(["Logo_flat.svg", "Logo_monochrome.svg", "burger.svg", "close.svg", "flushed.svg", "placeholder.png", "waves_end.svg", "waves_start.svg"]),
   mimeTypes: { ".svg": "image/svg+xml", ".png": "image/png" },
   _: {
-    entry: { "file": "_app/immutable/start-99a14a4c.js", "imports": ["_app/immutable/start-99a14a4c.js", "_app/immutable/chunks/index-c30e9178.js", "_app/immutable/chunks/singletons-68c39d14.js", "_app/immutable/chunks/index-4f91156a.js"], "stylesheets": [] },
+    entry: { "file": "_app/immutable/start-a6f473d7.js", "imports": ["_app/immutable/start-a6f473d7.js", "_app/immutable/chunks/index-c30e9178.js", "_app/immutable/chunks/singletons-c86c564e.js", "_app/immutable/chunks/index-4f91156a.js"], "stylesheets": [] },
     nodes: [
       () => import("./0-GUKC7SIX.js"),
-      () => import("./1-LCM3WPPJ.js"),
+      () => import("./1-6CKH7LF5.js"),
       () => import("./2-6VLSYMYC.js"),
       () => import("./3-YJ2ZM45D.js"),
       () => import("./4-YHA7KPI4.js"),
