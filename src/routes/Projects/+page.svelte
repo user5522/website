@@ -15,9 +15,11 @@
     <div class="flex flex-row">
       <p class="text-4xl">Projects</p>
     </div>
-    <div class="gap-1 inline-block">
-      <div>Some projects I made/working on that I want to share with you</div>
-      <img src="/flushed.svg" alt="flushed emote" class="h-7" />
+    <div class="flex flex-row gap-1 ">
+      <div class="inline-block">
+        Some projects I made/working on that I want to share with you
+        <img src="/flushed.svg" alt="flushed emote" class="h-7" />
+      </div>
     </div>
   </div>
   <div>
