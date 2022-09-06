@@ -12,6 +12,10 @@
   const showModal = () => modal.set(bind(Popup, "test"));
 </script>
 
+<svelte:head>
+  <title>Welcome</title>
+</svelte:head>
+
 <div class="bg-white">
   <div class="pb-32">
     <Navbar />
@@ -27,7 +31,6 @@
     <div><Subtitle /></div>
     <div class="p-10">
       Welcome to my website, a place where I publish everything I failed at
-      making
     </div>
     <div class="pl-10 pr-10">
       I am NOT wanted in several countries for commiting any sort of federal

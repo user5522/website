@@ -4,6 +4,10 @@
   import Footer from "../../components/footer.svelte";
 </script>
 
+<svelte:head>
+  <title>/Projects</title>
+</svelte:head>
+
 <div class="bg-white">
   <div class="pb-32">
     <Navbar />
