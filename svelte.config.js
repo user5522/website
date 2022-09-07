@@ -1,5 +1,4 @@
-// import adapter from "@sveltejs/adapter-static";
-import adapter from "svelte-adapter-ghpages";
+import adapter from "@sveltejs/adapter-static";
 
 const dev = "production" === "development";
 
@@ -10,7 +9,7 @@ const config = {
       pages: "docs",
       assets: "docs",
       fallback: null,
-      // precompress: false,
+      precompress: false,
     }),
   },
 };
