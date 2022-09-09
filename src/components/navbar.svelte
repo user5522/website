@@ -3,7 +3,7 @@
 >
   <nav
     id="navbar"
-    class="flex flex-row items-center sm:p-5 p-4 rounded-xl bg-dark shadow-lg"
+    class="flex flex-row items-center sm:p-5 p-4 bg-dark rounded-xl  shadow-lg"
   >
     <div
       class="flex flex-row items-center sm:gap-2 gap-1 duration-300"
