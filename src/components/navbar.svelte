@@ -27,7 +27,7 @@
         >
          </Motion> -->
 
-      <a href="/">
+      <a href="/" class="text-white">
         <button
           id="logo_text"
           class="sm:p-3 p-2 sm:text-xl text-base font-semibold duration-200 rounded-lg hover:bg-dark_light hover:scale-110 active:scale-90"
@@ -37,7 +37,7 @@
         </button>
       </a>
     </div>
-    <div class="absolute right-10">
+    <div class="absolute right-10 text-white">
       <a href="/Vbot">
         <button
           class="sm:p-3 p-2 hover:scale-110 sm:text-xl text-base active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
@@ -45,17 +45,15 @@
           Vbot
         </button>
       </a>
-      <a href="/Projects">
+      <a href="/Projects" class="text-white">
         <button
-          href="/Projects"
           class="sm:p-3 p-2 hover:scale-110 sm:text-xl text-base active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
         >
           Projects
         </button>
       </a>
-      <a href="/About">
+      <a href="/About" class="text-white">
         <button
-          href="/About"
           class="sm:p-3 p-2 hover:scale-110 sm:text-xl text-base active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
         >
           About

@@ -5,6 +5,9 @@
     @apply text-white;
     @apply bg-black;
   }
+  a {
+    @apply text-blue-400;
+  }
 }
 @tailwind utilities;
 
