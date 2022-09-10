@@ -12,7 +12,7 @@
       var now = new Date();
       var age = now.getTime() - start.getTime();
       var year = age / 31556926000;
-      document.getElementById("age").innerHTML = year.toFixed(10);
+      document.getElementById("age").innerHTML = year.toFixed(3);
       document.getElementById("perage").innerHTML = year.toFixed(1);
     }
 
@@ -38,15 +38,13 @@
     </div>
 
     <div class="flex flex-row pb-16 items-baseline">
-      <div class="p-1">H(i/ello), I'm a</div>
+      <div class="p-1">H, I'm a</div>
       <div id="age" />
-      <div class="p-1">years old Tunisian mf</div>
+      <div class="p-1">years old Tunisian mf & I like learning stuff</div>
     </div>
-    <div>What I can do:</div>
+    <div class="mb-7 text-xl">What I can do:</div>
 
-    <div class="flex flex-col items-baseline">
-      <div>- uhhhhhhhhhhhhh</div>
-      <div>- uhhhhhhhhhhhhh</div>
+    <div class="flex flex-col items-center">
       <div>- uhhhhhhhhhhhhh</div>
       <div>- literally nothing for a reasonable amount of time</div>
       <div>- breath air (abnormal capability)</div>
@@ -61,6 +59,19 @@
         <div id="perage" />
         <div class="pl-1">years</div>
       </div>
+      <div>- make useless lists</div>
+    </div>
+
+    <div class="mb-7 mt-7 text-xl">What I learned so far:</div>
+    <div class="flex flex-col items-center">
+      <div>- uhhhhhhhhhhhhh</div>
+      <div>- html, css & js</div>
+      <div>- svelte, i think</div>
+      <div>- React, a fair amount</div>
+      <div>- React native, also a fair amount</div>
+      <div>- Rust, basic knowledge</div>
+      <div>- How to win an epic Amongus game (safe) [no virus]</div>
+      <div>- Making logos, i think (maybe) (possible) (perhaps)</div>
     </div>
   </div>
   <Footer />
