@@ -1,26 +1,36 @@
 <div id="footer" class="bg-true_gray w-full min-h-full top-0 p-5">
   <div class="flex flex-row">
     <div class="flex flex-col">
-      <div class="flex flex-col">
-        <div class="font-semibold">Website links (more soon):</div>
-        <div>- <a href="/"><button href="/">Home</button></a></div>
-        <div>- <a href="/Vbot"><button href="/Vbot">Vbot</button></a></div>
-        <div>
-          -
-          <a href="/Projects"><button href="/Projects">Projects</button></a>
+      <div class="flex flex-col sm:flex-row gap-5 sm:gap-10">
+        <div class="flex flex-col">
+          <div class="font-semibold">Website links (more soon™):</div>
+          <div>- <a href="/"><button>Home</button></a></div>
+          <div>- <a href="/Vbot"><button>Vbot</button></a></div>
+          <div>
+            -
+            <a href="/Projects"><button>Projects</button></a>
+          </div>
+          <div>
+            -
+            <a href="/404"><button>(WIP) 404 page</button></a>
+          </div>
+          <div>
+            -
+            <a href="/Accusations"><button>Accusations</button></a>
+          </div>
         </div>
-        <div>
-          -
-          <a href="#404"><button href="#404">(WIP) 404 page</button></a>
-        </div>
-        <div>
-          -
-          <a href="/Accusations"
-            ><button href="/Accusations">Accusations</button></a
-          >
+        <div class="flex flex-col">
+          <div class="font-semibold">
+            Website links used for testing (more soon™):
+          </div>
+          <div>
+            -
+            <a href="/Long"><button>Long page</button></a>
+          </div>
         </div>
       </div>
     </div>
+
     <img
       src="/Logo_flat.svg"
       alt="monochrome logo"
