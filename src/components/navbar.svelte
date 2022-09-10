@@ -1,5 +1,10 @@
+<!-- <script>
+  import Motion from "svelte-motion/src/motion/MotionSSR.svelte";
+  let i = 45;
+</script> -->
+
 <div
-  class="fixed top-0 z-50 w-screen p-3 flex flex-col justify-center align-middle"
+  class="fixed top-0 z-50 p-3 lg overflow-auto w-full flex flex-col justify-center align-middle"
 >
   <nav
     id="navbar"
@@ -9,13 +14,19 @@
       class="flex flex-row items-center sm:gap-2 gap-1 duration-300"
       id="logo"
     >
-      <button class="active:rotate-158 duration-300">
-        <img
-          src="/Logo_flat.svg"
-          class="items-center sm:h-10 h-9 rounded-full bg-dark_light"
-          alt="logo"
-        />
-      </button>
+      <!-- <Motion animate={{ rotate: i }} transition={{ duration: 0.5 }} let:motion> 
+      <button on:click={() => (i += 90)}>
+      -->
+      <img
+        src="/Logo_flat.svg"
+        class="items-center sm:h-10 h-9 rounded-full bg-dark_light"
+        alt="logo"
+      />
+      <!--
+              </button
+        >
+         </Motion> -->
+
       <a href="/">
         <button
           id="logo_text"
