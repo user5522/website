@@ -12,7 +12,7 @@
           </div>
           <div>
             -
-            <a href="/404"><button>(WIP) 404 page</button></a>
+            <a href="/404.html"><button>(WIP) 404 page</button></a>
           </div>
           <div>
             -
