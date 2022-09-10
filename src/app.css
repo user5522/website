@@ -11,6 +11,14 @@
 }
 @tailwind utilities;
 
+a[target="_blank"] {
+  background-image: url(/ext_link.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 1rem;
+  background-size: 1rem 1rem;
+}
+
 .spacer_start {
   position: absolute;
   top: 10;
