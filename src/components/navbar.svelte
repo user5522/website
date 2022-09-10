@@ -1,5 +1,21 @@
 <!-- <script>
   import Motion from "svelte-motion/src/motion/MotionSSR.svelte";
+  import { onMount } from "svelte";
+  
+  onMount(() => {
+    window.onscroll = function () {
+      scrollFunction();
+    };
+  
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 80 ||
+        document.documentElement.scrollTop > 80
+      ) {
+      } else {
+      }
+    }
+  });
   let i = 45;
 </script> -->
 
