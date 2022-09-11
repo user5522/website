@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/app.css" />
-
+    <link rel="stylesheet" href="_app/immutable/assets/_layout-11b24d45.css" />
     <title>404: Not Found</title>
   </head>
   <div class="text-white flex flex-col items-center pl-10 pr-10">
@@ -37,4 +36,7 @@
   </div>
 </html>
 
-<script src="/src/404.js"></script>
+<script>
+  document.getElementById("pathname").innerHTML =
+    "Error 404: Not found " + window.location.pathname;
+</script>
