@@ -4,41 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/_app/immutable/assets/_layout-11b24d45.css" />
+    <link rel="stylesheet" href="/src/app.css" />
     <link rel="icon" type="image/x-icon" href="/Logo_flat.svg" />
     <title>404: Not Found</title>
   </head>
-  <div class="flex flex-col items-center pl-10 pr-10 text-white">
-    <div id="pathname" class="flex flex-row gap-3 pt-10 text-4xl"></div>
-    <div class="pt-10 text-xl">That looks like an error.. very sad.</div>
-    <div class="text-xl">Try one of these solutions:</div>
-    <div class="text-lg">
-      <div>- Checking if the URL/Link you received is valid</div>
-      <div>- Checking for any typos in the URL</div>
-      <div>- Checking if you have the permission to view this page</div>
+  <body>
+    <div class="flex flex-col items-center pl-10 pr-10 text-white">
+      <div id="pathname" class="flex flex-row gap-3 pt-10 text-4xl"></div>
+      <div class="pt-10 text-xl">That looks like an error.. very sad.</div>
+      <div class="text-xl">Try one of these solutions:</div>
+      <div class="text-lg">
+        <div>- Checking if the URL/Link you received is valid</div>
+        <div>- Checking for any typos in the URL</div>
+        <div>- Checking if you have the permission to view this page</div>
+      </div>
+      <div class="flex flex-row gap-5">
+        <a
+          href="/"
+          class="self-center p-3 mt-10 text-xl text-blue-300 duration-200 bg-blue-900 rounded-xl hover:scale-110 active:scale-90"
+        >
+          <button>Homepage</button>
+        </a>
+        <a
+          href="/About"
+          class="self-center p-3 mt-10 text-xl text-blue-300 duration-200 bg-blue-900 rounded-xl hover:scale-110 active:scale-90"
+        >
+          <button>Contact me</button>
+        </a>
+      </div>
+      <div style="position: absolute; bottom: 0px">
+        If none of the solutions given work, then please come back later or
+        contact me
+      </div>
     </div>
-    <div class="flex flex-row gap-5">
-      <a
-        href="/"
-        class="self-center p-3 mt-10 text-xl text-blue-300 duration-200 bg-blue-900 rounded-xl hover:scale-110 active:scale-90"
-      >
-        <button>Homepage</button>
-      </a>
-      <a
-        href="/About"
-        class="self-center p-3 mt-10 text-xl text-blue-300 duration-200 bg-blue-900 rounded-xl hover:scale-110 active:scale-90"
-      >
-        <button>Contact me</button>
-      </a>
-    </div>
-    <div style="position: absolute; bottom: 0px">
-      If none of the solutions given work, then please come back later or
-      contact me
-    </div>
-  </div>
+    <script>
+      document.getElementById("pathname").innerHTML =
+        "Error 404: Not found " + window.location.pathname;
+    </script>
+  </body>
 </html>
-
-<script>
-  document.getElementById("pathname").innerHTML =
-    "Error 404: Not found " + window.location.pathname;
-</script>

@@ -4,19 +4,19 @@
       <div class="flex flex-col sm:flex-row gap-5 sm:gap-10">
         <div class="flex flex-col">
           <div class="font-semibold">Website links (more soon™):</div>
-          <div>- <a href="/"><button>Home</button></a></div>
+          <div>- <a href="/">Home</a></div>
           <div>
             -
-            <a href="/Projects"><button>Projects</button></a>
+            <a href="/Projects">Projects</a>
           </div>
-          <div>- <a href="/Vbot"><button>Vbot</button></a></div>
+          <div>- <a href="/Vbot">Vbot</a></div>
           <div>
             -
-            <a href="/404.html"><button>(WIP) 404 page</button></a>
+            <a href="/404.html">(WIP) 404 page</a>
           </div>
           <div>
             -
-            <a href="/Accusations"><button>Accusations</button></a>
+            <a href="/Accusations">Accusations</a>
           </div>
         </div>
         <div class="flex flex-col">
@@ -25,7 +25,7 @@
           </div>
           <div>
             -
-            <a href="/Long"><button>Long page</button></a>
+            <a href="/Long">Long page</a>
           </div>
         </div>
       </div>

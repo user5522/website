@@ -3,7 +3,7 @@
   import WavesStart from "../components/waves_start.svelte";
   import { writable } from "svelte/store";
   import Modal, { bind } from "svelte-simple-modal";
-  import Popup from "./Accusations/+page.svelte";
+  import Popup from "./[A]ccusations/+page.svelte";
   import CloseButton from "../components/closeButton.svelte";
   import Footer from "../components/footer.svelte";
   import Subtitle from "../components/subtitle.svelte";
@@ -78,7 +78,7 @@
             class="p-4 text-sm text-blue-200 duration-200 bg-blue-800 sm:p-5 sm:text-base rounded-xl hover:scale-110 active:scale-90"
             on:click={showModal}
           >
-            View false accusations
+            View false Accusations
           </button>
         </a>
         <a href="/Accusations" class="text-white">
