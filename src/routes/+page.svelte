@@ -22,15 +22,15 @@
   </div>
   <div><WavesStart /></div>
 </div>
-<div class="pt-28 bg-black">
+<div class="bg-black pt-28">
   <div class="flex flex-col items-center justify-center pb-20">
     <div class="flex flex-row items-baseline">
       <div class="text-4xl">User5522</div>
       <div class="text-xs">/Username5522</div>
     </div>
     <div><Subtitle /></div>
-    <div class="pl-10 pr-10 items-center flex flex-col justify-center">
-      <div class="mb-7 text-xl">My website is epico, because:</div>
+    <div class="flex flex-col items-center justify-center pl-10 pr-10">
+      <div class="text-xl mb-7">My website is epico, because:</div>
       <div>
         - It is made using <a target="_blank" href="https://svelte.dev/"
           >svelte</a
@@ -73,7 +73,7 @@
       >
         <a class="">
           <button
-            class="sm:p-5 p-4 sm:text-base text-sm text-blue-200 duration-200 bg-blue-800 rounded-xl hover:scale-110 active:scale-90"
+            class="p-4 text-sm text-blue-200 duration-200 bg-blue-800 sm:p-5 sm:text-base rounded-xl hover:scale-110 active:scale-90"
             on:click={showModal}
           >
             View false accusations
@@ -81,7 +81,7 @@
         </a>
         <a href="/Accusations" class="text-white">
           <button
-            class="sm:p-5 p-4 sm:text-base text-sm hover:bg-dark_darker rounded-xl hover:scale-110 active:scale-90 duration-200"
+            class="p-4 text-sm duration-200 sm:p-5 sm:text-base hover:bg-dark_darker rounded-xl hover:scale-110 active:scale-90"
           >
             View in a different page
           </button>
