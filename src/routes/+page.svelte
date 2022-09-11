@@ -32,25 +32,27 @@
     <div class="flex flex-col items-center justify-center pl-10 pr-10">
       <div class="text-xl mb-7">My website is epico, because:</div>
       <div>
-        - It is made using <a target="_blank" href="https://svelte.dev/"
-          >svelte</a
-        >
-        &
-        <a target="_blank" href="https://kit.svelte.dev"> sveltekit </a>
+        <div>
+          - It is made using <a target="_blank" href="https://svelte.dev/"
+            >svelte</a
+          >
+          &
+          <a target="_blank" href="https://kit.svelte.dev"> sveltekit </a>
+        </div>
+        <div>- I made it :{")"}</div>
+        <div>
+          - It's fully opensource on
+          <a
+            target="_blank"
+            href="https://github.com/user5522/user5522.github.io"
+          >
+            my github profile
+          </a> (just like most of my projects)
+        </div>
+        <div>- It's good looking (real)</div>
+        <div>- It'll support more languages soon™</div>
+        <div>- I have nothing else to compliment, but maybe you do</div>
       </div>
-      <div>- I made it :{")"}</div>
-      <div>
-        - It's fully opensource on
-        <a
-          target="_blank"
-          href="https://github.com/user5522/user5522.github.io"
-        >
-          my github profile
-        </a> (just like most of my projects)
-      </div>
-      <div>- It's good looking (real)</div>
-      <div>- It'll support more languages soon™</div>
-      <div>- I have nothing else to compliment, but maybe you do</div>
     </div>
     <div class="pl-10 pr-10">
       <div class="pt-10 text-xl">Note:</div>
