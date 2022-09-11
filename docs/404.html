@@ -4,37 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/app.css" />
     <title>404: Not Found</title>
   </head>
-  <body
-    style="
-      background-color: black;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      font-family: sans-serif;
-      align-items: center;
-    "
-  >
-    <div style="font-size: xx-large; padding-top: 50px">
-      Error 404: Not Found
+  <div class="text-white flex flex-col items-center pl-10 pr-10">
+    <div id="pathname" class="text-4xl pt-10 gap-3 flex flex-row"></div>
+    <div class="pt-10 text-xl">That looks like an error..</div>
+    <div class="text-xl">Try one of these solutions:</div>
+    <div class="text-lg">
+      <div>- Checking if the URL/Link you received is valid</div>
+      <div>- Checking for any typos in the URL</div>
+      <div>- Checking if you have the permission to view this page</div>
     </div>
-    <div style="padding-top: 20px; font-size: large">
-      That looks like an error..
+    <div class="flex flex-row gap-5">
+      <a
+        href="/"
+        class="p-3 text-xl text-blue-300 bg-blue-900 rounded-xl self-center mt-10 duration-200 hover:scale-110 active:scale-90"
+      >
+        <button>Homepage</button>
+      </a>
+      <a
+        href="/About"
+        class="p-3 text-xl text-blue-300 bg-blue-900 rounded-xl self-center mt-10 duration-200 hover:scale-110 active:scale-90"
+      >
+        <button>Contact me</button>
+      </a>
     </div>
-    <div style="font-size: large">Try one of these solutions:</div>
-    <a
-      href="/"
-      style="
-        background-color: rgb(30 58 138 / 1);
-        color: rgb(191 219 254 / 1);
-        padding: 16px;
-        border-radius: 0.75rem;
-        text-decoration: none;
-        --tw-scale-x: 1.1;
-        --tw-scale-y: 1.1;
-      "
-      >Homepage</a
-    >
-  </body>
+    <div style="position: absolute; bottom: 0px">
+      If none of those work, then please come back later Or contact me
+    </div>
+  </div>
 </html>
+
+<script>
+  document.getElementById("pathname").innerHTML =
+    "Error 404: Not found " + window.location.pathname;
+</script>
