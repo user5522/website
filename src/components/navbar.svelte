@@ -54,13 +54,6 @@
       </a>
     </div>
     <div class="absolute right-10">
-      <a href="/Vbot" class="text-white">
-        <button
-          class="sm:p-3 p-2 hover:scale-110 sm:text-xl text-base active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
-        >
-          Vbot
-        </button>
-      </a>
       <a href="/Projects" class="text-white">
         <button
           class="sm:p-3 p-2 hover:scale-110 sm:text-xl text-base active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
