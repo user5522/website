@@ -19,6 +19,9 @@ module.exports = {
         "6xl": "4rem",
         "7xl": "5rem",
       },
+      scale: {
+        102: "1.02",
+      },
     },
   },
   plugins: [require("tailwindcss"), require("autoprefixer")],
