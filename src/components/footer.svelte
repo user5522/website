@@ -5,11 +5,11 @@
         <div class="flex flex-col">
           <div class="font-semibold">Website links (more soon™):</div>
           <div>- <a href="/"><button>Home</button></a></div>
-          <div>- <a href="/Vbot"><button>Vbot</button></a></div>
           <div>
             -
             <a href="/Projects"><button>Projects</button></a>
           </div>
+          <div>- <a href="/Vbot"><button>Vbot</button></a></div>
           <div>
             -
             <a href="/404.html"><button>(WIP) 404 page</button></a>
