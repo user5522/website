@@ -49,36 +49,40 @@
       <div id="age" />
       <div class="p-1">years old Tunisian mf & I like learning stuff</div>
     </div>
-    <div class="text-xl mb-7">What I can do:</div>
 
+    <div class="text-xl mb-7">What I can do:</div>
     <div class="flex flex-col items-center">
-      <div>- uhhhhhhhhhhhhh</div>
-      <div>- literally nothing for a reasonable amount of time</div>
-      <div>- breath air (abnormal capability)</div>
       <div>
-        - Speak:
-        <div class="pl-5">- [good] Arabic</div>
-        <div class="pl-5">- [enough] English</div>
-        <div class="pl-5">- [eh] French</div>
+        <div>- uhhhhhhhhhhhhh</div>
+        <div>- literally nothing (for a reasonable amount of time)</div>
+        <div>- breath air (abnormal capability)</div>
+        <div>
+          - Speak:
+          <div class="pl-5">- [good] Arabic</div>
+          <div class="pl-5">- [enough] English</div>
+          <div class="pl-5">- [eh] French</div>
+        </div>
+        <div class="flex flex-row items-baseline">
+          <div>- get 0 bitches/</div>
+          <div id="perage" />
+          <div class="pl-1">years</div>
+        </div>
+        <div>- make useless lists</div>
       </div>
-      <div class="flex flex-row items-baseline">
-        <div>- get 0 bitches/</div>
-        <div id="perage" />
-        <div class="pl-1">years</div>
-      </div>
-      <div>- make useless lists</div>
     </div>
 
     <div class="text-xl mb-7 mt-7">What I learned so far:</div>
     <div class="flex flex-col items-center">
-      <div>- uhhhhhhhhhhhhh</div>
-      <div>- html, css & js</div>
-      <div>- svelte, i think</div>
-      <div>- React, a fair amount</div>
-      <div>- React native, also a fair amount</div>
-      <div>- Rust, basic knowledge</div>
-      <div>- How to win an epic Amongus game (safe) [no virus]</div>
-      <div>- Making logos, i think (maybe) (possible) (perhaps)</div>
+      <div>
+        <div>- uhhhhhhhhhhhhh</div>
+        <div>- html, css & js</div>
+        <div>- svelte, i think</div>
+        <div>- React, a fair amount</div>
+        <div>- React native, also a fair amount</div>
+        <div>- Rust, basic knowledge</div>
+        <div>- How to win an epic Amongus game (safe) [no virus]</div>
+        <div>- Making logos, i think (maybe) (possible) (perhaps)</div>
+      </div>
     </div>
 
     <div class="text-3xl mb-7 mt-7">Links</div>
