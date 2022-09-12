@@ -93,8 +93,9 @@
       </div>
     </div>
 
-    <div class="pt-5 items-baseline pl-10 pr-10 flex flex-row gap-1">
-      for any suggestions/reports email me @
+    <div class="pt-5 flex flex-row pl-10 pr-10 items-baseline gap-1">
+      <div>for any suggestions/reports email me @</div>
+      <!-- WHY DOES IT NOT ALIGN CORRECTLY FUCK -->
       <div
         use:clickToCopy
         class="inline-block bg-dark p-1 duration-200 rounded-lg hover:scale-105 active:scale-95"
