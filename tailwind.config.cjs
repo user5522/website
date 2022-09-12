@@ -23,6 +23,12 @@ module.exports = {
       scale: {
         102: "1.02",
       },
+      spacing: {
+        128: "32rem",
+        132: "34rem",
+        136: "36rem",
+        140: "38rem",
+      },
     },
   },
   plugins: [require("tailwindcss"), require("autoprefixer")],
