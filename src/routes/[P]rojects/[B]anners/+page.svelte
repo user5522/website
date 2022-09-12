@@ -58,28 +58,30 @@
       />
     </div>
     <div class="flex items-center text-3xl pt-10 pb-5">Logos</div>
-    <div class="gap-5 flex flex-col text-xl font-semibold pr-10 pl-10">
-      My epic poggers logo
-      <div
-        class="flex bg-dark w-128 sm:w-140 h-56 sm:h-72 items-center justify-center rounded-xl "
-      >
-        <img alt="My logo" src="/Logo_flat.svg" class="h-44 sm:h-64" />
-      </div>
-      <div class="flex flex-row">
-        <a href="/Projects/Vbot" class="">Vbot</a>
-        <div class="inline-block">'s epic poggers logo</div>
-      </div>
-      <div
-        class="flex bg-dark w-128 sm:w-140 h-56 sm:h-72 items-center justify-center rounded-xl "
-      >
-        <img alt="Vbot Logo" src="/Vbot.svg" class="h-28 sm:h-36" />
-      </div>
-      Random complex-looking eye (idk when did I ever made this lo)
-      <div>
+    <div class="pl-10 pr-10 justify-center flex">
+      <div class="gap-5 flex flex-col text-xl font-semibold">
+        My epic poggers logo
         <div
-          class="flex bg-dark w-128 sm:w-140 h-56 sm:h-72 items-center justify-center rounded-xl "
+          class="flex bg-dark w-108 sm:w-140 h-56 sm:h-72 items-center justify-center rounded-xl "
         >
-          <img alt="Complex Eye" src="/ComplexEye.svg" class="h-44 sm:h-56" />
+          <img alt="My logo" src="/Logo_flat.svg" class="h-44 sm:h-64" />
+        </div>
+        <div class="flex flex-row">
+          <a href="/Projects/Vbot" class="">Vbot</a>
+          <div class="inline-block">'s epic poggers logo</div>
+        </div>
+        <div
+          class="flex bg-dark w-108 sm:w-140 h-56 sm:h-72 items-center justify-center rounded-xl "
+        >
+          <img alt="Vbot Logo" src="/Vbot.svg" class="h-28 sm:h-36" />
+        </div>
+        Random complex-looking eye (idk when did I ever made this lo)
+        <div>
+          <div
+            class="flex bg-dark w-108 sm:w-140 h-56 sm:h-72 items-center justify-center rounded-xl "
+          >
+            <img alt="Complex Eye" src="/ComplexEye.svg" class="h-44 sm:h-56" />
+          </div>
         </div>
       </div>
     </div>
