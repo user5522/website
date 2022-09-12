@@ -9,7 +9,7 @@
             -
             <a href="/Projects">Projects</a>
           </div>
-          <div>- <a href="/Vbot">Vbot</a></div>
+          <div>- <a href="/Projects/Vbot">Vbot</a></div>
           <div>
             -
             <a href="/404.html">(WIP) 404 page</a>
@@ -36,5 +36,9 @@
       alt="monochrome logo"
       class="sm:h-32 h-28 grayscale sm:w-32 w-28 ml-auto bg-light_true_gray rounded-full"
     />
+  </div>
+  <div class="text-lighter_true_gray">© 2022 User552, All rights reserved</div>
+  <div class="text-lighter_true_gray">
+    Everything in this website is owned by User5522 unless stated in /Credits
   </div>
 </div>
