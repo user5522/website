@@ -38,10 +38,12 @@
       <p class="text-xs">/Username5522</p>
     </div>
 
-    <div class="flex flex-row items-baseline pb-16">
-      <div class="p-1">H, I'm a</div>
-      <div id="age" />
-      <div class="p-1">years old Tunisian mf & I like learning stuff</div>
+    <div class="pb-16 pl-10 pr-10">
+      <div class="inline-block">H, I'm a</div>
+      <div class="inline-block" id="age" />
+      <div class="inline-block">
+        years old Tunisian mf & I like learning stuff
+      </div>
     </div>
 
     <div class="text-xl mb-7">What I can do:</div>
