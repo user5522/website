@@ -90,6 +90,9 @@
         <a href="https://github.com/user5522" target="_blank">
           <img src="/Logos/Github.svg" alt="github link" class="h-12" />
         </a>
+        <a href="https://reddit.com/user/epicgamerman2" target="_blank">
+          <img src="/Logos/Reddit.svg" alt="reddit link" class="h-12" /></a
+        >
       </div>
     </div>
 
