@@ -12,7 +12,7 @@
 @tailwind utilities;
 
 a[target="_blank"] {
-  background-image: url(/ext_link.svg);
+  background-image: url(/Icons/ext_link.svg);
   background-repeat: no-repeat;
   background-position: right;
   padding-right: 1rem;
