@@ -41,7 +41,7 @@
         <div>
           <div class="m-5 text-lg">
             A multi-purpose Discord bot that is built to be fast and responsive
-            & easy to use (& all the marketting crap)<br />
+            & easy to use (& all the rest of the marketting crap).<br />
             still BETA
           </div>
         </div>
@@ -50,11 +50,11 @@
         class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
         href="/Projects/Banners"
       >
-        <div class="">
+        <div class="flex justify-center">
           <img
             src="/Banners/Banners.svg"
             alt="placeholder post img"
-            class="w-full h-full rounded-t-2xl"
+            class="rounded-t-2xl"
           />
         </div>
         <div>
@@ -62,9 +62,55 @@
         </div>
         <div>
           <div class="m-5 text-lg">
-            A fair amount of banners that I made for
-            <a href="https://crbt.app" target="_blank"> CRBT </a>'s old profiles
-            feature & some logos for my stuff
+            A fair amount of banners that I made for CRBT's old profiles feature
+            & some logos for my stuff.
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div id="TwoPosts" class="flex flex-col gap-3 p-3 sm:flex-row">
+      <a
+        class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
+        href="#placeholder"
+      >
+        <div class="flex justify-center">
+          <img
+            src="/placeholder.png"
+            alt="placeholder post img"
+            class="rounded-t-2xl"
+          />
+        </div>
+        <div>
+          <div class="m-5 text-xl font-bold">Placeholder title</div>
+        </div>
+        <div>
+          <div class="m-5 text-lg">
+            Placeholder description that is very discriptive about the
+            project/creation I made, and give the reader a general idea about
+            it.
+          </div>
+        </div>
+      </a>
+      <a
+        class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
+        href="#placeholder"
+      >
+        <div class="flex justify-center">
+          <img
+            src="/placeholder.png"
+            alt="placeholder post img"
+            class="rounded-t-2xl"
+          />
+        </div>
+        <div>
+          <div class="m-5 text-xl font-bold">Placeholder title</div>
+        </div>
+        <div>
+          <div class="m-5 text-lg">
+            Placeholder description that is very discriptive about the
+            project/creation I made, and give the reader a general idea about
+            it.
           </div>
         </div>
       </a>
