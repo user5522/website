@@ -3,6 +3,21 @@
   import WavesStart from "/src/components/waves_start.svelte";
   import Footer from "/src/components/footer.svelte";
   import { clickToCopy } from "/src/components/clickToCopy.js";
+  import { onMount } from "svelte";
+
+  onMount(() => {
+    function age() {
+      var t = new Date() - new Date(2006, 11, 24);
+      t /= 1000 * 60 * 60 * 24 * 365;
+      document.getElementById("age").innerHTML =
+        "<span>" + Math.floor(t) + "</span>." + (t % 1).toFixed(3).substr(2);
+
+      document.getElementById("perage").innerHTML =
+        "<span>" + Math.floor(t) + "</span>." + (t % 1).toFixed(2).substr(2);
+    }
+
+    setInterval(age, 300);
+  });
 </script>
 
 <svelte:head>
@@ -24,7 +39,8 @@
 
     <div class="pb-16 pl-10 pr-10">
       <div class="">
-        H, I'm a 15 years old Tunisian mf & I like learning stuff
+        H, I'm a <div id="age" class="inline-block" />
+        years old Tunisian mf & I like learning stuff
       </div>
     </div>
 
@@ -41,7 +57,10 @@
           <div class="pl-5">- [eh] French</div>
         </div>
         <div class="flex flex-row">
-          <div>- get 0 bitches/15 years</div>
+          <div>
+            - get 0 bitches/ <div id="perage" class="inline-block" />
+            years
+          </div>
         </div>
         <div>- make useless lists</div>
       </div>
