@@ -88,27 +88,27 @@
           href="https://youtube.com/channel/UCVpdDpi-FiqPg9-pqRJZjHQ"
           target="_blank"
         >
-          <img src="/Youtube.svg" alt="youtube link" class="h-10" />
+          <img src="/Logos/Youtube.svg" alt="youtube link" class="h-10" />
         </a>
         <a href="https://discord.com/users/619210431809978368" target="_blank">
-          <img src="Discord.svg" alt="discord link" class="h-10" />
+          <img src="/Logos/Discord.svg" alt="discord link" class="h-10" />
         </a>
         <a
           href="https://account.xbox.com/en-us/profile?gamertag=Username6736"
           target="_blank"
         >
-          <img src="/Xbox.svg" alt="xbox link" class="h-9" />
+          <img src="/Logos/Xbox.svg" alt="xbox link" class="h-9" />
         </a>
       </div>
       <div class="flex flex-row items-center gap-5">
         <a href="https://twitter.com/User_5522" target="_blank">
-          <img src="/Twitter.svg" alt="twitter link" class="h-9" />
+          <img src="/Logos/Twitter.svg" alt="twitter link" class="h-9" />
         </a>
         <a href="https://steamcommunity.com/id/username5522/" target="_blank">
-          <img src="/Steam.svg" alt="steam link" class="h-10" />
+          <img src="/Logos/Steam.svg" alt="steam link" class="h-10" />
         </a>
         <a href="https://github.com/user5522" target="_blank">
-          <img src="/Github.svg" alt="github link" class="h-12" />
+          <img src="/Logos/Github.svg" alt="github link" class="h-12" />
         </a>
       </div>
     </div>
