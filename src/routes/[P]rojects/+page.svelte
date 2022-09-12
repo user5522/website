@@ -20,7 +20,7 @@
       <p class="text-4xl">Projects</p>
     </div>
     <div class="flex flex-row gap-1">
-      <div>
+      <div class="pl-10 pr-10">
         Some projects I made/working on that I want to share with you
         <img src="/flushed.svg" alt="flushed emote" class="inline-block h-7" />
       </div>
