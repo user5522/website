@@ -15,7 +15,7 @@
   <div><WavesStart /></div>
 </div>
 <div class="bg-black pt-28">
-  <div class="flex flex-col items-center justify-center p-10 pb-20">
+  <div class="flex flex-col items-center justify-center pb-20">
     <div class="flex flex-row">
       <p class="text-4xl">Projects</p>
     </div>
@@ -30,7 +30,7 @@
     <div id="TwoPosts" class="flex flex-col gap-3 p-3 sm:flex-row">
       <a
         class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
-        href="/Vbot"
+        href="/Projects/Vbot"
       >
         <div class="flex justify-center w-full h-56 bg-black pt-14">
           <img src="/Vbot.svg" alt="placeholder post img" class="h-28" />
@@ -46,25 +46,28 @@
           </div>
         </div>
       </a>
-      <div id="post1" class="w-full h-auto sm:w-1/2 bg-dark rounded-2xl">
+      <a
+        class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
+        href="/Projects/Banners"
+      >
         <div class="">
           <img
-            src="/placeholder.png"
+            src="/Banners/Banners.svg"
             alt="placeholder post img"
-            class="w-auto h-auto"
+            class="w-full h-full rounded-t-2xl"
           />
         </div>
-        <div class="">
-          <div class="m-5 text-xl font-bold">Placeholder project title</div>
+        <div>
+          <div class="m-5 text-xl font-bold">Banners & Logos</div>
         </div>
-        <div class="">
+        <div>
           <div class="m-5 text-lg">
-            Placeholder project description that is going to be/ supposed to be
-            very long, awesome and very discriptive about the
-            project/product/design I made, yay!!
+            A fair amount of banners that I made for
+            <a href="https://crbt.app" target="_blank"> CRBT </a>'s old profiles
+            feature & some logos for my stuff
           </div>
         </div>
-      </div>
+      </a>
     </div>
   </div>
   <Footer />
