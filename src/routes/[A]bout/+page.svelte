@@ -2,23 +2,7 @@
   import Navbar from "/src/components/navbar.svelte";
   import WavesStart from "/src/components/waves_start.svelte";
   import Footer from "/src/components/footer.svelte";
-  import { onMount } from "svelte";
   import { clickToCopy } from "/src/components/clickToCopy.js";
-
-  onMount(() => {
-    var start = new Date("11/24/2006 11:50 AM"); //fucking americans man
-    var timer;
-
-    function age() {
-      var now = new Date();
-      var age = now.getTime() - start.getTime();
-      var year = age / 31556926000;
-      document.getElementById("age").innerHTML = year.toFixed(3);
-      document.getElementById("perage").innerHTML = year.toFixed(1);
-    }
-
-    timer = setInterval(age, 1);
-  });
 </script>
 
 <svelte:head>
@@ -39,10 +23,8 @@
     </div>
 
     <div class="pb-16 pl-10 pr-10">
-      <div class="inline-block">H, I'm a</div>
-      <div class="inline-block" id="age" />
-      <div class="inline-block">
-        years old Tunisian mf & I like learning stuff
+      <div class="">
+        H, I'm a 15 years old Tunisian mf & I like learning stuff
       </div>
     </div>
 
@@ -58,10 +40,8 @@
           <div class="pl-5">- [enough] English</div>
           <div class="pl-5">- [eh] French</div>
         </div>
-        <div class="flex flex-row items-baseline">
-          <div>- get 0 bitches/</div>
-          <div id="perage" />
-          <div class="pl-1">years</div>
+        <div class="flex flex-row">
+          <div>- get 0 bitches/15 years</div>
         </div>
         <div>- make useless lists</div>
       </div>
@@ -112,8 +92,9 @@
         </a>
       </div>
     </div>
-    <div class="flex flex-row gap-1 pt-5 items-baseline">
-      <div>for any suggestions/reports email me @</div>
+
+    <div class="pt-5 items-baseline pl-10 pr-10 flex flex-row gap-1">
+      for any suggestions/reports email me @
       <div
         use:clickToCopy
         class="inline-block bg-dark p-1 duration-200 rounded-lg hover:scale-105 active:scale-95"
