@@ -7,7 +7,7 @@
     " h enjoyer",
     "ly idot idot",
     "ly dumb developer",
-    " serial killer",
+    " rock eater",
   ];
   var subtitleWord =
     subtitleSentences[Math.floor(Math.random() * subtitleSentences.length)];
