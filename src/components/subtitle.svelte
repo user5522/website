@@ -1,5 +1,5 @@
 <script>
-  var subtitleSentences = [
+  var subtitles = [
     " peepeepoopoo checker",
     " failure",
     " dumbass",
@@ -9,8 +9,8 @@
     "ly dumb developer",
     " rock eater",
   ];
-  var subtitleWord =
-    subtitleSentences[Math.floor(Math.random() * subtitleSentences.length)];
+  var subtitle =
+    subtitles[Math.floor(Math.random() * subtitles.length)];
 </script>
 
-<div class="pb-10 text-xl">A professional{subtitleWord}.</div>
+<div class="pb-10 text-xl">A professional{subtitle}.</div>
