@@ -26,38 +26,40 @@
     <div class="flex flex-row gap-1 items-center text-3xl pt-10 pb-5">
       <a href="https://crbt.app" target="_blank">CRBT</a> Banners
     </div>
-    <div class="gap-5 flex flex-col text-xl font-semibold pl-10 pr-10">
-      Shapes Banner
-      <img
-        src="/Banners/shapes.png"
-        alt="shapes banner"
-        class="h-44 sm:h-56 rounded-xl"
-      />
+    <div class="p-10">
+      <div class="gap-5 flex flex-col text-xl font-semibold pl-10 pr-10">
+        Shapes Banner
+        <img
+          src="/Banners/shapes.png"
+          alt="shapes banner"
+          class="min-h-fit rounded-xl"
+        />
 
-      Bubbles Banner
-      <img
-        src="/Banners/bubbles.png"
-        alt="bubbles banner"
-        class="h-44 sm:h-56 rounded-xl"
-      />
-      Color Flow Banner
-      <img
-        src="/Banners/colorflow.png"
-        alt="color flow banner"
-        class="h-44 sm:h-56 rounded-xl"
-      />
-      Curve Banner - (Remade)
-      <img
-        src="/Banners/curve.png"
-        alt="curve banner"
-        class="h-44 sm:h-56 rounded-xl"
-      />
-      Wallpaper Banner - (Remade)
-      <img
-        src="/Banners/wallpaper.png"
-        alt="wallpaper banner"
-        class="h-44 sm:h-56 rounded-xl"
-      />
+        Bubbles Banner
+        <img
+          src="/Banners/bubbles.png"
+          alt="bubbles banner"
+          class="min-h-fit rounded-xl"
+        />
+        Color Flow Banner
+        <img
+          src="/Banners/colorflow.png"
+          alt="color flow banner"
+          class="min-h-fit  rounded-xl"
+        />
+        Curve Banner - (Remade)
+        <img
+          src="/Banners/curve.png"
+          alt="curve banner"
+          class="min-h-fit  rounded-xl"
+        />
+        Wallpaper Banner - (Remade)
+        <img
+          src="/Banners/wallpaper.png"
+          alt="wallpaper banner"
+          class="min-h-fit  rounded-xl"
+        />
+      </div>
     </div>
     <div class="flex items-center text-3xl pt-10 pb-5">Logos</div>
     <div class="justify-center flex">
