@@ -38,7 +38,7 @@
     </div>
 
     <div class="pb-16 pl-10 pr-10">
-      <div class="">
+      <div class="text-xl">
         H, I'm a <div id="age" class="inline-block" />
         years old Tunisian mf & I like learning stuff
       </div>
