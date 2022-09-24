@@ -1,6 +1,6 @@
 
 <svelte:head>
-  <title>Welcome</title>
+  <title>/Accusations</title>
 </svelte:head>
 <div class="flex flex-col items-center justify-center text-white">
   <br />
