@@ -24,7 +24,7 @@
         </div>
         <div class="flex flex-col">
           <div class="font-semibold">
-            Website links used for testing (more soon™):
+           Website testing links (more soon™):
           </div>
           <div>
             -
