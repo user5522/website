@@ -80,7 +80,7 @@
       </div>
     </div>
 
-    <div id="#Links" class="text-3xl mb-7 mt-7">Links</div>
+    <div id="Links" class="text-3xl mb-7 mt-7">Links</div>
     <div class="flex flex-col items-center gap-5">
       <div class="flex flex-row items-center gap-5">
         <a
