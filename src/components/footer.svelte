@@ -18,6 +18,9 @@
             -
             <a href="/Accusations">Accusations</a>
           </div>
+          <div>
+            -
+            <a href="/Projects/Banners">Banners & Logos</a>
         </div>
         <div class="flex flex-col">
           <div class="font-semibold">
