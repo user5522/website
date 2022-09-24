@@ -11,6 +11,7 @@
 }
 @tailwind utilities;
 
+
 a[target="_blank"] {
   background-image: url(/Icons/ext_link.svg);
   background-repeat: no-repeat;
