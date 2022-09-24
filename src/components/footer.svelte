@@ -21,6 +21,7 @@
           <div>
             -
             <a href="/Projects/Banners">Banners & Logos</a>
+          </div>
         </div>
         <div class="flex flex-col">
           <div class="font-semibold">
