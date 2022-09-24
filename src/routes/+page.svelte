@@ -46,7 +46,7 @@
             target="_blank"
             href="https://github.com/user5522/user5522.github.io"
           >
-            my github profile
+            github 
           </a> (just like most of my projects)
         </div>
         <div>- It's good looking (real)</div>
