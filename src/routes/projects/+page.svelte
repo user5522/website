@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>/Projects</title>
+  <title>/projects</title>
 </svelte:head>
 
 <div class="bg-white">
@@ -30,10 +30,10 @@
     <div id="TwoPosts" class="flex flex-col gap-3 p-3 sm:flex-row">
       <a
         class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
-        href="/Projects/Vbot"
+        href="/projects/vbot"
       >
         <div class="flex justify-center w-full h-56 bg-black pt-14">
-          <img src="/Vbot.svg" alt="placeholder post img" class="h-28" />
+          <img src="/vbot.svg" alt="placeholder post img" class="h-28" />
         </div>
         <div>
           <div class="m-5 text-xl font-bold">Vbot</div>
@@ -48,14 +48,16 @@
       </a>
       <a
         class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
-        href="/Projects/Banners"
+        href="/projects/banners"
       >
-        <div class="flex justify-center">
-          <img
-            src="/Banners/Banners.svg"
-            alt="placeholder post img"
-            class="rounded-t-2xl"
-          />
+        <div class="">
+          <div class="flex justify-center">
+            <img
+              src="/banners/banners.svg"
+              alt="placeholder post img"
+              class="rounded-t-2xl"
+            />
+          </div>
         </div>
         <div>
           <div class="m-5 text-xl font-bold">Banners & Logos</div>

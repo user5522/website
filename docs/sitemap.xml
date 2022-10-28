@@ -5,24 +5,24 @@
     <loc>https://user5522.tk/404</loc>
   </url>
   <url>
-    <loc>https://user5522.tk/About</loc>
+    <loc>https://user5522.tk/about</loc>
   </url>
   <url>
-    <loc>https://user5522.tk/Accusations</loc>
-  </url>
-  <url>
-    <loc>https://user5522.tk/Long</loc>
-  </url>
-  <url>
-    <loc>https://user5522.tk/Projects</loc>
+    <loc>https://user5522.tk/accusations</loc>
   </url>
   <url>
     <loc>https://user5522.tk</loc>
   </url>
   <url>
-    <loc>https://user5522.tk/Projects/Banners</loc>
+    <loc>https://user5522.tk/long</loc>
   </url>
   <url>
-    <loc>https://user5522.tk/Projects/Vbot</loc>
+    <loc>https://user5522.tk/projects</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/projects/banners</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/projects/vbot</loc>
   </url>
 </urlset>

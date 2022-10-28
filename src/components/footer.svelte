@@ -7,29 +7,27 @@
           <div>- <a href="/">Home</a></div>
           <div>
             -
-            <a href="/Projects">Projects</a>
+            <a href="/projects">projects</a>
           </div>
-          <div>- <a href="/Projects/Vbot">Vbot</a></div>
+          <div>- <a href="/projects/vbot">Vbot</a></div>
           <div>
             -
             <a href="/404.html">(WIP) 404 page</a>
           </div>
           <div>
             -
-            <a href="/Accusations">Accusations</a>
+            <a href="/accusations">Accusations</a>
           </div>
           <div>
             -
-            <a href="/Projects/Banners">Banners & Logos</a>
+            <a href="/projects/banners">Banners & Logos</a>
           </div>
         </div>
         <div class="flex flex-col">
-          <div class="font-semibold">
-           Website testing links (more soon™):
-          </div>
+          <div class="font-semibold">Website testing links (more soon™):</div>
           <div>
             -
-            <a href="/Long">Long page</a>
+            <a href="/long">Long page</a>
           </div>
         </div>
       </div>

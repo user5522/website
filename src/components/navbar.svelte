@@ -54,14 +54,14 @@
       </a>
     </div>
     <div class="absolute right-10">
-      <a href="/Projects" class="text-white">
+      <a href="/projects" class="text-white">
         <button
           class="sm:p-3 p-2 hover:scale-110 sm:text-xl text-base active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
         >
           Projects
         </button>
       </a>
-      <a href="/About" class="text-white">
+      <a href="/about" class="text-white">
         <button
           class="sm:p-3 p-2 hover:scale-110 sm:text-xl text-base active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
         >

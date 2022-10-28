@@ -3,7 +3,7 @@
   import WavesStart from "../components/waves_start.svelte";
   import { writable } from "svelte/store";
   import Modal, { bind } from "svelte-simple-modal";
-  import Popup from "./[A]ccusations/+page.svelte";
+  import Popup from "./accusations/+page.svelte";
   import CloseButton from "../components/closeButton.svelte";
   import Footer from "../components/footer.svelte";
   import Subtitle from "../components/subtitle.svelte";
@@ -46,7 +46,7 @@
             target="_blank"
             href="https://github.com/user5522/user5522.github.io"
           >
-            github 
+            github
           </a> (just like most of my projects)
         </div>
         <div>- It's good looking (real)</div>
@@ -81,7 +81,7 @@
             View false Accusations
           </button>
         </a>
-        <a href="/Accusations" class="text-white">
+        <a href="/accusations" class="text-white">
           <button
             class="p-4 text-sm duration-200 sm:p-5 sm:text-base hover:bg-dark_darker rounded-xl hover:scale-110 active:scale-90"
           >

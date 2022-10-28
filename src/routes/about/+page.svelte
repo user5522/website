@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-  <title>/About</title>
+  <title>/about</title>
 </svelte:head>
 
 <div class="bg-white">
@@ -40,7 +40,7 @@
     <div class="pb-16 pl-10 pr-10">
       <div class="text-xl">
         H, I'm a <div id="age" class="inline-block" />
-        years old Tunisian mf & I like learning stuff
+        years old Tunisian dude & I like learning stuff
       </div>
     </div>
 
@@ -87,30 +87,30 @@
           href="https://youtube.com/channel/UCVpdDpi-FiqPg9-pqRJZjHQ"
           target="_blank"
         >
-          <img src="/Logos/Youtube.svg" alt="youtube link" class="h-10" />
+          <img src="/logos/youtube.svg" alt="youtube link" class="h-10" />
         </a>
         <a href="https://discord.com/users/619210431809978368" target="_blank">
-          <img src="/Logos/Discord.svg" alt="discord link" class="h-10" />
+          <img src="/logos/discord.svg" alt="discord link" class="h-10" />
         </a>
         <a
           href="https://account.xbox.com/en-us/profile?gamertag=Username6736"
           target="_blank"
         >
-          <img src="/Logos/Xbox.svg" alt="xbox link" class="h-9" />
+          <img src="/logos/xbox.svg" alt="xbox link" class="h-9" />
         </a>
       </div>
       <div class="flex flex-row items-center gap-5">
         <a href="https://twitter.com/User_5522" target="_blank">
-          <img src="/Logos/Twitter.svg" alt="twitter link" class="h-9" />
+          <img src="/logos/twitter.svg" alt="twitter link" class="h-9" />
         </a>
         <a href="https://steamcommunity.com/id/username5522/" target="_blank">
-          <img src="/Logos/Steam.svg" alt="steam link" class="h-10" />
+          <img src="/logos/steam.svg" alt="steam link" class="h-10" />
         </a>
         <a href="https://github.com/user5522" target="_blank">
-          <img src="/Logos/Github.svg" alt="github link" class="h-12" />
+          <img src="/logos/github.svg" alt="github link" class="h-12" />
         </a>
         <a href="https://reddit.com/user/epicgamerman2" target="_blank">
-          <img src="/Logos/Reddit.svg" alt="reddit link" class="h-12" /></a
+          <img src="/logos/reddit.svg" alt="reddit link" class="h-12" /></a
         >
       </div>
     </div>
