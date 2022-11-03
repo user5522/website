@@ -69,7 +69,6 @@
     <div class="text-xl mb-7 mt-7">What I learned so far:</div>
     <div class="flex flex-col items-center">
       <div>
-        <div>- uhhhhhhhhhhhhh</div>
         <div>- html, css & js</div>
         <div>- svelte, i think</div>
         <div>- React, a fair amount</div>
@@ -84,7 +83,7 @@
     <div class="flex flex-col items-center gap-5">
       <div class="flex flex-row items-center gap-5">
         <a
-          href="https://youtube.com/channel/UCVpdDpi-FiqPg9-pqRJZjHQ"
+          href="https://youtube.com/@user5522"
           target="_blank"
         >
           <img src="/logos/youtube.svg" alt="youtube link" class="h-10" />
