@@ -19,7 +19,7 @@
   let i = 45;
 </script> -->
 
-<!-- <div
+<div
   class="fixed top-0 z-50 p-3.5 overflow-auto w-full flex flex-col justify-center align-middle"
 >
   <nav
@@ -63,9 +63,4 @@
       </a>
     </div>
   </nav>
-</div> -->
-<div
-  class="fixed top-0 z-50 p-3.5  w-full flex flex-col justify-center align-middle bg-dark"
->
-  <div class="text-white">test</div>
 </div>
