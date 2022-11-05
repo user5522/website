@@ -1,4 +1,4 @@
-import{S as h,i as N,s as P,k as o,q as d,a as M,l as p,m as v,r as b,h as t,c as D,n as g,b as r,G as q,A as m}from"../../../chunks/index-eaa0e48f.js";function S(f){let i,n,a,u,l;return{c(){i=o("div"),n=d("Hello, this is a *long* page (i hope) made to test features later on"),a=M(),u=o("div"),l=d(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis elit
+import{S as D,i as S,s as x,v as I,a as p,k as v,q as b,w as A,c as g,l as q,m as f,r as h,h as a,n as N,x as V,b as m,G as P,A as C,f as j,t as F,y as Q}from"../../../chunks/index-eaa0e48f.js";import{N as U}from"../../../chunks/navbar-fc80047e.js";function E(M){let i,n,s,c,l,t,o,r;return i=new U({}),{c(){I(i.$$.fragment),n=p(),s=v("div"),c=b("Hello, this is a *long* page (i hope) made to test features later on"),l=p(),t=v("div"),o=b(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis elit
   lacus, vel sodales tortor sagittis sit amet. Interdum et malesuada fames ac
   ante ipsum primis in faucibus. Proin vel neque quis purus accumsan tincidunt.
   Proin ornare dignissim nisi, eu cursus tortor mollis sed. Sed laoreet arcu ut
@@ -1184,7 +1184,7 @@ import{S as h,i as N,s as P,k as o,q as d,a as M,l as p,m as v,r as b,h as t,c a
   aliquet. Sed mi purus, congue sit amet convallis vitae, ultrices ac nulla.
   Fusce in erat eget mauris pretium ultricies. Vestibulum hendrerit nisl eu urna
   feugiat egestas. Etiam cursus sit amet dolor a fringilla. Donec vel viverra
-  dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget metus.`),this.h()},l(e){i=p(e,"DIV",{class:!0});var s=v(i);n=b(s,"Hello, this is a *long* page (i hope) made to test features later on"),s.forEach(t),a=D(e),u=p(e,"DIV",{class:!0});var c=v(u);l=b(c,`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis elit
+  dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget metus.`),this.h()},l(e){A(i.$$.fragment,e),n=g(e),s=q(e,"DIV",{class:!0});var u=f(s);c=h(u,"Hello, this is a *long* page (i hope) made to test features later on"),u.forEach(a),l=g(e),t=q(e,"DIV",{class:!0});var d=f(t);o=h(d,`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis elit
   lacus, vel sodales tortor sagittis sit amet. Interdum et malesuada fames ac
   ante ipsum primis in faucibus. Proin vel neque quis purus accumsan tincidunt.
   Proin ornare dignissim nisi, eu cursus tortor mollis sed. Sed laoreet arcu ut
@@ -2370,4 +2370,4 @@ import{S as h,i as N,s as P,k as o,q as d,a as M,l as p,m as v,r as b,h as t,c a
   aliquet. Sed mi purus, congue sit amet convallis vitae, ultrices ac nulla.
   Fusce in erat eget mauris pretium ultricies. Vestibulum hendrerit nisl eu urna
   feugiat egestas. Etiam cursus sit amet dolor a fringilla. Donec vel viverra
-  dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget metus.`),c.forEach(t),this.h()},h(){g(i,"class","text-xl font-semibold justify-center flex flex-col items-center pb-16 pt-10"),g(u,"class","flex flex-col items-center justify-center pl-10 pr-10 pb-20")},m(e,s){r(e,i,s),q(i,n),r(e,a,s),r(e,u,s),q(u,l)},p:m,i:m,o:m,d(e){e&&t(i),e&&t(a),e&&t(u)}}}class I extends h{constructor(i){super(),N(this,i,null,S,P,{})}}export{I as default};
+  dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget metus.`),d.forEach(a),this.h()},h(){N(s,"class","text-xl font-semibold justify-center flex flex-col items-center pb-16"),N(t,"class","flex flex-col items-center justify-center pl-10 pr-10 pb-20")},m(e,u){V(i,e,u),m(e,n,u),m(e,s,u),P(s,c),m(e,l,u),m(e,t,u),P(t,o),r=!0},p:C,i(e){r||(j(i.$$.fragment,e),r=!0)},o(e){F(i.$$.fragment,e),r=!1},d(e){Q(i,e),e&&a(n),e&&a(s),e&&a(l),e&&a(t)}}}class _ extends D{constructor(i){super(),S(this,i,null,E,x,{})}}export{_ as default};
