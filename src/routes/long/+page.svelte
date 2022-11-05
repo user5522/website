@@ -1,5 +1,11 @@
+<script>
+  import Navbar from "../../components/navbar.svelte";
+</script>
+
+<Navbar />
+
 <div
-  class="text-xl font-semibold justify-center flex flex-col items-center pb-16 pt-10"
+  class="text-xl font-semibold justify-center flex flex-col items-center pb-16"
 >
   Hello, this is a *long* page (i hope) made to test features later on
 </div>
