@@ -25,10 +25,8 @@
 </svelte:head>
 
 <div class="bg-white">
-  <div class="pb-32">
-    <Navbar />
-  </div>
-  <div><WavesStart /></div>
+  <Navbar />
+  <WavesStart />
 </div>
 <div class="bg-black pt-28">
   <div class="flex flex-col items-center justify-center pb-20">
@@ -82,10 +80,7 @@
     <div id="Links" class="text-3xl mb-7 mt-7">Links</div>
     <div class="flex flex-col items-center gap-5">
       <div class="flex flex-row items-center gap-5">
-        <a
-          href="https://youtube.com/@user5522"
-          target="_blank"
-        >
+        <a href="https://youtube.com/@user5522" target="_blank">
           <img src="/logos/youtube.svg" alt="youtube link" class="h-10" />
         </a>
         <a href="https://discord.com/users/619210431809978368" target="_blank">

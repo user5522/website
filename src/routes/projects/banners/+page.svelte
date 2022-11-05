@@ -9,10 +9,8 @@
 </svelte:head>
 
 <div class="bg-white">
-  <div class="pb-32">
-    <Navbar />
-  </div>
-  <div><WavesStart /></div>
+  <Navbar />
+  <WavesStart />
 </div>
 <div class="bg-black pt-28">
   <div class="flex flex-col items-center justify-center pb-20">
