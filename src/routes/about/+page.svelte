@@ -35,7 +35,7 @@
       <p class="text-xs">/Username5522</p>
     </div>
 
-    <div class="pb-16 pl-10 pr-10">
+    <div class="px-10 pb-16">
       <div class="text-xl">
         H, I'm a <div id="age" class="inline-block" />
         years old Tunisian dude & I like learning stuff
@@ -110,7 +110,7 @@
     </div>
 
     <div class="pt-10">
-      <div class="pl-10 pr-10">
+      <div class="px-10">
         for any suggestions/reports email me @
         <div
           use:clickToCopy

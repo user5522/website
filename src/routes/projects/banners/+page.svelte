@@ -24,7 +24,7 @@
     <div class="flex flex-row items-center gap-1 pt-10 pb-5 text-3xl">
       <a href="https://crbt.app" target="_blank">CRBT</a> Banners
     </div>
-    <div class="flex flex-col gap-5 pl-10 pr-10 text-xl font-semibold">
+    <div class="flex flex-col gap-5 px-10 text-xl font-semibold">
       Shapes Banner
       <img
         src="/banners/shapes.png"
