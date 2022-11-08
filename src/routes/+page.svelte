@@ -28,7 +28,7 @@
     </div>
     <div><Subtitle /></div>
     <div class="flex flex-col items-center justify-center pl-10 pr-10">
-      <div class="text-xl mb-7">My website is epico, because:</div>
+      <div class="mb-7 text-xl">My website is epico, because:</div>
       <div>
         <div>
           - It is made using <a target="_blank" href="https://svelte.dev/"
@@ -73,7 +73,7 @@
       >
         <a class="">
           <button
-            class="p-4 text-sm text-blue-200 duration-200 bg-blue-800 sm:p-5 sm:text-base rounded-xl hover:scale-110 active:scale-90"
+            class="rounded-xl bg-blue-800 p-4 text-sm text-blue-200 duration-200 hover:scale-110 active:scale-90 sm:p-5 sm:text-base"
             on:click={showModal}
           >
             View false Accusations
@@ -81,7 +81,7 @@
         </a>
         <a href="/accusations" class="text-white">
           <button
-            class="p-4 text-sm duration-200 sm:p-5 sm:text-base hover:bg-dark_darker rounded-xl hover:scale-110 active:scale-90"
+            class="rounded-xl p-4 text-sm duration-200 hover:scale-110 hover:bg-dark_darker active:scale-90 sm:p-5 sm:text-base"
           >
             View in a different page
           </button>

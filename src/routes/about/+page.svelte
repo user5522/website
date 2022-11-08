@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div class="text-xl mb-7">What I can do:</div>
+    <div class="mb-7 text-xl">What I can do:</div>
     <div class="flex flex-col items-center">
       <div>
         <div>- uhhhhhhhhhhhhh</div>
@@ -64,7 +64,7 @@
       </div>
     </div>
 
-    <div class="text-xl mb-7 mt-7">What I learned so far:</div>
+    <div class="mb-7 mt-7 text-xl">What I learned so far:</div>
     <div class="flex flex-col items-center">
       <div>
         <div>- html, css & js</div>
@@ -77,7 +77,7 @@
       </div>
     </div>
 
-    <div id="Links" class="text-3xl mb-7 mt-7">Links</div>
+    <div id="Links" class="mb-7 mt-7 text-3xl">Links</div>
     <div class="flex flex-col items-center gap-5">
       <div class="flex flex-row items-center gap-5">
         <a href="https://youtube.com/@user5522" target="_blank">
@@ -114,7 +114,7 @@
         for any suggestions/reports email me @
         <div
           use:clickToCopy
-          class="inline-block bg-dark p-1 duration-200 rounded-lg hover:scale-105 active:scale-95"
+          class="inline-block rounded-lg bg-dark p-1 duration-200 hover:scale-105 active:scale-95"
         >
           oueslatim268@gmail.com
         </div>

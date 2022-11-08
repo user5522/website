@@ -27,10 +27,10 @@
   <div>
     <div id="TwoPosts" class="flex flex-col gap-5 px-5 pb-5 sm:flex-row">
       <a
-        class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
+        class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95 sm:w-1/2"
         href="/projects/vbot"
       >
-        <div class="flex justify-center w-full h-56 bg-black pt-14">
+        <div class="flex h-56 w-full justify-center bg-black pt-14">
           <img src="/vbot.svg" alt="placeholder post img" class="h-28" />
         </div>
         <div>
@@ -45,7 +45,7 @@
         </div>
       </a>
       <a
-        class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
+        class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95 sm:w-1/2"
         href="/projects/banners"
       >
         <div class="">
@@ -71,7 +71,7 @@
 
     <div id="TwoPosts" class="flex flex-col gap-5 px-5 pb-5 sm:flex-row">
       <a
-        class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
+        class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95 sm:w-1/2"
         href="#placeholder"
       >
         <div class="flex justify-center">
@@ -93,7 +93,7 @@
         </div>
       </a>
       <a
-        class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
+        class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95 sm:w-1/2"
         href="#placeholder"
       >
         <div class="flex justify-center">

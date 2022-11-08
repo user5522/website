@@ -1,7 +1,7 @@
-<div id="footer" class="bg-true_gray w-full min-h-full top-0 p-5">
+<div id="footer" class="top-0 min-h-full w-full bg-true_gray p-5">
   <div class="flex flex-row">
     <div class="flex flex-col">
-      <div class="flex flex-col sm:flex-row gap-5 sm:gap-10">
+      <div class="flex flex-col gap-5 sm:flex-row sm:gap-10">
         <div class="flex flex-col">
           <div class="font-semibold">Website links (more soon™):</div>
           <div>- <a href="/">Home</a></div>
@@ -36,7 +36,7 @@
     <img
       src="/Logo_flat.svg"
       alt="monochrome logo"
-      class="sm:h-32 h-28 grayscale sm:w-32 w-28 ml-auto bg-light_true_gray rounded-full"
+      class="ml-auto h-28 w-28 rounded-full bg-light_true_gray grayscale sm:h-32 sm:w-32"
     />
   </div>
   <div class="text-lighter_true_gray">© 2022 User552, All rights reserved</div>

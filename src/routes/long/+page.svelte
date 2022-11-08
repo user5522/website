@@ -5,7 +5,7 @@
 <Navbar />
 
 <div
-  class="text-xl font-semibold justify-center flex flex-col items-center pb-16"
+  class="flex flex-col items-center justify-center pb-16 text-xl font-semibold"
 >
   Hello, this is a *long* page (i hope) made to test features later on
 </div>

@@ -21,26 +21,26 @@
 
 <div class="pb-32">
   <div
-    class="fixed top-0 z-50 p-3.5 overflow-auto w-full flex flex-col justify-center align-middle"
+    class="fixed top-0 z-50 flex w-full flex-col justify-center overflow-auto p-3.5 align-middle"
   >
     <nav
       id="navbar"
-      class="flex flex-row items-center p-4 bg-dark rounded-xl shadow-lg"
+      class="flex flex-row items-center rounded-xl bg-dark p-4 shadow-lg"
     >
       <div
-        class="flex flex-row items-center sm:gap-2 gap-1 duration-300"
+        class="flex flex-row items-center gap-1 duration-300 sm:gap-2"
         id="logo"
       >
         <img
           src="/Logo_flat.svg"
-          class="items-center sm:h-10 h-9 rounded-full bg-dark_light"
+          class="h-9 items-center rounded-full bg-dark_light sm:h-10"
           alt="logo"
         />
 
         <a href="/" class="text-white">
           <button
             id="logo_text"
-            class="p-2 sm:text-lg text-base font-semibold duration-200 rounded-lg hover:bg-dark_light hover:scale-110 active:scale-90"
+            class="rounded-lg p-2 text-base font-semibold duration-200 hover:scale-110 hover:bg-dark_light active:scale-90 sm:text-lg"
             alt="logo"
           >
             User5522
@@ -50,14 +50,14 @@
       <div class="absolute right-10">
         <a href="/projects" class="text-white">
           <button
-            class="p-2 hover:scale-110 sm:text-lg text-base active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
+            class="rounded-lg p-2 text-base duration-200 hover:scale-110 hover:bg-dark_light active:scale-90 sm:text-lg"
           >
             Projects
           </button>
         </a>
         <a href="/about" class="text-white">
           <button
-            class="p-2 hover:scale-110 sm:text-lg text-base active:scale-90 duration-200 hover:bg-dark_light rounded-lg"
+            class="rounded-lg p-2 text-base duration-200 hover:scale-110 hover:bg-dark_light active:scale-90 sm:text-lg"
           >
             About
           </button>
