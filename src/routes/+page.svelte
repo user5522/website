@@ -24,12 +24,12 @@
   <div class="flex flex-col items-center justify-center pb-20">
     <div class="flex flex-row items-baseline">
       <div class="text-4xl">User5522</div>
-      <div class="text-xs">/Username5522</div>
+      <div class="text-base">/Username5522</div>
     </div>
-    <div><Subtitle /></div>
-    <div class="flex flex-col items-center justify-center pl-10 pr-10">
-      <div class="text-xl">Welcome to user5522.tk!</div>
-      <div class="mb-7 text-xl">My website is epico, because:</div>
+    <Subtitle />
+    <div class="flex flex-col items-center justify-center px-10">
+      <div class="text-2xl">Welcome to user5522.tk!</div>
+      <div class="my-5 text-lg">It's a good website, because</div>
       <div>
         <div>
           - It is made using <a target="_blank" href="https://svelte.dev/"
@@ -53,7 +53,7 @@
         <div>- I have nothing else to compliment, but maybe you do</div>
       </div>
     </div>
-    <div class="pl-10 pr-10">
+    <div class="px-10">
       <div class="pt-10 text-xl">Note:</div>
       <div>
         I am NOT wanted in several countries for commiting any sort of federal
