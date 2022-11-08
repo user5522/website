@@ -25,7 +25,7 @@
     </div>
   </div>
   <div>
-    <div id="TwoPosts" class="flex flex-col gap-3 p-3 sm:flex-row">
+    <div id="TwoPosts" class="flex flex-col gap-5 px-5 pb-5 sm:flex-row">
       <a
         class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
         href="/projects/vbot"
@@ -69,7 +69,7 @@
       </a>
     </div>
 
-    <div id="TwoPosts" class="flex flex-col gap-3 p-3 sm:flex-row">
+    <div id="TwoPosts" class="flex flex-col gap-5 px-5 pb-5 sm:flex-row">
       <a
         class="w-full h-auto text-white duration-200 sm:w-1/2 bg-dark rounded-2xl hover:scale-102 active:scale-95"
         href="#placeholder"
