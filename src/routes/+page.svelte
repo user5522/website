@@ -3,7 +3,7 @@
   import WavesStart from "../components/waves_start.svelte";
   import { writable } from "svelte/store";
   import Modal, { bind } from "svelte-simple-modal";
-  import Popup from "./accusations/+page.svelte";
+  import Popup from "../components/accusations.svelte";
   import CloseButton from "../components/closeButton.svelte";
   import Footer from "../components/footer.svelte";
   import Subtitle from "../components/subtitle.svelte";
@@ -28,6 +28,7 @@
     </div>
     <div><Subtitle /></div>
     <div class="flex flex-col items-center justify-center pl-10 pr-10">
+      <div class="text-xl">Welcome to user5522.tk!</div>
       <div class="mb-7 text-xl">My website is epico, because:</div>
       <div>
         <div>
