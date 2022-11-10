@@ -51,8 +51,8 @@
         <div class="">
           <div class="flex justify-center">
             <img
-              src="/banners/banners.svg"
-              alt="placeholder post img"
+              src="/banners/banners.png"
+              alt="Banners"
               class="rounded-t-2xl"
             />
           </div>
