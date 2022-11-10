@@ -11,27 +11,21 @@
   <body>
     <div class="flex flex-col items-center px-10 text-white">
       <div id="pathname" class="flex flex-row gap-3 pt-10 text-4xl"></div>
-      <div class="pt-10 text-xl">That looks like an error.. very sad.</div>
-      <div class="text-xl">Try one of these solutions:</div>
+      <div class="py-10 text-2xl">
+        This looks like an error.. & that's unfortunate.
+      </div>
+      <div class="pb-5 text-xl">Maybe try one of these solutions:</div>
       <div class="text-lg">
         <div>- Checking if the URL/Link you received is valid</div>
         <div>- Checking for any typos in the URL</div>
         <div>- Checking if you have the permission to view this page</div>
       </div>
-      <div class="flex flex-row gap-5">
+      <div class="flex flex-row gap-5 py-10">
         <a href="/">
-          <button
-            class="mt-10 self-center rounded-xl bg-blue-900 p-3 text-xl duration-200 hover:scale-110 active:scale-90"
-          >
-            Homepage
-          </button>
+          <button class="blue-button">Homepage</button>
         </a>
         <a href="/about#Links">
-          <button
-            class="mt-10 self-center rounded-xl bg-blue-900 p-3 text-xl duration-200 hover:scale-110 active:scale-90"
-          >
-            Contact me
-          </button>
+          <button class="blue-button">Contact me</button>
         </a>
       </div>
       <div style="position: absolute; bottom: 0px">
@@ -39,9 +33,9 @@
         contact me
       </div>
     </div>
-    <script>
-      document.getElementById("pathname").innerHTML =
-        "Error 404: Not found " + window.location.pathname;
-    </script>
   </body>
 </html>
+<script>
+  document.getElementById("pathname").innerHTML =
+    "Error 404: Not found " + window.location.pathname;
+</script>
