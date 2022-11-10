@@ -4,23 +4,27 @@
       <div class="flex flex-col gap-5 sm:flex-row sm:gap-10">
         <div class="flex flex-col">
           <div class="font-semibold">Website links (more soon™):</div>
-          <div>- <a href="/">Home</a></div>
-          <div>
-            -
-            <a href="/projects">projects</a>
-          </div>
-          <div>- <a href="/projects/vbot">Vbot</a></div>
-          <div>
-            -
-            <a href="/404.html">(WIP) 404 page</a>
-          </div>
+          <div>- <a href="/">Homepage</a></div>
           <div>
             -
             <a href="/accusations">Accusations</a>
           </div>
           <div>
             -
+            <a href="/projects">Projects</a>
+          </div>
+          <div>- <a href="/projects/vbot">Vbot (WIP)</a></div>
+          <div>
+            -
             <a href="/projects/banners">Banners & Logos</a>
+          </div>
+          <div>
+            -
+            <a href="/404.html">404 page</a>
+          </div>
+          <div>
+            -
+            <a href="/credits">Credits (WIP)</a>
           </div>
         </div>
         <div class="flex flex-col">
