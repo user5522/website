@@ -5,12 +5,12 @@
 <Navbar />
 
 <div
-  class="flex flex-col items-center justify-center pb-16 text-xl font-semibold"
+  class="flex flex-col items-center justify-center px-10 pb-10 text-xl font-semibold"
 >
-  Hello, this is a *long* page (i hope) made to test features later on
+  H, this is a long page made to test features later on
 </div>
 
-<div class="flex flex-col items-center justify-center px-10 pb-20">
+<div class="flex flex-col items-center justify-center px-10 pb-10">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis elit
   lacus, vel sodales tortor sagittis sit amet. Interdum et malesuada fames ac
   ante ipsum primis in faucibus. Proin vel neque quis purus accumsan tincidunt.
