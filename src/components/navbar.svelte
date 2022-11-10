@@ -1,27 +1,32 @@
 <!-- <script>
-  import Motion from "svelte-motion/src/motion/MotionSSR.svelte";
-  import { onMount } from "svelte";
-  
-  onMount(() => {
-    window.onscroll = function () {
-      scrollFunction();
-    };
-  
-    function scrollFunction() {
-      if (
-        document.body.scrollTop > 80 ||
-        document.documentElement.scrollTop > 80
-      ) {
-      } else {
-      }
-    }
-  });
-  let i = 45;
-</script> -->
+  // import Motion from "svelte-motion/src/motion/MotionSSR.svelte";
+  // import { onMount } from "svelte";
 
-<div class="pb-32">
+  // onMount(() => {
+  //   window.onscroll = function () {
+  //     scrollFunction();
+  //   };
+
+  //   function scrollFunction() {
+  //     if (
+  //       document.body.scrollTop > 80 ||
+  //       document.documentElement.scrollTop > 80
+  //     ) {
+    //     } else {
+      //     }
+      //   }
+  // });
+  // let i = 45;
+  let y;
+</script>
+
+<svelte:window bind:scrollY={y} />
+{#if y > 50}
+{/if} -->
+
+<div class="pb-28">
   <div
-    class="fixed top-0 z-50 flex w-full flex-col justify-center overflow-auto p-3.5 align-middle"
+    class="fixed top-0 z-50 flex w-full flex-col justify-center overflow-auto p-3 align-middle"
   >
     <nav
       id="navbar"
@@ -36,7 +41,6 @@
           class="h-9 items-center rounded-full bg-dark_light sm:h-10"
           alt="logo"
         />
-
         <a href="/" class="text-white">
           <button
             id="logo_text"
