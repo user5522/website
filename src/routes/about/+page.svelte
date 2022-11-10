@@ -28,7 +28,7 @@
   <Navbar />
   <WavesStart />
 </div>
-<div class="bg-black pt-28">
+<div class="init-div">
   <div class="flex flex-col items-center justify-center pb-20">
     <div class="flex flex-row items-baseline">
       <p class="text-4xl">User5522</p>

@@ -20,7 +20,7 @@
   <Navbar />
   <WavesStart />
 </div>
-<div class="bg-black pt-28">
+<div class="init-div">
   <div class="flex flex-col items-center justify-center pb-20">
     <div class="flex flex-row items-baseline">
       <div class="text-4xl">User5522</div>
@@ -71,21 +71,13 @@
         unstyled={false}
         closeButton={CloseButton}
         styleContent={{ backgroundColor: "#121212", borderRadius: "0.75rem" }}
-      >
-        <a class="">
-          <button
-            class="rounded-xl bg-blue-800 p-4 text-sm text-blue-200 duration-200 hover:scale-110 active:scale-90 sm:p-5 sm:text-base"
-            on:click={showModal}
-          >
-            View false Accusations
+        ><a>
+          <button class="blue-button" on:click={showModal}>
+            View false accusations
           </button>
         </a>
         <a href="/accusations" class="text-white">
-          <button
-            class="rounded-xl p-4 text-sm duration-200 hover:scale-110 hover:bg-dark_darker active:scale-90 sm:p-5 sm:text-base"
-          >
-            View in a different page
-          </button>
+          <button class="hidden-button"> View page </button>
         </a>
       </Modal>
     </div>
