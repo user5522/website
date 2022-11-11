@@ -104,7 +104,7 @@
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/xbox.svg" alt="xbox link" class="h-9" />
+          <img src="/logos/xbox.svg" alt="xbox link" class="h-10" />
         </a>
       </div>
       <div class="flex flex-row items-center gap-5">
@@ -113,7 +113,7 @@
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/twitter.svg" alt="twitter link" class="h-9" />
+          <img src="/logos/twitter.svg" alt="twitter link" class="h-10" />
         </a>
         <a
           href="https://steamcommunity.com/id/username5522/"
@@ -127,14 +127,14 @@
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/github.svg" alt="github link" class="h-12" />
+          <img src="/logos/github.svg" alt="github link" class="h-10" />
         </a>
         <a
           href="https://reddit.com/user/epicgamerman2"
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/reddit.svg" alt="reddit link" class="h-12" /></a
+          <img src="/logos/reddit.svg" alt="reddit link" class="h-10" /></a
         >
       </div>
     </div>
