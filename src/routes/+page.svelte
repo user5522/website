@@ -48,7 +48,11 @@
         </div>
         <div>- It's good looking (real)</div>
         <div>- It'll support more languages soon™</div>
-        <div>- I have nothing else to compliment, but maybe you do</div>
+        <div>
+          - I have nothing else to compliment, but <a href="/about#Links"
+            >maybe you do</a
+          >
+        </div>
       </div>
     </div>
     <div class="px-10">
