@@ -77,6 +77,7 @@
       <a
         class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95 sm:w-1/2"
         href="#placeholder"
+        id="placeholder"
       >
         <div class="flex justify-center">
           <img
@@ -98,7 +99,8 @@
       </a>
       <a
         class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95 sm:w-1/2"
-        href="#placeholder"
+        href="#placeholder2"
+        id="placeholder2"
       >
         <div class="flex justify-center">
           <img
