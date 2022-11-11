@@ -11,6 +11,9 @@ const config = {
       fallback: null,
       precompress: false,
     }),
+    files: {
+      lib: "src/components",
+    },
   },
 };
 
