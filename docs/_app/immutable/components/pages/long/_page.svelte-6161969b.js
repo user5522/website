@@ -1,4 +1,4 @@
-import{S as D,i as S,s as x,v as I,a as p,k as v,q as b,w as A,c as g,l as q,m as f,r as h,h as a,n as N,x as V,b as m,G as P,A as C,f as j,t as F,y as Q}from"../../../chunks/index-eaa0e48f.js";import{N as U}from"../../../chunks/navbar-d4b009a9.js";function E(M){let i,n,s,c,l,t,o,r;return i=new U({}),{c(){I(i.$$.fragment),n=p(),s=v("div"),c=b("Hello, this is a *long* page (i hope) made to test features later on"),l=p(),t=v("div"),o=b(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis elit
+import{S as D,i as S,s as x,v as I,a as p,k as v,q as b,w as A,c as g,l as q,m as f,r as h,h as a,n as N,x as V,b as m,F as P,A as C,f as j,t as F,y as Q}from"../../../chunks/index-0d794af2.js";import{N as U}from"../../../chunks/navbar-65003045.js";function E(M){let i,n,s,c,l,t,o,r;return i=new U({}),{c(){I(i.$$.fragment),n=p(),s=v("div"),c=b("H, this is a long page made to test features later on"),l=p(),t=v("div"),o=b(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis elit
   lacus, vel sodales tortor sagittis sit amet. Interdum et malesuada fames ac
   ante ipsum primis in faucibus. Proin vel neque quis purus accumsan tincidunt.
   Proin ornare dignissim nisi, eu cursus tortor mollis sed. Sed laoreet arcu ut
@@ -1184,7 +1184,7 @@ import{S as D,i as S,s as x,v as I,a as p,k as v,q as b,w as A,c as g,l as q,m a
   aliquet. Sed mi purus, congue sit amet convallis vitae, ultrices ac nulla.
   Fusce in erat eget mauris pretium ultricies. Vestibulum hendrerit nisl eu urna
   feugiat egestas. Etiam cursus sit amet dolor a fringilla. Donec vel viverra
-  dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget metus.`),this.h()},l(e){A(i.$$.fragment,e),n=g(e),s=q(e,"DIV",{class:!0});var u=f(s);c=h(u,"Hello, this is a *long* page (i hope) made to test features later on"),u.forEach(a),l=g(e),t=q(e,"DIV",{class:!0});var d=f(t);o=h(d,`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis elit
+  dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget metus.`),this.h()},l(e){A(i.$$.fragment,e),n=g(e),s=q(e,"DIV",{class:!0});var u=f(s);c=h(u,"H, this is a long page made to test features later on"),u.forEach(a),l=g(e),t=q(e,"DIV",{class:!0});var d=f(t);o=h(d,`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis elit
   lacus, vel sodales tortor sagittis sit amet. Interdum et malesuada fames ac
   ante ipsum primis in faucibus. Proin vel neque quis purus accumsan tincidunt.
   Proin ornare dignissim nisi, eu cursus tortor mollis sed. Sed laoreet arcu ut
@@ -2370,4 +2370,4 @@ import{S as D,i as S,s as x,v as I,a as p,k as v,q as b,w as A,c as g,l as q,m a
   aliquet. Sed mi purus, congue sit amet convallis vitae, ultrices ac nulla.
   Fusce in erat eget mauris pretium ultricies. Vestibulum hendrerit nisl eu urna
   feugiat egestas. Etiam cursus sit amet dolor a fringilla. Donec vel viverra
-  dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget metus.`),d.forEach(a),this.h()},h(){N(s,"class","flex flex-col items-center justify-center pb-16 text-xl font-semibold"),N(t,"class","flex flex-col items-center justify-center px-10 pb-20")},m(e,u){V(i,e,u),m(e,n,u),m(e,s,u),P(s,c),m(e,l,u),m(e,t,u),P(t,o),r=!0},p:C,i(e){r||(j(i.$$.fragment,e),r=!0)},o(e){F(i.$$.fragment,e),r=!1},d(e){Q(i,e),e&&a(n),e&&a(s),e&&a(l),e&&a(t)}}}class _ extends D{constructor(i){super(),S(this,i,null,E,x,{})}}export{_ as default};
+  dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget metus.`),d.forEach(a),this.h()},h(){N(s,"class","flex flex-col items-center justify-center px-10 pb-10 text-xl font-semibold"),N(t,"class","flex flex-col items-center justify-center px-10 pb-10")},m(e,u){V(i,e,u),m(e,n,u),m(e,s,u),P(s,c),m(e,l,u),m(e,t,u),P(t,o),r=!0},p:C,i(e){r||(j(i.$$.fragment,e),r=!0)},o(e){F(i.$$.fragment,e),r=!1},d(e){Q(i,e),e&&a(n),e&&a(s),e&&a(l),e&&a(t)}}}class _ extends D{constructor(i){super(),S(this,i,null,E,x,{})}}export{_ as default};
