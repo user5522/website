@@ -81,7 +81,7 @@
       </div>
     </div>
 
-    <div class="flex items-center pt-10 pb-5 text-3xl">Logos</div>
+    <div id="Logos" class="flex items-center pt-10 pb-5 text-3xl">Logos</div>
     <div class="flex flex-col gap-10 sm:flex-row">
       <div class="flex flex-col">
         <div
