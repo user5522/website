@@ -20,7 +20,11 @@
     <div class="flex flex-row gap-1">
       <div class="px-10">
         Some projects I made/working on that I want to share with you
-        <img src="/flushed.svg" alt="flushed emote" class="inline-block h-7" />
+        <img
+          src="/twemojis/flushed.svg"
+          alt="flushed emote"
+          class="inline-block h-7"
+        />
       </div>
     </div>
   </div>
