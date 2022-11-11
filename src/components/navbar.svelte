@@ -13,15 +13,15 @@
       ) {
         document.getElementById("padding").style.padding = "0px";
         document.getElementById("navbar").style.borderRadius = "0px";
-        document.getElementById("navbar").classList.add("bg-opacity-50");
-        document.getElementById("navbar").classList.add("backdrop-blur-md");
+        document.getElementById("navbar").classList.add("sm:bg-opacity-50");
+        document.getElementById("navbar").classList.add("sm:backdrop-blur-md");
         document.getElementById("padding").style.transitionDuration = "400ms";
         document.getElementById("navbar").style.transitionDuration = "400ms";
       } else {
         document.getElementById("padding").style.padding = "12px";
         document.getElementById("navbar").style.borderRadius = "12px";
-        document.getElementById("navbar").classList.remove("bg-opacity-50");
-        document.getElementById("navbar").classList.remove("backdrop-blur-md");
+        document.getElementById("navbar").classList.remove("sm:bg-opacity-50");
+        document.getElementById("navbar").classList.remove("sm:backdrop-blur-md");
         document.getElementById("padding").style.transitionDuration = "400ms";
         document.getElementById("navbar").style.transitionDuration = "400ms";
       }
