@@ -28,14 +28,14 @@
   <Navbar />
   <WavesStart />
 </div>
-<div class="init-div">
+<div class="init-div px-5">
   <div class="flex flex-col items-center justify-center pb-20">
     <div class="flex flex-row items-baseline">
       <p class="text-4xl">User5522</p>
       <p class="text-base">/Username5522</p>
     </div>
 
-    <div class="px-10 pb-16">
+    <div class="px-5 pb-16">
       <div class="text-xl">
         Hi <img
           src="/twemojis/wavinghand.svg"
@@ -55,7 +55,7 @@
     </div>
 
     <div class="text-2xl">What I like doing:</div>
-    <div class="flex flex-col items-center py-5">
+    <div class="flex flex-col items-center justify-center py-5">
       <div class="text-lg">
         <div>- Uhhhhhhhhhhhhh</div>
         <div>- Literally nothing (for a fair amount of time)</div>
@@ -66,7 +66,7 @@
     </div>
 
     <div class="text-2xl">What I learnt so far:</div>
-    <div class="flex flex-col items-center py-5">
+    <div class="flex flex-col items-center justify-center py-5">
       <div class="text-lg">
         <div>- HTML, CSS & Javascript</div>
         <div>- Svelte, I think</div>
@@ -140,7 +140,7 @@
     </div>
 
     <div class="pt-10">
-      <div class="px-10">
+      <div class="px-5">
         for any suggestions/reports email me @
         <div
           use:clickToCopy
@@ -151,5 +151,5 @@
       </div>
     </div>
   </div>
-  <Footer />
 </div>
+<Footer />
