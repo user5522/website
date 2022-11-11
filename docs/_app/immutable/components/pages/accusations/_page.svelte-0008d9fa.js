@@ -1,4 +1,4 @@
-import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as i,m as B,r as l,n as f,b as d,F as t,A as Ea}from"../../../chunks/index-0d794af2.js";function La(wa){let c,b,R,g,C,m,e,p,h,y,A,F,P,S,v,D,I,T,M,E,V,x,k,O,G,w,W,z,U,H,L,j,_,J,N,K,q,Q,X,Y,Z,$,ee,te,re,ne,ie,oe,le,ae,se,be,ce,Re,ge,ue,me,Be,fe,de,Ce,pe,he,ye,Ae,Fe,Pe,Se,ve,De,Ie,Te,Me,Ee,Ve,xe,ke,Oe,Ge,we,We,ze,Ue,He,Le,je,_e,Je,Ne,Ke,qe,Qe,Xe,Ye,Ze,$e,et,tt,rt,nt,it,ot,lt,at,st,bt,ct,Rt,gt,ut,mt,Bt,ft,dt,Ct,pt,ht,yt,At,Ft,Pt,St,vt,Dt,It,Tt,Mt,Et,Vt,xt,kt,Ot,Gt,wt,Wt,zt,Ut,Ht,Lt,jt,_t,Jt,Nt,Kt,qt,Qt,Xt,Yt,Zt,$t,er,tr,rr,nr,ir,or,lr,ar,sr,br,cr,Rr,gr,ur,mr,Br,fr,dr,Cr,pr,hr,yr,Ar,Fr,Pr,Sr,vr,Dr,Ir,Tr,Mr,Er,Vr,xr,kr,Or,Gr,wr,Wr,zr,Ur,Hr,Lr,jr,_r,Jr,Nr,Kr,qr,Qr,Xr,Yr,Zr,$r,en,tn,rn,nn,on,ln,an,sn,bn,cn,Rn,gn,un,mn,Bn,fn,dn,Cn,pn,hn,yn,An,Fn,Pn,Sn,vn,Dn,In,Tn,Mn,En,Vn,xn,kn,On,Gn,wn,Wn,zn,Un,Hn,Ln,jn,_n,Jn,Nn,Kn,qn,Qn,Xn,Yn,Zn,$n,ei,ti,ri,ni,ii,oi,li,ai,si,bi,ci,Ri,gi,ui,mi,Bi,fi,di,Ci,pi,hi,yi,Ai,Fi,Pi,Si,vi,Di,Ii,Ti,Mi,Ei,Vi,xi,ki,Oi,Gi,wi,Wi,zi,Ui,Hi,Li,ji,_i,Ji,Ni,Ki,qi,Qi,Xi,Yi,Zi,$i,eo,to,ro,no,io,oo,lo,ao,so,bo,co,Ro,go,uo,mo,Bo,fo,Co,po,ho,yo,Ao,Fo,Po,So,vo,Do,Io,To,Mo,Eo,Vo,xo,ko,Oo,Go,wo,Wo,zo,Uo,Ho,Lo,jo,_o,Jo,No,Ko,qo,Qo,Xo,Yo,Zo,$o,el,tl,rl,nl,il,ol,ll,al,sl,bl,cl,Rl,gl,ul,ml,Bl,fl,dl,Cl,pl,hl,yl,Al,Fl,Pl,Sl,vl,Dl,Il,Tl,Ml,El,Vl,xl,kl,Ol,Gl,wl,Wl,zl,Ul,Hl,Ll,jl,_l,Jl,Nl,Kl,ql,Ql,Xl,Yl,Zl,$l,ea,ta,ra,na,ia,oa,la,aa,sa,ba,ca,Ra,ga,ua,ma,Ba,fa,da,Ca,pa,ha,ya,Aa,Fa,Pa,Sa,va,Da,Ia,Ta,Ma;return{c(){c=Oa(),b=n("div"),R=n("a"),g=n("button"),C=o("Back to Homepage"),m=Oa(),e=n("div"),p=n("br"),h=o(`
+import{S as wa,i as za,s as Ua,a as Oa,k as n,q as o,W as Ha,h as s,c as Ga,l as i,m as B,r as l,n as f,b as d,G as t,B as Ea}from"../../../chunks/index-f851be7c.js";function La(Wa){let c,b,R,g,C,m,e,p,h,y,A,F,P,S,v,D,I,T,M,E,V,x,k,O,G,W,w,z,U,H,L,j,_,J,N,K,q,Q,X,Y,Z,$,ee,te,re,ne,ie,oe,le,ae,se,be,ce,Re,ge,ue,me,Be,fe,de,Ce,pe,he,ye,Ae,Fe,Pe,Se,ve,De,Ie,Te,Me,Ee,Ve,xe,ke,Oe,Ge,We,we,ze,Ue,He,Le,je,_e,Je,Ne,Ke,qe,Qe,Xe,Ye,Ze,$e,et,tt,rt,nt,it,ot,lt,at,st,bt,ct,Rt,gt,ut,mt,Bt,ft,dt,Ct,pt,ht,yt,At,Ft,Pt,St,vt,Dt,It,Tt,Mt,Et,Vt,xt,kt,Ot,Gt,Wt,wt,zt,Ut,Ht,Lt,jt,_t,Jt,Nt,Kt,qt,Qt,Xt,Yt,Zt,$t,er,tr,rr,nr,ir,or,lr,ar,sr,br,cr,Rr,gr,ur,mr,Br,fr,dr,Cr,pr,hr,yr,Ar,Fr,Pr,Sr,vr,Dr,Ir,Tr,Mr,Er,Vr,xr,kr,Or,Gr,Wr,wr,zr,Ur,Hr,Lr,jr,_r,Jr,Nr,Kr,qr,Qr,Xr,Yr,Zr,$r,en,tn,rn,nn,on,ln,an,sn,bn,cn,Rn,gn,un,mn,Bn,fn,dn,Cn,pn,hn,yn,An,Fn,Pn,Sn,vn,Dn,In,Tn,Mn,En,Vn,xn,kn,On,Gn,Wn,wn,zn,Un,Hn,Ln,jn,_n,Jn,Nn,Kn,qn,Qn,Xn,Yn,Zn,$n,ei,ti,ri,ni,ii,oi,li,ai,si,bi,ci,Ri,gi,ui,mi,Bi,fi,di,Ci,pi,hi,yi,Ai,Fi,Pi,Si,vi,Di,Ii,Ti,Mi,Ei,Vi,xi,ki,Oi,Gi,Wi,wi,zi,Ui,Hi,Li,ji,_i,Ji,Ni,Ki,qi,Qi,Xi,Yi,Zi,$i,eo,to,ro,no,io,oo,lo,ao,so,bo,co,Ro,go,uo,mo,Bo,fo,Co,po,ho,yo,Ao,Fo,Po,So,vo,Do,Io,To,Mo,Eo,Vo,xo,ko,Oo,Go,Wo,wo,zo,Uo,Ho,Lo,jo,_o,Jo,No,Ko,qo,Qo,Xo,Yo,Zo,$o,el,tl,rl,nl,il,ol,ll,al,sl,bl,cl,Rl,gl,ul,ml,Bl,fl,dl,Cl,pl,hl,yl,Al,Fl,Pl,Sl,vl,Dl,Il,Tl,Ml,El,Vl,xl,kl,Ol,Gl,Wl,wl,zl,Ul,Hl,Ll,jl,_l,Jl,Nl,Kl,ql,Ql,Xl,Yl,Zl,$l,ea,ta,ra,na,ia,oa,la,aa,sa,ba,ca,Ra,ga,ua,ma,Ba,fa,da,Ca,pa,ha,ya,Aa,Fa,Pa,Sa,va,Da,Ia,Ta,Ma;return{c(){c=Oa(),b=n("div"),R=n("a"),g=n("button"),C=o("Back to Homepage"),m=Oa(),e=n("div"),p=n("br"),h=o(`
   - Abusive Sexual Contact`),y=n("br"),A=o(`
   - Advocating Overthrow of Government`),F=n("br"),P=o(`
   - Aggravated Assault/Battery`),S=n("br"),v=o(`
@@ -7,7 +7,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Aiming a Laser Pointer at an Aircraft`),E=n("br"),V=o(`
   - Airplane Hijacking`),x=n("br"),k=o(`
   - Anti-racketeering`),O=n("br"),G=o(`
-  - Antitrust`),w=n("br"),W=o(`
+  - Antitrust`),W=n("br"),w=o(`
   - Armed Robbery`),z=n("br"),U=o(`
   - Arson`),H=n("br"),L=o(`
   - Assassination`),j=n("br"),_=o(`
@@ -34,7 +34,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Computer Crime`),Ee=n("br"),Ve=o(`
   - Concealing Escaped Prisoner`),xe=n("br"),ke=o(`
   - Concealing Person from Arrest`),Oe=n("br"),Ge=o(`
-  - Concealment of Assets`),we=n("br"),We=o(`
+  - Concealment of Assets`),We=n("br"),we=o(`
   - Conspiracy (in matters under FBI jurisdiction)`),ze=n("br"),Ue=o(`
   - Conspiracy to Impede or Injure an Officer`),He=n("br"),Le=o(`
   - Contempt of Court`),je=n("br"),_e=o(`
@@ -61,7 +61,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Destruction of Corporate Audit Records`),Et=n("br"),Vt=o(`
   - Destruction of Veterans\u2019 Memorials`),xt=n("br"),kt=o(`
   - Detention of Armed Vessel`),Ot=n("br"),Gt=o(`
-  - Disclosure of Confidential Information`),wt=n("br"),Wt=o(`
+  - Disclosure of Confidential Information`),Wt=n("br"),wt=o(`
   - Domestic Security`),zt=n("br"),Ut=o(`
   - Domestic Terrorism`),Ht=n("br"),Lt=o(`
   - Domestic Violence`),jt=n("br"),_t=o(`
@@ -88,7 +88,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - False Statements Relating to Health Care Matters`),Er=n("br"),Vr=o(`
   - Falsely Claiming Citizenship`),xr=n("br"),kr=o(`
   - False Declarations before Grand Jury or Court`),Or=n("br"),Gr=o(`
-  - False Entries in Records of Interstate Carriers`),wr=n("br"),Wr=o(`
+  - False Entries in Records of Interstate Carriers`),Wr=n("br"),wr=o(`
   - False Information and Hoaxes`),zr=n("br"),Ur=o(`
   - False Statement to Obtain Unemployment Compensation`),Hr=n("br"),Lr=o(`
   - Federal Aviation Act`),jr=n("br"),_r=o(`
@@ -114,8 +114,8 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Immigration Offenses`),Mn=n("br"),En=o(`
   - Impersonator Making Arrest or Search`),Vn=n("br"),xn=o(`
   - Importation of Drugs`),kn=n("br"),On=o(`
-  - Influencing Juror by Writing`),Gn=n("br"),wn=o(`
-  - Injuring Officer`),Wn=n("br"),zn=o(`
+  - Influencing Juror by Writing`),Gn=n("br"),Wn=o(`
+  - Injuring Officer`),wn=n("br"),zn=o(`
   - Insider Trading Crimes`),Un=n("br"),Hn=o(`
   - Insurance Fraud`),Ln=n("br"),jn=o(`
   - Interference with the Operation of a Satellite`),_n=n("br"),Jn=o(`
@@ -141,8 +141,8 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Narcotics Violations`),Mi=n("br"),Ei=o(`
   - Obstructing Examination of Financial Institution`),Vi=n("br"),xi=o(`
   - Obstruction of Court Orders`),ki=n("br"),Oi=o(`
-  - Obstruction of Federal audit`),Gi=n("br"),wi=o(`
-  - Obstruction of Justice`),Wi=n("br"),zi=o(`
+  - Obstruction of Federal audit`),Gi=n("br"),Wi=o(`
+  - Obstruction of Justice`),wi=n("br"),zi=o(`
   - Obstruction of Criminal Investigations`),Ui=n("br"),Hi=o(`
   - Officer Failing to Make Reports`),Li=n("br"),ji=o(`
   - Partial Birth Abortion`),_i=n("br"),Ji=o(`
@@ -168,7 +168,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Rape`),Eo=n("br"),Vo=o(`
   - Receiving the Proceeds of Extortion`),xo=n("br"),ko=o(`
   - Recording or Listening to Grand or Petit Juries While Deliberating`),Oo=n("br"),Go=o(`
-  - Reentry of an Alien Removed on National Security Grounds`),wo=n("br"),Wo=o(`
+  - Reentry of an Alien Removed on National Security Grounds`),Wo=n("br"),wo=o(`
   - Registration of Certain Organizations`),zo=n("br"),Uo=o(`
   - Reproduction of Citizenship Papers`),Ho=n("br"),Lo=o(`
   - Resistance to Extradition Agent`),jo=n("br"),_o=o(`
@@ -195,7 +195,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Solicitation to Commit a Crime of Violence`),El=n("br"),Vl=o(`
   - Stalking (In Violation of Restraining Order)`),xl=n("br"),kl=o(`
   - Stolen Property; Buying, Receiving, or Possessing`),Ol=n("br"),Gl=o(`
-  - Subornation of Perjury`),wl=n("br"),Wl=o(`
+  - Subornation of Perjury`),Wl=n("br"),wl=o(`
   - Suits Against Government Officials`),zl=n("br"),Ul=o(`
   - Tampering with a Witness, Victim, or Informant`),Hl=n("br"),Ll=o(`
   - Tampering with Consumer Products`),jl=n("br"),_l=o(`
@@ -219,7 +219,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Violence at International airports`),Sa=n("br"),va=o(`
   - Violent Crimes in Aid of Racketeering Activity`),Da=n("br"),Ia=o(`
   - Willful Wrecking of a Train Resulting in Death`),Ta=n("br"),Ma=o(`
-  - Wire Fraud`),this.h()},l(a){Ha('[data-svelte="svelte-1h2ozwp"]',document.head).forEach(s),c=Ga(a),b=i(a,"DIV",{class:!0});var Va=B(b);R=i(Va,"A",{href:!0});var xa=B(R);g=i(xa,"BUTTON",{class:!0});var ka=B(g);C=l(ka,"Back to Homepage"),ka.forEach(s),xa.forEach(s),Va.forEach(s),m=Ga(a),e=i(a,"DIV",{class:!0});var r=B(e);p=i(r,"BR",{}),h=l(r,`
+  - Wire Fraud`),this.h()},l(a){Ha("svelte-1h2ozwp",document.head).forEach(s),c=Ga(a),b=i(a,"DIV",{class:!0});var Va=B(b);R=i(Va,"A",{href:!0});var xa=B(R);g=i(xa,"BUTTON",{class:!0});var ka=B(g);C=l(ka,"Back to Homepage"),ka.forEach(s),xa.forEach(s),Va.forEach(s),m=Ga(a),e=i(a,"DIV",{class:!0});var r=B(e);p=i(r,"BR",{}),h=l(r,`
   - Abusive Sexual Contact`),y=i(r,"BR",{}),A=l(r,`
   - Advocating Overthrow of Government`),F=i(r,"BR",{}),P=l(r,`
   - Aggravated Assault/Battery`),S=i(r,"BR",{}),v=l(r,`
@@ -228,7 +228,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Aiming a Laser Pointer at an Aircraft`),E=i(r,"BR",{}),V=l(r,`
   - Airplane Hijacking`),x=i(r,"BR",{}),k=l(r,`
   - Anti-racketeering`),O=i(r,"BR",{}),G=l(r,`
-  - Antitrust`),w=i(r,"BR",{}),W=l(r,`
+  - Antitrust`),W=i(r,"BR",{}),w=l(r,`
   - Armed Robbery`),z=i(r,"BR",{}),U=l(r,`
   - Arson`),H=i(r,"BR",{}),L=l(r,`
   - Assassination`),j=i(r,"BR",{}),_=l(r,`
@@ -255,7 +255,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Computer Crime`),Ee=i(r,"BR",{}),Ve=l(r,`
   - Concealing Escaped Prisoner`),xe=i(r,"BR",{}),ke=l(r,`
   - Concealing Person from Arrest`),Oe=i(r,"BR",{}),Ge=l(r,`
-  - Concealment of Assets`),we=i(r,"BR",{}),We=l(r,`
+  - Concealment of Assets`),We=i(r,"BR",{}),we=l(r,`
   - Conspiracy (in matters under FBI jurisdiction)`),ze=i(r,"BR",{}),Ue=l(r,`
   - Conspiracy to Impede or Injure an Officer`),He=i(r,"BR",{}),Le=l(r,`
   - Contempt of Court`),je=i(r,"BR",{}),_e=l(r,`
@@ -282,7 +282,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Destruction of Corporate Audit Records`),Et=i(r,"BR",{}),Vt=l(r,`
   - Destruction of Veterans\u2019 Memorials`),xt=i(r,"BR",{}),kt=l(r,`
   - Detention of Armed Vessel`),Ot=i(r,"BR",{}),Gt=l(r,`
-  - Disclosure of Confidential Information`),wt=i(r,"BR",{}),Wt=l(r,`
+  - Disclosure of Confidential Information`),Wt=i(r,"BR",{}),wt=l(r,`
   - Domestic Security`),zt=i(r,"BR",{}),Ut=l(r,`
   - Domestic Terrorism`),Ht=i(r,"BR",{}),Lt=l(r,`
   - Domestic Violence`),jt=i(r,"BR",{}),_t=l(r,`
@@ -309,7 +309,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - False Statements Relating to Health Care Matters`),Er=i(r,"BR",{}),Vr=l(r,`
   - Falsely Claiming Citizenship`),xr=i(r,"BR",{}),kr=l(r,`
   - False Declarations before Grand Jury or Court`),Or=i(r,"BR",{}),Gr=l(r,`
-  - False Entries in Records of Interstate Carriers`),wr=i(r,"BR",{}),Wr=l(r,`
+  - False Entries in Records of Interstate Carriers`),Wr=i(r,"BR",{}),wr=l(r,`
   - False Information and Hoaxes`),zr=i(r,"BR",{}),Ur=l(r,`
   - False Statement to Obtain Unemployment Compensation`),Hr=i(r,"BR",{}),Lr=l(r,`
   - Federal Aviation Act`),jr=i(r,"BR",{}),_r=l(r,`
@@ -335,8 +335,8 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Immigration Offenses`),Mn=i(r,"BR",{}),En=l(r,`
   - Impersonator Making Arrest or Search`),Vn=i(r,"BR",{}),xn=l(r,`
   - Importation of Drugs`),kn=i(r,"BR",{}),On=l(r,`
-  - Influencing Juror by Writing`),Gn=i(r,"BR",{}),wn=l(r,`
-  - Injuring Officer`),Wn=i(r,"BR",{}),zn=l(r,`
+  - Influencing Juror by Writing`),Gn=i(r,"BR",{}),Wn=l(r,`
+  - Injuring Officer`),wn=i(r,"BR",{}),zn=l(r,`
   - Insider Trading Crimes`),Un=i(r,"BR",{}),Hn=l(r,`
   - Insurance Fraud`),Ln=i(r,"BR",{}),jn=l(r,`
   - Interference with the Operation of a Satellite`),_n=i(r,"BR",{}),Jn=l(r,`
@@ -362,8 +362,8 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Narcotics Violations`),Mi=i(r,"BR",{}),Ei=l(r,`
   - Obstructing Examination of Financial Institution`),Vi=i(r,"BR",{}),xi=l(r,`
   - Obstruction of Court Orders`),ki=i(r,"BR",{}),Oi=l(r,`
-  - Obstruction of Federal audit`),Gi=i(r,"BR",{}),wi=l(r,`
-  - Obstruction of Justice`),Wi=i(r,"BR",{}),zi=l(r,`
+  - Obstruction of Federal audit`),Gi=i(r,"BR",{}),Wi=l(r,`
+  - Obstruction of Justice`),wi=i(r,"BR",{}),zi=l(r,`
   - Obstruction of Criminal Investigations`),Ui=i(r,"BR",{}),Hi=l(r,`
   - Officer Failing to Make Reports`),Li=i(r,"BR",{}),ji=l(r,`
   - Partial Birth Abortion`),_i=i(r,"BR",{}),Ji=l(r,`
@@ -389,7 +389,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Rape`),Eo=i(r,"BR",{}),Vo=l(r,`
   - Receiving the Proceeds of Extortion`),xo=i(r,"BR",{}),ko=l(r,`
   - Recording or Listening to Grand or Petit Juries While Deliberating`),Oo=i(r,"BR",{}),Go=l(r,`
-  - Reentry of an Alien Removed on National Security Grounds`),wo=i(r,"BR",{}),Wo=l(r,`
+  - Reentry of an Alien Removed on National Security Grounds`),Wo=i(r,"BR",{}),wo=l(r,`
   - Registration of Certain Organizations`),zo=i(r,"BR",{}),Uo=l(r,`
   - Reproduction of Citizenship Papers`),Ho=i(r,"BR",{}),Lo=l(r,`
   - Resistance to Extradition Agent`),jo=i(r,"BR",{}),_o=l(r,`
@@ -416,7 +416,7 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Solicitation to Commit a Crime of Violence`),El=i(r,"BR",{}),Vl=l(r,`
   - Stalking (In Violation of Restraining Order)`),xl=i(r,"BR",{}),kl=l(r,`
   - Stolen Property; Buying, Receiving, or Possessing`),Ol=i(r,"BR",{}),Gl=l(r,`
-  - Subornation of Perjury`),wl=i(r,"BR",{}),Wl=l(r,`
+  - Subornation of Perjury`),Wl=i(r,"BR",{}),wl=l(r,`
   - Suits Against Government Officials`),zl=i(r,"BR",{}),Ul=l(r,`
   - Tampering with a Witness, Victim, or Informant`),Hl=i(r,"BR",{}),Ll=l(r,`
   - Tampering with Consumer Products`),jl=i(r,"BR",{}),_l=l(r,`
@@ -440,4 +440,4 @@ import{S as Wa,i as za,s as Ua,a as Oa,k as n,q as o,V as Ha,h as s,c as Ga,l as
   - Violence at International airports`),Sa=i(r,"BR",{}),va=l(r,`
   - Violent Crimes in Aid of Racketeering Activity`),Da=i(r,"BR",{}),Ia=l(r,`
   - Willful Wrecking of a Train Resulting in Death`),Ta=i(r,"BR",{}),Ma=l(r,`
-  - Wire Fraud`),r.forEach(s),this.h()},h(){document.title="/accusations",f(g,"class","blue-button"),f(R,"href","/"),f(b,"class","flex justify-center py-10"),f(e,"class","flex flex-col items-center justify-center px-10 text-white")},m(a,u){d(a,c,u),d(a,b,u),t(b,R),t(R,g),t(g,C),d(a,m,u),d(a,e,u),t(e,p),t(e,h),t(e,y),t(e,A),t(e,F),t(e,P),t(e,S),t(e,v),t(e,D),t(e,I),t(e,T),t(e,M),t(e,E),t(e,V),t(e,x),t(e,k),t(e,O),t(e,G),t(e,w),t(e,W),t(e,z),t(e,U),t(e,H),t(e,L),t(e,j),t(e,_),t(e,J),t(e,N),t(e,K),t(e,q),t(e,Q),t(e,X),t(e,Y),t(e,Z),t(e,$),t(e,ee),t(e,te),t(e,re),t(e,ne),t(e,ie),t(e,oe),t(e,le),t(e,ae),t(e,se),t(e,be),t(e,ce),t(e,Re),t(e,ge),t(e,ue),t(e,me),t(e,Be),t(e,fe),t(e,de),t(e,Ce),t(e,pe),t(e,he),t(e,ye),t(e,Ae),t(e,Fe),t(e,Pe),t(e,Se),t(e,ve),t(e,De),t(e,Ie),t(e,Te),t(e,Me),t(e,Ee),t(e,Ve),t(e,xe),t(e,ke),t(e,Oe),t(e,Ge),t(e,we),t(e,We),t(e,ze),t(e,Ue),t(e,He),t(e,Le),t(e,je),t(e,_e),t(e,Je),t(e,Ne),t(e,Ke),t(e,qe),t(e,Qe),t(e,Xe),t(e,Ye),t(e,Ze),t(e,$e),t(e,et),t(e,tt),t(e,rt),t(e,nt),t(e,it),t(e,ot),t(e,lt),t(e,at),t(e,st),t(e,bt),t(e,ct),t(e,Rt),t(e,gt),t(e,ut),t(e,mt),t(e,Bt),t(e,ft),t(e,dt),t(e,Ct),t(e,pt),t(e,ht),t(e,yt),t(e,At),t(e,Ft),t(e,Pt),t(e,St),t(e,vt),t(e,Dt),t(e,It),t(e,Tt),t(e,Mt),t(e,Et),t(e,Vt),t(e,xt),t(e,kt),t(e,Ot),t(e,Gt),t(e,wt),t(e,Wt),t(e,zt),t(e,Ut),t(e,Ht),t(e,Lt),t(e,jt),t(e,_t),t(e,Jt),t(e,Nt),t(e,Kt),t(e,qt),t(e,Qt),t(e,Xt),t(e,Yt),t(e,Zt),t(e,$t),t(e,er),t(e,tr),t(e,rr),t(e,nr),t(e,ir),t(e,or),t(e,lr),t(e,ar),t(e,sr),t(e,br),t(e,cr),t(e,Rr),t(e,gr),t(e,ur),t(e,mr),t(e,Br),t(e,fr),t(e,dr),t(e,Cr),t(e,pr),t(e,hr),t(e,yr),t(e,Ar),t(e,Fr),t(e,Pr),t(e,Sr),t(e,vr),t(e,Dr),t(e,Ir),t(e,Tr),t(e,Mr),t(e,Er),t(e,Vr),t(e,xr),t(e,kr),t(e,Or),t(e,Gr),t(e,wr),t(e,Wr),t(e,zr),t(e,Ur),t(e,Hr),t(e,Lr),t(e,jr),t(e,_r),t(e,Jr),t(e,Nr),t(e,Kr),t(e,qr),t(e,Qr),t(e,Xr),t(e,Yr),t(e,Zr),t(e,$r),t(e,en),t(e,tn),t(e,rn),t(e,nn),t(e,on),t(e,ln),t(e,an),t(e,sn),t(e,bn),t(e,cn),t(e,Rn),t(e,gn),t(e,un),t(e,mn),t(e,Bn),t(e,fn),t(e,dn),t(e,Cn),t(e,pn),t(e,hn),t(e,yn),t(e,An),t(e,Fn),t(e,Pn),t(e,Sn),t(e,vn),t(e,Dn),t(e,In),t(e,Tn),t(e,Mn),t(e,En),t(e,Vn),t(e,xn),t(e,kn),t(e,On),t(e,Gn),t(e,wn),t(e,Wn),t(e,zn),t(e,Un),t(e,Hn),t(e,Ln),t(e,jn),t(e,_n),t(e,Jn),t(e,Nn),t(e,Kn),t(e,qn),t(e,Qn),t(e,Xn),t(e,Yn),t(e,Zn),t(e,$n),t(e,ei),t(e,ti),t(e,ri),t(e,ni),t(e,ii),t(e,oi),t(e,li),t(e,ai),t(e,si),t(e,bi),t(e,ci),t(e,Ri),t(e,gi),t(e,ui),t(e,mi),t(e,Bi),t(e,fi),t(e,di),t(e,Ci),t(e,pi),t(e,hi),t(e,yi),t(e,Ai),t(e,Fi),t(e,Pi),t(e,Si),t(e,vi),t(e,Di),t(e,Ii),t(e,Ti),t(e,Mi),t(e,Ei),t(e,Vi),t(e,xi),t(e,ki),t(e,Oi),t(e,Gi),t(e,wi),t(e,Wi),t(e,zi),t(e,Ui),t(e,Hi),t(e,Li),t(e,ji),t(e,_i),t(e,Ji),t(e,Ni),t(e,Ki),t(e,qi),t(e,Qi),t(e,Xi),t(e,Yi),t(e,Zi),t(e,$i),t(e,eo),t(e,to),t(e,ro),t(e,no),t(e,io),t(e,oo),t(e,lo),t(e,ao),t(e,so),t(e,bo),t(e,co),t(e,Ro),t(e,go),t(e,uo),t(e,mo),t(e,Bo),t(e,fo),t(e,Co),t(e,po),t(e,ho),t(e,yo),t(e,Ao),t(e,Fo),t(e,Po),t(e,So),t(e,vo),t(e,Do),t(e,Io),t(e,To),t(e,Mo),t(e,Eo),t(e,Vo),t(e,xo),t(e,ko),t(e,Oo),t(e,Go),t(e,wo),t(e,Wo),t(e,zo),t(e,Uo),t(e,Ho),t(e,Lo),t(e,jo),t(e,_o),t(e,Jo),t(e,No),t(e,Ko),t(e,qo),t(e,Qo),t(e,Xo),t(e,Yo),t(e,Zo),t(e,$o),t(e,el),t(e,tl),t(e,rl),t(e,nl),t(e,il),t(e,ol),t(e,ll),t(e,al),t(e,sl),t(e,bl),t(e,cl),t(e,Rl),t(e,gl),t(e,ul),t(e,ml),t(e,Bl),t(e,fl),t(e,dl),t(e,Cl),t(e,pl),t(e,hl),t(e,yl),t(e,Al),t(e,Fl),t(e,Pl),t(e,Sl),t(e,vl),t(e,Dl),t(e,Il),t(e,Tl),t(e,Ml),t(e,El),t(e,Vl),t(e,xl),t(e,kl),t(e,Ol),t(e,Gl),t(e,wl),t(e,Wl),t(e,zl),t(e,Ul),t(e,Hl),t(e,Ll),t(e,jl),t(e,_l),t(e,Jl),t(e,Nl),t(e,Kl),t(e,ql),t(e,Ql),t(e,Xl),t(e,Yl),t(e,Zl),t(e,$l),t(e,ea),t(e,ta),t(e,ra),t(e,na),t(e,ia),t(e,oa),t(e,la),t(e,aa),t(e,sa),t(e,ba),t(e,ca),t(e,Ra),t(e,ga),t(e,ua),t(e,ma),t(e,Ba),t(e,fa),t(e,da),t(e,Ca),t(e,pa),t(e,ha),t(e,ya),t(e,Aa),t(e,Fa),t(e,Pa),t(e,Sa),t(e,va),t(e,Da),t(e,Ia),t(e,Ta),t(e,Ma)},p:Ea,i:Ea,o:Ea,d(a){a&&s(c),a&&s(b),a&&s(m),a&&s(e)}}}class _a extends Wa{constructor(c){super(),za(this,c,null,La,Ua,{})}}export{_a as default};
+  - Wire Fraud`),r.forEach(s),this.h()},h(){document.title="/accusations",f(g,"class","blue-button"),f(R,"href","/"),f(b,"class","flex justify-center py-10"),f(e,"class","flex flex-col items-center justify-center px-10 text-white")},m(a,u){d(a,c,u),d(a,b,u),t(b,R),t(R,g),t(g,C),d(a,m,u),d(a,e,u),t(e,p),t(e,h),t(e,y),t(e,A),t(e,F),t(e,P),t(e,S),t(e,v),t(e,D),t(e,I),t(e,T),t(e,M),t(e,E),t(e,V),t(e,x),t(e,k),t(e,O),t(e,G),t(e,W),t(e,w),t(e,z),t(e,U),t(e,H),t(e,L),t(e,j),t(e,_),t(e,J),t(e,N),t(e,K),t(e,q),t(e,Q),t(e,X),t(e,Y),t(e,Z),t(e,$),t(e,ee),t(e,te),t(e,re),t(e,ne),t(e,ie),t(e,oe),t(e,le),t(e,ae),t(e,se),t(e,be),t(e,ce),t(e,Re),t(e,ge),t(e,ue),t(e,me),t(e,Be),t(e,fe),t(e,de),t(e,Ce),t(e,pe),t(e,he),t(e,ye),t(e,Ae),t(e,Fe),t(e,Pe),t(e,Se),t(e,ve),t(e,De),t(e,Ie),t(e,Te),t(e,Me),t(e,Ee),t(e,Ve),t(e,xe),t(e,ke),t(e,Oe),t(e,Ge),t(e,We),t(e,we),t(e,ze),t(e,Ue),t(e,He),t(e,Le),t(e,je),t(e,_e),t(e,Je),t(e,Ne),t(e,Ke),t(e,qe),t(e,Qe),t(e,Xe),t(e,Ye),t(e,Ze),t(e,$e),t(e,et),t(e,tt),t(e,rt),t(e,nt),t(e,it),t(e,ot),t(e,lt),t(e,at),t(e,st),t(e,bt),t(e,ct),t(e,Rt),t(e,gt),t(e,ut),t(e,mt),t(e,Bt),t(e,ft),t(e,dt),t(e,Ct),t(e,pt),t(e,ht),t(e,yt),t(e,At),t(e,Ft),t(e,Pt),t(e,St),t(e,vt),t(e,Dt),t(e,It),t(e,Tt),t(e,Mt),t(e,Et),t(e,Vt),t(e,xt),t(e,kt),t(e,Ot),t(e,Gt),t(e,Wt),t(e,wt),t(e,zt),t(e,Ut),t(e,Ht),t(e,Lt),t(e,jt),t(e,_t),t(e,Jt),t(e,Nt),t(e,Kt),t(e,qt),t(e,Qt),t(e,Xt),t(e,Yt),t(e,Zt),t(e,$t),t(e,er),t(e,tr),t(e,rr),t(e,nr),t(e,ir),t(e,or),t(e,lr),t(e,ar),t(e,sr),t(e,br),t(e,cr),t(e,Rr),t(e,gr),t(e,ur),t(e,mr),t(e,Br),t(e,fr),t(e,dr),t(e,Cr),t(e,pr),t(e,hr),t(e,yr),t(e,Ar),t(e,Fr),t(e,Pr),t(e,Sr),t(e,vr),t(e,Dr),t(e,Ir),t(e,Tr),t(e,Mr),t(e,Er),t(e,Vr),t(e,xr),t(e,kr),t(e,Or),t(e,Gr),t(e,Wr),t(e,wr),t(e,zr),t(e,Ur),t(e,Hr),t(e,Lr),t(e,jr),t(e,_r),t(e,Jr),t(e,Nr),t(e,Kr),t(e,qr),t(e,Qr),t(e,Xr),t(e,Yr),t(e,Zr),t(e,$r),t(e,en),t(e,tn),t(e,rn),t(e,nn),t(e,on),t(e,ln),t(e,an),t(e,sn),t(e,bn),t(e,cn),t(e,Rn),t(e,gn),t(e,un),t(e,mn),t(e,Bn),t(e,fn),t(e,dn),t(e,Cn),t(e,pn),t(e,hn),t(e,yn),t(e,An),t(e,Fn),t(e,Pn),t(e,Sn),t(e,vn),t(e,Dn),t(e,In),t(e,Tn),t(e,Mn),t(e,En),t(e,Vn),t(e,xn),t(e,kn),t(e,On),t(e,Gn),t(e,Wn),t(e,wn),t(e,zn),t(e,Un),t(e,Hn),t(e,Ln),t(e,jn),t(e,_n),t(e,Jn),t(e,Nn),t(e,Kn),t(e,qn),t(e,Qn),t(e,Xn),t(e,Yn),t(e,Zn),t(e,$n),t(e,ei),t(e,ti),t(e,ri),t(e,ni),t(e,ii),t(e,oi),t(e,li),t(e,ai),t(e,si),t(e,bi),t(e,ci),t(e,Ri),t(e,gi),t(e,ui),t(e,mi),t(e,Bi),t(e,fi),t(e,di),t(e,Ci),t(e,pi),t(e,hi),t(e,yi),t(e,Ai),t(e,Fi),t(e,Pi),t(e,Si),t(e,vi),t(e,Di),t(e,Ii),t(e,Ti),t(e,Mi),t(e,Ei),t(e,Vi),t(e,xi),t(e,ki),t(e,Oi),t(e,Gi),t(e,Wi),t(e,wi),t(e,zi),t(e,Ui),t(e,Hi),t(e,Li),t(e,ji),t(e,_i),t(e,Ji),t(e,Ni),t(e,Ki),t(e,qi),t(e,Qi),t(e,Xi),t(e,Yi),t(e,Zi),t(e,$i),t(e,eo),t(e,to),t(e,ro),t(e,no),t(e,io),t(e,oo),t(e,lo),t(e,ao),t(e,so),t(e,bo),t(e,co),t(e,Ro),t(e,go),t(e,uo),t(e,mo),t(e,Bo),t(e,fo),t(e,Co),t(e,po),t(e,ho),t(e,yo),t(e,Ao),t(e,Fo),t(e,Po),t(e,So),t(e,vo),t(e,Do),t(e,Io),t(e,To),t(e,Mo),t(e,Eo),t(e,Vo),t(e,xo),t(e,ko),t(e,Oo),t(e,Go),t(e,Wo),t(e,wo),t(e,zo),t(e,Uo),t(e,Ho),t(e,Lo),t(e,jo),t(e,_o),t(e,Jo),t(e,No),t(e,Ko),t(e,qo),t(e,Qo),t(e,Xo),t(e,Yo),t(e,Zo),t(e,$o),t(e,el),t(e,tl),t(e,rl),t(e,nl),t(e,il),t(e,ol),t(e,ll),t(e,al),t(e,sl),t(e,bl),t(e,cl),t(e,Rl),t(e,gl),t(e,ul),t(e,ml),t(e,Bl),t(e,fl),t(e,dl),t(e,Cl),t(e,pl),t(e,hl),t(e,yl),t(e,Al),t(e,Fl),t(e,Pl),t(e,Sl),t(e,vl),t(e,Dl),t(e,Il),t(e,Tl),t(e,Ml),t(e,El),t(e,Vl),t(e,xl),t(e,kl),t(e,Ol),t(e,Gl),t(e,Wl),t(e,wl),t(e,zl),t(e,Ul),t(e,Hl),t(e,Ll),t(e,jl),t(e,_l),t(e,Jl),t(e,Nl),t(e,Kl),t(e,ql),t(e,Ql),t(e,Xl),t(e,Yl),t(e,Zl),t(e,$l),t(e,ea),t(e,ta),t(e,ra),t(e,na),t(e,ia),t(e,oa),t(e,la),t(e,aa),t(e,sa),t(e,ba),t(e,ca),t(e,Ra),t(e,ga),t(e,ua),t(e,ma),t(e,Ba),t(e,fa),t(e,da),t(e,Ca),t(e,pa),t(e,ha),t(e,ya),t(e,Aa),t(e,Fa),t(e,Pa),t(e,Sa),t(e,va),t(e,Da),t(e,Ia),t(e,Ta),t(e,Ma)},p:Ea,i:Ea,o:Ea,d(a){a&&s(c),a&&s(b),a&&s(m),a&&s(e)}}}class _a extends wa{constructor(c){super(),za(this,c,null,La,Ua,{})}}export{_a as default};
