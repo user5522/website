@@ -32,11 +32,9 @@
       <div class="my-5 text-lg">It's a good website, because</div>
       <div>
         <div>
-          - It is made using <a target="_blank" href="https://svelte.dev/"
-            >svelte</a
+          - It is made using <a target="_blank" href="https://kit.svelte.dev"
+            >sveltekit</a
           >
-          &
-          <a target="_blank" href="https://kit.svelte.dev"> sveltekit </a>
         </div>
         <div>- I made it :{")"}</div>
         <div>
