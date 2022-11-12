@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-  <title>Welcome</title>
+  <title>Welcome - user5522.tk</title>
 </svelte:head>
 
 <div class="bg-white">
