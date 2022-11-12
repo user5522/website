@@ -21,7 +21,9 @@
         document.getElementById("padding").style.padding = "12px";
         document.getElementById("navbar").style.borderRadius = "12px";
         document.getElementById("navbar").classList.remove("sm:bg-opacity-50");
-        document.getElementById("navbar").classList.remove("sm:backdrop-blur-md");
+        document
+          .getElementById("navbar")
+          .classList.remove("sm:backdrop-blur-md");
         document.getElementById("padding").style.transitionDuration = "400ms";
         document.getElementById("navbar").style.transitionDuration = "400ms";
       }
@@ -63,6 +65,13 @@
             class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-110 hover:bg-dark_light active:scale-90 sm:text-lg"
           >
             Projects
+          </button>
+        </a>
+        <a href="/blog" class="text-white">
+          <button
+            class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-110 hover:bg-dark_light active:scale-90 sm:text-lg"
+          >
+            Blog
           </button>
         </a>
         <a href="/about" class="text-white">
