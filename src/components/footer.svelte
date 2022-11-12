@@ -25,6 +25,12 @@
           <div>
             -
             <a href="/credits">Credits (WIP)</a>
+            <div class="inline-block text-xs">[NEW]</div>
+          </div>
+          <div>
+            -
+            <a href="/credits">Blog (WIP)</a>
+            <div class="inline-block text-xs">[NEW]</div>
           </div>
         </div>
         <div class="flex flex-col">
