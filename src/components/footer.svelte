@@ -29,7 +29,7 @@
           </div>
           <div>
             -
-            <a href="/credits">Blog (WIP)</a>
+            <a href="/blog">Blog (WIP)</a>
             <div class="inline-block text-xs">[NEW]</div>
           </div>
         </div>
