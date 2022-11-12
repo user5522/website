@@ -22,7 +22,7 @@
     </div>
 
     <div class="flex flex-row items-center gap-1 pt-10 pb-5 text-3xl">
-      <a href="https://crbt.app" target="_blank">CRBT</a> Banners
+      <a href="https://crbt.app" target="_blank" rel="noreferrer">CRBT</a> Banners
     </div>
     <div class="flex flex-col gap-10">
       <div class="flex flex-col gap-10 sm:flex-row">

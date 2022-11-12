@@ -1,3 +1,4 @@
+<!-- svelte-ignore security-anchor-rel-noreferrer -->
 <script>
   import Navbar from "../components/navbar.svelte";
   import WavesStart from "../components/waves_start.svelte";
@@ -32,8 +33,10 @@
       <div class="my-5 text-lg">It's a good website, because</div>
       <div>
         <div>
-          - It is made using <a target="_blank" href="https://kit.svelte.dev"
-            >sveltekit</a
+          - It is made using <a
+            target="_blank"
+            href="https://kit.svelte.dev"
+            rel="noreferrer">sveltekit</a
           >
         </div>
         <div>- I made it :{")"}</div>
@@ -42,6 +45,7 @@
           <a
             target="_blank"
             href="https://github.com/user5522/user5522.github.io"
+            rel="noreferrer"
           >
             github
           </a> (just like most of my projects)

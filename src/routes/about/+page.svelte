@@ -49,6 +49,7 @@
         year old<a
           href="https://www.google.com/search?q=Tunisia"
           target="_blank"
+          rel="noreferrer"
           class="px-1">Tunisian</a
         > guy & I like coding
       </div>
