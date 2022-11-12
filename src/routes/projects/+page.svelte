@@ -92,7 +92,7 @@
         <div>
           <div class="m-5 text-lg">
             Placeholder description that is very discriptive about the
-            project/creation I made, and give the reader a general idea about
+            project/creation I made, and gives the reader a general idea about
             it.
           </div>
         </div>
@@ -115,7 +115,7 @@
         <div>
           <div class="m-5 text-lg">
             Placeholder description that is very discriptive about the
-            project/creation I made, and give the reader a general idea about
+            project/creation I made, and gives the reader a general idea about
             it.
           </div>
         </div>
