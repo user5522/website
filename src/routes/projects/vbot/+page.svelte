@@ -68,10 +68,7 @@
         </div>
       </div>
       <div class="flex justify-center sm:w-1/3 sm:pr-32">
-        <a
-          href="https://discord.com/oauth2/authorize?client_id=771808147530711080&permissions=8&scope=bot+applications.commands"
-          target="blank"
-        >
+        <a href="/links/vbot" target="blank">
           <button class="blue-button text-lg">Invite Vbot</button>
         </a>
       </div>
