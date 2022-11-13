@@ -1,9 +1,9 @@
 <script>
-  import Navbar from "/src/components/navbar.svelte";
-  import WavesStart from "/src/components/waves_start.svelte";
-  import Footer from "/src/components/footer.svelte";
-  import { clickToCopy } from "/src/components/clickToCopy.js";
-  import AgeCounter from "../../components/ageCounter.svelte";
+  import Navbar from "$lib/navbar.svelte";
+  import WavesStart from "$lib/waves_start.svelte";
+  import Footer from "$lib/footer.svelte";
+  import { clickToCopy } from "$lib/clickToCopy.js";
+  import AgeCounter from "$lib/ageCounter.svelte";
 </script>
 
 <svelte:head>

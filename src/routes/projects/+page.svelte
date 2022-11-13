@@ -1,7 +1,7 @@
 <script>
-  import Navbar from "/src/components/navbar.svelte";
-  import WavesStart from "/src/components/waves_start.svelte";
-  import Footer from "../../components/footer.svelte";
+  import Navbar from "$lib/navbar.svelte";
+  import WavesStart from "$lib/waves_start.svelte";
+  import Footer from "$lib/footer.svelte";
 </script>
 
 <svelte:head>

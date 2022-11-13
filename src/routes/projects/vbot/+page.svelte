@@ -19,7 +19,7 @@
     </div>
     <div class="flex flex-col items-center justify-center pb-20 sm:px-10">
       <div class="text-2xl">An open-source multipurpose Discord app</div>
-      <div class="text-2xl font-semibold">
+      <div class="text-xl font-semibold">
         Everything in this page is still a work-in-progress!
       </div>
     </div>

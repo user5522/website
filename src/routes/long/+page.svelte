@@ -1,5 +1,6 @@
 <script>
-  import Navbar from "../../components/navbar.svelte";
+  import Navbar from "$lib/navbar.svelte";
+  import Footer from "$lib/footer.svelte";
 </script>
 
 <Navbar />
@@ -1199,3 +1200,4 @@
   feugiat egestas. Etiam cursus sit amet dolor a fringilla. Donec vel viverra
   dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget metus.
 </div>
+<Footer />

@@ -1,13 +1,13 @@
 <!-- svelte-ignore security-anchor-rel-noreferrer -->
 <script>
-  import Navbar from "../components/navbar.svelte";
-  import WavesStart from "../components/waves_start.svelte";
+  import Navbar from "$lib/navbar.svelte";
+  import WavesStart from "$lib/waves_start.svelte";
   import { writable } from "svelte/store";
   import Modal, { bind } from "svelte-simple-modal";
-  import Popup from "../components/accusations.svelte";
-  import CloseButton from "../components/closeButton.svelte";
-  import Footer from "../components/footer.svelte";
-  import Subtitle from "../components/subtitle.svelte";
+  import Popup from "$lib/accusations.svelte";
+  import CloseButton from "$lib/closeButton.svelte";
+  import Footer from "$lib/footer.svelte";
+  import Subtitle from "$lib/subtitle.svelte";
 
   const modal = writable(null);
   const showModal = () => modal.set(bind(Popup));
