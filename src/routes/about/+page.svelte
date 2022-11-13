@@ -3,18 +3,7 @@
   import WavesStart from "/src/components/waves_start.svelte";
   import Footer from "/src/components/footer.svelte";
   import { clickToCopy } from "/src/components/clickToCopy.js";
-  import { onMount } from "svelte";
-
-  onMount(() => {
-    function age() {
-      var t = new Date() - new Date(2006, 11, 24);
-      t /= 1000 * 60 * 60 * 24 * 365;
-      document.getElementById("age").innerHTML =
-        "<span>" + Math.floor(t) + "</span>." + (t % 1).toFixed(3).substring(2);
-    }
-
-    setInterval(age, 300);
-  });
+  import AgeCounter from "../../components/ageCounter.svelte";
 </script>
 
 <svelte:head>
@@ -42,6 +31,7 @@
       </div>
       <div class="text-xl">
         I'm Oueslati, a
+        <AgeCounter />
         <div id="age" class="inline-block" />
         year old<a
           href="https://www.google.com/search?q=Tunisia"
