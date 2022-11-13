@@ -27,6 +27,7 @@
     "postcss": "^8.4.16",
     "svelte-motion": "^0.11.2",
     "svelte-preprocess": "^4.10.7",
+    "svelte-seo": "^1.4.1",
     "svelte-simple-modal": "^1.4.1",
     "tailwindcss": "^3.1.8"
   }

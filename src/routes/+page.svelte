@@ -8,10 +8,32 @@
   import CloseButton from "$lib/closeButton.svelte";
   import Footer from "$lib/footer.svelte";
   import Subtitle from "$lib/subtitle.svelte";
+  import SvelteSeo from "svelte-seo";
 
   const modal = writable(null);
   const showModal = () => modal.set(bind(Popup));
 </script>
+
+<SvelteSeo
+  title="User5522.tk"
+  description="Welcome to my website! A place where I share/blog information about all my stuff!"
+  keywords="user5522 u5522 user5522.tk username5522 Epik_Kid"
+  openGraph={{
+    title: "User5522.tk",
+    description:
+      "Welcome to my website! A place where I share/blog information about all my stuff!",
+    url: "https://user5522.tk/",
+    type: "website",
+    images: [
+      {
+        url: "/Logo_flat.svg",
+        width: 850,
+        height: 650,
+        alt: "Logo OG image",
+      },
+    ],
+  }}
+/>
 
 <svelte:head>
   <title>Welcome - user5522.tk</title>
