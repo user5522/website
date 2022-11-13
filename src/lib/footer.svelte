@@ -3,7 +3,7 @@
     <div class="flex flex-col">
       <div class="flex flex-col gap-5 sm:flex-row sm:gap-10">
         <div class="flex flex-col">
-          <div class="font-semibold">Website links (more soon™):</div>
+          <div class="font-semibold">Website links:</div>
           <div>- <a href="/">Homepage</a></div>
           <div>
             -
@@ -31,6 +31,47 @@
             -
             <a href="/blog">Blog (WIP)</a>
             <div class="inline-block text-xs">[NEW]</div>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <div class="font-semibold">
+            Redirecting links: <div class="inline-block text-xs">[NEW]</div>
+          </div>
+          <div>
+            -
+            <a href="/links">All redirecting links</a>
+          </div>
+          <div>
+            -
+            <a href="/links/discord">Discord</a>
+          </div>
+          <div>
+            -
+            <a href="/links/github">Github</a>
+          </div>
+          <div>
+            -
+            <a href="/links/reddit">Reddit</a>
+          </div>
+          <div>
+            -
+            <a href="/links/steam">Steam</a>
+          </div>
+          <div>
+            -
+            <a href="/links/twitter">Twitter</a>
+          </div>
+          <div>
+            -
+            <a href="/links/vbot">Vbot Invite</a>
+          </div>
+          <div>
+            -
+            <a href="/links/xbox">Xbox</a>
+          </div>
+          <div>
+            -
+            <a href="/links/yt">Youtube</a>
           </div>
         </div>
         <div class="flex flex-col">
