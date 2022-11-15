@@ -20,42 +20,45 @@
     <loc>https://user5522.tk</loc>
   </url>
   <url>
-    <loc>https://user5522.tk/links</loc>
-  </url>
-  <url>
     <loc>https://user5522.tk/long</loc>
   </url>
   <url>
     <loc>https://user5522.tk/projects</loc>
   </url>
   <url>
-    <loc>https://user5522.tk/links/discord</loc>
-  </url>
-  <url>
-    <loc>https://user5522.tk/links/github</loc>
-  </url>
-  <url>
-    <loc>https://user5522.tk/links/reddit</loc>
-  </url>
-  <url>
-    <loc>https://user5522.tk/links/steam</loc>
-  </url>
-  <url>
-    <loc>https://user5522.tk/links/twitter</loc>
-  </url>
-  <url>
-    <loc>https://user5522.tk/links/vbot</loc>
-  </url>
-  <url>
-    <loc>https://user5522.tk/links/xbox</loc>
-  </url>
-  <url>
-    <loc>https://user5522.tk/links/yt</loc>
+    <loc>https://user5522.tk/rl</loc>
   </url>
   <url>
     <loc>https://user5522.tk/projects/banners</loc>
   </url>
   <url>
     <loc>https://user5522.tk/projects/vbot</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/rl/discord</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/rl/github</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/rl/reddit</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/rl/steam</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/rl/twitter</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/rl/vbot</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/rl/vsource</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/rl/xbox</loc>
+  </url>
+  <url>
+    <loc>https://user5522.tk/rl/yt</loc>
   </url>
 </urlset>

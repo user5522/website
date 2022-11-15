@@ -1,1 +1,0 @@
-import{S as n,i as o,s,o as a}from"../../../../chunks/index-f851be7c.js";function r(e){return a(()=>{window.location.replace("https://account.xbox.com/en-us/profile?gamertag=Username6736")}),[]}class i extends n{constructor(t){super(),o(this,t,r,null,s,{})}}export{i as default};
