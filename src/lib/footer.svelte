@@ -41,33 +41,79 @@
             -
             <a href="/rl">All Links</a>
           </div>
-          <div>
+          <div class="flex flex-row gap-1">
             -
-            <a href="/rl/discord">Discord</a>
+            <a href="/rl/discord" class="flex"
+              >Discord <img
+                src="logos/discord.svg"
+                class="relative top-1 h-5 items-baseline pl-1"
+                alt="discord logo"
+              /></a
+            >
           </div>
-          <div>
+          <div class="flex flex-row gap-1">
             -
-            <a href="/rl/github">Github</a>
+            <a href="/rl/github" class="flex"
+              >Github <img
+                src="logos/github.svg"
+                class="relative top-1 h-5 items-baseline pl-1"
+                alt="github logo"
+              /></a
+            >
           </div>
-          <div>
+          <div class="flex flex-row gap-1">
             -
-            <a href="/rl/reddit">Reddit</a>
+            <a href="/rl/reddit" class="flex"
+              >Reddit <img
+                src="logos/reddit.svg"
+                class="relative top-1 h-5 items-baseline pl-1"
+                alt="reddit logo"
+              /></a
+            >
           </div>
-          <div>
+          <div class="flex flex-row gap-1">
             -
-            <a href="/rl/twitter">Twitter</a>
+            <a href="/rl/twitter" class="flex"
+              >Twitter <img
+                src="logos/twitter.svg"
+                class="relative top-1 h-5 items-baseline pl-1"
+                alt="twitter logo"
+              /></a
+            >
           </div>
-          <div>
+          <div class="flex flex-row gap-1">
             -
-            <a href="/rl/yt">Youtube</a>
+            <a href="/rl/yt" class="flex"
+              >Youtube <img
+                src="logos/youtube.svg"
+                class="relative top-1 h-5 items-baseline pl-1"
+                alt="youtube logo"
+              /></a
+            >
           </div>
-          <div>
+          <div class="flex flex-row gap-1">
             -
-            <a href="/rl/vbot">Vbot Invite</a>
+            <a href="/rl/vbot" class="flex"
+              >Vbot Invite <img
+                src="vbot.svg"
+                class="relative top-1 h-4 items-baseline pl-1"
+                alt="vbot logo"
+              /></a
+            >
           </div>
-          <div>
+          <div class="flex flex-row gap-1">
             -
-            <a href="/rl/vsource">Vbot Source Code</a>
+            <a href="/rl/vbot" class="flex"
+              >Vbot Source <img
+                src="logos/github.svg"
+                class="relative top-1 h-5 items-baseline pl-1"
+                alt="github logo"
+              /><img
+                src="vbot.svg"
+                class="relative top-1.5 h-4 items-baseline pl-1"
+                alt="vbot logo"
+              /></a
+            >
           </div>
         </div>
         <div class="flex flex-col">
