@@ -103,7 +103,7 @@
           </div>
           <div class="flex flex-row gap-1">
             -
-            <a href="/rl/vbot" class="flex"
+            <a href="/rl/vsource" class="flex"
               >Vbot Source <img
                 src="/logos/github.svg"
                 class="relative top-1 h-5 items-baseline pl-1"
