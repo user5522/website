@@ -78,21 +78,21 @@
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/youtube.svg" alt="youtube link" class="h-10" />
+          <img src="logos/youtube.svg" alt="youtube link" class="h-10" />
         </a>
         <a
           href="/rl/discord"
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/discord.svg" alt="discord link" class="h-10" />
+          <img src="logos/discord.svg" alt="discord link" class="h-10" />
         </a>
         <a
-          href="/rl/xbox"
+          href="/rl/github"
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/xbox.svg" alt="xbox link" class="h-10" />
+          <img src="logos/github.svg" alt="github link" class="h-10" />
         </a>
       </div>
       <div class="flex flex-row items-center gap-5">
@@ -101,28 +101,28 @@
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/twitter.svg" alt="twitter link" class="h-10" />
+          <img src="logos/twitter.svg" alt="twitter link" class="h-10" />
+        </a>
+        <a
+          href="/rl/xbox"
+          class="duration-200 hover:scale-110 active:scale-90"
+          target="blank"
+        >
+          <img src="logos/xbox.svg" alt="xbox link" class="h-10" />
         </a>
         <a
           href="/rl/steam"
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/steam.svg" alt="steam link" class="h-10" />
-        </a>
-        <a
-          href="/rl/github"
-          class="duration-200 hover:scale-110 active:scale-90"
-          target="blank"
-        >
-          <img src="/logos/github.svg" alt="github link" class="h-10" />
+          <img src="logos/steam.svg" alt="steam link" class="h-10" />
         </a>
         <a
           href="/rl/reddit"
           class="duration-200 hover:scale-110 active:scale-90"
           target="blank"
         >
-          <img src="/logos/reddit.svg" alt="reddit link" class="h-10" /></a
+          <img src="logos/reddit.svg" alt="reddit link" class="h-10" /></a
         >
       </div>
     </div>
