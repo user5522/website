@@ -21,7 +21,7 @@
   <div class="flex flex-col items-center gap-5 text-xl">
     <div class="flex">
       <img
-        src="logos/discord.svg"
+        src="/logos/discord.svg"
         class="h-7 items-baseline pr-1"
         alt="discord logo"
       />
@@ -30,7 +30,7 @@
     </div>
     <div class="flex">
       <img
-        src="logos/github.svg"
+        src="/logos/github.svg"
         class="h-7 items-baseline pr-1"
         alt="github logo"
       />
@@ -39,7 +39,7 @@
     </div>
     <div class="flex">
       <img
-        src="logos/reddit.svg"
+        src="/logos/reddit.svg"
         class="h-7 items-baseline pr-1"
         alt="reddit logo"
       />
@@ -48,7 +48,7 @@
     </div>
     <div class="flex">
       <img
-        src="logos/steam.svg"
+        src="/logos/steam.svg"
         class="h-7 items-baseline pr-1"
         alt="steam logo"
       />
@@ -57,7 +57,7 @@
     </div>
     <div class="flex">
       <img
-        src="logos/twitter.svg"
+        src="/logos/twitter.svg"
         class="h-7 items-baseline pr-1"
         alt="twitter logo"
       />
@@ -66,7 +66,7 @@
     </div>
     <div class="flex">
       <img
-        src="vbot.svg"
+        src="/vbot.svg"
         class="relative top-1 h-5 items-baseline pr-1"
         alt="vbot logo"
       />
@@ -75,13 +75,13 @@
     </div>
     <div class="flex">
       <img
-        src="vbot.svg"
+        src="/vbot.svg"
         class="relative top-1 h-5 items-baseline"
         alt="vbot logo"
       />
 
       <img
-        src="logos/github.svg"
+        src="/logos/github.svg"
         class="h-7 items-baseline pr-1"
         alt="github logo"
       />
@@ -90,7 +90,7 @@
     </div>
     <div class="flex">
       <img
-        src="logos/xbox.svg"
+        src="/logos/xbox.svg"
         class="h-7 items-baseline pr-1"
         alt="xbox logo"
       />
@@ -99,7 +99,7 @@
     </div>
     <div class="flex">
       <img
-        src="logos/youtube.svg"
+        src="/logos/youtube.svg"
         class="h-7 items-baseline pr-1"
         alt="youtube logo"
       />
