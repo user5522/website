@@ -39,43 +39,39 @@
           </div>
           <div>
             -
-            <a href="/links">All redirecting links</a>
+            <a href="/rl">All Links</a>
           </div>
           <div>
             -
-            <a href="/links/discord">Discord</a>
+            <a href="/rl/discord">Discord</a>
           </div>
           <div>
             -
-            <a href="/links/github">Github</a>
+            <a href="/rl/github">Github</a>
           </div>
           <div>
             -
-            <a href="/links/reddit">Reddit</a>
+            <a href="/rl/reddit">Reddit</a>
           </div>
           <div>
             -
-            <a href="/links/steam">Steam</a>
+            <a href="/rl/twitter">Twitter</a>
           </div>
           <div>
             -
-            <a href="/links/twitter">Twitter</a>
+            <a href="/rl/yt">Youtube</a>
           </div>
           <div>
             -
-            <a href="/links/vbot">Vbot Invite</a>
+            <a href="/rl/vbot">Vbot Invite</a>
           </div>
           <div>
             -
-            <a href="/links/xbox">Xbox</a>
-          </div>
-          <div>
-            -
-            <a href="/links/yt">Youtube</a>
+            <a href="/rl/vsource">Vbot Source Code</a>
           </div>
         </div>
         <div class="flex flex-col">
-          <div class="font-semibold">Website testing links (more soon™):</div>
+          <div class="font-semibold">Website testing links:</div>
           <div>
             -
             <a href="/long">Long page</a>
