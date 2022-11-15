@@ -66,7 +66,7 @@
           <div
             class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
           >
-            Wallpaper Banner
+            Wallpaper Banner [remade]
           </div>
           <img src="/banners/wallpaper.png" class="rounded-xl" alt="test" />
         </div>
