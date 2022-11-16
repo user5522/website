@@ -18,7 +18,7 @@
       <p class="text-4xl">Projects</p>
     </div>
     <div class="flex flex-row gap-1">
-      <div class="px-10">
+      <div class="px-10 text-xl">
         Some projects I made/working on that I want to share with you
         <img
           src="/twemojis/flushed.svg"
