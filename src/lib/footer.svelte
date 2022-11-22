@@ -20,6 +20,10 @@
           </div>
           <div>
             -
+            <a href="/404.html">404 page</a>
+          </div>
+          <div>
+            -
             <a href="/credits">Credits (WIP)</a>
             <div class="inline-block text-xs">[NEW]</div>
           </div>
