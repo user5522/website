@@ -4,6 +4,7 @@
   import Footer from "$lib/footer.svelte";
   import { clickToCopy } from "$lib/clickToCopy.js";
   import AgeCounter from "$lib/ageCounter.svelte";
+  import WaveEmoji from "../../lib/icons/wave-emoji.svelte";
 </script>
 
 <svelte:head>
@@ -15,57 +16,56 @@
   <WavesStart />
 </div>
 <div class="init-div px-5">
-  <div class="flex flex-col items-center justify-center pb-20">
-    <div class="flex flex-row items-baseline">
-      <p class="text-4xl">User5522</p>
-      <p class="text-base">/Username5522</p>
-    </div>
+  <div class="flex flex-col items-center justify-center gap-5">
+    <p class="text-4xl">About</p>
 
-    <div class="px-5 pb-16">
+    <div>
       <div class="text-xl">
-        Hi <img
-          src="/twemojis/wavinghand.svg"
-          alt="waving hand sign emote"
-          class="inline-block h-7"
-        />,
+        Hi I'm Oueslati <WaveEmoji />,
       </div>
       <div class="text-xl">
-        I'm Oueslati, a
-        <AgeCounter />
-        <div id="age" class="inline-block" />
-        year old<a
-          href="https://google.com/search?q=Tunisia"
+        a <strong><AgeCounter /></strong>
+        year old
+        <a
+          href="https://google.com/search?q=north+tunisia"
           target="_blank"
-          rel="noreferrer"
-          class="px-1">Tunisian</a
-        > guy & I like coding
+          rel="noreferrer">north Tunisia</a
+        >
+        based developer.
+        <div class="text-center text-lg">
+          (or maybe that's what I like to call myself)
+        </div>
       </div>
     </div>
-
-    <div class="text-2xl">What I like doing:</div>
-    <div class="flex flex-col items-center justify-center py-5">
-      <div class="text-lg">
-        <div>- Uhhhhhhhhhhhhh</div>
-        <div>- Literally nothing (for a fair amount of time)</div>
-        <div>- Breathing air (abnormal capability)</div>
-        <div>- Learning stuff</div>
-        <div>- Making useless lists</div>
+    <div class="flex flex-col justify-center gap-5 sm:flex-row">
+      <div id="whatilike" class="rounded-xl bg-dark">
+        <div class="flex flex-col p-5">
+          <div class="text-center text-2xl">I Like:</div>
+          <div class="flex flex-col py-5">
+            <ul class="text-lg">
+              <li>- Drinking water</li>
+              <li>- Breathing air</li>
+              <li>- Eating food</li>
+              <li>- Making uselessly long lists</li>
+              <li>- Coding & learning</li>
+              <li>- You (probably)</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="text-2xl">What I learnt so far:</div>
-    <div class="flex flex-col items-center justify-center py-5">
-      <div class="text-lg">
-        <div>- HTML, CSS & Javascript</div>
-        <div>- Svelte, I think</div>
-        <div>- React, a little</div>
-        <div>- React Native, also a little</div>
-        <div>- Rust, very basic knowledge</div>
-        <div>- How to be funny (I'm lying)</div>
-        <div>
-          - Making logos, I think (maybe) <a href="/projects/banners#Logos"
-            >(did u check these ?)</a
-          >
+      <div id="skills" class="rounded-xl bg-dark">
+        <div class="flex flex-col p-5">
+          <div class="text-center text-2xl">Skills:</div>
+          <div class="flex flex-col py-5">
+            <ul class="text-lg">
+              <li>- Svelte (7/10 I ❤️ svelte)</li>
+              <li>- React (4/10 no so good)</li>
+              <li>- Rust (3/10 yeah)</li>
+              <li>- HTML & CSS (8/10 pretty good)</li>
+              <li>- Javascript (6/10 can do some stuff)</li>
+              <li>- Python (3/10 never took the time to learn)</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
