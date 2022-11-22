@@ -110,5 +110,5 @@
       </Modal>
     </div>
   </div>
-  <Footer />
 </div>
+<Footer />
