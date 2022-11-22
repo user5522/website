@@ -41,7 +41,7 @@
     <div id="doubleposts" class="flex flex-col gap-5 px-5 sm:flex-row">
       <a
         href="/blog#placeheld-link"
-        id="post"
+        id="placeheld-link"
         class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95 sm:w-1/2"
       >
         <div id="post_img" class="flex justify-center">
@@ -63,7 +63,7 @@
       </a>
       <a
         href="/blog#placeheld-link"
-        id="post"
+        id="placeheld-link"
         class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95 sm:w-1/2"
       >
         <div id="post_img">
