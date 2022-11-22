@@ -2,13 +2,13 @@
 @tailwind components;
 @layer base {
   html {
-    @apply bg-black text-white;
+    @apply list-none bg-black text-white;
   }
   a {
     @apply text-blue-400;
   }
   .init-div {
-    @apply pt-28;
+    @apply flex flex-col gap-5 pb-5 pt-28;
   }
   .blue-button {
     @apply rounded-xl bg-blue-800
