@@ -2,6 +2,7 @@
   import Navbar from "$lib/navbar.svelte";
   import WavesStart from "$lib/waves_start.svelte";
   import Footer from "$lib/footer.svelte";
+  import FlushedEmoji from "$lib/icons/flushed-emoji.svelte";
 </script>
 
 <svelte:head>
@@ -20,11 +21,7 @@
     <div class="flex flex-row gap-1">
       <div class="px-10 text-xl">
         Some projects I made/working on that I want to share with you
-        <img
-          src="/twemojis/flushed.svg"
-          alt="flushed emote"
-          class="inline-block h-7"
-        />
+        <FlushedEmoji />
       </div>
     </div>
   </div>
@@ -136,5 +133,5 @@
       </a>
     </div>
   </div>
-  <Footer />
 </div>
+<Footer />

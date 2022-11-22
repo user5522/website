@@ -11,3 +11,5 @@
     setInterval(age, 300);
   });
 </script>
+
+<div id="age" class="inline-block" />
