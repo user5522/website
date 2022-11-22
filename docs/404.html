@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="_app/immutable/assets/_layout-9c03f8be.css" />
+    <link rel="icon" type="image/x-icon" href="/Logo_flat.svg" />
+    <title>404: Not Found</title>
+  </head>
+  <body>
+    <div class="flex flex-col items-center px-10 text-white">
+      <div id="pathname" class="flex flex-row gap-3 pt-10 text-4xl"></div>
+      <div class="py-10 text-2xl">
+        This looks like an error.. & that's unfortunate.
+      </div>
+      <div class="pb-5 text-xl">Maybe try one of these solutions:</div>
+      <div class="text-lg">
+        <div>- Checking if the URL/Link you received is valid</div>
+        <div>- Checking for any typos in the URL</div>
+        <div>- Checking if you have the permission to view this page</div>
+      </div>
+      <div class="flex flex-row gap-5 py-10">
+        <a href="/">
+          <button class="blue-button">Homepage</button>
+        </a>
+        <a href="/about#Links">
+          <button class="blue-button">Contact me</button>
+        </a>
+      </div>
+      <div style="position: absolute; bottom: 0px">
+        If none of the solutions given work, then please come back later or
+        contact me
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  document.getElementById("pathname").innerHTML =
+    "Error 404: Not found " + window.location.pathname;
+</script>
