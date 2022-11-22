@@ -1,3 +1,7 @@
+<script>
+  import Footer from "$lib/footer.svelte";
+</script>
+
 <svelte:head>
   <title>/accusations</title>
 </svelte:head>
@@ -6,7 +10,7 @@
     <button class="blue-button">Back to Homepage</button>
   </a>
 </div>
-<div class="flex flex-col items-center justify-center px-10 text-white">
+<div class="flex flex-col items-center justify-center px-5 pb-5 text-white">
   <br />
   - Abusive Sexual Contact<br />
   - Advocating Overthrow of Government<br />
@@ -230,3 +234,4 @@
   - Willful Wrecking of a Train Resulting in Death<br />
   - Wire Fraud
 </div>
+<Footer />

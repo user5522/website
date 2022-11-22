@@ -56,7 +56,7 @@
           <div class="text-center text-2xl">Skills:</div>
           <div class="flex flex-col py-5">
             <ul class="text-lg">
-              <li>- Svelte (<strong>7/10</strong> I <Heart /> svelte)</li>
+              <li>- Svelte (<strong>7/10</strong> I <Heart /> sveltekit)</li>
               <li>- React (<strong>4/10</strong> no so good)</li>
               <li>- Rust (<strong>3/10</strong> yuh)</li>
               <li>- HTML & CSS (<strong>8/10</strong> pretty good)</li>

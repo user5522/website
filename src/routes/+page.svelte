@@ -44,7 +44,7 @@
   <WavesStart />
 </div>
 <div class="init-div">
-  <div class="flex flex-col items-center justify-center pb-20">
+  <div class="flex flex-col items-center justify-center">
     <div class="flex flex-row items-baseline">
       <div class="text-4xl">User5522</div>
       <div class="text-base">/Username5522</div>
@@ -52,7 +52,7 @@
     <Subtitle />
     <div class="flex flex-col items-center justify-center px-10">
       <div class="text-2xl">Welcome to user5522.tk!</div>
-      <div class="my-5 text-lg">It's a good website, because</div>
+      <div class="my-5 text-lg">It's a good website, because:</div>
       <div>
         <div>
           - It is made using <a

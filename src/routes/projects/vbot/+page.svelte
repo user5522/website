@@ -12,7 +12,7 @@
   <Navbar />
   <WavesStart />
 </div>
-<div class="init-div px-5 pb-20">
+<div class="init-div px-5">
   <div class="flex flex-col">
     <div class="flex justify-center">
       <div class="text-4xl">Vbot</div>

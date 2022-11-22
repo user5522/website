@@ -1,7 +1,4 @@
-<svelte:head>
-  <title>/accusations</title>
-</svelte:head>
-<div class="flex flex-col items-center justify-center text-white">
+<div class="flex flex-col items-center justify-center py-5 text-white">
   <br />
   - Abusive Sexual Contact<br />
   - Advocating Overthrow of Government<br />

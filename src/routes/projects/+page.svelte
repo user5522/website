@@ -14,7 +14,7 @@
   <WavesStart />
 </div>
 <div class="init-div">
-  <div class="flex flex-col items-center justify-center pb-20">
+  <div class="flex flex-col items-center justify-center">
     <div class="flex flex-row">
       <p class="text-4xl">Projects</p>
     </div>
@@ -78,7 +78,8 @@
       </a>
     </div>
 
-    <div id="TwoPosts" class="flex flex-col gap-5 px-5 pb-5 sm:flex-row">
+    <!-- add a pb-5 whenever you add posts under this -->
+    <div id="TwoPosts" class="flex flex-col gap-5 px-5 sm:flex-row">
       <a
         class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95 sm:w-1/2"
         href="#placeholder1"

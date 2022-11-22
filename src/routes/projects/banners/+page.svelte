@@ -13,7 +13,7 @@
   <WavesStart />
 </div>
 <div class="init-div">
-  <div class="flex flex-col items-center justify-center px-10 pb-20">
+  <div class="flex flex-col items-center justify-center px-5">
     <div class="flex flex-row items-baseline">
       <div class="text-4xl">Banners & Logos</div>
     </div>

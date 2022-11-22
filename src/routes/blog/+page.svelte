@@ -14,7 +14,7 @@
   <WavesStart />
 </div>
 <div class="init-div">
-  <div class="flex flex-col items-center justify-center pb-20">
+  <div class="flex flex-col items-center justify-center">
     <div class="flex flex-row">
       <p class="text-4xl">Blog</p>
     </div>
@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <div class="pb-10">
+  <div>
     <div id="doubleposts" class="flex flex-col gap-5 px-5 sm:flex-row">
       <a
         href="/blog#placeheld-link"
