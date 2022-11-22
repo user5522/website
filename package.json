@@ -23,7 +23,6 @@
     "@sveltejs/adapter-node": "^1.0.0-next.88",
     "@sveltejs/adapter-static": "^1.0.0-next.41",
     "autoprefixer": "^10.4.8",
-    "gh-pages": "^4.0.0",
     "postcss": "^8.4.16",
     "svelte-motion": "^0.11.2",
     "svelte-preprocess": "^4.10.7",
