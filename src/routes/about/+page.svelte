@@ -33,9 +33,6 @@
           rel="noreferrer">north Tunisia</a
         >
         based developer.
-        <div class="text-center text-lg">
-          (or maybe that's what I like to call myself)
-        </div>
       </div>
     </div>
     <div class="flex flex-col justify-center gap-5 sm:flex-row">
@@ -59,12 +56,14 @@
           <div class="text-center text-2xl">Skills:</div>
           <div class="flex flex-col py-5">
             <ul class="text-lg">
-              <li>- Svelte (7/10 I <Heart /> svelte)</li>
-              <li>- React (4/10 no so good)</li>
-              <li>- Rust (3/10 yeah)</li>
-              <li>- HTML & CSS (8/10 pretty good)</li>
-              <li>- Javascript (6/10 can do some stuff)</li>
-              <li>- Python (3/10 never took the time to learn)</li>
+              <li>- Svelte (<strong>7/10</strong> I <Heart /> svelte)</li>
+              <li>- React (<strong>4/10</strong> no so good)</li>
+              <li>- Rust (<strong>3/10</strong> yuh)</li>
+              <li>- HTML & CSS (<strong>8/10</strong> pretty good)</li>
+              <li>- Javascript (<strong>6/10</strong> I can do stuff)</li>
+              <li>
+                - Python (<strong>3/10</strong> never took the time to learn)
+              </li>
             </ul>
           </div>
         </div>
