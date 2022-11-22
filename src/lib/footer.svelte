@@ -20,7 +20,7 @@
           </div>
           <div>
             -
-            <a href="/404.html">404 page</a>
+            <a href="/404">404 page</a>
           </div>
           <div>
             -
@@ -133,6 +133,7 @@
     />
   </div>
   <div class="text-lighter_true_gray">
-    Everything in this website is owned by User5522 unless stated in /credits (soon™)
+    Everything in this website is owned by User5522 unless stated in /credits
+    (soon™)
   </div>
 </div>
