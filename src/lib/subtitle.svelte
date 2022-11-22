@@ -1,13 +1,17 @@
 <script>
   var subtitles = [
-    " peepeepoopoo master",
     " failure",
     " dumbass",
+    " idot",
+    " object",
+    " 3D object",
+    " rock eater",
     " h lover",
     " h enjoyer",
+    "sveltekit lover",
     "ly idot idot",
+    "ly stupid developer",
     "ly dumb developer",
-    " rock eater",
   ];
   var subtitle = subtitles[Math.floor(Math.random() * subtitles.length)];
 </script>
