@@ -36,12 +36,9 @@
     id="padding"
     class="fixed top-0 z-50 flex w-full flex-col justify-center overflow-auto p-3 align-middle"
   >
-    <div
-      id="navbar"
-      class="flex flex-row items-center rounded-xl bg-dark p-4 shadow-lg"
-    >
+    <div id="navbar" class="flex flex-row rounded-xl bg-dark p-4 shadow-lg">
       <div
-        class="flex flex-row items-center gap-1 duration-300 sm:gap-2"
+        class="flex w-1/2 flex-row items-center gap-1 duration-300 sm:gap-2"
         id="logo"
       >
         <img
@@ -59,7 +56,7 @@
           </button>
         </a>
       </div>
-      <div class="absolute right-10">
+      <div class="flex w-1/2 justify-end">
         <a href="/projects" class="text-white">
           <button
             class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-110 hover:bg-dark_light active:scale-90 sm:text-lg"
