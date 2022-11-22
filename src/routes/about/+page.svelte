@@ -4,7 +4,8 @@
   import Footer from "$lib/footer.svelte";
   import { clickToCopy } from "$lib/clickToCopy.js";
   import AgeCounter from "$lib/ageCounter.svelte";
-  import WaveEmoji from "../../lib/icons/wave-emoji.svelte";
+  import WaveEmoji from "../../lib/emojis/wave-emoji.svelte";
+  import Heart from "../../lib/emojis/heart.svelte";
 </script>
 
 <svelte:head>
@@ -58,7 +59,7 @@
           <div class="text-center text-2xl">Skills:</div>
           <div class="flex flex-col py-5">
             <ul class="text-lg">
-              <li>- Svelte (7/10 I ❤️ svelte)</li>
+              <li>- Svelte (7/10 I <Heart /> svelte)</li>
               <li>- React (4/10 no so good)</li>
               <li>- Rust (3/10 yeah)</li>
               <li>- HTML & CSS (8/10 pretty good)</li>

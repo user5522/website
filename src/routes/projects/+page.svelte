@@ -2,7 +2,7 @@
   import Navbar from "$lib/navbar.svelte";
   import WavesStart from "$lib/waves_start.svelte";
   import Footer from "$lib/footer.svelte";
-  import FlushedEmoji from "$lib/icons/flushed-emoji.svelte";
+  import FlushedEmoji from "$lib/emojis/flushed-emoji.svelte";
 </script>
 
 <svelte:head>
