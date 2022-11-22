@@ -2,7 +2,7 @@
 @tailwind components;
 @layer base {
   html {
-    @apply list-none bg-black text-white;
+    @apply list-none bg-black font-poppins text-white;
   }
   a {
     @apply text-blue-400;
