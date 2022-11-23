@@ -8,7 +8,7 @@
     " rock eater",
     " h lover",
     " h enjoyer",
-    "sveltekit lover",
+    " sveltekit lover",
     "ly idot idot",
     "ly stupid developer",
     "ly dumb developer",
