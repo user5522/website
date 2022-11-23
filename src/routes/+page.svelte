@@ -1,14 +1,14 @@
 <!-- svelte-ignore security-anchor-rel-noreferrer -->
 <script>
-  import Navbar from "$lib/navbar.svelte";
-  import WavesStart from "$lib/waves_start.svelte";
+  import SvelteSeo from "svelte-seo";
   import { writable } from "svelte/store";
   import Modal, { bind } from "svelte-simple-modal";
   import Accusations from "$lib/accusations.svelte";
   import CloseButton from "$lib/closeButton.svelte";
-  import Footer from "$lib/footer.svelte";
+  import Navbar from "$lib/navbar.svelte";
+  import WavesStart from "$lib/waves_start.svelte";
   import Subtitle from "$lib/subtitle.svelte";
-  import SvelteSeo from "svelte-seo";
+  import Footer from "$lib/footer.svelte";
 
   const modal = writable(null);
   const showModal = () => modal.set(bind(Accusations));
@@ -98,7 +98,7 @@
         show={$modal}
         unstyled={false}
         closeButton={CloseButton}
-        styleContent={{ background: "#121212", borderRadius: ".8rem" }}
+        styleWindow={{ background: "#121212", borderRadius: ".8rem" }}
         ><a>
           <button class="blue-button" on:click={showModal}>
             View false accusations
