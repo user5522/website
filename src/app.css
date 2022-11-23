@@ -2,7 +2,8 @@
 @tailwind components;
 @layer base {
   html {
-    @apply list-none bg-black font-poppins text-white;
+    @apply list-none
+    bg-black font-poppins text-white;
   }
   a {
     @apply text-blue-400;
@@ -28,6 +29,45 @@
   }
 }
 @tailwind utilities;
+
+/* chrome scrollbar shit (trying to make it like firefox's) */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 0.8rem;
+  background-color: #aaaaaa;
+}
+
+::-webkit-scrollbar-track-piece:start {
+  background: transparent url("/scrollbar/transparent.png") repeat-y;
+}
+
+::-webkit-scrollbar-track-piece:end {
+  background: transparent url("/scrollbar/transparent.png") repeat-y;
+}
+
+/* ::-webkit-scrollbar {
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.8rem;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+*/
 
 a[target="_blank"] {
   background-image: url(/icons/ext_link.svg);
