@@ -46,6 +46,12 @@
   border-radius: 0.8rem;
   background-color: #aaaaaa;
 }
+::-webkit-scrollbar-thumb:hover {
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 0.8rem;
+  background-color: #999999;
+}
 
 ::-webkit-scrollbar-track-piece:start {
   background: transparent url("/scrollbar/transparent.png") repeat-y;
