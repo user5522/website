@@ -4,14 +4,14 @@
   import WavesStart from "$lib/waves_start.svelte";
   import { writable } from "svelte/store";
   import Modal, { bind } from "svelte-simple-modal";
-  import Popup from "$lib/accusations.svelte";
+  import Accusations from "$lib/accusations.svelte";
   import CloseButton from "$lib/closeButton.svelte";
   import Footer from "$lib/footer.svelte";
   import Subtitle from "$lib/subtitle.svelte";
   import SvelteSeo from "svelte-seo";
 
   const modal = writable(null);
-  const showModal = () => modal.set(bind(Popup));
+  const showModal = () => modal.set(bind(Accusations));
 </script>
 
 <SvelteSeo
@@ -98,14 +98,14 @@
         show={$modal}
         unstyled={false}
         closeButton={CloseButton}
-        styleContent={{ backgroundColor: "#121212", borderRadius: "0.75rem" }}
+        styleContent={{ background: "#121212", borderRadius: ".8rem" }}
         ><a>
           <button class="blue-button" on:click={showModal}>
             View false accusations
           </button>
         </a>
         <a href="/accusations" class="text-white">
-          <button class="hidden-button"> View page </button>
+          <button class="hidden-button">View page</button>
         </a>
       </Modal>
     </div>

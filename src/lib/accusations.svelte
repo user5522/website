@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center justify-center py-5 text-white">
+<div class="flex flex-col items-center justify-center bg-dark py-5 text-white">
   <br />
   - Abusive Sexual Contact<br />
   - Advocating Overthrow of Government<br />
