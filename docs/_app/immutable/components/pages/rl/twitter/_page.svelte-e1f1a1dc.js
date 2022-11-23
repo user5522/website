@@ -1,0 +1,1 @@
+import{S as s,i as n,s as o,o as a}from"../../../../chunks/index-250401d6.js";function r(t){return a(()=>{window.location.replace("https://twitter.com/User_5522")}),[]}class l extends s{constructor(e){super(),n(this,e,r,null,o,{})}}export{l as default};

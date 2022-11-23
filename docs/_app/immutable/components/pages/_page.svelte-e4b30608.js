@@ -1,0 +1,449 @@
+import{S as ct,i as bt,s as mt,C as Fa,k as r,e as V,I as Ma,l as o,h as R,n as d,G as t,D as Wa,E as Oa,F as Va,f as j,t as K,B as ne,b as A,a as F,c as M,J as qs,K as La,L as Ga,M as Ua,N as Le,g as gt,d as _t,O as ja,P as Ha,o as za,Q as Ja,v as Bt,w as Ge,m as O,x as Qe,R as Ve,T as Ne,y as Ue,U as ht,z as je,V as Ys,W as pt,X as Ka,Y as Ks,Z as qa,q as f,r as u,_ as Ya,H as Za}from"../../chunks/index-250401d6.js";import{w as Qa}from"../../chunks/index-57cef738.js";import{N as Xa}from"../../chunks/navbar-6b8790dc.js";import{W as xa}from"../../chunks/waves_start-040e70b1.js";import{F as $a}from"../../chunks/footer-4ef267b5.js";function Zs(s,e,l){const i=s.slice();return i[11]=e[l],i}function Qs(s,e,l){const i=s.slice();return i[14]=e[l],i}function Xs(s,e,l){const i=s.slice();return i[17]=e[l],i}function xs(s){return document.title=s[0],{c:ne,l:ne,m:ne,d:ne}}function $s(s){let e;return{c(){e=r("meta"),this.h()},l(l){e=o(l,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","description"),d(e,"content",s[3])},m(l,i){A(l,e,i)},p(l,i){i&8&&d(e,"content",l[3])},d(l){l&&R(e)}}}function ea(s){let e;return{c(){e=r("link"),this.h()},l(l){e=o(l,"LINK",{rel:!0,href:!0}),this.h()},h(){d(e,"rel","canonical"),d(e,"href",s[5])},m(l,i){A(l,e,i)},p(l,i){i&32&&d(e,"href",l[5])},d(l){l&&R(e)}}}function ta(s){let e;return{c(){e=r("meta"),this.h()},l(l){e=o(l,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","keywords"),d(e,"content",s[4])},m(l,i){A(l,e,i)},p(l,i){i&16&&d(e,"content",l[4])},d(l){l&&R(e)}}}function na(s){let e,l,i,a,m,b,g=s[6].title&&ia(s),_=s[6].description&&la(s),p=(s[6].url||s[5])&&ra(s),h=s[6].type&&oa(s),C=s[6].article&&sa(s),w=s[6].images&&s[6].images.length&&ga(s);return{c(){g&&g.c(),e=F(),_&&_.c(),l=F(),p&&p.c(),i=F(),h&&h.c(),a=F(),C&&C.c(),m=F(),w&&w.c(),b=V()},l(c){g&&g.l(c),e=M(c),_&&_.l(c),l=M(c),p&&p.l(c),i=M(c),h&&h.l(c),a=M(c),C&&C.l(c),m=M(c),w&&w.l(c),b=V()},m(c,B){g&&g.m(c,B),A(c,e,B),_&&_.m(c,B),A(c,l,B),p&&p.m(c,B),A(c,i,B),h&&h.m(c,B),A(c,a,B),C&&C.m(c,B),A(c,m,B),w&&w.m(c,B),A(c,b,B)},p(c,B){c[6].title?g?g.p(c,B):(g=ia(c),g.c(),g.m(e.parentNode,e)):g&&(g.d(1),g=null),c[6].description?_?_.p(c,B):(_=la(c),_.c(),_.m(l.parentNode,l)):_&&(_.d(1),_=null),c[6].url||c[5]?p?p.p(c,B):(p=ra(c),p.c(),p.m(i.parentNode,i)):p&&(p.d(1),p=null),c[6].type?h?h.p(c,B):(h=oa(c),h.c(),h.m(a.parentNode,a)):h&&(h.d(1),h=null),c[6].article?C?C.p(c,B):(C=sa(c),C.c(),C.m(m.parentNode,m)):C&&(C.d(1),C=null),c[6].images&&c[6].images.length?w?w.p(c,B):(w=ga(c),w.c(),w.m(b.parentNode,b)):w&&(w.d(1),w=null)},d(c){g&&g.d(c),c&&R(e),_&&_.d(c),c&&R(l),p&&p.d(c),c&&R(i),h&&h.d(c),c&&R(a),C&&C.d(c),c&&R(m),w&&w.d(c),c&&R(b)}}}function ia(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","og:title"),d(e,"content",l=s[6].title)},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[6].title)&&d(e,"content",l)},d(i){i&&R(e)}}}function la(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","og:description"),d(e,"content",l=s[6].description)},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[6].description)&&d(e,"content",l)},d(i){i&&R(e)}}}function ra(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","og:url"),d(e,"content",l=s[6].url||s[5])},m(i,a){A(i,e,a)},p(i,a){a&96&&l!==(l=i[6].url||i[5])&&d(e,"content",l)},d(i){i&&R(e)}}}function oa(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","og:type"),d(e,"content",l=s[6].type.toLowerCase())},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[6].type.toLowerCase())&&d(e,"content",l)},d(i){i&&R(e)}}}function sa(s){let e,l,i,a,m,b,g=s[6].article.publishedTime&&aa(s),_=s[6].article.modifiedTime&&fa(s),p=s[6].article.expirationTime&&ua(s),h=s[6].article.section&&ca(s),C=s[6].article.authors&&s[6].article.authors.length&&ba(s),w=s[6].article.tags&&s[6].article.tags.length&&da(s);return{c(){g&&g.c(),e=F(),_&&_.c(),l=F(),p&&p.c(),i=F(),h&&h.c(),a=F(),C&&C.c(),m=F(),w&&w.c(),b=V()},l(c){g&&g.l(c),e=M(c),_&&_.l(c),l=M(c),p&&p.l(c),i=M(c),h&&h.l(c),a=M(c),C&&C.l(c),m=M(c),w&&w.l(c),b=V()},m(c,B){g&&g.m(c,B),A(c,e,B),_&&_.m(c,B),A(c,l,B),p&&p.m(c,B),A(c,i,B),h&&h.m(c,B),A(c,a,B),C&&C.m(c,B),A(c,m,B),w&&w.m(c,B),A(c,b,B)},p(c,B){c[6].article.publishedTime?g?g.p(c,B):(g=aa(c),g.c(),g.m(e.parentNode,e)):g&&(g.d(1),g=null),c[6].article.modifiedTime?_?_.p(c,B):(_=fa(c),_.c(),_.m(l.parentNode,l)):_&&(_.d(1),_=null),c[6].article.expirationTime?p?p.p(c,B):(p=ua(c),p.c(),p.m(i.parentNode,i)):p&&(p.d(1),p=null),c[6].article.section?h?h.p(c,B):(h=ca(c),h.c(),h.m(a.parentNode,a)):h&&(h.d(1),h=null),c[6].article.authors&&c[6].article.authors.length?C?C.p(c,B):(C=ba(c),C.c(),C.m(m.parentNode,m)):C&&(C.d(1),C=null),c[6].article.tags&&c[6].article.tags.length?w?w.p(c,B):(w=da(c),w.c(),w.m(b.parentNode,b)):w&&(w.d(1),w=null)},d(c){g&&g.d(c),c&&R(e),_&&_.d(c),c&&R(l),p&&p.d(c),c&&R(i),h&&h.d(c),c&&R(a),C&&C.d(c),c&&R(m),w&&w.d(c),c&&R(b)}}}function aa(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","article:published_time"),d(e,"content",l=s[6].article.publishedTime)},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[6].article.publishedTime)&&d(e,"content",l)},d(i){i&&R(e)}}}function fa(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","article:modified_time"),d(e,"content",l=s[6].article.modifiedTime)},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[6].article.modifiedTime)&&d(e,"content",l)},d(i){i&&R(e)}}}function ua(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","article:expiration_time"),d(e,"content",l=s[6].article.expirationTime)},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[6].article.expirationTime)&&d(e,"content",l)},d(i){i&&R(e)}}}function ca(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","article:section"),d(e,"content",l=s[6].article.section)},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[6].article.section)&&d(e,"content",l)},d(i){i&&R(e)}}}function ba(s){let e,l=s[6].article.authors,i=[];for(let a=0;a<l.length;a+=1)i[a]=ma(Xs(s,l,a));return{c(){for(let a=0;a<i.length;a+=1)i[a].c();e=V()},l(a){for(let m=0;m<i.length;m+=1)i[m].l(a);e=V()},m(a,m){for(let b=0;b<i.length;b+=1)i[b].m(a,m);A(a,e,m)},p(a,m){if(m&64){l=a[6].article.authors;let b;for(b=0;b<l.length;b+=1){const g=Xs(a,l,b);i[b]?i[b].p(g,m):(i[b]=ma(g),i[b].c(),i[b].m(e.parentNode,e))}for(;b<i.length;b+=1)i[b].d(1);i.length=l.length}},d(a){qs(i,a),a&&R(e)}}}function ma(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","article:author"),d(e,"content",l=s[17])},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[17])&&d(e,"content",l)},d(i){i&&R(e)}}}function da(s){let e,l=s[6].article.tags,i=[];for(let a=0;a<l.length;a+=1)i[a]=ha(Qs(s,l,a));return{c(){for(let a=0;a<i.length;a+=1)i[a].c();e=V()},l(a){for(let m=0;m<i.length;m+=1)i[m].l(a);e=V()},m(a,m){for(let b=0;b<i.length;b+=1)i[b].m(a,m);A(a,e,m)},p(a,m){if(m&64){l=a[6].article.tags;let b;for(b=0;b<l.length;b+=1){const g=Qs(a,l,b);i[b]?i[b].p(g,m):(i[b]=ha(g),i[b].c(),i[b].m(e.parentNode,e))}for(;b<i.length;b+=1)i[b].d(1);i.length=l.length}},d(a){qs(i,a),a&&R(e)}}}function ha(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","article:tag"),d(e,"content",l=s[14])},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[14])&&d(e,"content",l)},d(i){i&&R(e)}}}function ga(s){let e,l=s[6].images,i=[];for(let a=0;a<l.length;a+=1)i[a]=Ra(Zs(s,l,a));return{c(){for(let a=0;a<i.length;a+=1)i[a].c();e=V()},l(a){for(let m=0;m<i.length;m+=1)i[m].l(a);e=V()},m(a,m){for(let b=0;b<i.length;b+=1)i[b].m(a,m);A(a,e,m)},p(a,m){if(m&64){l=a[6].images;let b;for(b=0;b<l.length;b+=1){const g=Zs(a,l,b);i[b]?i[b].p(g,m):(i[b]=Ra(g),i[b].c(),i[b].m(e.parentNode,e))}for(;b<i.length;b+=1)i[b].d(1);i.length=l.length}},d(a){qs(i,a),a&&R(e)}}}function _a(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","og:image:alt"),d(e,"content",l=s[11].alt)},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[11].alt)&&d(e,"content",l)},d(i){i&&R(e)}}}function pa(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","og:image:width"),d(e,"content",l=s[11].width.toString())},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[11].width.toString())&&d(e,"content",l)},d(i){i&&R(e)}}}function Ba(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{property:!0,content:!0}),this.h()},h(){d(e,"property","og:image:height"),d(e,"content",l=s[11].height.toString())},m(i,a){A(i,e,a)},p(i,a){a&64&&l!==(l=i[11].height.toString())&&d(e,"content",l)},d(i){i&&R(e)}}}function Ra(s){let e,l,i,a,m,b,g=s[11].alt&&_a(s),_=s[11].width&&pa(s),p=s[11].height&&Ba(s);return{c(){e=r("meta"),i=F(),g&&g.c(),a=F(),_&&_.c(),m=F(),p&&p.c(),b=V(),this.h()},l(h){e=o(h,"META",{property:!0,content:!0}),i=M(h),g&&g.l(h),a=M(h),_&&_.l(h),m=M(h),p&&p.l(h),b=V(),this.h()},h(){d(e,"property","og:image"),d(e,"content",l=s[11].url)},m(h,C){A(h,e,C),A(h,i,C),g&&g.m(h,C),A(h,a,C),_&&_.m(h,C),A(h,m,C),p&&p.m(h,C),A(h,b,C)},p(h,C){C&64&&l!==(l=h[11].url)&&d(e,"content",l),h[11].alt?g?g.p(h,C):(g=_a(h),g.c(),g.m(a.parentNode,a)):g&&(g.d(1),g=null),h[11].width?_?_.p(h,C):(_=pa(h),_.c(),_.m(m.parentNode,m)):_&&(_.d(1),_=null),h[11].height?p?p.p(h,C):(p=Ba(h),p.c(),p.m(b.parentNode,b)):p&&(p.d(1),p=null)},d(h){h&&R(e),h&&R(i),g&&g.d(h),h&&R(a),_&&_.d(h),h&&R(m),p&&p.d(h),h&&R(b)}}}function ya(s){let e,l,i,a,m,b,g,_,p,h,C,w=s[7].site&&va(s),c=s[7].title&&Ca(s),B=s[7].description&&ka(s),T=s[7].image&&wa(s),S=s[7].imageAlt&&Aa(s),P=s[7].player&&Ea(s),E=s[7].playerWidth&&Ta(s),W=s[7].playerHeight&&Ia(s);return{c(){e=r("meta"),i=F(),w&&w.c(),a=F(),c&&c.c(),m=F(),B&&B.c(),b=F(),T&&T.c(),g=F(),S&&S.c(),_=F(),P&&P.c(),p=F(),E&&E.c(),h=F(),W&&W.c(),C=V(),this.h()},l(y){e=o(y,"META",{name:!0,content:!0}),i=M(y),w&&w.l(y),a=M(y),c&&c.l(y),m=M(y),B&&B.l(y),b=M(y),T&&T.l(y),g=M(y),S&&S.l(y),_=M(y),P&&P.l(y),p=M(y),E&&E.l(y),h=M(y),W&&W.l(y),C=V(),this.h()},h(){d(e,"name","twitter:card"),d(e,"content",l=s[7].card||"summary_large_image")},m(y,k){A(y,e,k),A(y,i,k),w&&w.m(y,k),A(y,a,k),c&&c.m(y,k),A(y,m,k),B&&B.m(y,k),A(y,b,k),T&&T.m(y,k),A(y,g,k),S&&S.m(y,k),A(y,_,k),P&&P.m(y,k),A(y,p,k),E&&E.m(y,k),A(y,h,k),W&&W.m(y,k),A(y,C,k)},p(y,k){k&128&&l!==(l=y[7].card||"summary_large_image")&&d(e,"content",l),y[7].site?w?w.p(y,k):(w=va(y),w.c(),w.m(a.parentNode,a)):w&&(w.d(1),w=null),y[7].title?c?c.p(y,k):(c=Ca(y),c.c(),c.m(m.parentNode,m)):c&&(c.d(1),c=null),y[7].description?B?B.p(y,k):(B=ka(y),B.c(),B.m(b.parentNode,b)):B&&(B.d(1),B=null),y[7].image?T?T.p(y,k):(T=wa(y),T.c(),T.m(g.parentNode,g)):T&&(T.d(1),T=null),y[7].imageAlt?S?S.p(y,k):(S=Aa(y),S.c(),S.m(_.parentNode,_)):S&&(S.d(1),S=null),y[7].player?P?P.p(y,k):(P=Ea(y),P.c(),P.m(p.parentNode,p)):P&&(P.d(1),P=null),y[7].playerWidth?E?E.p(y,k):(E=Ta(y),E.c(),E.m(h.parentNode,h)):E&&(E.d(1),E=null),y[7].playerHeight?W?W.p(y,k):(W=Ia(y),W.c(),W.m(C.parentNode,C)):W&&(W.d(1),W=null)},d(y){y&&R(e),y&&R(i),w&&w.d(y),y&&R(a),c&&c.d(y),y&&R(m),B&&B.d(y),y&&R(b),T&&T.d(y),y&&R(g),S&&S.d(y),y&&R(_),P&&P.d(y),y&&R(p),E&&E.d(y),y&&R(h),W&&W.d(y),y&&R(C)}}}function va(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","twitter:site"),d(e,"content",l=s[7].site)},m(i,a){A(i,e,a)},p(i,a){a&128&&l!==(l=i[7].site)&&d(e,"content",l)},d(i){i&&R(e)}}}function Ca(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","twitter:title"),d(e,"content",l=s[7].title)},m(i,a){A(i,e,a)},p(i,a){a&128&&l!==(l=i[7].title)&&d(e,"content",l)},d(i){i&&R(e)}}}function ka(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","twitter:description"),d(e,"content",l=s[7].description)},m(i,a){A(i,e,a)},p(i,a){a&128&&l!==(l=i[7].description)&&d(e,"content",l)},d(i){i&&R(e)}}}function wa(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","twitter:image"),d(e,"content",l=s[7].image)},m(i,a){A(i,e,a)},p(i,a){a&128&&l!==(l=i[7].image)&&d(e,"content",l)},d(i){i&&R(e)}}}function Aa(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","twitter:image:alt"),d(e,"content",l=s[7].imageAlt)},m(i,a){A(i,e,a)},p(i,a){a&128&&l!==(l=i[7].imageAlt)&&d(e,"content",l)},d(i){i&&R(e)}}}function Ea(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","twitter:player"),d(e,"content",l=s[7].player)},m(i,a){A(i,e,a)},p(i,a){a&128&&l!==(l=i[7].player)&&d(e,"content",l)},d(i){i&&R(e)}}}function Ta(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","twitter:player:width"),d(e,"content",l=s[7].playerWidth)},m(i,a){A(i,e,a)},p(i,a){a&128&&l!==(l=i[7].playerWidth)&&d(e,"content",l)},d(i){i&&R(e)}}}function Ia(s){let e,l;return{c(){e=r("meta"),this.h()},l(i){e=o(i,"META",{name:!0,content:!0}),this.h()},h(){d(e,"name","twitter:player:height"),d(e,"content",l=s[7].playerHeight)},m(i,a){A(i,e,a)},p(i,a){a&128&&l!==(l=i[7].playerHeight)&&d(e,"content",l)},d(i){i&&R(e)}}}function Sa(s){let e,l=`<script type="application/ld+json">${JSON.stringify({"@context":"https://schema.org",...s[8]})+"<"}/script>`,i;return{c(){e=new La(!1),i=V(),this.h()},l(a){e=Ga(a,!1),i=V(),this.h()},h(){e.a=i},m(a,m){e.m(l,a,m),A(a,i,m)},p(a,m){m&256&&l!==(l=`<script type="application/ld+json">${JSON.stringify({"@context":"https://schema.org",...a[8]})+"<"}/script>`)&&e.p(l)},d(a){a&&R(i),a&&e.d()}}}function ef(s){let e,l,i,a,m,b,g,_,p,h,C,w=s[0]&&xs(s),c=s[3]&&$s(s),B=s[5]&&ea(s),T=s[4]&&ta(s),S=s[6]&&na(s),P=s[7]&&ya(s),E=s[8]&&Sa(s);const W=s[10].default,y=Fa(W,s,s[9],null);return{c(){w&&w.c(),e=r("meta"),i=r("meta"),c&&c.c(),m=V(),B&&B.c(),b=V(),T&&T.c(),g=V(),S&&S.c(),_=V(),P&&P.c(),p=V(),E&&E.c(),h=V(),y&&y.c(),this.h()},l(k){const I=Ma("svelte-1q8xl96",document.head);w&&w.l(I),e=o(I,"META",{name:!0,content:!0}),i=o(I,"META",{name:!0,content:!0}),c&&c.l(I),m=V(),B&&B.l(I),b=V(),T&&T.l(I),g=V(),S&&S.l(I),_=V(),P&&P.l(I),p=V(),E&&E.l(I),h=V(),y&&y.l(I),I.forEach(R),this.h()},h(){d(e,"name","robots"),d(e,"content",l=`${s[1]?"noindex":"index"},${s[2]?"nofollow":"follow"}`),d(i,"name","googlebot"),d(i,"content",a=`${s[1]?"noindex":"index"},${s[2]?"nofollow":"follow"}`)},m(k,I){w&&w.m(document.head,null),t(document.head,e),t(document.head,i),c&&c.m(document.head,null),t(document.head,m),B&&B.m(document.head,null),t(document.head,b),T&&T.m(document.head,null),t(document.head,g),S&&S.m(document.head,null),t(document.head,_),P&&P.m(document.head,null),t(document.head,p),E&&E.m(document.head,null),t(document.head,h),y&&y.m(document.head,null),C=!0},p(k,[I]){k[0]?w||(w=xs(k),w.c(),w.m(e.parentNode,e)):w&&(w.d(1),w=null),(!C||I&6&&l!==(l=`${k[1]?"noindex":"index"},${k[2]?"nofollow":"follow"}`))&&d(e,"content",l),(!C||I&6&&a!==(a=`${k[1]?"noindex":"index"},${k[2]?"nofollow":"follow"}`))&&d(i,"content",a),k[3]?c?c.p(k,I):(c=$s(k),c.c(),c.m(m.parentNode,m)):c&&(c.d(1),c=null),k[5]?B?B.p(k,I):(B=ea(k),B.c(),B.m(b.parentNode,b)):B&&(B.d(1),B=null),k[4]?T?T.p(k,I):(T=ta(k),T.c(),T.m(g.parentNode,g)):T&&(T.d(1),T=null),k[6]?S?S.p(k,I):(S=na(k),S.c(),S.m(_.parentNode,_)):S&&(S.d(1),S=null),k[7]?P?P.p(k,I):(P=ya(k),P.c(),P.m(p.parentNode,p)):P&&(P.d(1),P=null),k[8]?E?E.p(k,I):(E=Sa(k),E.c(),E.m(h.parentNode,h)):E&&(E.d(1),E=null),y&&y.p&&(!C||I&512)&&Wa(y,W,k,k[9],C?Va(W,k[9],I,null):Oa(k[9]),null)},i(k){C||(j(y,k),C=!0)},o(k){K(y,k),C=!1},d(k){w&&w.d(k),R(e),R(i),c&&c.d(k),R(m),B&&B.d(k),R(b),T&&T.d(k),R(g),S&&S.d(k),R(_),P&&P.d(k),R(p),E&&E.d(k),R(h),y&&y.d(k)}}}function tf(s,e,l){let{$$slots:i={},$$scope:a}=e,{title:m=void 0}=e,{noindex:b=!1}=e,{nofollow:g=!1}=e,{description:_=void 0}=e,{keywords:p=void 0}=e,{canonical:h=void 0}=e,{openGraph:C=void 0}=e,{twitter:w=void 0}=e,{jsonLd:c=void 0}=e;return s.$$set=B=>{"title"in B&&l(0,m=B.title),"noindex"in B&&l(1,b=B.noindex),"nofollow"in B&&l(2,g=B.nofollow),"description"in B&&l(3,_=B.description),"keywords"in B&&l(4,p=B.keywords),"canonical"in B&&l(5,h=B.canonical),"openGraph"in B&&l(6,C=B.openGraph),"twitter"in B&&l(7,w=B.twitter),"jsonLd"in B&&l(8,c=B.jsonLd),"$$scope"in B&&l(9,a=B.$$scope)},[m,b,g,_,p,h,C,w,c,a,i]}class nf extends ct{constructor(e){super(),bt(this,e,tf,ef,mt,{title:0,noindex:1,nofollow:2,description:3,keywords:4,canonical:5,openGraph:6,twitter:7,jsonLd:8})}}function lf(s,{delay:e=0,duration:l=400,easing:i=Ua}={}){const a=+getComputedStyle(s).opacity;return{delay:e,duration:l,easing:i,css:m=>`opacity: ${m*a}`}}const{window:rf}=Ja;function Da(s){let e,l,i,a,m,b,g,_,p,h,C,w,c,B,T,S,P,E=s[1].closeButton&&Pa(s);var W=s[2];function y(k){return{}}return W&&(b=Bt(W,y())),{c(){e=r("div"),l=r("div"),i=r("div"),E&&E.c(),a=F(),m=r("div"),b&&Ge(b.$$.fragment),this.h()},l(k){e=o(k,"DIV",{class:!0,style:!0});var I=O(e);l=o(I,"DIV",{class:!0,style:!0});var q=O(l);i=o(q,"DIV",{class:!0,role:!0,"aria-modal":!0,"aria-label":!0,"aria-labelledby":!0,style:!0});var H=O(i);E&&E.l(H),a=M(H),m=o(H,"DIV",{class:!0,style:!0});var ie=O(m);b&&Qe(b.$$.fragment,ie),ie.forEach(R),H.forEach(R),q.forEach(R),I.forEach(R),this.h()},h(){d(m,"class",g=Ve(s[1].classContent)+" svelte-kmcebd"),d(m,"style",s[9]),Ne(m,"content",!s[0]),d(i,"class",_=Ve(s[1].classWindow)+" svelte-kmcebd"),d(i,"role","dialog"),d(i,"aria-modal","true"),d(i,"aria-label",p=s[1].ariaLabelledBy?null:s[1].ariaLabel||null),d(i,"aria-labelledby",h=s[1].ariaLabelledBy||null),d(i,"style",s[8]),Ne(i,"window",!s[0]),d(l,"class",w=Ve(s[1].classWindowWrap)+" svelte-kmcebd"),d(l,"style",s[7]),Ne(l,"wrap",!s[0]),d(e,"class",c=Ve(s[1].classBg)+" svelte-kmcebd"),d(e,"style",s[6]),Ne(e,"bg",!s[0])},m(k,I){A(k,e,I),t(e,l),t(l,i),E&&E.m(i,null),t(i,a),t(i,m),b&&Ue(b,m,null),s[49](i),s[50](l),s[51](e),T=!0,S||(P=[Le(i,"introstart",function(){ht(s[13])&&s[13].apply(this,arguments)}),Le(i,"outrostart",function(){ht(s[14])&&s[14].apply(this,arguments)}),Le(i,"introend",function(){ht(s[15])&&s[15].apply(this,arguments)}),Le(i,"outroend",function(){ht(s[16])&&s[16].apply(this,arguments)}),Le(e,"mousedown",s[20]),Le(e,"mouseup",s[21])],S=!0)},p(k,I){if(s=k,s[1].closeButton?E?(E.p(s,I),I[0]&2&&j(E,1)):(E=Pa(s),E.c(),j(E,1),E.m(i,a)):E&&(gt(),K(E,1,1,()=>{E=null}),_t()),W!==(W=s[2])){if(b){gt();const q=b;K(q.$$.fragment,1,0,()=>{je(q,1)}),_t()}W?(b=Bt(W,y()),Ge(b.$$.fragment),j(b.$$.fragment,1),Ue(b,m,null)):b=null}(!T||I[0]&2&&g!==(g=Ve(s[1].classContent)+" svelte-kmcebd"))&&d(m,"class",g),(!T||I[0]&512)&&d(m,"style",s[9]),(!T||I[0]&3)&&Ne(m,"content",!s[0]),(!T||I[0]&2&&_!==(_=Ve(s[1].classWindow)+" svelte-kmcebd"))&&d(i,"class",_),(!T||I[0]&2&&p!==(p=s[1].ariaLabelledBy?null:s[1].ariaLabel||null))&&d(i,"aria-label",p),(!T||I[0]&2&&h!==(h=s[1].ariaLabelledBy||null))&&d(i,"aria-labelledby",h),(!T||I[0]&256)&&d(i,"style",s[8]),(!T||I[0]&3)&&Ne(i,"window",!s[0]),(!T||I[0]&2&&w!==(w=Ve(s[1].classWindowWrap)+" svelte-kmcebd"))&&d(l,"class",w),(!T||I[0]&128)&&d(l,"style",s[7]),(!T||I[0]&3)&&Ne(l,"wrap",!s[0]),(!T||I[0]&2&&c!==(c=Ve(s[1].classBg)+" svelte-kmcebd"))&&d(e,"class",c),(!T||I[0]&64)&&d(e,"style",s[6]),(!T||I[0]&3)&&Ne(e,"bg",!s[0])},i(k){T||(j(E),b&&j(b.$$.fragment,k),Ys(()=>{C||(C=pt(i,s[12],s[1].transitionWindowProps,!0)),C.run(1)}),Ys(()=>{B||(B=pt(e,s[11],s[1].transitionBgProps,!0)),B.run(1)}),T=!0)},o(k){K(E),b&&K(b.$$.fragment,k),C||(C=pt(i,s[12],s[1].transitionWindowProps,!1)),C.run(0),B||(B=pt(e,s[11],s[1].transitionBgProps,!1)),B.run(0),T=!1},d(k){k&&R(e),E&&E.d(),b&&je(b),s[49](null),k&&C&&C.end(),s[50](null),s[51](null),k&&B&&B.end(),S=!1,Ka(P)}}}function Pa(s){let e,l,i,a,m;const b=[sf,of],g=[];function _(p,h){return h[0]&2&&(e=null),e==null&&(e=!!p[17](p[1].closeButton)),e?0:1}return l=_(s,[-1,-1,-1]),i=g[l]=b[l](s),{c(){i.c(),a=V()},l(p){i.l(p),a=V()},m(p,h){g[l].m(p,h),A(p,a,h),m=!0},p(p,h){let C=l;l=_(p,h),l===C?g[l].p(p,h):(gt(),K(g[C],1,1,()=>{g[C]=null}),_t(),i=g[l],i?i.p(p,h):(i=g[l]=b[l](p),i.c()),j(i,1),i.m(a.parentNode,a))},i(p){m||(j(i),m=!0)},o(p){K(i),m=!1},d(p){g[l].d(p),p&&R(a)}}}function of(s){let e,l,i,a;return{c(){e=r("button"),this.h()},l(m){e=o(m,"BUTTON",{class:!0,"aria-label":!0,style:!0,type:!0}),O(e).forEach(R),this.h()},h(){d(e,"class",l=Ve(s[1].classCloseButton)+" svelte-kmcebd"),d(e,"aria-label","Close modal"),d(e,"style",s[10]),d(e,"type","button"),Ne(e,"close",!s[0])},m(m,b){A(m,e,b),i||(a=Le(e,"click",s[18]),i=!0)},p(m,b){b[0]&2&&l!==(l=Ve(m[1].classCloseButton)+" svelte-kmcebd")&&d(e,"class",l),b[0]&1024&&d(e,"style",m[10]),b[0]&3&&Ne(e,"close",!m[0])},i:ne,o:ne,d(m){m&&R(e),i=!1,a()}}}function sf(s){let e,l,i;var a=s[1].closeButton;function m(b){return{props:{onClose:b[18]}}}return a&&(e=Bt(a,m(s))),{c(){e&&Ge(e.$$.fragment),l=V()},l(b){e&&Qe(e.$$.fragment,b),l=V()},m(b,g){e&&Ue(e,b,g),A(b,l,g),i=!0},p(b,g){if(a!==(a=b[1].closeButton)){if(e){gt();const _=e;K(_.$$.fragment,1,0,()=>{je(_,1)}),_t()}a?(e=Bt(a,m(b)),Ge(e.$$.fragment),j(e.$$.fragment,1),Ue(e,l.parentNode,l)):e=null}},i(b){i||(e&&j(e.$$.fragment,b),i=!0)},o(b){e&&K(e.$$.fragment,b),i=!1},d(b){b&&R(l),e&&je(e,b)}}}function af(s){let e,l,i,a,m=s[2]&&Da(s);const b=s[48].default,g=Fa(b,s,s[47],null);return{c(){m&&m.c(),e=F(),g&&g.c()},l(_){m&&m.l(_),e=M(_),g&&g.l(_)},m(_,p){m&&m.m(_,p),A(_,e,p),g&&g.m(_,p),l=!0,i||(a=Le(rf,"keydown",s[19]),i=!0)},p(_,p){_[2]?m?(m.p(_,p),p[0]&4&&j(m,1)):(m=Da(_),m.c(),j(m,1),m.m(e.parentNode,e)):m&&(gt(),K(m,1,1,()=>{m=null}),_t()),g&&g.p&&(!l||p[1]&65536)&&Wa(g,b,_,_[47],l?Va(b,_[47],p,null):Oa(_[47]),null)},i(_){l||(j(m),j(g,_),l=!0)},o(_){K(m),K(g,_),l=!1},d(_){m&&m.d(_),_&&R(e),g&&g.d(_),i=!1,a()}}}function Na(s,e={}){return function(i){return new s({...i,props:{...e,...i.props}})}}function ff(s,e,l){let{$$slots:i={},$$scope:a}=e;const m=ja(),b=qa,g=v=>v.tabIndex>=0&&!v.hidden&&!v.disabled&&v.style.display!=="none"&&v.type!=="hidden"&&Boolean(v.offsetWidth||v.offsetHeight||v.getClientRects().length);let{isTabbable:_=g}=e,{show:p=null}=e,{key:h="simple-modal"}=e,{ariaLabel:C=null}=e,{ariaLabelledBy:w=null}=e,{closeButton:c=!0}=e,{closeOnEsc:B=!0}=e,{closeOnOuterClick:T=!0}=e,{styleBg:S={}}=e,{styleWindowWrap:P={}}=e,{styleWindow:E={}}=e,{styleContent:W={}}=e,{styleCloseButton:y={}}=e,{classBg:k=null}=e,{classWindowWrap:I=null}=e,{classWindow:q=null}=e,{classContent:H=null}=e,{classCloseButton:ie=null}=e,{unstyled:Re=!1}=e,{setContext:L=b}=e,{transitionBg:ee=lf}=e,{transitionBgProps:ce={duration:250}}=e,{transitionWindow:Y=ee}=e,{transitionWindowProps:ye=ce}=e,{disableFocusTrap:ve=!1}=e;const se={ariaLabel:C,ariaLabelledBy:w,closeButton:c,closeOnEsc:B,closeOnOuterClick:T,styleBg:S,styleWindowWrap:P,styleWindow:E,styleContent:W,styleCloseButton:y,classBg:k,classWindowWrap:I,classWindow:q,classContent:H,classCloseButton:ie,transitionBg:ee,transitionBgProps:ce,transitionWindow:Y,transitionWindowProps:ye,disableFocusTrap:ve,isTabbable:_,unstyled:Re};let U={...se},ae=null,be,me,Z,Ce,te,ke,we,Ae,de,Ee,Te,he,Ie,Se,fe;const He=v=>v.replace(/([a-zA-Z])(?=[A-Z])/g,"$1-").toLowerCase(),Q=v=>v?Object.keys(v).reduce((Be,N)=>`${Be}; ${He(N)}: ${v[N]}`,""):"",De=v=>!!(v&&v.constructor&&v.call&&v.apply),ze=()=>{l(6,te=Q(Object.assign({},{width:window.innerWidth,height:window.innerHeight},U.styleBg))),l(7,ke=Q(U.styleWindowWrap)),l(8,we=Q(U.styleWindow)),l(9,Ae=Q(U.styleContent)),l(10,de=Q(U.styleCloseButton)),l(11,Ee=U.transitionBg),l(12,Te=U.transitionWindow)},z=()=>{};let ue=z,ge=z,Pe=z,le=z;const Fe=(v,Be={},N={},G={})=>{l(2,ae=Na(v,Be)),l(1,U={...se,...N}),ze(),pe(),l(13,ue=x=>{G.onOpen&&G.onOpen(x),m("open"),m("opening")}),l(14,ge=x=>{G.onClose&&G.onClose(x),m("close"),m("closing")}),l(15,Pe=x=>{G.onOpened&&G.onOpened(x),m("opened")}),l(16,le=x=>{G.onClosed&&G.onClosed(x),m("closed")})},re=(v={})=>{!ae||(l(14,ge=v.onClose||ge),l(16,le=v.onClosed||le),l(2,ae=null),oe())},_e=v=>{if(U.closeOnEsc&&ae&&v.key==="Escape"&&(v.preventDefault(),re()),ae&&v.key==="Tab"&&!U.disableFocusTrap){const Be=Z.querySelectorAll("*"),N=Array.from(Be).filter(U.isTabbable).sort((x,Ye)=>x.tabIndex-Ye.tabIndex);let G=N.indexOf(document.activeElement);G===-1&&v.shiftKey&&(G=0),G+=N.length+(v.shiftKey?-1:1),G%=N.length,N[G].focus(),v.preventDefault()}},Je=v=>{U.closeOnOuterClick&&(v.target===be||v.target===me)&&(fe=v.target)},Ke=v=>{U.closeOnOuterClick&&v.target===fe&&(v.preventDefault(),re())},pe=()=>{Ce=window.scrollY,he=document.body.style.position,Ie=document.body.style.overflow,Se=document.body.style.width,document.body.style.position="fixed",document.body.style.top=`-${Ce}px`,document.body.style.overflow="hidden",document.body.style.width="100%"},oe=()=>{document.body.style.position=he||"",document.body.style.top="",document.body.style.overflow=Ie||"",document.body.style.width=Se||"",window.scrollTo(0,Ce)};L(h,{open:Fe,close:re});let X=!1;Ha(()=>{X&&re()}),za(()=>{l(46,X=!0)});function Me(v){Ks[v?"unshift":"push"](()=>{Z=v,l(5,Z)})}function D(v){Ks[v?"unshift":"push"](()=>{me=v,l(4,me)})}function J(v){Ks[v?"unshift":"push"](()=>{be=v,l(3,be)})}return s.$$set=v=>{"isTabbable"in v&&l(22,_=v.isTabbable),"show"in v&&l(23,p=v.show),"key"in v&&l(24,h=v.key),"ariaLabel"in v&&l(25,C=v.ariaLabel),"ariaLabelledBy"in v&&l(26,w=v.ariaLabelledBy),"closeButton"in v&&l(27,c=v.closeButton),"closeOnEsc"in v&&l(28,B=v.closeOnEsc),"closeOnOuterClick"in v&&l(29,T=v.closeOnOuterClick),"styleBg"in v&&l(30,S=v.styleBg),"styleWindowWrap"in v&&l(31,P=v.styleWindowWrap),"styleWindow"in v&&l(32,E=v.styleWindow),"styleContent"in v&&l(33,W=v.styleContent),"styleCloseButton"in v&&l(34,y=v.styleCloseButton),"classBg"in v&&l(35,k=v.classBg),"classWindowWrap"in v&&l(36,I=v.classWindowWrap),"classWindow"in v&&l(37,q=v.classWindow),"classContent"in v&&l(38,H=v.classContent),"classCloseButton"in v&&l(39,ie=v.classCloseButton),"unstyled"in v&&l(0,Re=v.unstyled),"setContext"in v&&l(40,L=v.setContext),"transitionBg"in v&&l(41,ee=v.transitionBg),"transitionBgProps"in v&&l(42,ce=v.transitionBgProps),"transitionWindow"in v&&l(43,Y=v.transitionWindow),"transitionWindowProps"in v&&l(44,ye=v.transitionWindowProps),"disableFocusTrap"in v&&l(45,ve=v.disableFocusTrap),"$$scope"in v&&l(47,a=v.$$scope)},s.$$.update=()=>{s.$$.dirty[0]&8388608|s.$$.dirty[1]&32768&&X&&(De(p)?Fe(p):re())},[Re,U,ae,be,me,Z,te,ke,we,Ae,de,Ee,Te,ue,ge,Pe,le,De,re,_e,Je,Ke,_,p,h,C,w,c,B,T,S,P,E,W,y,k,I,q,H,ie,L,ee,ce,Y,ye,ve,X,a,i,Me,D,J]}class uf extends ct{constructor(e){super(),bt(this,e,ff,af,mt,{isTabbable:22,show:23,key:24,ariaLabel:25,ariaLabelledBy:26,closeButton:27,closeOnEsc:28,closeOnOuterClick:29,styleBg:30,styleWindowWrap:31,styleWindow:32,styleContent:33,styleCloseButton:34,classBg:35,classWindowWrap:36,classWindow:37,classContent:38,classCloseButton:39,unstyled:0,setContext:40,transitionBg:41,transitionBgProps:42,transitionWindow:43,transitionWindowProps:44,disableFocusTrap:45},null,[-1,-1,-1])}}function cf(s){let e,l,i,a,m,b,g,_,p,h,C,w,c,B,T,S,P,E,W,y,k,I,q,H,ie,Re,L,ee,ce,Y,ye,ve,se,U,ae,be,me,Z,Ce,te,ke,we,Ae,de,Ee,Te,he,Ie,Se,fe,He,Q,De,ze,z,ue,ge,Pe,le,Fe,re,_e,Je,Ke,pe,oe,qe,X,Me,D,J,v,Be,N,G,x,Ye,We,et,tt,$,Xe,nt,xe,Ze,it,lt,rt,$e,ot,Oe,st,at,ft,ut,Rt,yt,vt,Ct,kt,wt,At,Et,Tt,It,St,Dt,Pt,Ft,Mt,Wt,Ot,Vt,Nt,Lt,Gt,Ut,jt,Ht,zt,Jt,Kt,qt,Yt,Zt,Qt,Xt,xt,$t,en,tn,nn,ln,rn,on,sn,an,fn,un,cn,bn,mn,dn,hn,gn,_n,pn,Bn,Rn,yn,vn,Cn,kn,wn,An,En,Tn,In,Sn,Dn,Pn,Fn,Mn,Wn,On,Vn,Nn,Ln,Gn,Un,jn,Hn,zn,Jn,Kn,qn,Yn,Zn,Qn,Xn,xn,$n,ei,ti,ni,ii,li,ri,oi,si,ai,fi,ui,ci,bi,mi,di,hi,gi,_i,pi,Bi,Ri,yi,vi,Ci,ki,wi,Ai,Ei,Ti,Ii,Si,Di,Pi,Fi,Mi,Wi,Oi,Vi,Ni,Li,Gi,Ui,ji,Hi,zi,Ji,Ki,qi,Yi,Zi,Qi,Xi,xi,$i,el,tl,nl,il,ll,rl,ol,sl,al,fl,ul,cl,bl,ml,dl,hl,gl,_l,pl,Bl,Rl,yl,vl,Cl,kl,wl,Al,El,Tl,Il,Sl,Dl,Pl,Fl,Ml,Wl,Ol,Vl,Nl,Ll,Gl,Ul,jl,Hl,zl,Jl,Kl,ql,Yl,Zl,Ql,Xl,xl,$l,er,tr,nr,ir,lr,rr,or,sr,ar,fr,ur,cr,br,mr,dr,hr,gr,_r,pr,Br,Rr,yr,vr,Cr,kr,wr,Ar,Er,Tr,Ir,Sr,Dr,Pr,Fr,Mr,Wr,Or,Vr,Nr,Lr,Gr,Ur,jr,Hr,zr,Jr,Kr,qr,Yr,Zr,Qr,Xr,xr,$r,eo,to,no,io,lo,ro,oo,so,ao,fo,uo,co,bo,mo,ho,go,_o,po,Bo,Ro,yo,vo,Co,ko,wo,Ao,Eo,To,Io,So,Do,Po,Fo,Mo,Wo,Oo,Vo,No,Lo,Go,Uo,jo,Ho,zo,Jo,Ko,qo,Yo,Zo,Qo,Xo,xo,$o,es,ts,ns,is,ls,rs,os,ss,as,fs,us,cs,bs,ms,ds,hs,gs,_s,ps,Bs,Rs,ys,vs,Cs,ks,ws,As,Es,Ts,Is,Ss,Ds,Ps,Fs,Ms,Ws,Os,Vs,Ns,Ls,Gs,Us,js,Hs,zs,Js;return{c(){e=r("div"),l=r("br"),i=f(`
+  - Abusive Sexual Contact`),a=r("br"),m=f(`
+  - Advocating Overthrow of Government`),b=r("br"),g=f(`
+  - Aggravated Assault/Battery`),_=r("br"),p=f(`
+  - Aggravated Identity Theft`),h=r("br"),C=f(`
+  - Aggravated Sexual Abuse`),w=r("br"),c=f(`
+  - Aiming a Laser Pointer at an Aircraft`),B=r("br"),T=f(`
+  - Airplane Hijacking`),S=r("br"),P=f(`
+  - Anti-racketeering`),E=r("br"),W=f(`
+  - Antitrust`),y=r("br"),k=f(`
+  - Armed Robbery`),I=r("br"),q=f(`
+  - Arson`),H=r("br"),ie=f(`
+  - Assassination`),Re=r("br"),L=f(`
+  - Assault with a Deadly Weapon`),ee=r("br"),ce=f(`
+  - Assaulting or Killing Federal Officer`),Y=r("br"),ye=f(`
+  - Assisting or Instigating Escape`),ve=r("br"),se=f(`
+  - Attempt to commit Murder/Manslaughter`),U=r("br"),ae=f(`
+  - Bank Burglary`),be=r("br"),me=f(`
+  - Bankruptcy Fraud/Embezzlement`),Z=r("br"),Ce=f(`
+  - Bank Larceny`),te=r("br"),ke=f(`
+  - Bank Robbery`),we=r("br"),Ae=f(`
+  - Blackmail`),de=r("br"),Ee=f(`
+  - Bombing Matters`),Te=r("br"),he=f(`
+  - Bond Default`),Ie=r("br"),Se=f(`
+  - Breaking and/or Entering Carrier Facilities`),fe=r("br"),He=f(`
+  - Bribery Crimes`),Q=r("br"),De=f(`
+  - Certification of Checks (Fraud)`),ze=r("br"),z=f(`
+  - Child Abuse`),ue=r("br"),ge=f(`
+  - Child Exploitation`),Pe=r("br"),le=f(`
+  - Child Pornography`),Fe=r("br"),re=f(`
+  - Civil Action to Restrain Harassment of a Victim or Witness`),_e=r("br"),Je=f(`
+  - Coercion`),Ke=r("br"),pe=f(`
+  - Commodities Price Fixing`),oe=r("br"),qe=f(`
+  - Computer Crime`),X=r("br"),Me=f(`
+  - Concealing Escaped Prisoner`),D=r("br"),J=f(`
+  - Concealing Person from Arrest`),v=r("br"),Be=f(`
+  - Concealment of Assets`),N=r("br"),G=f(`
+  - Conspiracy (in matters under FBI jurisdiction)`),x=r("br"),Ye=f(`
+  - Conspiracy to Impede or Injure an Officer`),We=r("br"),et=f(`
+  - Contempt of Court`),tt=r("br"),$=f(`
+  - Continuing Criminal Enterprise`),Xe=r("br"),nt=f(`
+  - Conveying False Information`),xe=r("br"),Ze=f(`
+  - Copyright Matters`),it=r("br"),lt=f(`
+  - Counterfeiting`),rt=r("br"),$e=f(`
+  - Counterintelligence Crimes`),ot=r("br"),Oe=f(`
+  - Credit/Debit Card Fraud`),st=r("br"),at=f(`
+  - Crime Aboard Aircraft`),ft=r("br"),ut=f(`
+  - Crimes on Government Reservations`),Rt=r("br"),yt=f(`
+  - Crimes on Indian Reservations`),vt=r("br"),Ct=f(`
+  - Criminal Contempt of Court`),kt=r("br"),wt=f(`
+  - Criminal Forfeiture`),At=r("br"),Et=f(`
+  - Criminal Infringement of a Copyright`),Tt=r("br"),It=f(`
+  - Cyber Crimes`),St=r("br"),Dt=f(`
+  - Damage to Religious Property`),Pt=r("br"),Ft=f(`
+  - Delivery to Consignee`),Mt=r("br"),Wt=f(`
+  - Demands Against the U.S.`),Ot=r("br"),Vt=f(`
+  - Destruction of Aircraft or Motor Vehicles Used in Foreign Commerce`),Nt=r("br"),Lt=f(`
+  - Destruction of an Energy Facility`),Gt=r("br"),Ut=f(`
+  - Destruction of Property to Prevent Seizure`),jt=r("br"),Ht=f(`
+  - Destruction of Records in Federal Investigations and Bankruptcy`),zt=r("br"),Jt=f(`
+  - Destruction of Corporate Audit Records`),Kt=r("br"),qt=f(`
+  - Destruction of Veterans\u2019 Memorials`),Yt=r("br"),Zt=f(`
+  - Detention of Armed Vessel`),Qt=r("br"),Xt=f(`
+  - Disclosure of Confidential Information`),xt=r("br"),$t=f(`
+  - Domestic Security`),en=r("br"),tn=f(`
+  - Domestic Terrorism`),nn=r("br"),ln=f(`
+  - Domestic Violence`),rn=r("br"),on=f(`
+  - Drive-by Shooting`),sn=r("br"),an=f(`
+  - Drug Abuse Violations`),fn=r("br"),un=f(`
+  - Drug Smuggling`),cn=r("br"),bn=f(`
+  - Drug Trafficking`),mn=r("br"),dn=f(`
+  - DUI/DWI on Federal Property`),hn=r("br"),gn=f(`
+  - Economic Espionage`),_n=r("br"),pn=f(`
+  - Election Law Crimes`),Bn=r("br"),Rn=f(`
+  - Embezzlement`),yn=r("br"),vn=f(`
+  - Embezzlement Against Estate`),Cn=r("br"),kn=f(`
+  - Entering Train to Commit Crime`),wn=r("br"),An=f(`
+  - Enlistment to Serve Against the U.S.`),En=r("br"),Tn=f(`
+  - Environmental Scheme Crimes`),In=r("br"),Sn=f(`
+  - Escaping Custody/Escaped Federal Prisoners`),Dn=r("br"),Pn=f(`
+  - Examiner Performing Other Services`),Fn=r("br"),Mn=f(`
+  - Exportation of Drugs`),Wn=r("br"),On=f(`
+  - Extortion`),Vn=r("br"),Nn=f(`
+  - Failure to Appear on Felony Offense`),Ln=r("br"),Gn=f(`
+  - Failure to Pay Legal Child Support Obligations`),Un=r("br"),jn=f(`
+  - False Bail`),Hn=r("br"),zn=f(`
+  - False Pretenses`),Jn=r("br"),Kn=f(`
+  - False Statements Relating to Health Care Matters`),qn=r("br"),Yn=f(`
+  - Falsely Claiming Citizenship`),Zn=r("br"),Qn=f(`
+  - False Declarations before Grand Jury or Court`),Xn=r("br"),xn=f(`
+  - False Entries in Records of Interstate Carriers`),$n=r("br"),ei=f(`
+  - False Information and Hoaxes`),ti=r("br"),ni=f(`
+  - False Statement to Obtain Unemployment Compensation`),ii=r("br"),li=f(`
+  - Federal Aviation Act`),ri=r("br"),oi=f(`
+  - Federal Civil Rights Violations (hate crimes, police misconduct)`),si=r("br"),ai=f(`
+  - Female Genital Mutilation`),fi=r("br"),ui=f(`
+  - Financial Transactions with Foreign Government`),ci=r("br"),bi=f(`
+  - First Degree Murder`),mi=r("br"),di=f(`
+  - Flight to Avoid Prosecution or Giving Testimony`),hi=r("br"),gi=f(`
+  - Forced Labor`),_i=r("br"),pi=f(`
+  - Forcible Rape`),Bi=r("br"),Ri=f(`
+  - Forgery`),yi=r("br"),vi=f(`
+  - Fraud Activity in Connection with Electronic Mail`),Ci=r("br"),ki=f(`
+  - Fraud Against the Government`),wi=r("br"),Ai=f(`
+  - Genocide`),Ei=r("br"),Ti=f(`
+  - Hacking Crimes`),Ii=r("br"),Si=f(`
+  - Harboring Terrorists`),Di=r("br"),Pi=f(`
+  - Harming Animals Used in Law Enforcement`),Fi=r("br"),Mi=f(`
+  - Hate Crime Acts`),Wi=r("br"),Oi=f(`
+  - Homicide`),Vi=r("br"),Ni=f(`
+  - Hostage Taking`),Li=r("br"),Gi=f(`
+  - Identity Theft`),Ui=r("br"),ji=f(`
+  - Illegal Possession of Firearms`),Hi=r("br"),zi=f(`
+  - Immigration Offenses`),Ji=r("br"),Ki=f(`
+  - Impersonator Making Arrest or Search`),qi=r("br"),Yi=f(`
+  - Importation of Drugs`),Zi=r("br"),Qi=f(`
+  - Influencing Juror by Writing`),Xi=r("br"),xi=f(`
+  - Injuring Officer`),$i=r("br"),el=f(`
+  - Insider Trading Crimes`),tl=r("br"),nl=f(`
+  - Insurance Fraud`),il=r("br"),ll=f(`
+  - Interference with the Operation of a Satellite`),rl=r("br"),ol=f(`
+  - International Parental Kidnapping`),sl=r("br"),al=f(`
+  - International Terrorism`),fl=r("br"),ul=f(`
+  - Interstate Domestic Violence`),cl=r("br"),bl=f(`
+  - Interstate Violation of Protection Order`),ml=r("br"),dl=f(`
+  - Larceny`),hl=r("br"),gl=f(`
+  - Lobbying with Appropriated Moneys`),_l=r("br"),pl=f(`
+  - Mailing Threatening Communications`),Bl=r("br"),Rl=f(`
+  - Major Fraud Against the U.S.`),yl=r("br"),vl=f(`
+  - Manslaughter`),Cl=r("br"),kl=f(`
+  - Medical/Health Care Fraud`),wl=r("br"),Al=f(`
+  - Missile Systems Designed to Destroy Aircraft`),El=r("br"),Tl=f(`
+  - Misuse of Passport`),Il=r("br"),Sl=f(`
+  - Misuse of Visas, Permits, or Other Documents`),Dl=r("br"),Pl=f(`
+  - Molestation`),Fl=r("br"),Ml=f(`
+  - Money Laundering`),Wl=r("br"),Ol=f(`
+  - Motor Vehicle Theft`),Vl=r("br"),Nl=f(`
+  - Murder by a Federal Prisoner`),Ll=r("br"),Gl=f(`
+  - Murder Committed During Drug-related Drive-by shooting`),Ul=r("br"),jl=f(`
+  - Murder Committed in Federal Government Facility`),Hl=r("br"),zl=f(`
+  - Narcotics Violations`),Jl=r("br"),Kl=f(`
+  - Obstructing Examination of Financial Institution`),ql=r("br"),Yl=f(`
+  - Obstruction of Court Orders`),Zl=r("br"),Ql=f(`
+  - Obstruction of Federal audit`),Xl=r("br"),xl=f(`
+  - Obstruction of Justice`),$l=r("br"),er=f(`
+  - Obstruction of Criminal Investigations`),tr=r("br"),nr=f(`
+  - Officer Failing to Make Reports`),ir=r("br"),lr=f(`
+  - Partial Birth Abortion`),rr=r("br"),or=f(`
+  - Penalties for Neglect or Refusal to Answer Subpoena`),sr=r("br"),ar=f(`
+  - Peonage`),fr=r("br"),ur=f(`
+  - Perjury`),cr=r("br"),br=f(`
+  - Picketing or Parading`),mr=r("br"),dr=f(`
+  - Pirating`),hr=r("br"),gr=f(`
+  - Possession by Restricted Persons`),_r=r("br"),pr=f(`
+  - Possession of False Papers to Defraud the U.S.`),Br=r("br"),Rr=f(`
+  - Possession of Narcotics`),yr=r("br"),vr=f(`
+  - Possession of Child Pornography`),Cr=r("br"),kr=f(`
+  - Private Correspondence with Foreign Government`),wr=r("br"),Ar=f(`
+  - Probation Violation`),Er=r("br"),Tr=f(`
+  - Product Tampering`),Ir=r("br"),Sr=f(`
+  - Prohibition of Illegal Gambling Businesses`),Dr=r("br"),Pr=f(`
+  - Prostitution`),Fr=r("br"),Mr=f(`
+  - Protection of Foreign Officials`),Wr=r("br"),Or=f(`
+  - Public Corruption Crimes`),Vr=r("br"),Nr=f(`
+  - Racketeering`),Lr=r("br"),Gr=f(`
+  - Radiological Dispersal Devices`),Ur=r("br"),jr=f(`
+  - Ransom Money`),Hr=r("br"),zr=f(`
+  - Rape`),Jr=r("br"),Kr=f(`
+  - Receiving the Proceeds of Extortion`),qr=r("br"),Yr=f(`
+  - Recording or Listening to Grand or Petit Juries While Deliberating`),Zr=r("br"),Qr=f(`
+  - Reentry of an Alien Removed on National Security Grounds`),Xr=r("br"),xr=f(`
+  - Registration of Certain Organizations`),$r=r("br"),eo=f(`
+  - Reproduction of Citizenship Papers`),to=r("br"),no=f(`
+  - Resistance to Extradition Agent`),io=r("br"),lo=f(`
+  - Rescue of Seized Property`),ro=r("br"),oo=f(`
+  - Retaliating Against a Federal Judge by False Claim or Slander of Title`),so=r("br"),ao=f(`
+  - Retaliating Against a Witness, Victim, or an Informant`),fo=r("br"),uo=f(`
+  - Robbery`),co=r("br"),bo=f(`
+  - Robberies and Burglaries Involving Controlled Substances`),mo=r("br"),ho=f(`
+  - Sabotage`),go=r("br"),_o=f(`
+  - Sale of Citizenship Papers`),po=r("br"),Bo=f(`
+  - Sale of Stolen Vehicles`),Ro=r("br"),yo=f(`
+  - Searches Without Warrant`),vo=r("br"),Co=f(`
+  - Second Degree Murder`),ko=r("br"),wo=f(`
+  - Serial Murders`),Ao=r("br"),Eo=f(`
+  - Sexual Abuse`),To=r("br"),Io=f(`
+  - Sexual Abuse of a Minor`),So=r("br"),Do=f(`
+  - Sexual Assault`),Po=r("br"),Fo=f(`
+  - Sexual Battery`),Mo=r("br"),Wo=f(`
+  - Sexual Conduct with a Minor`),Oo=r("br"),Vo=f(`
+  - Sexual Exploitation`),No=r("br"),Lo=f(`
+  - Sex Trafficking`),Go=r("br"),Uo=f(`
+  - Shoplifting`),jo=r("br"),Ho=f(`
+  - Smuggling`),zo=r("br"),Jo=f(`
+  - Solicitation to Commit a Crime of Violence`),Ko=r("br"),qo=f(`
+  - Stalking (In Violation of Restraining Order)`),Yo=r("br"),Zo=f(`
+  - Stolen Property; Buying, Receiving, or Possessing`),Qo=r("br"),Xo=f(`
+  - Subornation of Perjury`),xo=r("br"),$o=f(`
+  - Suits Against Government Officials`),es=r("br"),ts=f(`
+  - Tampering with a Witness, Victim, or Informant`),ns=r("br"),is=f(`
+  - Tampering with Consumer Products`),ls=r("br"),rs=f(`
+  - Tampering with Vessels`),os=r("br"),ss=f(`
+  - Theft of Trade Secrets`),as=r("br"),fs=f(`
+  - Torture`),us=r("br"),cs=f(`
+  - Trafficking in Counterfeit Goods or Services`),bs=r("br"),ms=f(`
+  - Transmission of Wagering Information (Gambling)`),ds=r("br"),hs=f(`
+  - Transportation into State Prohibiting Sale`),gs=r("br"),_s=f(`
+  - Transportation of Slaves from U.S.`),ps=r("br"),Bs=f(`
+  - Transportation of Stolen Vehicles`),Rs=r("br"),ys=f(`
+  - Transportation of Terrorists`),vs=r("br"),Cs=f(`
+  - Trespassing`),ks=r("br"),ws=f(`
+  - Treason`),As=r("br"),Es=f(`
+  - Unauthorized Removal of Classified Documents`),Ts=r("br"),Is=f(`
+  - Use of Fire or Explosives to Destroy Property`),Ss=r("br"),Ds=f(`
+  - Use of Weapons of Mass Destruction`),Ps=r("br"),Fs=f(`
+  - Vandalism`),Ms=r("br"),Ws=f(`
+  - Video Voyeurism`),Os=r("br"),Vs=f(`
+  - Violation of Prohibitions Governing Atomic Weapons`),Ns=r("br"),Ls=f(`
+  - Violence at International airports`),Gs=r("br"),Us=f(`
+  - Violent Crimes in Aid of Racketeering Activity`),js=r("br"),Hs=f(`
+  - Willful Wrecking of a Train Resulting in Death`),zs=r("br"),Js=f(`
+  - Wire Fraud`),this.h()},l(dt){e=o(dt,"DIV",{class:!0});var n=O(e);l=o(n,"BR",{}),i=u(n,`
+  - Abusive Sexual Contact`),a=o(n,"BR",{}),m=u(n,`
+  - Advocating Overthrow of Government`),b=o(n,"BR",{}),g=u(n,`
+  - Aggravated Assault/Battery`),_=o(n,"BR",{}),p=u(n,`
+  - Aggravated Identity Theft`),h=o(n,"BR",{}),C=u(n,`
+  - Aggravated Sexual Abuse`),w=o(n,"BR",{}),c=u(n,`
+  - Aiming a Laser Pointer at an Aircraft`),B=o(n,"BR",{}),T=u(n,`
+  - Airplane Hijacking`),S=o(n,"BR",{}),P=u(n,`
+  - Anti-racketeering`),E=o(n,"BR",{}),W=u(n,`
+  - Antitrust`),y=o(n,"BR",{}),k=u(n,`
+  - Armed Robbery`),I=o(n,"BR",{}),q=u(n,`
+  - Arson`),H=o(n,"BR",{}),ie=u(n,`
+  - Assassination`),Re=o(n,"BR",{}),L=u(n,`
+  - Assault with a Deadly Weapon`),ee=o(n,"BR",{}),ce=u(n,`
+  - Assaulting or Killing Federal Officer`),Y=o(n,"BR",{}),ye=u(n,`
+  - Assisting or Instigating Escape`),ve=o(n,"BR",{}),se=u(n,`
+  - Attempt to commit Murder/Manslaughter`),U=o(n,"BR",{}),ae=u(n,`
+  - Bank Burglary`),be=o(n,"BR",{}),me=u(n,`
+  - Bankruptcy Fraud/Embezzlement`),Z=o(n,"BR",{}),Ce=u(n,`
+  - Bank Larceny`),te=o(n,"BR",{}),ke=u(n,`
+  - Bank Robbery`),we=o(n,"BR",{}),Ae=u(n,`
+  - Blackmail`),de=o(n,"BR",{}),Ee=u(n,`
+  - Bombing Matters`),Te=o(n,"BR",{}),he=u(n,`
+  - Bond Default`),Ie=o(n,"BR",{}),Se=u(n,`
+  - Breaking and/or Entering Carrier Facilities`),fe=o(n,"BR",{}),He=u(n,`
+  - Bribery Crimes`),Q=o(n,"BR",{}),De=u(n,`
+  - Certification of Checks (Fraud)`),ze=o(n,"BR",{}),z=u(n,`
+  - Child Abuse`),ue=o(n,"BR",{}),ge=u(n,`
+  - Child Exploitation`),Pe=o(n,"BR",{}),le=u(n,`
+  - Child Pornography`),Fe=o(n,"BR",{}),re=u(n,`
+  - Civil Action to Restrain Harassment of a Victim or Witness`),_e=o(n,"BR",{}),Je=u(n,`
+  - Coercion`),Ke=o(n,"BR",{}),pe=u(n,`
+  - Commodities Price Fixing`),oe=o(n,"BR",{}),qe=u(n,`
+  - Computer Crime`),X=o(n,"BR",{}),Me=u(n,`
+  - Concealing Escaped Prisoner`),D=o(n,"BR",{}),J=u(n,`
+  - Concealing Person from Arrest`),v=o(n,"BR",{}),Be=u(n,`
+  - Concealment of Assets`),N=o(n,"BR",{}),G=u(n,`
+  - Conspiracy (in matters under FBI jurisdiction)`),x=o(n,"BR",{}),Ye=u(n,`
+  - Conspiracy to Impede or Injure an Officer`),We=o(n,"BR",{}),et=u(n,`
+  - Contempt of Court`),tt=o(n,"BR",{}),$=u(n,`
+  - Continuing Criminal Enterprise`),Xe=o(n,"BR",{}),nt=u(n,`
+  - Conveying False Information`),xe=o(n,"BR",{}),Ze=u(n,`
+  - Copyright Matters`),it=o(n,"BR",{}),lt=u(n,`
+  - Counterfeiting`),rt=o(n,"BR",{}),$e=u(n,`
+  - Counterintelligence Crimes`),ot=o(n,"BR",{}),Oe=u(n,`
+  - Credit/Debit Card Fraud`),st=o(n,"BR",{}),at=u(n,`
+  - Crime Aboard Aircraft`),ft=o(n,"BR",{}),ut=u(n,`
+  - Crimes on Government Reservations`),Rt=o(n,"BR",{}),yt=u(n,`
+  - Crimes on Indian Reservations`),vt=o(n,"BR",{}),Ct=u(n,`
+  - Criminal Contempt of Court`),kt=o(n,"BR",{}),wt=u(n,`
+  - Criminal Forfeiture`),At=o(n,"BR",{}),Et=u(n,`
+  - Criminal Infringement of a Copyright`),Tt=o(n,"BR",{}),It=u(n,`
+  - Cyber Crimes`),St=o(n,"BR",{}),Dt=u(n,`
+  - Damage to Religious Property`),Pt=o(n,"BR",{}),Ft=u(n,`
+  - Delivery to Consignee`),Mt=o(n,"BR",{}),Wt=u(n,`
+  - Demands Against the U.S.`),Ot=o(n,"BR",{}),Vt=u(n,`
+  - Destruction of Aircraft or Motor Vehicles Used in Foreign Commerce`),Nt=o(n,"BR",{}),Lt=u(n,`
+  - Destruction of an Energy Facility`),Gt=o(n,"BR",{}),Ut=u(n,`
+  - Destruction of Property to Prevent Seizure`),jt=o(n,"BR",{}),Ht=u(n,`
+  - Destruction of Records in Federal Investigations and Bankruptcy`),zt=o(n,"BR",{}),Jt=u(n,`
+  - Destruction of Corporate Audit Records`),Kt=o(n,"BR",{}),qt=u(n,`
+  - Destruction of Veterans\u2019 Memorials`),Yt=o(n,"BR",{}),Zt=u(n,`
+  - Detention of Armed Vessel`),Qt=o(n,"BR",{}),Xt=u(n,`
+  - Disclosure of Confidential Information`),xt=o(n,"BR",{}),$t=u(n,`
+  - Domestic Security`),en=o(n,"BR",{}),tn=u(n,`
+  - Domestic Terrorism`),nn=o(n,"BR",{}),ln=u(n,`
+  - Domestic Violence`),rn=o(n,"BR",{}),on=u(n,`
+  - Drive-by Shooting`),sn=o(n,"BR",{}),an=u(n,`
+  - Drug Abuse Violations`),fn=o(n,"BR",{}),un=u(n,`
+  - Drug Smuggling`),cn=o(n,"BR",{}),bn=u(n,`
+  - Drug Trafficking`),mn=o(n,"BR",{}),dn=u(n,`
+  - DUI/DWI on Federal Property`),hn=o(n,"BR",{}),gn=u(n,`
+  - Economic Espionage`),_n=o(n,"BR",{}),pn=u(n,`
+  - Election Law Crimes`),Bn=o(n,"BR",{}),Rn=u(n,`
+  - Embezzlement`),yn=o(n,"BR",{}),vn=u(n,`
+  - Embezzlement Against Estate`),Cn=o(n,"BR",{}),kn=u(n,`
+  - Entering Train to Commit Crime`),wn=o(n,"BR",{}),An=u(n,`
+  - Enlistment to Serve Against the U.S.`),En=o(n,"BR",{}),Tn=u(n,`
+  - Environmental Scheme Crimes`),In=o(n,"BR",{}),Sn=u(n,`
+  - Escaping Custody/Escaped Federal Prisoners`),Dn=o(n,"BR",{}),Pn=u(n,`
+  - Examiner Performing Other Services`),Fn=o(n,"BR",{}),Mn=u(n,`
+  - Exportation of Drugs`),Wn=o(n,"BR",{}),On=u(n,`
+  - Extortion`),Vn=o(n,"BR",{}),Nn=u(n,`
+  - Failure to Appear on Felony Offense`),Ln=o(n,"BR",{}),Gn=u(n,`
+  - Failure to Pay Legal Child Support Obligations`),Un=o(n,"BR",{}),jn=u(n,`
+  - False Bail`),Hn=o(n,"BR",{}),zn=u(n,`
+  - False Pretenses`),Jn=o(n,"BR",{}),Kn=u(n,`
+  - False Statements Relating to Health Care Matters`),qn=o(n,"BR",{}),Yn=u(n,`
+  - Falsely Claiming Citizenship`),Zn=o(n,"BR",{}),Qn=u(n,`
+  - False Declarations before Grand Jury or Court`),Xn=o(n,"BR",{}),xn=u(n,`
+  - False Entries in Records of Interstate Carriers`),$n=o(n,"BR",{}),ei=u(n,`
+  - False Information and Hoaxes`),ti=o(n,"BR",{}),ni=u(n,`
+  - False Statement to Obtain Unemployment Compensation`),ii=o(n,"BR",{}),li=u(n,`
+  - Federal Aviation Act`),ri=o(n,"BR",{}),oi=u(n,`
+  - Federal Civil Rights Violations (hate crimes, police misconduct)`),si=o(n,"BR",{}),ai=u(n,`
+  - Female Genital Mutilation`),fi=o(n,"BR",{}),ui=u(n,`
+  - Financial Transactions with Foreign Government`),ci=o(n,"BR",{}),bi=u(n,`
+  - First Degree Murder`),mi=o(n,"BR",{}),di=u(n,`
+  - Flight to Avoid Prosecution or Giving Testimony`),hi=o(n,"BR",{}),gi=u(n,`
+  - Forced Labor`),_i=o(n,"BR",{}),pi=u(n,`
+  - Forcible Rape`),Bi=o(n,"BR",{}),Ri=u(n,`
+  - Forgery`),yi=o(n,"BR",{}),vi=u(n,`
+  - Fraud Activity in Connection with Electronic Mail`),Ci=o(n,"BR",{}),ki=u(n,`
+  - Fraud Against the Government`),wi=o(n,"BR",{}),Ai=u(n,`
+  - Genocide`),Ei=o(n,"BR",{}),Ti=u(n,`
+  - Hacking Crimes`),Ii=o(n,"BR",{}),Si=u(n,`
+  - Harboring Terrorists`),Di=o(n,"BR",{}),Pi=u(n,`
+  - Harming Animals Used in Law Enforcement`),Fi=o(n,"BR",{}),Mi=u(n,`
+  - Hate Crime Acts`),Wi=o(n,"BR",{}),Oi=u(n,`
+  - Homicide`),Vi=o(n,"BR",{}),Ni=u(n,`
+  - Hostage Taking`),Li=o(n,"BR",{}),Gi=u(n,`
+  - Identity Theft`),Ui=o(n,"BR",{}),ji=u(n,`
+  - Illegal Possession of Firearms`),Hi=o(n,"BR",{}),zi=u(n,`
+  - Immigration Offenses`),Ji=o(n,"BR",{}),Ki=u(n,`
+  - Impersonator Making Arrest or Search`),qi=o(n,"BR",{}),Yi=u(n,`
+  - Importation of Drugs`),Zi=o(n,"BR",{}),Qi=u(n,`
+  - Influencing Juror by Writing`),Xi=o(n,"BR",{}),xi=u(n,`
+  - Injuring Officer`),$i=o(n,"BR",{}),el=u(n,`
+  - Insider Trading Crimes`),tl=o(n,"BR",{}),nl=u(n,`
+  - Insurance Fraud`),il=o(n,"BR",{}),ll=u(n,`
+  - Interference with the Operation of a Satellite`),rl=o(n,"BR",{}),ol=u(n,`
+  - International Parental Kidnapping`),sl=o(n,"BR",{}),al=u(n,`
+  - International Terrorism`),fl=o(n,"BR",{}),ul=u(n,`
+  - Interstate Domestic Violence`),cl=o(n,"BR",{}),bl=u(n,`
+  - Interstate Violation of Protection Order`),ml=o(n,"BR",{}),dl=u(n,`
+  - Larceny`),hl=o(n,"BR",{}),gl=u(n,`
+  - Lobbying with Appropriated Moneys`),_l=o(n,"BR",{}),pl=u(n,`
+  - Mailing Threatening Communications`),Bl=o(n,"BR",{}),Rl=u(n,`
+  - Major Fraud Against the U.S.`),yl=o(n,"BR",{}),vl=u(n,`
+  - Manslaughter`),Cl=o(n,"BR",{}),kl=u(n,`
+  - Medical/Health Care Fraud`),wl=o(n,"BR",{}),Al=u(n,`
+  - Missile Systems Designed to Destroy Aircraft`),El=o(n,"BR",{}),Tl=u(n,`
+  - Misuse of Passport`),Il=o(n,"BR",{}),Sl=u(n,`
+  - Misuse of Visas, Permits, or Other Documents`),Dl=o(n,"BR",{}),Pl=u(n,`
+  - Molestation`),Fl=o(n,"BR",{}),Ml=u(n,`
+  - Money Laundering`),Wl=o(n,"BR",{}),Ol=u(n,`
+  - Motor Vehicle Theft`),Vl=o(n,"BR",{}),Nl=u(n,`
+  - Murder by a Federal Prisoner`),Ll=o(n,"BR",{}),Gl=u(n,`
+  - Murder Committed During Drug-related Drive-by shooting`),Ul=o(n,"BR",{}),jl=u(n,`
+  - Murder Committed in Federal Government Facility`),Hl=o(n,"BR",{}),zl=u(n,`
+  - Narcotics Violations`),Jl=o(n,"BR",{}),Kl=u(n,`
+  - Obstructing Examination of Financial Institution`),ql=o(n,"BR",{}),Yl=u(n,`
+  - Obstruction of Court Orders`),Zl=o(n,"BR",{}),Ql=u(n,`
+  - Obstruction of Federal audit`),Xl=o(n,"BR",{}),xl=u(n,`
+  - Obstruction of Justice`),$l=o(n,"BR",{}),er=u(n,`
+  - Obstruction of Criminal Investigations`),tr=o(n,"BR",{}),nr=u(n,`
+  - Officer Failing to Make Reports`),ir=o(n,"BR",{}),lr=u(n,`
+  - Partial Birth Abortion`),rr=o(n,"BR",{}),or=u(n,`
+  - Penalties for Neglect or Refusal to Answer Subpoena`),sr=o(n,"BR",{}),ar=u(n,`
+  - Peonage`),fr=o(n,"BR",{}),ur=u(n,`
+  - Perjury`),cr=o(n,"BR",{}),br=u(n,`
+  - Picketing or Parading`),mr=o(n,"BR",{}),dr=u(n,`
+  - Pirating`),hr=o(n,"BR",{}),gr=u(n,`
+  - Possession by Restricted Persons`),_r=o(n,"BR",{}),pr=u(n,`
+  - Possession of False Papers to Defraud the U.S.`),Br=o(n,"BR",{}),Rr=u(n,`
+  - Possession of Narcotics`),yr=o(n,"BR",{}),vr=u(n,`
+  - Possession of Child Pornography`),Cr=o(n,"BR",{}),kr=u(n,`
+  - Private Correspondence with Foreign Government`),wr=o(n,"BR",{}),Ar=u(n,`
+  - Probation Violation`),Er=o(n,"BR",{}),Tr=u(n,`
+  - Product Tampering`),Ir=o(n,"BR",{}),Sr=u(n,`
+  - Prohibition of Illegal Gambling Businesses`),Dr=o(n,"BR",{}),Pr=u(n,`
+  - Prostitution`),Fr=o(n,"BR",{}),Mr=u(n,`
+  - Protection of Foreign Officials`),Wr=o(n,"BR",{}),Or=u(n,`
+  - Public Corruption Crimes`),Vr=o(n,"BR",{}),Nr=u(n,`
+  - Racketeering`),Lr=o(n,"BR",{}),Gr=u(n,`
+  - Radiological Dispersal Devices`),Ur=o(n,"BR",{}),jr=u(n,`
+  - Ransom Money`),Hr=o(n,"BR",{}),zr=u(n,`
+  - Rape`),Jr=o(n,"BR",{}),Kr=u(n,`
+  - Receiving the Proceeds of Extortion`),qr=o(n,"BR",{}),Yr=u(n,`
+  - Recording or Listening to Grand or Petit Juries While Deliberating`),Zr=o(n,"BR",{}),Qr=u(n,`
+  - Reentry of an Alien Removed on National Security Grounds`),Xr=o(n,"BR",{}),xr=u(n,`
+  - Registration of Certain Organizations`),$r=o(n,"BR",{}),eo=u(n,`
+  - Reproduction of Citizenship Papers`),to=o(n,"BR",{}),no=u(n,`
+  - Resistance to Extradition Agent`),io=o(n,"BR",{}),lo=u(n,`
+  - Rescue of Seized Property`),ro=o(n,"BR",{}),oo=u(n,`
+  - Retaliating Against a Federal Judge by False Claim or Slander of Title`),so=o(n,"BR",{}),ao=u(n,`
+  - Retaliating Against a Witness, Victim, or an Informant`),fo=o(n,"BR",{}),uo=u(n,`
+  - Robbery`),co=o(n,"BR",{}),bo=u(n,`
+  - Robberies and Burglaries Involving Controlled Substances`),mo=o(n,"BR",{}),ho=u(n,`
+  - Sabotage`),go=o(n,"BR",{}),_o=u(n,`
+  - Sale of Citizenship Papers`),po=o(n,"BR",{}),Bo=u(n,`
+  - Sale of Stolen Vehicles`),Ro=o(n,"BR",{}),yo=u(n,`
+  - Searches Without Warrant`),vo=o(n,"BR",{}),Co=u(n,`
+  - Second Degree Murder`),ko=o(n,"BR",{}),wo=u(n,`
+  - Serial Murders`),Ao=o(n,"BR",{}),Eo=u(n,`
+  - Sexual Abuse`),To=o(n,"BR",{}),Io=u(n,`
+  - Sexual Abuse of a Minor`),So=o(n,"BR",{}),Do=u(n,`
+  - Sexual Assault`),Po=o(n,"BR",{}),Fo=u(n,`
+  - Sexual Battery`),Mo=o(n,"BR",{}),Wo=u(n,`
+  - Sexual Conduct with a Minor`),Oo=o(n,"BR",{}),Vo=u(n,`
+  - Sexual Exploitation`),No=o(n,"BR",{}),Lo=u(n,`
+  - Sex Trafficking`),Go=o(n,"BR",{}),Uo=u(n,`
+  - Shoplifting`),jo=o(n,"BR",{}),Ho=u(n,`
+  - Smuggling`),zo=o(n,"BR",{}),Jo=u(n,`
+  - Solicitation to Commit a Crime of Violence`),Ko=o(n,"BR",{}),qo=u(n,`
+  - Stalking (In Violation of Restraining Order)`),Yo=o(n,"BR",{}),Zo=u(n,`
+  - Stolen Property; Buying, Receiving, or Possessing`),Qo=o(n,"BR",{}),Xo=u(n,`
+  - Subornation of Perjury`),xo=o(n,"BR",{}),$o=u(n,`
+  - Suits Against Government Officials`),es=o(n,"BR",{}),ts=u(n,`
+  - Tampering with a Witness, Victim, or Informant`),ns=o(n,"BR",{}),is=u(n,`
+  - Tampering with Consumer Products`),ls=o(n,"BR",{}),rs=u(n,`
+  - Tampering with Vessels`),os=o(n,"BR",{}),ss=u(n,`
+  - Theft of Trade Secrets`),as=o(n,"BR",{}),fs=u(n,`
+  - Torture`),us=o(n,"BR",{}),cs=u(n,`
+  - Trafficking in Counterfeit Goods or Services`),bs=o(n,"BR",{}),ms=u(n,`
+  - Transmission of Wagering Information (Gambling)`),ds=o(n,"BR",{}),hs=u(n,`
+  - Transportation into State Prohibiting Sale`),gs=o(n,"BR",{}),_s=u(n,`
+  - Transportation of Slaves from U.S.`),ps=o(n,"BR",{}),Bs=u(n,`
+  - Transportation of Stolen Vehicles`),Rs=o(n,"BR",{}),ys=u(n,`
+  - Transportation of Terrorists`),vs=o(n,"BR",{}),Cs=u(n,`
+  - Trespassing`),ks=o(n,"BR",{}),ws=u(n,`
+  - Treason`),As=o(n,"BR",{}),Es=u(n,`
+  - Unauthorized Removal of Classified Documents`),Ts=o(n,"BR",{}),Is=u(n,`
+  - Use of Fire or Explosives to Destroy Property`),Ss=o(n,"BR",{}),Ds=u(n,`
+  - Use of Weapons of Mass Destruction`),Ps=o(n,"BR",{}),Fs=u(n,`
+  - Vandalism`),Ms=o(n,"BR",{}),Ws=u(n,`
+  - Video Voyeurism`),Os=o(n,"BR",{}),Vs=u(n,`
+  - Violation of Prohibitions Governing Atomic Weapons`),Ns=o(n,"BR",{}),Ls=u(n,`
+  - Violence at International airports`),Gs=o(n,"BR",{}),Us=u(n,`
+  - Violent Crimes in Aid of Racketeering Activity`),js=o(n,"BR",{}),Hs=u(n,`
+  - Willful Wrecking of a Train Resulting in Death`),zs=o(n,"BR",{}),Js=u(n,`
+  - Wire Fraud`),n.forEach(R),this.h()},h(){d(e,"class","flex flex-col items-center justify-center bg-dark py-5 text-white")},m(dt,n){A(dt,e,n),t(e,l),t(e,i),t(e,a),t(e,m),t(e,b),t(e,g),t(e,_),t(e,p),t(e,h),t(e,C),t(e,w),t(e,c),t(e,B),t(e,T),t(e,S),t(e,P),t(e,E),t(e,W),t(e,y),t(e,k),t(e,I),t(e,q),t(e,H),t(e,ie),t(e,Re),t(e,L),t(e,ee),t(e,ce),t(e,Y),t(e,ye),t(e,ve),t(e,se),t(e,U),t(e,ae),t(e,be),t(e,me),t(e,Z),t(e,Ce),t(e,te),t(e,ke),t(e,we),t(e,Ae),t(e,de),t(e,Ee),t(e,Te),t(e,he),t(e,Ie),t(e,Se),t(e,fe),t(e,He),t(e,Q),t(e,De),t(e,ze),t(e,z),t(e,ue),t(e,ge),t(e,Pe),t(e,le),t(e,Fe),t(e,re),t(e,_e),t(e,Je),t(e,Ke),t(e,pe),t(e,oe),t(e,qe),t(e,X),t(e,Me),t(e,D),t(e,J),t(e,v),t(e,Be),t(e,N),t(e,G),t(e,x),t(e,Ye),t(e,We),t(e,et),t(e,tt),t(e,$),t(e,Xe),t(e,nt),t(e,xe),t(e,Ze),t(e,it),t(e,lt),t(e,rt),t(e,$e),t(e,ot),t(e,Oe),t(e,st),t(e,at),t(e,ft),t(e,ut),t(e,Rt),t(e,yt),t(e,vt),t(e,Ct),t(e,kt),t(e,wt),t(e,At),t(e,Et),t(e,Tt),t(e,It),t(e,St),t(e,Dt),t(e,Pt),t(e,Ft),t(e,Mt),t(e,Wt),t(e,Ot),t(e,Vt),t(e,Nt),t(e,Lt),t(e,Gt),t(e,Ut),t(e,jt),t(e,Ht),t(e,zt),t(e,Jt),t(e,Kt),t(e,qt),t(e,Yt),t(e,Zt),t(e,Qt),t(e,Xt),t(e,xt),t(e,$t),t(e,en),t(e,tn),t(e,nn),t(e,ln),t(e,rn),t(e,on),t(e,sn),t(e,an),t(e,fn),t(e,un),t(e,cn),t(e,bn),t(e,mn),t(e,dn),t(e,hn),t(e,gn),t(e,_n),t(e,pn),t(e,Bn),t(e,Rn),t(e,yn),t(e,vn),t(e,Cn),t(e,kn),t(e,wn),t(e,An),t(e,En),t(e,Tn),t(e,In),t(e,Sn),t(e,Dn),t(e,Pn),t(e,Fn),t(e,Mn),t(e,Wn),t(e,On),t(e,Vn),t(e,Nn),t(e,Ln),t(e,Gn),t(e,Un),t(e,jn),t(e,Hn),t(e,zn),t(e,Jn),t(e,Kn),t(e,qn),t(e,Yn),t(e,Zn),t(e,Qn),t(e,Xn),t(e,xn),t(e,$n),t(e,ei),t(e,ti),t(e,ni),t(e,ii),t(e,li),t(e,ri),t(e,oi),t(e,si),t(e,ai),t(e,fi),t(e,ui),t(e,ci),t(e,bi),t(e,mi),t(e,di),t(e,hi),t(e,gi),t(e,_i),t(e,pi),t(e,Bi),t(e,Ri),t(e,yi),t(e,vi),t(e,Ci),t(e,ki),t(e,wi),t(e,Ai),t(e,Ei),t(e,Ti),t(e,Ii),t(e,Si),t(e,Di),t(e,Pi),t(e,Fi),t(e,Mi),t(e,Wi),t(e,Oi),t(e,Vi),t(e,Ni),t(e,Li),t(e,Gi),t(e,Ui),t(e,ji),t(e,Hi),t(e,zi),t(e,Ji),t(e,Ki),t(e,qi),t(e,Yi),t(e,Zi),t(e,Qi),t(e,Xi),t(e,xi),t(e,$i),t(e,el),t(e,tl),t(e,nl),t(e,il),t(e,ll),t(e,rl),t(e,ol),t(e,sl),t(e,al),t(e,fl),t(e,ul),t(e,cl),t(e,bl),t(e,ml),t(e,dl),t(e,hl),t(e,gl),t(e,_l),t(e,pl),t(e,Bl),t(e,Rl),t(e,yl),t(e,vl),t(e,Cl),t(e,kl),t(e,wl),t(e,Al),t(e,El),t(e,Tl),t(e,Il),t(e,Sl),t(e,Dl),t(e,Pl),t(e,Fl),t(e,Ml),t(e,Wl),t(e,Ol),t(e,Vl),t(e,Nl),t(e,Ll),t(e,Gl),t(e,Ul),t(e,jl),t(e,Hl),t(e,zl),t(e,Jl),t(e,Kl),t(e,ql),t(e,Yl),t(e,Zl),t(e,Ql),t(e,Xl),t(e,xl),t(e,$l),t(e,er),t(e,tr),t(e,nr),t(e,ir),t(e,lr),t(e,rr),t(e,or),t(e,sr),t(e,ar),t(e,fr),t(e,ur),t(e,cr),t(e,br),t(e,mr),t(e,dr),t(e,hr),t(e,gr),t(e,_r),t(e,pr),t(e,Br),t(e,Rr),t(e,yr),t(e,vr),t(e,Cr),t(e,kr),t(e,wr),t(e,Ar),t(e,Er),t(e,Tr),t(e,Ir),t(e,Sr),t(e,Dr),t(e,Pr),t(e,Fr),t(e,Mr),t(e,Wr),t(e,Or),t(e,Vr),t(e,Nr),t(e,Lr),t(e,Gr),t(e,Ur),t(e,jr),t(e,Hr),t(e,zr),t(e,Jr),t(e,Kr),t(e,qr),t(e,Yr),t(e,Zr),t(e,Qr),t(e,Xr),t(e,xr),t(e,$r),t(e,eo),t(e,to),t(e,no),t(e,io),t(e,lo),t(e,ro),t(e,oo),t(e,so),t(e,ao),t(e,fo),t(e,uo),t(e,co),t(e,bo),t(e,mo),t(e,ho),t(e,go),t(e,_o),t(e,po),t(e,Bo),t(e,Ro),t(e,yo),t(e,vo),t(e,Co),t(e,ko),t(e,wo),t(e,Ao),t(e,Eo),t(e,To),t(e,Io),t(e,So),t(e,Do),t(e,Po),t(e,Fo),t(e,Mo),t(e,Wo),t(e,Oo),t(e,Vo),t(e,No),t(e,Lo),t(e,Go),t(e,Uo),t(e,jo),t(e,Ho),t(e,zo),t(e,Jo),t(e,Ko),t(e,qo),t(e,Yo),t(e,Zo),t(e,Qo),t(e,Xo),t(e,xo),t(e,$o),t(e,es),t(e,ts),t(e,ns),t(e,is),t(e,ls),t(e,rs),t(e,os),t(e,ss),t(e,as),t(e,fs),t(e,us),t(e,cs),t(e,bs),t(e,ms),t(e,ds),t(e,hs),t(e,gs),t(e,_s),t(e,ps),t(e,Bs),t(e,Rs),t(e,ys),t(e,vs),t(e,Cs),t(e,ks),t(e,ws),t(e,As),t(e,Es),t(e,Ts),t(e,Is),t(e,Ss),t(e,Ds),t(e,Ps),t(e,Fs),t(e,Ms),t(e,Ws),t(e,Os),t(e,Vs),t(e,Ns),t(e,Ls),t(e,Gs),t(e,Us),t(e,js),t(e,Hs),t(e,zs),t(e,Js)},p:ne,i:ne,o:ne,d(dt){dt&&R(e)}}}class bf extends ct{constructor(e){super(),bt(this,e,null,cf,mt,{})}}function mf(s){let e,l,i,a,m;return{c(){e=r("button"),l=r("img"),this.h()},l(b){e=o(b,"BUTTON",{class:!0});var g=O(e);l=o(g,"IMG",{src:!0,alt:!0,class:!0}),g.forEach(R),this.h()},h(){Ya(l.src,i="/icons/close.svg")||d(l,"src",i),d(l,"alt","Close popup"),d(l,"class","rounded-full bg-dark_light bg-opacity-60 p-2 backdrop-blur duration-200 hover:scale-110 hover:bg-red-900 active:scale-90"),d(e,"class","absolute top-5 right-5 z-50")},m(b,g){A(b,e,g),t(e,l),a||(m=Le(e,"click",function(){ht(s[0])&&s[0].apply(this,arguments)}),a=!0)},p(b,[g]){s=b},i:ne,o:ne,d(b){b&&R(e),a=!1,m()}}}function df(s,e,l){let{onClose:i}=e;return s.$$set=a=>{"onClose"in a&&l(0,i=a.onClose)},[i]}class hf extends ct{constructor(e){super(),bt(this,e,df,mf,mt,{onClose:0})}}function gf(s){let e,l,i,a;return{c(){e=r("div"),l=f("A professional"),i=f(s[0]),a=f("."),this.h()},l(m){e=o(m,"DIV",{class:!0});var b=O(e);l=u(b,"A professional"),i=u(b,s[0]),a=u(b,"."),b.forEach(R),this.h()},h(){d(e,"class","pb-10 text-xl")},m(m,b){A(m,e,b),t(e,l),t(e,i),t(e,a)},p:ne,i:ne,o:ne,d(m){m&&R(e)}}}function _f(s){var e=[" failure"," dumbass"," idot"," object"," 3D object"," rock eater"," h lover"," h enjoyer"," sveltekit lover","ly idot idot","ly stupid developer","ly dumb developer"],l=e[Math.floor(Math.random()*e.length)];return[l]}class pf extends ct{constructor(e){super(),bt(this,e,_f,gf,mt,{})}}function Bf(s){let e,l,i,a,m,b,g,_,p;return{c(){e=r("a"),l=r("button"),i=f("View false accusations"),a=F(),m=r("a"),b=r("button"),g=f("View page"),this.h()},l(h){e=o(h,"A",{});var C=O(e);l=o(C,"BUTTON",{class:!0});var w=O(l);i=u(w,"View false accusations"),w.forEach(R),C.forEach(R),a=M(h),m=o(h,"A",{href:!0,class:!0});var c=O(m);b=o(c,"BUTTON",{class:!0});var B=O(b);g=u(B,"View page"),B.forEach(R),c.forEach(R),this.h()},h(){d(l,"class","blue-button"),d(b,"class","hidden-button"),d(m,"href","/accusations"),d(m,"class","text-white")},m(h,C){A(h,e,C),t(e,l),t(l,i),A(h,a,C),A(h,m,C),t(m,b),t(b,g),_||(p=Le(l,"click",s[2]),_=!0)},p:ne,d(h){h&&R(e),h&&R(a),h&&R(m),_=!1,p()}}}function Rf(s){let e,l,i,a,m,b,g,_,p,h,C,w,c,B,T,S,P,E,W,y,k,I,q,H,ie,Re,L,ee,ce,Y,ye,ve,se,U,ae=")",be,me,Z,Ce,te,ke,we,Ae,de,Ee,Te,he,Ie,Se,fe,He,Q,De,ze,z,ue,ge,Pe,le,Fe,re,_e,Je,Ke,pe,oe,qe,X,Me;return e=new nf({props:{title:"User5522.tk",description:"Welcome to my website! A place where I share/blog information about all my stuff!",keywords:"user5522 u5522 user5522.tk username5522 Epik_Kid",openGraph:{title:"User5522.tk",description:"Welcome to my website! A place where I share/blog information about all my stuff!",url:"https://user5522.tk/",type:"website",images:[{url:"/Logo_flat.svg",width:850,height:650,alt:"Logo OG image"}]}}}),m=new Xa({}),g=new xa({}),E=new pf({}),oe=new uf({props:{show:s[0],unstyled:!1,closeButton:hf,styleWindow:{background:"#121212",borderRadius:".8rem"},$$slots:{default:[Bf]},$$scope:{ctx:s}}}),X=new $a({}),{c(){Ge(e.$$.fragment),l=F(),i=F(),a=r("div"),Ge(m.$$.fragment),b=F(),Ge(g.$$.fragment),_=F(),p=r("div"),h=r("div"),C=r("div"),w=r("div"),c=f("User5522"),B=F(),T=r("div"),S=f("/Username5522"),P=F(),Ge(E.$$.fragment),W=F(),y=r("div"),k=r("div"),I=f("Welcome to user5522.tk!"),q=F(),H=r("div"),ie=f("It's a good website, because:"),Re=F(),L=r("div"),ee=r("div"),ce=f("- It is made using "),Y=r("a"),ye=f("sveltekit"),ve=F(),se=r("div"),U=f("- I made it :"),be=f(ae),me=F(),Z=r("div"),Ce=f(`- It's fully opensource on\r
+          `),te=r("a"),ke=f("github"),we=f(" (just like most of my projects)"),Ae=F(),de=r("div"),Ee=f("- It's good looking (real)"),Te=F(),he=r("div"),Ie=f("- It'll support more languages soon\u2122"),Se=F(),fe=r("div"),He=f("- I have nothing else to compliment, but "),Q=r("a"),De=f("maybe you do"),ze=F(),z=r("div"),ue=r("div"),ge=f("Note:"),Pe=F(),le=r("div"),Fe=f(`I am NOT wanted in several countries for commiting any sort of federal\r
+        crime.`),re=F(),_e=r("div"),Je=f(`I am an innocent individual, and I definitely didn't commit any of these\r
+        crimes:`),Ke=F(),pe=r("div"),Ge(oe.$$.fragment),qe=F(),Ge(X.$$.fragment),this.h()},l(D){Qe(e.$$.fragment,D),l=M(D),Ma("svelte-12vqj3a",document.head).forEach(R),i=M(D),a=o(D,"DIV",{class:!0});var v=O(a);Qe(m.$$.fragment,v),b=M(v),Qe(g.$$.fragment,v),v.forEach(R),_=M(D),p=o(D,"DIV",{class:!0});var Be=O(p);h=o(Be,"DIV",{class:!0});var N=O(h);C=o(N,"DIV",{class:!0});var G=O(C);w=o(G,"DIV",{class:!0});var x=O(w);c=u(x,"User5522"),x.forEach(R),B=M(G),T=o(G,"DIV",{class:!0});var Ye=O(T);S=u(Ye,"/Username5522"),Ye.forEach(R),G.forEach(R),P=M(N),Qe(E.$$.fragment,N),W=M(N),y=o(N,"DIV",{class:!0});var We=O(y);k=o(We,"DIV",{class:!0});var et=O(k);I=u(et,"Welcome to user5522.tk!"),et.forEach(R),q=M(We),H=o(We,"DIV",{class:!0});var tt=O(H);ie=u(tt,"It's a good website, because:"),tt.forEach(R),Re=M(We),L=o(We,"DIV",{});var $=O(L);ee=o($,"DIV",{});var Xe=O(ee);ce=u(Xe,"- It is made using "),Y=o(Xe,"A",{target:!0,href:!0,rel:!0});var nt=O(Y);ye=u(nt,"sveltekit"),nt.forEach(R),Xe.forEach(R),ve=M($),se=o($,"DIV",{});var xe=O(se);U=u(xe,"- I made it :"),be=u(xe,ae),xe.forEach(R),me=M($),Z=o($,"DIV",{});var Ze=O(Z);Ce=u(Ze,`- It's fully opensource on\r
+          `),te=o(Ze,"A",{target:!0,href:!0,rel:!0});var it=O(te);ke=u(it,"github"),it.forEach(R),we=u(Ze," (just like most of my projects)"),Ze.forEach(R),Ae=M($),de=o($,"DIV",{});var lt=O(de);Ee=u(lt,"- It's good looking (real)"),lt.forEach(R),Te=M($),he=o($,"DIV",{});var rt=O(he);Ie=u(rt,"- It'll support more languages soon\u2122"),rt.forEach(R),Se=M($),fe=o($,"DIV",{});var $e=O(fe);He=u($e,"- I have nothing else to compliment, but "),Q=o($e,"A",{href:!0});var ot=O(Q);De=u(ot,"maybe you do"),ot.forEach(R),$e.forEach(R),$.forEach(R),We.forEach(R),ze=M(N),z=o(N,"DIV",{class:!0});var Oe=O(z);ue=o(Oe,"DIV",{class:!0});var st=O(ue);ge=u(st,"Note:"),st.forEach(R),Pe=M(Oe),le=o(Oe,"DIV",{});var at=O(le);Fe=u(at,`I am NOT wanted in several countries for commiting any sort of federal\r
+        crime.`),at.forEach(R),re=M(Oe),_e=o(Oe,"DIV",{class:!0});var ft=O(_e);Je=u(ft,`I am an innocent individual, and I definitely didn't commit any of these\r
+        crimes:`),ft.forEach(R),Oe.forEach(R),Ke=M(N),pe=o(N,"DIV",{class:!0});var ut=O(pe);Qe(oe.$$.fragment,ut),ut.forEach(R),N.forEach(R),Be.forEach(R),qe=M(D),Qe(X.$$.fragment,D),this.h()},h(){document.title="Welcome - user5522.tk",d(a,"class","bg-white"),d(w,"class","text-4xl"),d(T,"class","text-base"),d(C,"class","flex flex-row items-baseline"),d(k,"class","text-2xl"),d(H,"class","my-5 text-lg"),d(Y,"target","_blank"),d(Y,"href","https://kit.svelte.dev"),d(Y,"rel","noreferrer"),d(te,"target","_blank"),d(te,"href","https://github.com/user5522/user5522.github.io"),d(te,"rel","noreferrer"),d(Q,"href","/about#Links"),d(y,"class","flex flex-col items-center justify-center px-10"),d(ue,"class","pt-10 text-xl"),d(_e,"class","pb-10"),d(z,"class","px-10"),d(pe,"class","flex flex-row gap-4"),d(h,"class","flex flex-col items-center justify-center"),d(p,"class","init-div")},m(D,J){Ue(e,D,J),A(D,l,J),A(D,i,J),A(D,a,J),Ue(m,a,null),t(a,b),Ue(g,a,null),A(D,_,J),A(D,p,J),t(p,h),t(h,C),t(C,w),t(w,c),t(C,B),t(C,T),t(T,S),t(h,P),Ue(E,h,null),t(h,W),t(h,y),t(y,k),t(k,I),t(y,q),t(y,H),t(H,ie),t(y,Re),t(y,L),t(L,ee),t(ee,ce),t(ee,Y),t(Y,ye),t(L,ve),t(L,se),t(se,U),t(se,be),t(L,me),t(L,Z),t(Z,Ce),t(Z,te),t(te,ke),t(Z,we),t(L,Ae),t(L,de),t(de,Ee),t(L,Te),t(L,he),t(he,Ie),t(L,Se),t(L,fe),t(fe,He),t(fe,Q),t(Q,De),t(h,ze),t(h,z),t(z,ue),t(ue,ge),t(z,Pe),t(z,le),t(le,Fe),t(z,re),t(z,_e),t(_e,Je),t(h,Ke),t(h,pe),Ue(oe,pe,null),A(D,qe,J),Ue(X,D,J),Me=!0},p(D,[J]){const v={};J&1&&(v.show=D[0]),J&8&&(v.$$scope={dirty:J,ctx:D}),oe.$set(v)},i(D){Me||(j(e.$$.fragment,D),j(m.$$.fragment,D),j(g.$$.fragment,D),j(E.$$.fragment,D),j(oe.$$.fragment,D),j(X.$$.fragment,D),Me=!0)},o(D){K(e.$$.fragment,D),K(m.$$.fragment,D),K(g.$$.fragment,D),K(E.$$.fragment,D),K(oe.$$.fragment,D),K(X.$$.fragment,D),Me=!1},d(D){je(e,D),D&&R(l),D&&R(i),D&&R(a),je(m),je(g),D&&R(_),D&&R(p),je(E),je(oe),D&&R(qe),je(X,D)}}}function yf(s,e,l){let i;const a=Qa(null);return Za(s,a,b=>l(0,i=b)),[i,a,()=>a.set(Na(bf))]}class Ef extends ct{constructor(e){super(),bt(this,e,yf,Rf,mt,{})}}export{Ef as default};
