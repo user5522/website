@@ -81,6 +81,54 @@
       </div>
     </div>
 
+    <div class="flex flex-row items-center gap-1 pt-10 pb-5 text-3xl">
+      Projects Banners
+    </div>
+    <div class="flex flex-col gap-10">
+      <div class="flex flex-col gap-10 sm:flex-row">
+        <div>
+          <div
+            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+          >
+            SquareGame Banner
+          </div>
+          <img
+            src="/banners/SquareGame.png"
+            class="rounded-xl"
+            alt="SquareGame banner"
+          />
+        </div>
+        <div>
+          <div
+            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+          >
+            Snak Banner
+          </div>
+          <img src="/banners/Snak.png" class="rounded-xl" alt="Snak" />
+        </div>
+      </div>
+      <div class="flex flex-col gap-10 sm:flex-row">
+        <div class="flex flex-col gap-10 sm:flex-row">
+          <div>
+            <div
+              class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+            >
+              More banners soon.
+            </div>
+            <img src="/banners/banners.png" class="rounded-xl" alt="test" />
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+          >
+            Vbot Banner
+          </div>
+          <img src="/banners/shapes.png" class="rounded-xl" alt="test" />
+        </div>
+      </div>
+    </div>
+
     <div id="Logos" class="flex items-center pt-10 pb-5 text-3xl">Logos</div>
     <div class="flex flex-col gap-10 sm:flex-row">
       <div class="flex flex-col">
