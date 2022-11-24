@@ -6,6 +6,8 @@
   import AgeCounter from "$lib/ageCounter.svelte";
   import WaveEmoji from "../../lib/emojis/wave-emoji.svelte";
   import Heart from "../../lib/emojis/heart.svelte";
+  import { tooltip } from "$lib/tooltip.js";
+  let tooltipContent;
 </script>
 
 <svelte:head>
@@ -25,7 +27,9 @@
         Hi I'm Oueslati <WaveEmoji />,
       </div>
       <div class="text-xl">
-        a <strong><AgeCounter /></strong>
+        a <button use:tooltip={{ text: "24 / 11 / 2006" }} class="relative">
+          <strong class="rounded-xl bg-dark p-1"><AgeCounter /></strong></button
+        >
         year old
         <a
           href="https://google.com/search?q=north+tunisia"
@@ -56,8 +60,10 @@
           <div class="text-center text-2xl">Skills:</div>
           <div class="flex flex-col py-5">
             <ul class="text-lg">
-              <li>- Svelte (<strong>7/10</strong> I <Heart /> sveltekit)</li>
-              <li>- React (<strong>4/10</strong> no so good)</li>
+              <li>
+                - Svelte (<strong>7/10</strong> I really <Heart /> Sveltekit)
+              </li>
+              <li>- React (<strong>4/10</strong> not so good)</li>
               <li>- Rust (<strong>3/10</strong> yuh)</li>
               <li>- HTML & CSS (<strong>8/10</strong> pretty good)</li>
               <li>- Javascript (<strong>6/10</strong> I can do stuff)</li>
