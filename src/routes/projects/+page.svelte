@@ -41,8 +41,7 @@
       <div>
         <div id="project_description" class="px-5 py-3 text-lg">
           A multi-purpose Discord bot that is built to be fast, responsive &
-          easy to use (& all the rest of the marketting crap).<br />
-          [still in it's ALPHA stage]
+          easy to use (& all the rest of the marketting crap). [in ALPHA]
         </div>
       </div>
     </a>
@@ -60,14 +59,14 @@
             />
           </div>
         </div>
-        <div class="sm:h-1/3">
+        <div class="p-5 sm:h-1/3">
           <div class="flex flex-row items-baseline">
-            <div id="project_title" class="pl-5 pt-5 text-xl font-bold">
+            <div id="project_title" class=" text-xl font-bold">
               Banners & Logos
             </div>
           </div>
           <div>
-            <div id="project_description" class="px-5 py-3 text-lg">
+            <div id="project_description" class="text-lg">
               A good amount of banners that I made for CRBT's old profiles
               feature & some logos for my other projects.
             </div>
@@ -78,41 +77,51 @@
     <a
       href="#SquareGame"
       id="SquareGame"
-      class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95"
+      class="rounded-xl bg-dark text-white duration-200 hover:scale-105 active:scale-95"
     >
       <div class="h-full">
-        <div class="flex justify-center sm:h-2/3">
-          <img src="/placeholder.png" alt="SquareGame Placeholder" />
+        <div class="flex w-full items-center justify-center sm:h-2/3">
+          <img
+            src="/banners/SquareGame.png"
+            class="rounded-t-xl"
+            alt="SquareGame"
+          />
         </div>
-        <div class="sm:h-1/3">
+        <div class="p-5 sm:h-1/3">
           <div
             id="project_title"
-            class="flex flex-col items-baseline gap-1 py-2 text-xl font-semibold sm:flex-row"
+            class="flex flex-col text-xl font-semibold sm:flex-row"
           >
             SquareGame
           </div>
           <div id="project_description" class="text-lg">
             A Unity 2D game, about, well.. a 2D square that can move and goes
-            through levels..?
+            through levels..? [in BETA]
           </div>
         </div>
       </div>
     </a>
     <a
-      class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
+      class="rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
       href="#Snak"
       id="Snak"
     >
-      <div class="flex w-full items-center justify-center">
-        <img src="/placeholder.png" alt="banners" class="rounded-t-xl" />
-      </div>
-      <div class="flex flex-row items-baseline">
-        <div id="project_title" class="pl-5 pt-5 text-xl font-bold">Snak</div>
-      </div>
-      <div>
-        <div id="project_description" class="px-5 py-3 text-lg">
-          A, and believe me when I say it, buggy trash snake clone made in Rust
-          with the Bevy game engine.
+      <div class="h-full">
+        <div class="flex items-center justify-center sm:h-2/3">
+          <div class="h-full w-full">
+            <img src="/banners/Snak.png" alt="Snak" class="rounded-t-xl" />
+          </div>
+        </div>
+        <div class="p-5 sm:h-1/3">
+          <div class="flex flex-row items-baseline">
+            <div id="project_title" class="text-xl font-bold">Snak</div>
+          </div>
+          <div>
+            <div id="project_description" class="text-lg">
+              A, and believe me when I say it, buggy trash snake clone made in
+              Rust with the Bevy game engine.
+            </div>
+          </div>
         </div>
       </div>
     </a>
