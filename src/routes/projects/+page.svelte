@@ -76,7 +76,7 @@
       </div>
     </a>
     <a
-      href="/projects#SquareGame"
+      href="#SquareGame"
       id="SquareGame"
       class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95"
     >
@@ -100,8 +100,8 @@
     </a>
     <a
       class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-      href="/projects#Snak"
-      id="#Snak"
+      href="#Snak"
+      id="Snak"
     >
       <div class="flex w-full items-center justify-center">
         <img src="/placeholder.png" alt="banners" class="rounded-t-xl" />
