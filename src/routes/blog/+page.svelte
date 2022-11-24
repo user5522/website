@@ -24,53 +24,66 @@
   </div>
 
   <div class="flex flex-row px-10 py-2">
-    <div class="rounded-xl bg-dark p-2">Sorted by Latest</div>
+    <button
+      class=" rounded-xl bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
+      >Sorted by Latest</button
+    >
   </div>
 
   <div>
-    <div id="doubleposts" class="flex flex-col gap-5 px-5 sm:flex-row">
+    <div class="grid gap-5 px-5 sm:grid-cols-2">
       <a
-        href="/blog#placeheld-link"
-        id="placeheld-link"
-        class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95 sm:w-1/2"
+        href="/blog#placeholder"
+        id="placeholder"
+        class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95"
       >
-        <div id="post_img" class="flex justify-center">
-          <img src="/Logo_flat.svg" alt="User5522 logo" />
-        </div>
-        <div
-          id="post_title"
-          class="flex flex-col items-baseline gap-1 py-2 sm:flex-row"
-        >
-          <div class="text-xl font-semibold">This is a much longer title</div>
-          <div class="text-md text-lighter_true_gray">
-            Post date: DD/MM/YYYY
+        <div class="h-full">
+          <div id="post_img" class="flex justify-center sm:h-2/3">
+            <img src="/placeholder.png" alt="Placeholder" />
           </div>
-        </div>
-        <div id="post_description" class="text-lg">
-          This is a description about this post's content, it is supposed to be
-          a summary for people to know what they will be reading.
+          <div class="sm:h-1/3">
+            <div
+              id="post_title"
+              class="flex flex-col items-baseline gap-1 py-2 sm:flex-row"
+            >
+              <div class="text-xl font-semibold">Placeholder post</div>
+              <div class="text-md text-lighter_true_gray">
+                Post date: DD/MM/YYYY
+              </div>
+            </div>
+            <div id="post_description" class="text-lg">
+              This is a description about this post's content, it is supposed to
+              be a summary for people to know what they will be reading.
+            </div>
+          </div>
         </div>
       </a>
+
       <a
-        href="/blog#placeheld-link"
-        id="placeheld-link"
-        class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95 sm:w-1/2"
+        href="/blog/initial-release"
+        id="initial-release"
+        class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95"
       >
-        <div id="post_img">
-          <img src="/placeholder.png" alt="placeholder" />
-        </div>
-        <div
-          id="post_title"
-          class="flex flex-col items-baseline gap-1 py-2 sm:flex-row"
-        >
-          <div class="text-xl font-semibold">This is a much longer title</div>
-          <div class="text-md text-lighter_true_gray">
-            Post date: DD/MM/YYYY
+        <div class="h-full">
+          <div id="post_img" class="flex justify-center sm:h-2/3">
+            <img src="/Logo_flat.svg" alt="User5522 logo" />
           </div>
-        </div>
-        <div id="post_description" class="text-lg">
-          This is a description about this post's content, it is supposed to be
-          a summary for people to know what they will be reading.
+          <div class="sm:h-1/3">
+            <div
+              id="post_title"
+              class="flex flex-col items-baseline gap-1 py-2 sm:flex-row"
+            >
+              <div class="text-xl font-semibold">Initial release!</div>
+              <div class="text-md text-lighter_true_gray">
+                Post date: DD/MM/YYYY
+              </div>
+            </div>
+            <div id="post_description" class="text-lg">
+              Finally, after lots of work, user5522.tk is now at version 1.0.
+              This post talks about everything new and what's (probably)
+              upcomming
+            </div>
+          </div>
         </div>
       </a>
     </div>
