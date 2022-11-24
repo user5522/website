@@ -64,12 +64,30 @@
                 - Svelte (<strong>7/10</strong> I really <Heart /> Sveltekit)
               </li>
               <li>- React (<strong>4/10</strong> not so good)</li>
-              <li>- Rust (<strong>3/10</strong> yuh)</li>
-              <li>- HTML & CSS (<strong>8/10</strong> pretty good)</li>
+              <li>- Rust (<strong>3/10</strong> too hard for me)</li>
+              <li>- HTML & CSS (<strong>8/10</strong> I'm pretty good)</li>
               <li>- Javascript (<strong>6/10</strong> I can do stuff)</li>
+              <li>- Dart (<strong>4/10</strong> Still learning it)</li>
               <li>
-                - Python (<strong>3/10</strong> never took the time to learn)
+                - Python (<strong>3/10</strong> never tried learning it)
               </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col justify-center gap-5 sm:flex-row">
+      <div id="projects" class="rounded-xl bg-dark">
+        <div class="flex flex-col p-5">
+          <div class="text-center text-2xl">Projects:</div>
+          <div class="flex flex-col py-5">
+            <ul class="text-lg">
+              <li>- Vbot - a multipurpose Discord bot</li>
+              <li>- SquareGame - a 2D Unity game</li>
+              <li>- This website - a place for everything I do</li>
+              <li>- M3F - upcomming clock app in Flutter</li>
+              <li>- Snak - broken buggy snake game made in Rust</li>
+              <li>- <a href="/projects">Everything else here</a></li>
             </ul>
           </div>
         </div>
