@@ -122,6 +122,10 @@
             -
             <a href="/long">Long page</a>
           </div>
+          <div>
+            -
+            <a href="/sandbox">Sandbox page</a>
+          </div>
         </div>
       </div>
     </div>
@@ -133,8 +137,9 @@
     />
   </div>
   <div class="text-lighter_true_gray">
-    <div class="text-lighter_true_gray">© 2022 User552, All rights reserved</div>
-    Everything in this website is owned by User5522 unless stated in /credits
-    (soon™)
+    <div class="text-lighter_true_gray">
+      © 2022 User552, All rights reserved
+    </div>
+    Everything in this website is owned by User5522 unless stated in /credits (soon™)
   </div>
 </div>
