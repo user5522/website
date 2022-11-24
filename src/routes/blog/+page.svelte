@@ -23,18 +23,8 @@
     </div>
   </div>
 
-  <div class="flex flex-row items-center justify-center px-10 pb-10">
-    <div id="search">
-      <input
-        id="searchInput"
-        type="text"
-        class="w-72 rounded-xl bg-dark p-3 sm:w-128"
-        placeholder="Search all of my blogs [WIP]"
-      />
-    </div>
-    <div>
-      <img src="/icons/search.svg" class="h-10 pl-2" alt="search" />
-    </div>
+  <div class="flex flex-row px-10 py-2">
+    <div class="rounded-xl bg-dark p-2">Sorted by Latest</div>
   </div>
 
   <div>
