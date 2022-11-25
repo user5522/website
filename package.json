@@ -1,6 +1,6 @@
 {
   "name": "user5522.github.io",
-  "version": "0.8.6",
+  "version": "0.9.0",
   "private": true,
   "scripts": {
     "dev": "vite dev",
