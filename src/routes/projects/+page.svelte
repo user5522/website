@@ -20,7 +20,7 @@
     </div>
     <div class="flex flex-row gap-1">
       <div class="px-10 text-xl">
-        Some projects I made/working on that I want to share with you
+        Projects I'm working on that I want to share with you
         <FlushedEmoji />
       </div>
     </div>
@@ -83,7 +83,7 @@
       </div>
     </a>
     <a
-      href="#SquareGame"
+      href="/rl/sgsource"
       id="SquareGame"
       class="rounded-xl bg-dark text-white duration-200 hover:scale-105 active:scale-95"
     >
@@ -111,7 +111,7 @@
     </a>
     <a
       class="rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-      href="#Snak"
+      href="/rl/snaksource"
       id="Snak"
     >
       <div class="h-full">
