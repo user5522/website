@@ -48,6 +48,29 @@
     </div>
     <div class="flex">
       <img
+        src="/squaregame/SquareGame.svg"
+        class="h-6 pt-1 pr-1"
+        alt="SquareGame logo"
+      />
+      SquareGame Source
+      <a href="/rl/sgsource" class="inline-block pl-1">[Link]</a>
+    </div>
+    <div class="flex">
+      <img
+        src="/squaregame/SquareGame.svg"
+        class="h-4 items-baseline pt-1 pr-1"
+        alt="Snake part"
+      />
+      <img
+        src="/squaregame/SquareGame.svg"
+        class="h-4 items-baseline pt-1 pr-1"
+        alt="Snake part2"
+      />
+      Snak Source
+      <a href="/rl/snaksource" class="inline-block pl-1">[Link]</a>
+    </div>
+    <div class="flex">
+      <img
         src="/logos/steam.svg"
         class="h-7 items-baseline pr-1"
         alt="steam logo"
@@ -85,8 +108,17 @@
         class="h-7 items-baseline pr-1"
         alt="github logo"
       />
-      Vbot Source Code
+      Vbot Source
       <a href="/rl/vsource" class="inline-block pl-1">[Link]</a>
+    </div>
+    <div class="flex">
+      <img
+        src="/logos/github.svg"
+        class="h-7 items-baseline pr-1"
+        alt="github logo"
+      />
+      Website Source
+      <a href="/rl/wsource" class="inline-block pl-1">[Link]</a>
     </div>
     <div class="flex">
       <img
