@@ -24,63 +24,61 @@
     <div class="flex flex-row items-center gap-1 pt-10 pb-5 text-3xl">
       <a href="https://crbt.app" target="_blank" rel="noreferrer">CRBT</a> Banners
     </div>
-    <div class="flex flex-col gap-10">
-      <div class="flex flex-col gap-10 sm:flex-row">
-        <div>
-          <div
-            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
-          >
-            Colorflow Banner
-          </div>
-          <img src="/banners/colorflow.png" class="rounded-xl" alt="test" />
+    <div class="grid gap-10 sm:grid-cols-2">
+      <div>
+        <div
+          class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+        >
+          Colorflow Banner
         </div>
-        <div>
-          <div
-            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
-          >
-            Bubbles Banner
-          </div>
-          <img src="/banners/bubbles.png" class="rounded-xl" alt="test" />
-        </div>
+        <img src="/banners/colorflow.png" class="rounded-xl" alt="test" />
       </div>
-      <div class="flex flex-col gap-10 sm:flex-row">
-        <div>
-          <div
-            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
-          >
-            Curve Banner [remade]
-          </div>
-          <img src="/banners/curve.png" class="rounded-xl" alt="test" />
+
+      <div>
+        <div
+          class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+        >
+          Bubbles Banner
         </div>
-        <div>
-          <div
-            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
-          >
-            Shapes Banner
-          </div>
-          <img src="/banners/shapes.png" class="rounded-xl" alt="test" />
-        </div>
+        <img src="/banners/bubbles.png" class="rounded-xl" alt="test" />
       </div>
-      <div class="flex flex-col gap-10 sm:flex-row">
-        <div>
-          <div
-            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
-          >
-            Wallpaper Banner [remade]
-          </div>
-          <img src="/banners/wallpaper.png" class="rounded-xl" alt="test" />
+
+      <div>
+        <div
+          class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+        >
+          Curve Banner [remade]
         </div>
-        <div>
-          <div
-            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
-          >
-            More banners soon.
-          </div>
-          <img src="/banners/banners.png" class="rounded-xl" alt="test" />
+        <img src="/banners/curve.png" class="rounded-xl" alt="test" />
+      </div>
+
+      <div>
+        <div
+          class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+        >
+          Shapes Banner
         </div>
+        <img src="/banners/shapes.png" class="rounded-xl" alt="test" />
+      </div>
+
+      <div>
+        <div
+          class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+        >
+          Wallpaper Banner [remade]
+        </div>
+        <img src="/banners/wallpaper.png" class="rounded-xl" alt="test" />
+      </div>
+
+      <div>
+        <div
+          class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+        >
+          More banners soon..
+        </div>
+        <img src="/banners/banners.png" class="rounded-xl" alt="test" />
       </div>
     </div>
-
     <div class="flex flex-row items-center gap-1 pt-10 pb-5 text-3xl">
       Projects Banners
     </div>
@@ -108,6 +106,14 @@
         </div>
       </div>
       <div class="flex flex-col gap-10 sm:flex-row">
+        <div>
+          <div
+            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
+          >
+            Vbot Banner
+          </div>
+          <img src="/banners/Vbot.png" class="rounded-xl" alt="Vbot" />
+        </div>
         <div class="flex flex-col gap-10 sm:flex-row">
           <div>
             <div
@@ -115,16 +121,12 @@
             >
               More banners soon.
             </div>
-            <img src="/banners/banners.png" class="rounded-xl" alt="test" />
+            <img
+              src="/banners/banners.png"
+              class="rounded-xl"
+              alt="All banners stacked"
+            />
           </div>
-        </div>
-        <div>
-          <div
-            class="flex justify-center pb-2 text-xl font-semibold sm:justify-start"
-          >
-            Vbot Banner
-          </div>
-          <img src="/banners/shapes.png" class="rounded-xl" alt="test" />
         </div>
       </div>
     </div>
