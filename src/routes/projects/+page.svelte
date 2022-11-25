@@ -27,21 +27,29 @@
   </div>
   <div class="grid gap-5 p-5 sm:grid-cols-2">
     <a
-      class="rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
+      class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
       href="/projects/vbot"
     >
-      <div
-        class="flex h-56 w-full flex-row items-center justify-center bg-black pt-14"
-      >
-        <img src="/vbot.svg" alt="vbot project logo" class="h-20 sm:h-28" />
-      </div>
-      <div class="flex flex-row items-baseline">
-        <div id="project_title" class="pl-5 pt-3 text-xl font-bold">Vbot</div>
-      </div>
-      <div>
-        <div id="project_description" class="px-5 py-3 text-lg">
-          A multi-purpose Discord bot that is built to be fast, responsive &
-          easy to use (& all the rest of the marketting crap). [in ALPHA]
+      <div class="h-full">
+        <div class="sm:h-2/3">
+          <div class="flex w-full items-center justify-center">
+            <img
+              src="/banners/Vbot.png"
+              alt="Vbot Banner"
+              class="rounded-t-xl"
+            />
+          </div>
+        </div>
+        <div class="p-5 sm:h-1/3">
+          <div class="flex flex-row items-baseline">
+            <div id="project_title" class=" text-xl font-bold">Vbot</div>
+          </div>
+          <div>
+            <div id="project_description" class="text-lg">
+              A multi-purpose Discord bot that is built to be fast, responsive &
+              easy to use (& all the rest of the marketting crap). [in ALPHA]
+            </div>
+          </div>
         </div>
       </div>
     </a>
