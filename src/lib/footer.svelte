@@ -25,18 +25,14 @@
           <div>
             -
             <a href="/credits">Credits (WIP)</a>
-            <div class="inline-block text-xs">[NEW]</div>
           </div>
           <div>
             -
             <a href="/blog">Blog (WIP)</a>
-            <div class="inline-block text-xs">[NEW]</div>
           </div>
         </div>
         <div class="flex flex-col">
-          <div class="font-semibold">
-            Redirecting links: <div class="inline-block text-xs">[NEW]</div>
-          </div>
+          <div class="font-semibold">Redirecting links:</div>
           <div>
             -
             <a href="/rl">All Links</a>
