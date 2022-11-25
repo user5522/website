@@ -162,6 +162,9 @@
         </div>
       </div>
     </div>
+    <div>
+      Looking for the website credits? <a href="/credits">Look here.</a>
+    </div>
   </div>
 </div>
 <Footer />
