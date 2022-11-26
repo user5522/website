@@ -1,5 +1,7 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
+
 @layer base {
   html {
     @apply list-none
@@ -28,7 +30,6 @@
     sm:text-base;
   }
 }
-@tailwind utilities;
 
 /* chrome scrollbar shit (trying to make it like firefox's) */
 
