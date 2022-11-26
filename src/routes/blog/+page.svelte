@@ -60,7 +60,7 @@
       </a>
 
       <a
-        href="/blog/initial-release"
+        href="/blog/1"
         id="initial-release"
         class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95"
       >
@@ -75,13 +75,13 @@
             >
               <div class="text-xl font-semibold">Initial release!</div>
               <div class="text-md text-lighter_true_gray">
-                Post date: DD/MM/YYYY
+                Post date: 26/11/2022
               </div>
             </div>
             <div id="post_description" class="text-lg">
-              Finally, after lots of work, user5522.tk is now at version 1.0.
+              Finally, after lots of work, user5522.tk is now at version 1.0.0.
               This post talks about everything new and what's (probably)
-              upcomming
+              upcomming.
             </div>
           </div>
         </div>
