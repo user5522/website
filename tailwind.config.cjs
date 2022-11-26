@@ -31,6 +31,9 @@ module.exports = {
         136: "36rem",
         140: "38rem",
       },
+      transitionDelay: {
+        10000: "10000ms",
+      },
       fontFamily: {
         poppins: ['"Poppins"', ...defaultTheme.fontFamily.sans],
       },
