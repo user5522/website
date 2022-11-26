@@ -98,7 +98,10 @@
         show={$modal}
         unstyled={false}
         closeButton={CloseButton}
-        styleWindow={{ background: "#121212", borderRadius: ".8rem" }}
+        styleWindow={{
+          background: "#121212",
+          borderRadius: ".8rem",
+        }}
         ><a>
           <button class="blue-button" on:click={showModal}>
             View false accusations
