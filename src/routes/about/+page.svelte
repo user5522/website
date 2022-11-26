@@ -155,14 +155,17 @@
       <div class="px-5">
         for any suggestions/reports email me @
         <div
+          use:tooltip={{ text: "Click to copy!" }}
           use:clickToCopy
-          class="inline-block rounded-lg bg-dark p-1 duration-200 hover:scale-105 active:scale-95"
+          class="relative inline-block rounded-lg  bg-dark p-1 duration-200 hover:scale-105 active:scale-95"
         >
           oueslatim268@gmail.com
         </div>
       </div>
     </div>
-    <div>
+    <div
+      class="rounded-xl bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
+    >
       Looking for the website credits? <a href="/credits">Look here.</a>
     </div>
   </div>
