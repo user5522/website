@@ -27,7 +27,7 @@
   </div>
   <div class="grid gap-5 p-5 sm:grid-cols-2">
     <a
-      class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
+      class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
       href="/projects/vbot"
     >
       <div class="h-full">
