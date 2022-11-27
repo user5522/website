@@ -81,7 +81,7 @@
         </div>
       </div>
     </div>
-    <div class="pb-5">
+    <div class="px-5 pb-5">
       <div
         class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-105 active:scale-95"
       >
@@ -90,12 +90,14 @@
         >
       </div>
     </div>
-    <div
-      class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-105 active:scale-95"
-    >
-      If you want to learn a little about me, <a href="/about"
-        >this is a good direction to start from.</a
+    <div class="px-5">
+      <div
+        class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-105 active:scale-95"
       >
+        If you want to learn a little about me, <a href="/about"
+          >this is a good direction to start from.</a
+        >
+      </div>
     </div>
     <div class="px-10">
       <div class="pt-10 text-xl">Note:</div>
