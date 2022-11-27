@@ -156,10 +156,9 @@
         for any suggestions/reports email me @
         <div
           use:tooltip={{ text: "Click to copy!" }}
-          use:clickToCopy
           class="relative inline-block rounded-lg  bg-dark p-1 duration-200 hover:scale-105 active:scale-95"
         >
-          oueslatim268@gmail.com
+          <div use:clickToCopy>oueslatim268@gmail.com</div>
         </div>
       </div>
     </div>
