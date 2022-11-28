@@ -22,12 +22,15 @@
   <div class="flex flex-col items-center justify-center gap-5">
     <p class="text-4xl">About</p>
 
-    <div>
-      <div class="text-xl">
+    <div class="flex flex-col items-center justify-center text-xl">
+      <div>
         Hi I'm Oueslati <WaveEmoji />,
       </div>
-      <div class="text-xl">
-        a <button use:tooltip={{ text: "24 / 11 / 2006" }} class="relative">
+      <div>
+        a <button
+          use:tooltip={{ text: "24 / 11 / 2006" }}
+          class="relative duration-200 hover:scale-102 active:scale-95"
+        >
           <strong class="rounded-xl bg-dark p-1"><AgeCounter /></strong></button
         >
         year old
@@ -38,9 +41,14 @@
         >
         based developer.
       </div>
+      <div>Here are some cards about me;</div>
     </div>
-    <div class="flex flex-col justify-center gap-5 sm:flex-row">
-      <div id="whatilike" class="rounded-xl bg-dark">
+    <div class="flex flex-col items-start justify-center gap-5 sm:flex-row">
+      <!-- <div class="grid justify-center gap-5 sm:grid-cols-2 2xl:grid-cols-3"> -->
+      <div
+        id="whatilike"
+        class="rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95 sm:backdrop-blur-sm"
+      >
         <div class="flex flex-col p-5">
           <div class="text-center text-2xl">I Like:</div>
           <div class="flex flex-col py-5">
@@ -48,14 +56,19 @@
               <li>- Drinking water</li>
               <li>- Breathing air</li>
               <li>- Eating food</li>
-              <li>- Making uselessly long lists</li>
               <li>- Coding & learning</li>
-              <li>- You (probably)</li>
+              <li>- SvelteKit</li>
+              <li>- Open-Source projects</li>
+              <li>- Making uselessly long lists</li>
+              <li>- You, probably</li>
             </ul>
           </div>
         </div>
       </div>
-      <div id="skills" class="rounded-xl bg-dark">
+      <div
+        id="skills"
+        class="rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95"
+      >
         <div class="flex flex-col p-5">
           <div class="text-center text-2xl">Skills:</div>
           <div class="flex flex-col py-5">
@@ -76,8 +89,11 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col justify-center gap-5 sm:flex-row">
-      <div id="projects" class="rounded-xl bg-dark">
+    <div class="flex flex-col items-start justify-center gap-5 sm:flex-row">
+      <div
+        id="projects"
+        class="rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95"
+      >
         <div class="flex flex-col p-5">
           <div class="text-center text-2xl">Projects:</div>
           <div class="flex flex-col py-5">
@@ -156,7 +172,7 @@
         for any suggestions/reports email me @
         <div
           use:tooltip={{ text: "Click to copy!" }}
-          class="relative inline-block rounded-lg  bg-dark p-1 duration-200 hover:scale-102 active:scale-95"
+          class="relative inline-block rounded-xl  bg-dark p-1 duration-200 hover:scale-102 active:scale-95"
         >
           <div use:clickToCopy>oueslatim268@gmail.com</div>
         </div>
