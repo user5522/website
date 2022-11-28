@@ -43,7 +43,7 @@
   <Navbar />
   <WavesStart />
 </div>
-<div class="init-div">
+<div class="init-div px-5">
   <div class="flex flex-col items-center justify-center">
     <div class="flex flex-row items-baseline">
       <div class="text-4xl">User5522</div>
@@ -51,7 +51,9 @@
     </div>
     <Subtitle />
     <div class="flex flex-col items-center justify-center px-10">
-      <div class="text-2xl">Welcome to user5522.tk!</div>
+      <div class="overflow-hidden whitespace-nowrap text-2xl">
+        Welcome to <strong>user5522.tk</strong>!
+      </div>
       <div class="py-5 text-lg">It's a good website, because:</div>
       <div class="pb-5">
         <div>
@@ -81,25 +83,20 @@
         </div>
       </div>
     </div>
-    <div class="px-5 pb-5">
+    <div class="pb-5">
       <div
-        class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-105 active:scale-95"
+        class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-102 active:scale-95"
       >
-        If you want to check out my projects, <a href="/projects"
-          >this is da way.</a
-        >
+        Check out my projects, <a href="/projects">dis way.</a>
       </div>
+    </div>
+
+    <div
+      class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-102 active:scale-95"
+    >
+      Learn a little about me, <a href="/about">here.</a>
     </div>
     <div class="px-5">
-      <div
-        class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-105 active:scale-95"
-      >
-        If you want to learn a little about me, <a href="/about"
-          >this is a good direction to start from.</a
-        >
-      </div>
-    </div>
-    <div class="px-10">
       <div class="pt-10 text-xl">Note:</div>
       <div>
         I am NOT wanted in several countries for commiting any sort of federal

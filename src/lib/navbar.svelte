@@ -49,7 +49,7 @@
         <a href="/" class="text-white">
           <button
             id="logo_text"
-            class="rounded-lg p-2 text-base font-bold duration-200 hover:scale-110 hover:bg-dark_light hover:bg-opacity-50 active:scale-90 sm:text-lg"
+            class="rounded-lg p-2 text-base font-bold duration-200 hover:scale-105 hover:bg-dark_light hover:bg-opacity-50 active:scale-95 sm:text-lg"
             alt="logo"
           >
             User5522
@@ -59,21 +59,21 @@
       <div class="flex w-1/2 justify-end">
         <a href="/projects" class="text-white">
           <button
-            class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-110 hover:bg-dark_light active:scale-90 sm:text-lg"
+            class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
           >
             Projects
           </button>
         </a>
         <a href="/blog" class="text-white">
           <button
-            class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-110 hover:bg-dark_light active:scale-90 sm:text-lg"
+            class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
           >
             Blog
           </button>
         </a>
         <a href="/about" class="text-white">
           <button
-            class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-110 hover:bg-dark_light active:scale-90 sm:text-lg"
+            class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
           >
             About
           </button>

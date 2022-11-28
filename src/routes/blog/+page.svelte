@@ -35,7 +35,7 @@
       <a
         href="/blog#placeholder"
         id="placeholder"
-        class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95"
+        class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-102 active:scale-95"
       >
         <div class="h-full">
           <div id="post_img" class="flex justify-center sm:h-2/3">
@@ -62,7 +62,7 @@
       <a
         href="/blog/1"
         id="initial-release"
-        class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95"
+        class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-102 active:scale-95"
       >
         <div class="h-full">
           <div id="post_img" class="flex justify-center sm:h-2/3">

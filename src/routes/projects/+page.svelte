@@ -85,7 +85,7 @@
     <a
       href="/rl/sgsource"
       id="SquareGame"
-      class="rounded-xl bg-dark text-white duration-200 hover:scale-105 active:scale-95"
+      class="rounded-xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
     >
       <div class="h-full">
         <div class="flex w-full items-center justify-center sm:h-2/3">
