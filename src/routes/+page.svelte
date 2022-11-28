@@ -96,8 +96,8 @@
     >
       Learn a little about me, <a href="/about">here.</a>
     </div>
-    <div class="px-5">
-      <div class="pt-10 text-xl">Note:</div>
+    <div>
+      <div class="pt-10 text-xl"><strong>Note:</strong></div>
       <div>
         I am NOT wanted in several countries for commiting any sort of federal
         crime.
