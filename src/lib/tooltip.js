@@ -28,10 +28,11 @@ export const tooltip = (node, param) => {
           "origin-top-left",
           "animated",
           "delay-200",
+          "text-sm",
           "pointer-events-auto",
           "tooltip",
+          "font-semibold",
           "flex",
-          "text-xs",
           "absolute",
           "z-50",
           "top-full",
@@ -41,10 +42,10 @@ export const tooltip = (node, param) => {
         span.innerHTML = /*html*/ `
             <span
               style="width: max-content"
-              class="js-tooltip-content flex shadow-md rounded-xl origin-top z-50 
-              ${background || "bg-dark"} text-whiter ${
-          paddingClass || "md:px-4 md:py-2 py-2 px-4"
-        } ${textClass || ""}">
+              class="js-tooltip-content flex shadow-md rounded-full origin-top z-50 
+              ${background || "bg-dark"} text-whiter ${paddingClass || "p-3"} ${
+          textClass || ""
+        }">
               ${!content?.tagName ? updatedText || text : ""}
             </span>
           `;
