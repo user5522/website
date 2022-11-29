@@ -1,1 +1,0 @@
-import{S as e,i as n,s as o,o as a}from"../../../../chunks/index-250401d6.js";function i(t){return a(()=>{window.location.replace("https://github.com/user5522/snak")}),[]}class u extends e{constructor(s){super(),n(this,s,i,null,o,{})}}export{u as default};

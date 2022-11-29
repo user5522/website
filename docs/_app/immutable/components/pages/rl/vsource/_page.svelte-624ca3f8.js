@@ -1,0 +1,1 @@
+import{S as o,i as s,s as n,o as a}from"../../../../chunks/index-2326af1a.js";function i(t){return a(()=>{window.location.replace("https://github.com/user5522/Vbot")}),[]}class u extends o{constructor(e){super(),s(this,e,i,null,n,{})}}export{u as default};
