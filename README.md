@@ -1,4 +1,4 @@
-# user5522.github.io | user5522.tk
+# website | user5522.tk
 
 A website, probably, now in sveltekit.
 
@@ -29,4 +29,4 @@ bucks worth of taxes??
 
 if you have more questions, I don't care
 
-[website link](https://user5522.github.io)
+[website link](https://user5522.tk)

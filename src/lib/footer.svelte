@@ -135,7 +135,7 @@
     <div>
       Found some annoying bugs?
       <a
-        href="https://github.com/user5522/user5522.github.io/issues"
+        href="https://github.com/user5522/website/issues"
         target="blank"
         class="text-lighter_true_gray underline"
         rel="noreferrer">report them by making an issue here!</a

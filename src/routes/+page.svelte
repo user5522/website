@@ -68,7 +68,7 @@
           - It's fully opensource on
           <a
             target="_blank"
-            href="https://github.com/user5522/user5522.github.io"
+            href="https://github.com/user5522/website"
             rel="noreferrer"
           >
             github

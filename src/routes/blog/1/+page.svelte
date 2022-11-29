@@ -60,7 +60,7 @@
       It's also to track bugs & issues easily. Reminder for anyone who encounters
       any problem to
       <a
-        href="https://github.com/user5522/user5522.github.io/issues"
+        href="https://github.com/user5522/website/issues"
         id="issue-link"
         target="_blank"
         rel="noreferrer">make an issue on github</a
@@ -77,7 +77,7 @@
       I would LOVE to know if you want me to add anything in this website, hit me
       by creating a
       <a
-        href="https://github.com/user5522/user5522.github.io/issues"
+        href="https://github.com/user5522/website/issues"
         id="issue-link"
         target="_blank"
         rel="noreferrer">github issue</a
