@@ -1,4 +1,4 @@
-<div id="footer" class="top-0 min-h-full w-full bg-true_gray p-5">
+<footer class="absolute w-full bg-true_gray p-5">
   <div class="flex flex-row">
     <div class="flex flex-col">
       <div class="flex flex-col gap-5 sm:flex-row sm:gap-10">
@@ -20,7 +20,7 @@
           </div>
           <div>
             -
-            <a href="/404.html">404 page</a>
+            <a href="https://user5522.tk/404">404 page</a>
           </div>
           <div>
             -
@@ -104,12 +104,8 @@
                 src="/logos/github.svg"
                 class="relative top-1 h-5 items-baseline pl-1"
                 alt="github logo"
-              /><img
-                src="/vbot.svg"
-                class="relative top-1.5 h-4 items-baseline pl-1"
-                alt="vbot logo"
-              /></a
-            >
+              />
+            </a>
           </div>
         </div>
         <div class="flex flex-col">
@@ -146,4 +142,4 @@
       >
     </div>
   </div>
-</div>
+</footer>
