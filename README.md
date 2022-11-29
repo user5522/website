@@ -1,6 +1,7 @@
 # website | user5522.tk
 
 A website, probably, now in sveltekit.
+hosted on [Vercel](https://vercel.com)
 
 Thought I'd make it open source because uh..
 
@@ -11,10 +12,6 @@ and if good pr I accept pr
 
 but idk man this website seems like one of the websites
 of all time.
-
-## Reminder For Self
-
-To change the stylesheet directory of 404.html on each build because of the damn libs
 
 ## FAQ
 
