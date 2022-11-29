@@ -1,4 +1,4 @@
-import adapter from "@sveltejs/adapter-auto";
+import adapter from "@sveltejs/adapter-vercel";
 
 const dev = "production" === "development";
 
@@ -10,6 +10,7 @@ const config = {
       assets: "docs",
       fallback: null,
       precompress: false,
+      split: false,
     }),
     files: {
       assets: "static",
