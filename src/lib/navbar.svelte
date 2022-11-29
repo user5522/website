@@ -41,11 +41,13 @@
         class="flex w-1/2 flex-row items-center gap-1 duration-300 sm:gap-2"
         id="logo"
       >
-        <img
-          src="/Logo_flat.svg"
-          class="h-9 items-center rounded-full bg-dark_light bg-opacity-50 backdrop-blur-md delay-10000 duration-300 hover:rotate-180 sm:h-10"
-          alt="logo"
-        />
+        <div class="duration-200 hover:scale-105 active:scale-95">
+          <img
+            src="/Logo_flat.svg"
+            class="h-9 items-center rounded-full bg-dark_light bg-opacity-50 backdrop-blur-md delay-10000 duration-300 hover:rotate-180 sm:h-10"
+            alt="logo"
+          />
+        </div>
         <a href="/" class="text-white">
           <button
             id="logo_text"
