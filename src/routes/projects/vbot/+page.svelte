@@ -31,7 +31,7 @@
           <img
             src="/vbot/vbotbranding.png"
             alt="vbot branding"
-            class="h-56 p-10 drop-shadow-2xl"
+            class="h-56 p-10"
           />
         </div>
       </div>
