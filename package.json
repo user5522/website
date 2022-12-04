@@ -1,6 +1,6 @@
 {
   "name": "user5522.tk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "dev": "vite dev",
@@ -9,14 +9,15 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@sveltejs/adapter-vercel": "next",
     "@sveltejs/kit": "^1.0.0-next.469",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "rollup-plugin-terser": "^7.0.2",
     "svelte": "^3.53.1",
-    "@sveltejs/adapter-vercel": "next",
     "svelte-sitemap": "^2.5.3",
-    "vite": "^3.2.3"
+    "vite": "^3.2.3",
+    "tailwindcss": "^3.1.8"
   },
   "type": "module",
   "dependencies": {
@@ -25,10 +26,8 @@
     "@sveltejs/adapter-static": "^1.0.0-next.41",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
-    "svelte-motion": "^0.11.2",
     "svelte-preprocess": "^4.10.7",
     "svelte-seo": "^1.4.1",
-    "svelte-simple-modal": "^1.4.1",
-    "tailwindcss": "^3.1.8"
+    "svelte-simple-modal": "^1.4.1"
   }
 }
