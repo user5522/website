@@ -2,8 +2,7 @@
   import Navbar from "$lib/navbar.svelte";
   import WavesStart from "$lib/waves_start.svelte";
   import Footer from "$lib/footer.svelte";
-  import Heart from "$lib/emojis/heart.svelte";
-  import Flushed from "$lib/emojis/flushed.svelte";
+  import * as Icon from "svelte-twitter-emoji";
   import { tooltip } from "$lib/tooltip.js";
 </script>
 
@@ -18,7 +17,9 @@
 <div class="init-div px-5">
   <div class="flex flex-col items-center justify-center">
     <div class="text-4xl">Credits</div>
-    <div class="text-xl">A place to say thank you <Heart /></div>
+    <div class="text-xl">
+      A place to say thank you <Icon.A2764 class="inline-block h-6 w-6" />
+    </div>
   </div>
   <div class="flex flex-col items-center justify-center gap-4 text-xl">
     <div>
@@ -81,7 +82,7 @@
           use:tooltip={{ text: "For visiting my website" }}
           class="flex w-fit flex-col items-center justify-center rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95"
         >
-          <div>You <Flushed /></div>
+          <div>You <Icon.A1F633 class="inline-block h-6 w-6" /></div>
         </div>
       </div>
     </div>
@@ -89,7 +90,7 @@
 
   <div class="flex justify-center">
     <div class="text-xl">
-      Made with <Heart /> by User5522.
+      Made with <Icon.A2764 class="inline-block h-6 w-6" /> by User5522.
     </div>
   </div>
 </div>
