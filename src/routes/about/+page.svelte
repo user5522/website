@@ -4,8 +4,7 @@
   import Footer from "$lib/footer.svelte";
   import { clickToCopy } from "$lib/clickToCopy.js";
   import AgeCounter from "$lib/ageCounter.svelte";
-  import WaveEmoji from "../../lib/emojis/wave-emoji.svelte";
-  import Heart from "../../lib/emojis/heart.svelte";
+  import * as Icon from "svelte-twitter-emoji";
   import { tooltip } from "$lib/tooltip.js";
   let tooltipContent;
 </script>
@@ -24,7 +23,7 @@
 
     <div class="flex flex-col items-center justify-center text-xl">
       <div>
-        Hi I'm Oueslati <WaveEmoji />,
+        Hi I'm Oueslati <Icon.A1F44b class="inline-block h-6 w-6" />,
       </div>
       <div>
         a <button
@@ -37,44 +36,49 @@
         <a
           href="https://google.com/search?q=north+tunisia"
           target="_blank"
-          rel="noreferrer">north Tunisia</a
+          rel="noreferrer">north Tunisian</a
         >
-        based developer.
+        developer.
       </div>
-      <div>Here are some cards about me;</div>
+      <div>These are some things about me</div>
     </div>
     <div class="flex flex-col items-start justify-center gap-5 sm:flex-row">
       <!-- <div class="grid justify-center gap-5 sm:grid-cols-2 2xl:grid-cols-3"> -->
       <div
-        id="whatilike"
-        class="rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95 sm:backdrop-blur-sm"
+        id="ilike"
+        class="h-full w-full rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95 sm:backdrop-blur-sm"
       >
         <div class="flex flex-col p-5">
           <div class="text-center text-2xl">I Like:</div>
           <div class="flex flex-col py-5">
             <ul class="text-lg">
               <li>- Drinking water</li>
-              <li>- Breathing air</li>
-              <li>- Eating food</li>
-              <li>- Coding & learning</li>
-              <li>- SvelteKit</li>
               <li>- Open-Source projects</li>
+              <li>- Breathing air</li>
+              <li>- Coding & learning</li>
+              <li>- Eating food</li>
+              <li>- SvelteKit</li>
               <li>- Making uselessly long lists</li>
-              <li>- You, probably</li>
+              <li>- The letter H</li>
+              <li>
+                - You, probably. <Icon.A1F633 class="inline-block h-6 w-6" />
+              </li>
             </ul>
           </div>
         </div>
       </div>
       <div
         id="skills"
-        class="rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95"
+        class="h-full w-full rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95"
       >
         <div class="flex flex-col p-5">
           <div class="text-center text-2xl">Skills:</div>
           <div class="flex flex-col py-5">
             <ul class="text-lg">
               <li>
-                - Svelte (<strong>7/10</strong> I really <Heart /> Sveltekit)
+                - SvelteKit (<strong>7/10</strong> I really <Icon.A2764
+                  class="inline-block h-6 w-6"
+                /> it)
               </li>
               <li>- React (<strong>4/10</strong> not so good)</li>
               <li>- Rust (<strong>3/10</strong> too hard for me)</li>
@@ -82,7 +86,7 @@
               <li>- Javascript (<strong>6/10</strong> I can do stuff)</li>
               <li>- Dart (<strong>4/10</strong> Still learning it)</li>
               <li>
-                - Python (<strong>3/10</strong> never tried learning it)
+                - Python (<strong>3/10</strong> never tried with it)
               </li>
             </ul>
           </div>
@@ -92,18 +96,18 @@
     <div class="flex flex-col items-start justify-center gap-5 sm:flex-row">
       <div
         id="projects"
-        class="rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95"
+        class="h-full w-full rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95"
       >
         <div class="flex flex-col p-5">
           <div class="text-center text-2xl">Projects:</div>
           <div class="flex flex-col py-5">
             <ul class="text-lg">
-              <li>- Vbot - a multipurpose Discord bot</li>
-              <li>- SquareGame - a 2D Unity game</li>
-              <li>- This website - a place for everything I do</li>
-              <li>- M3F - upcomming clock app in Flutter</li>
-              <li>- Snak - broken buggy snake game made in Rust</li>
-              <li>- <a href="/projects">Everything else here</a></li>
+              <li>- Vbot - Multipurpose Discord bot</li>
+              <li>- SquareGame - 2D Unity game</li>
+              <li>- This website - place for all of my stuff</li>
+              <!-- <li>- M3F - upcomming clock app in Flutter</li> Too early. -->
+              <li>- Snak - broken snake clone made to learn Rust</li>
+              <li>- <a href="/projects">Everything else</a></li>
             </ul>
           </div>
         </div>
@@ -115,21 +119,21 @@
       <div class="flex flex-row items-center gap-5">
         <a
           href="/rl/yt"
-          class="duration-200 hover:scale-110 active:scale-90"
+          class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/youtube.svg" alt="youtube link" class="h-10" />
         </a>
         <a
           href="/rl/discord"
-          class="duration-200 hover:scale-110 active:scale-90"
+          class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/discord.svg" alt="discord link" class="h-10" />
         </a>
         <a
           href="/rl/github"
-          class="duration-200 hover:scale-110 active:scale-90"
+          class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/github.svg" alt="github link" class="h-10" />
@@ -138,28 +142,28 @@
       <div class="flex flex-row items-center gap-5">
         <a
           href="/rl/twitter"
-          class="duration-200 hover:scale-110 active:scale-90"
+          class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/twitter.svg" alt="twitter link" class="h-10" />
         </a>
         <a
           href="/rl/xbox"
-          class="duration-200 hover:scale-110 active:scale-90"
+          class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/xbox.svg" alt="xbox link" class="h-10" />
         </a>
         <a
           href="/rl/steam"
-          class="duration-200 hover:scale-110 active:scale-90"
+          class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="logos/steam.svg" alt="steam link" class="h-10" />
         </a>
         <a
           href="/rl/reddit"
-          class="duration-200 hover:scale-110 active:scale-90"
+          class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/reddit.svg" alt="reddit link" class="h-10" /></a
