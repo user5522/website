@@ -56,7 +56,7 @@
 </svelte:head>
 
 <div class="flex flex-col items-center justify-center gap-5 p-5">
-  <div class="flex flex-col items-center justify-center gap-1 pt-10">
+  <div class="flex flex-col items-center justify-center gap-1">
     <div class="text-4xl font-semibold">
       {$page.status}: {$page.error.message}
     </div>
@@ -71,10 +71,16 @@
       <div
         class="rounded-xl bg-dark p-3 text-lg duration-200 hover:scale-102 active:scale-95"
       >
-        <li>- Checking if the URL/Link you received is valid</li>
+        <li>- Checking if the URL/Link you received exists</li>
+        <li>- Taking a quick sip of water</li>
         <li>- Looking over for any typos in the URL</li>
-        <li>- Verifying that the website host is up & running</li>
-        <li>- Inspecting if you have the permission to view this page</li>
+        <li>
+          - <a
+            href="https://google.com/search?q=have+you+tried+turning+it+off+and+on+again"
+            target="_blank"
+            rel="noreferrer">Turning it off & on again?</a
+          >
+        </li>
       </div>
       <div class="flex justify-center text-xl">
         If none of these solutions work:
