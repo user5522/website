@@ -97,16 +97,6 @@
               /></a
             >
           </div>
-          <div class="flex flex-row gap-1">
-            -
-            <a href="/rl/vsource" class="flex"
-              >Vbot Source <img
-                src="/logos/github.svg"
-                class="relative top-1 h-5 items-baseline pl-1"
-                alt="github logo"
-              />
-            </a>
-          </div>
         </div>
         <div class="flex flex-col">
           <div class="font-semibold">Website testing links:</div>
