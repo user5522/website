@@ -1,4 +1,4 @@
-<footer class="absolute w-full bg-true_gray p-5">
+<footer class=" bottom-0 w-full bg-true_gray p-5">
   <div class="flex flex-row">
     <div class="flex flex-col">
       <div class="flex flex-col gap-5 sm:flex-row sm:gap-10">
