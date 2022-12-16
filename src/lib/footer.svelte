@@ -118,10 +118,8 @@
       class="ml-auto h-28 w-28 rounded-full bg-light_true_gray grayscale sm:h-32 sm:w-32"
     />
   </div>
-  <div class="text-lighter_true_gray">
-    <div class="text-lighter_true_gray">
-      © 2022 User552, All rights reserved
-    </div>
+  <div class="pt-5 text-lighter_true_gray">
+    <div class="text-lighter_true_gray">© 2022 User552</div>
     <div>
       Found some annoying bugs?
       <a
