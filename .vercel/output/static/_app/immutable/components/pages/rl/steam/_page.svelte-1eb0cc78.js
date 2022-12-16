@@ -1,0 +1,1 @@
+import{S as n,i as s,s as o,o as a}from"../../../../chunks/index-5c857ef9.js";function i(t){return a(()=>{window.location.replace("https://steamcommunity.com/id/username5522/")}),[]}class u extends n{constructor(e){super(),s(this,e,i,null,o,{})}}export{u as default};

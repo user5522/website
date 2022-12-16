@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://user5522.tk/sitemap.xml

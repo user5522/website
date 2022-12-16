@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "/_app/.+",
+      "headers": {
+        "cache-control": "public, immutable, max-age=31536000"
+      }
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/render"
+    }
+  ],
+  "overrides": {
+    "index.html": {
+      "path": ""
+    },
+    "about.html": {
+      "path": "about"
+    },
+    "accusations.html": {
+      "path": "accusations"
+    },
+    "blog.html": {
+      "path": "blog"
+    },
+    "blog/1.html": {
+      "path": "blog/1"
+    },
+    "credits.html": {
+      "path": "credits"
+    },
+    "long.html": {
+      "path": "long"
+    },
+    "projects.html": {
+      "path": "projects"
+    },
+    "projects/banners.html": {
+      "path": "projects/banners"
+    },
+    "projects/vbot.html": {
+      "path": "projects/vbot"
+    },
+    "rl.html": {
+      "path": "rl"
+    },
+    "rl/discord.html": {
+      "path": "rl/discord"
+    },
+    "rl/github.html": {
+      "path": "rl/github"
+    },
+    "rl/reddit.html": {
+      "path": "rl/reddit"
+    },
+    "rl/sgsource.html": {
+      "path": "rl/sgsource"
+    },
+    "rl/snaksource.html": {
+      "path": "rl/snaksource"
+    },
+    "rl/steam.html": {
+      "path": "rl/steam"
+    },
+    "rl/twitter.html": {
+      "path": "rl/twitter"
+    },
+    "rl/vbot.html": {
+      "path": "rl/vbot"
+    },
+    "rl/vsource.html": {
+      "path": "rl/vsource"
+    },
+    "rl/wsource.html": {
+      "path": "rl/wsource"
+    },
+    "rl/xbox.html": {
+      "path": "rl/xbox"
+    },
+    "rl/yt.html": {
+      "path": "rl/yt"
+    },
+    "sandbox.html": {
+      "path": "sandbox"
+    }
+  }
+}
