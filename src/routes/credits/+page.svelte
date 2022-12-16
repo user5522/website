@@ -3,7 +3,7 @@
   import WavesStart from "$lib/waves_start.svelte";
   import Footer from "$lib/footer.svelte";
   import Heart from "$lib/emojis/heart.svelte";
-  import Flushed from "$lib/emojis/flushed-emoji.svelte";
+  import Flushed from "$lib/emojis/flushed.svelte";
   import { tooltip } from "$lib/tooltip.js";
 </script>
 
@@ -35,9 +35,11 @@
           <div>& friends</div>
         </div>
       </div>
-      <div class="pl-56 sm:pl-108">
+      <div class="pl-28 sm:pl-108">
         <div
-          use:tooltip={{ text: "For creating one of the best frameworks" }}
+          use:tooltip={{
+            text: "For creating a great framework",
+          }}
           class="flex w-fit flex-col items-center justify-center rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95"
         >
           <div>SvelteKit</div>
@@ -62,6 +64,16 @@
           class="flex w-fit flex-col items-center justify-center rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95"
         >
           <div>FontAwesome</div>
+        </div>
+      </div>
+      <div class="pl-40 sm:pl-36">
+        <div
+          use:tooltip={{
+            text: "For their free hosting",
+          }}
+          class="flex w-fit flex-col items-center justify-center rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95"
+        >
+          <div>Vercel</div>
         </div>
       </div>
       <div class="self-center">
