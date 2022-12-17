@@ -2,7 +2,7 @@
   import Navbar from "$lib/navbar.svelte";
   import WavesStart from "$lib/waves_start.svelte";
   import Footer from "$lib/footer.svelte";
-  import * as Icon from "svelte-twitter-emoji";
+  import { A1F633 } from "svelte-twitter-emoji";
 </script>
 
 <svelte:head>
@@ -21,7 +21,7 @@
     <div class="flex flex-row gap-1">
       <div class="px-10 text-xl">
         Projects I'm working on that I want to share with you
-        <Icon.A1F633 class="inline-block h-7 w-7" />
+        <A1F633 class="inline-block h-7 w-7" />
       </div>
     </div>
   </div>
