@@ -1,1 +1,0 @@
-import{S as s,i as n,s as o,o as a}from"../../../../chunks/index-2326af1a.js";function r(e){return a(()=>{window.location.replace("https://github.com/user5522/SquareGame")}),[]}class i extends s{constructor(t){super(),n(this,t,r,null,o,{})}}export{i as default};

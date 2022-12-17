@@ -242,7 +242,7 @@ function add_attribute(name, value, boolean) {
   return ` ${name}${assignment}`;
 }
 function style_object_to_string(style_object) {
-  return Object.keys(style_object).filter((key) => style_object[key]).map((key) => `${key}: ${style_object[key]};`).join(" ");
+  return Object.keys(style_object).filter((key) => style_object[key]).map((key) => `${key}: ${escape_attribute_value(style_object[key])};`).join(" ");
 }
 export {
   safe_not_equal as a,
