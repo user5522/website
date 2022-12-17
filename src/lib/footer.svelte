@@ -20,10 +20,6 @@
           </div>
           <div>
             -
-            <a href="https://user5522.tk/404">404 page</a>
-          </div>
-          <div>
-            -
             <a href="/credits">Credits (WIP)</a>
           </div>
           <div>
