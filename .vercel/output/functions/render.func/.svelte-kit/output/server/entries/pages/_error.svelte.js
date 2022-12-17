@@ -21,10 +21,7 @@ const Error$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $page, $$unsubscribe_page;
   $$unsubscribe_page = subscribe(page, (value) => $page = value);
   $$unsubscribe_page();
-  return `
-
-
-${$$result.head += `<!-- HEAD_svelte-1xdm1xp_START -->${$$result.title = `<title>${escape($page.error.message)}</title>`, ""}<!-- HEAD_svelte-1xdm1xp_END -->`, ""}
+  return `${$$result.head += `<!-- HEAD_svelte-1xdm1xp_START -->${$$result.title = `<title>${escape($page.error.message)}</title>`, ""}<!-- HEAD_svelte-1xdm1xp_END -->`, ""}
 
 <div class="${"flex flex-col items-center justify-center gap-5 p-5"}"><div class="${"flex flex-col items-center justify-center gap-1"}"><div class="${"text-4xl font-semibold"}">${escape($page.status)}: ${escape($page.error.message)}</div>
     <div class="${"text-3xl"}" id="${"pathname"}"></div></div>

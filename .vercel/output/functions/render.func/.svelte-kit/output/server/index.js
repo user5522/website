@@ -3020,52 +3020,66 @@ function set_paths(paths) {
   assets = paths.assets || base;
 }
 const app_template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n  <head>\r\n    <meta charset="utf-8" />\r\n    <meta name="viewport" content="width=device-width" />\r\n    <link rel="icon" href="' + assets2 + '/Logo_flat.svg" />\r\n    <link rel="preconnect" href="https://fonts.googleapis.com" />\r\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\r\n    <link\r\n      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"\r\n      rel="stylesheet"\r\n    />\r\n    ' + head + "\r\n  </head>\r\n  <body>\r\n    <div>" + body + "</div>\r\n  </body>\r\n</html>\r\n";
-const error_template = ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
+const error_template = ({ status, message }) => `<script>
+  import { page } from "$app/stores";
+  import { onMount } from "svelte";
 
-		<style>
-			body {
-				font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-					Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				height: 100vh;
-			}
+  onMount(() => {
+    document.getElementById("pathname").innerHTML = window.location.pathname;
+  });
+<\/script>
 
-			.error {
-				display: flex;
-				align-items: center;
-				max-width: 32rem;
-				margin: 0 1rem;
-			}
+<svelte:head>
+  <title>{$page.error.message}</title>
+</svelte:head>
 
-			.status {
-				font-weight: 200;
-				font-size: 3rem;
-				line-height: 1;
-				position: relative;
-				top: -0.05rem;
-			}
-
-			.message {
-				border-left: 1px solid #ccc;
-				padding: 0 0 0 1rem;
-				margin: 0 0 0 1rem;
-				min-height: 2.5rem;
-				display: flex;
-				align-items: center;
-			}
-
-			.message h1 {
-				font-weight: 400;
-				font-size: 1em;
-				margin: 0;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="error">
-			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n";
+<div class="flex flex-col items-center justify-center gap-5 p-5">
+  <div class="flex flex-col items-center justify-center gap-1">
+    <div class="text-4xl font-semibold">
+      {$page.status}: {$page.error.message}
+    </div>
+    <div class="text-3xl" id="pathname" />
+  </div>
+  <div>
+    <div class="text-2xl">This looks like an error.. & that's unfortunate.</div>
+    <div class="flex flex-col gap-5">
+      <div class="flex justify-center text-2xl">
+        Maybe try one of these solutions:
+      </div>
+      <div
+        class="rounded-xl bg-dark p-3 text-lg duration-200 hover:scale-102 active:scale-95"
+      >
+        <li>- Checking if the URL/Link you received exists</li>
+        <li>- Taking a quick sip of water</li>
+        <li>- Looking over for any typos in the URL</li>
+        <li>
+          - <a
+            href="https://google.com/search?q=have+you+tried+turning+it+off+and+on+again"
+            target="_blank"
+            rel="noreferrer">Turning it off & on again?</a
+          >
+        </li>
+      </div>
+      <div class="flex justify-center text-xl">
+        If none of these solutions work:
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-row gap-5">
+    <a href="/">
+      <button class="blue-button">Return to homepage</button>
+    </a>
+    <a href="/about#Links">
+      <button class="blue-button">Contact me</button>
+    </a>
+  </div>
+</div>
+<div
+  class="absolute top-0 right-0 -z-20 rotate-180 text-8xl font-semibold text-white opacity-30 sm:text-9xl"
+>
+  Damn.
+</div>
+`;
 let read = null;
 set_paths({ "base": "", "assets": "" });
 let default_protocol = "https";
@@ -3099,7 +3113,7 @@ class Server {
       app_template,
       app_template_contains_nonce: false,
       error_template,
-      version: "1671309746549"
+      version: "1671311346723"
     };
   }
   async init({ env }) {

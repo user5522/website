@@ -9,7 +9,8 @@ const config = {
 			split: false
 		}),
 		files: {
-			assets: 'static'
+			assets: 'static',
+			errorTemplate: 'src/routes/+error.svelte'
 		}
 	}
 };
