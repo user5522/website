@@ -1,6 +1,21 @@
 <script>
   import { onMount } from "svelte";
 
+  let clicks = 0;
+  let spinning = false;
+
+  function handleClick() {
+    clicks++;
+
+    if (clicks >= 4) {
+      spinning = true;
+      clicks = 0;
+      setTimeout(() => {
+        spinning = false;
+      }, 10000);
+    }
+  }
+
   onMount(() => {
     window.onscroll = function () {
       scrollFunction();
@@ -28,8 +43,26 @@
         document.getElementById("navbar").style.transitionDuration = "400ms";
       }
     }
+
   });
+
 </script>
+
+<style>
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+  .spin {
+    animation: spin 0.5s linear infinite;
+  }
+</style>
 
 <div class="pb-28">
   <div
@@ -39,20 +72,23 @@
     <div id="navbar" class="flex flex-row rounded-xl bg-dark p-4 shadow-lg">
       <div
         class="flex w-1/2 flex-row items-center gap-1 duration-300 sm:gap-2"
-        id="logo"
+        id="branding"
       >
-        <div class="duration-200 hover:scale-105 active:scale-95">
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <div id="logo" class="duration-200 hover:scale-105 active:scale-95" on:click={handleClick}>
           <img
+            id="brandingLogo"
             src="/Logo_flat.svg"
-            class="h-9 items-center rounded-full bg-dark_light bg-opacity-50 backdrop-blur-md delay-9000 duration-300 hover:rotate-180 sm:h-10"
+            class="h-9 items-center rounded-full bg-dark_light bg-opacity-50 backdrop-blur-md sm:h-10"
             alt="logo"
+            class:spin={spinning}
           />
         </div>
         <a href="/" class="text-white">
           <button
-            id="logo_text"
+            id="brandingWoodmark"
             class="rounded-lg p-2 text-base font-bold duration-200 hover:scale-105 hover:bg-dark_light hover:bg-opacity-50 active:scale-95 sm:text-lg"
-            alt="logo"
+            alt="branding woodmark"
           >
             User5522
           </button>
