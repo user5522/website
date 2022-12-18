@@ -27,6 +27,7 @@ bucks worth of taxes??
 if you have more questions, I don't care
 
 ## Reminder(s) to self
+
 because i forgot
 
 [Emoji Catalgo Link](https://projects.iamcal.com/emoji-data/table.htm)
