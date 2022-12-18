@@ -20,19 +20,15 @@
           </div>
           <div>
             -
-            <a href="/credits">Credits (WIP)</a>
+            <a href="/credits">Credits</a>
           </div>
           <div>
             -
-            <a href="/blog">Blog (WIP)</a>
+            <a href="/collections">Collections</a>
           </div>
         </div>
         <div class="flex flex-col">
           <div class="font-semibold">Redirecting links:</div>
-          <div>
-            -
-            <a href="">All Links</a>
-          </div>
           <div class="flex flex-row gap-1">
             -
             <a href="/discord" class="flex"
@@ -70,6 +66,16 @@
                 src="/logos/twitter.svg"
                 class="relative top-1 h-5 items-baseline pl-1"
                 alt="twitter logo"
+              /></a
+            >
+          </div>
+          <div class="flex flex-row gap-1">
+            -
+            <a href="/xbox" class="flex"
+              >Xbox <img
+                src="/logos/xbox.svg"
+                class="relative top-1 h-5 items-baseline pl-1"
+                alt="xbox logo"
               /></a
             >
           </div>

@@ -102,11 +102,11 @@
             Projects
           </button>
         </a>
-        <a href="/blog" class="text-white">
+        <a href="/collections" class="text-white">
           <button
             class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
           >
-            Blog
+            Collections
           </button>
         </a>
         <a href="/about" class="text-white">

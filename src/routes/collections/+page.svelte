@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>/blog</title>
+  <title>/collections</title>
 </svelte:head>
 
 <div class="bg-white">
@@ -16,10 +16,10 @@
 <div class="init-div">
   <div class="flex flex-col items-center justify-center">
     <div class="flex flex-row">
-      <p class="text-4xl">Blog</p>
+      <p class="text-4xl">Collections</p>
     </div>
     <div>
-      <div class="px-10 text-xl">Everything I want to blog about</div>
+      <div class="px-10 text-xl">Everything I want to share</div>
     </div>
   </div>
 
@@ -33,7 +33,7 @@
   <div>
     <div class="grid gap-5 px-5 sm:grid-cols-2 2xl:grid-cols-4">
       <a
-        href="/blog#placeholder"
+        href="/collections#placeholder"
         id="placeholder"
         class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-102 active:scale-95"
       >
@@ -72,7 +72,7 @@
       </a>
 
       <a
-        href="/blog/1"
+        href="/collections/1"
         id="initial-release"
         class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-102 active:scale-95"
       >
@@ -80,7 +80,7 @@
           <div class="h-full">
             <div id="post_img" class="flex justify-center sm:h-2/3">
               <img
-                src="/blog/initial-release.png"
+                src="/collections/initial-release.png"
                 alt="Initial release banner"
               />
             </div>

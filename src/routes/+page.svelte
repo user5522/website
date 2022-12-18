@@ -15,12 +15,12 @@
 
 <SvelteSeo
   title="User5522.tk"
-  description="Welcome to my website! A place where I share/blog information about all my stuff!"
+  description="Welcome to my website! A place where I share information about all my stuff!"
   keywords="user5522 u5522 user5522.tk username5522 Epik_Kid"
   openGraph={{
     title: "User5522.tk",
     description:
-    "Welcome to my website! A place where I share/blog information about all my stuff!",
+    "Welcome to my website! A place where I share information about all my stuff!",
     url: "https://user5522.tk/",
     type: "website",
     images: [
