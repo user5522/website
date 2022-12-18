@@ -1,4 +1,3 @@
-<!-- svelte-ignore security-anchor-rel-noreferrer -->
 <script>
   import SvelteSeo from "svelte-seo";
   import { writable } from "svelte/store";
@@ -21,7 +20,7 @@
   openGraph={{
     title: "User5522.tk",
     description:
-      "Welcome to my website! A place where I share/blog information about all my stuff!",
+    "Welcome to my website! A place where I share/blog information about all my stuff!",
     url: "https://user5522.tk/",
     type: "website",
     images: [
@@ -79,22 +78,22 @@
         <div>
           - I have nothing else to compliment, but <a href="/about#Links"
             >maybe you do</a
-          >
+            >
         </div>
       </div>
     </div>
     <div class="pb-5">
       <div
-        class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-102 active:scale-95"
+      class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-102 active:scale-95"
       >
-        Check out my projects, <a href="/projects">dis way.</a>
+      Check out my projects, <a href="/projects">dis way.</a>
       </div>
     </div>
 
     <div
       class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-102 active:scale-95"
     >
-      Learn a little about me, <a href="/about">here.</a>
+    Learn a little about me, <a href="/about">here.</a>
     </div>
     <div>
       <div class="pt-10 text-xl"><strong>Note:</strong></div>
@@ -108,7 +107,8 @@
       </div>
     </div>
     <div class="flex flex-row gap-4">
-      <!-- svelte-ignore a11y-missing-attribute -->
+
+    <!-- svelte-ignore a11y-missing-attribute -->
       <Modal
         show={$modal}
         unstyled={false}
