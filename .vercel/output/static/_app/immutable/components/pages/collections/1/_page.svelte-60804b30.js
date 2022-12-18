@@ -1,0 +1,39 @@
+import{S as se,i as ae,s as re,a as d,k as a,w as M,q as n,G as oe,h as i,c as f,l as r,m as c,x as P,r as u,n as l,_ as le,b as G,y as J,H as t,B as ie,f as K,t as Q,z as Z}from"../../../../chunks/index-7a84d0c4.js";import{N as ne}from"../../../../chunks/navbar-71552704.js";import{W as ue}from"../../../../chunks/wavesStart-f80b0126.js";import{F as ce}from"../../../../chunks/footer-a77a15cc.js";import{A as de}from"../../../../chunks/A2764-91d8358c.js";function fe(ee){let D,m,_,tt,x,F,I,g,w,h,B,et,st,O,at,rt,y,b,$,zt,ot,S,lt,it,k,A,nt,ut,e,ct,N,dt,ft,mt,ht,bt,vt,pt,gt,T,wt,yt,_t,E,xt,It,$t,R,kt,Et,Rt,v,jt,Vt,Dt,Bt,W,Ot,St,At,Nt,Tt,Wt,Gt,Ft,qt,p,Ct,q,j,C;return _=new ne({}),x=new ue({}),R=new de({props:{class:"inline-block h-6 w-6"}}),j=new ce({}),{c(){D=d(),m=a("div"),M(_.$$.fragment),tt=d(),M(x.$$.fragment),F=d(),I=a("div"),g=a("div"),w=a("div"),h=a("div"),B=a("div"),et=n("#1"),st=d(),O=a("div"),at=n("Initial Release!"),rt=d(),y=a("div"),b=a("div"),$=a("img"),ot=d(),S=a("div"),lt=n("Author: User5522"),it=d(),k=a("div"),A=a("div"),nt=n("On: 26/11/2022"),ut=d(),e=a("div"),ct=n(`Finally! After what felt like, forever, I'm proud to announce user5522.tk reached it's initial
+			release, `),N=a("strong"),dt=n("v1.0.0"),ft=n("! "),mt=a("br"),ht=n(`
+			Website updates will now be weekly instead of daily (unless it's a critical bug) because, as much
+			as I like web development, it is very tiring.`),bt=a("br"),vt=n(`
+			New collectionss will be available whenever I have something new (Collections can be about anything,
+			even stuff outside of my projects' updates) & hopefully you enjoy your stay here.`),pt=a("br"),gt=d(),T=a("strong"),wt=n("Open-Source website??"),yt=a("br"),_t=n(`
+			Yes, you heard it right, the source code for this website is just like all of my other projects',
+			available
+			`),E=a("a"),xt=n("on my github profile."),It=a("br"),$t=n(`
+			It is mainly because I `),M(R.$$.fragment),kt=n(` Open-Source & to allow anyone who
+			wants to improve my projects do so.`),Et=a("br"),Rt=n(`
+			It's also to track bugs & issues easily. Reminder for anyone who encounters any problem to
+			`),v=a("a"),jt=n("make an issue on github"),Vt=n(`
+			and report what's wrong. (a picture/video of the problem would be appreciated.)`),Dt=a("br"),Bt=d(),W=a("strong"),Ot=n("What's the point of this place?"),St=a("br"),At=n(`
+			This website is basically (& for now) a place for me to showcase my projects & collection about
+			my thoughts. Think about it as a portfolio X collections website collab.`),Nt=a("br"),Tt=n(`
+			I'm plannig on adding more content, like simple html5 mini-games and some fun stuff like random
+			cat images`),Wt=a("br"),Gt=d(),Ft=a("br"),qt=n(`
+			I would LOVE to know if you want me to add anything in this website, hit me by creating a
+			`),p=a("a"),Ct=n("github issue"),q=d(),M(j.$$.fragment),this.h()},l(o){oe("svelte-jzlx5g",document.head).forEach(i),D=f(o),m=r(o,"DIV",{class:!0});var z=c(m);P(_.$$.fragment,z),tt=f(z),P(x.$$.fragment,z),z.forEach(i),F=f(o),I=r(o,"DIV",{class:!0});var Lt=c(I);g=r(Lt,"DIV",{class:!0});var L=c(g);w=r(L,"DIV",{id:!0});var U=c(w);h=r(U,"DIV",{id:!0,class:!0});var X=c(h);B=r(X,"DIV",{class:!0});var Ut=c(B);et=u(Ut,"#1"),Ut.forEach(i),st=f(X),O=r(X,"DIV",{});var Xt=c(O);at=u(Xt,"Initial Release!"),Xt.forEach(i),X.forEach(i),rt=f(U),y=r(U,"DIV",{class:!0});var Y=c(y);b=r(Y,"DIV",{id:!0,class:!0});var H=c(b);$=r(H,"IMG",{src:!0,alt:!0,class:!0}),ot=f(H),S=r(H,"DIV",{});var Yt=c(S);lt=u(Yt,"Author: User5522"),Yt.forEach(i),H.forEach(i),it=f(Y),k=r(Y,"DIV",{id:!0,class:!0});var Ht=c(k);A=r(Ht,"DIV",{});var Mt=c(A);nt=u(Mt,"On: 26/11/2022"),Mt.forEach(i),Ht.forEach(i),Y.forEach(i),U.forEach(i),ut=f(L),e=r(L,"DIV",{class:!0});var s=c(e);ct=u(s,`Finally! After what felt like, forever, I'm proud to announce user5522.tk reached it's initial
+			release, `),N=r(s,"STRONG",{});var Pt=c(N);dt=u(Pt,"v1.0.0"),Pt.forEach(i),ft=u(s,"! "),mt=r(s,"BR",{}),ht=u(s,`
+			Website updates will now be weekly instead of daily (unless it's a critical bug) because, as much
+			as I like web development, it is very tiring.`),bt=r(s,"BR",{}),vt=u(s,`
+			New collectionss will be available whenever I have something new (Collections can be about anything,
+			even stuff outside of my projects' updates) & hopefully you enjoy your stay here.`),pt=r(s,"BR",{}),gt=f(s),T=r(s,"STRONG",{});var Jt=c(T);wt=u(Jt,"Open-Source website??"),Jt.forEach(i),yt=r(s,"BR",{}),_t=u(s,`
+			Yes, you heard it right, the source code for this website is just like all of my other projects',
+			available
+			`),E=r(s,"A",{href:!0,target:!0});var Kt=c(E);xt=u(Kt,"on my github profile."),Kt.forEach(i),It=r(s,"BR",{}),$t=u(s,`
+			It is mainly because I `),P(R.$$.fragment,s),kt=u(s,` Open-Source & to allow anyone who
+			wants to improve my projects do so.`),Et=r(s,"BR",{}),Rt=u(s,`
+			It's also to track bugs & issues easily. Reminder for anyone who encounters any problem to
+			`),v=r(s,"A",{href:!0,id:!0,target:!0,rel:!0});var Qt=c(v);jt=u(Qt,"make an issue on github"),Qt.forEach(i),Vt=u(s,`
+			and report what's wrong. (a picture/video of the problem would be appreciated.)`),Dt=r(s,"BR",{}),Bt=f(s),W=r(s,"STRONG",{});var Zt=c(W);Ot=u(Zt,"What's the point of this place?"),Zt.forEach(i),St=r(s,"BR",{}),At=u(s,`
+			This website is basically (& for now) a place for me to showcase my projects & collection about
+			my thoughts. Think about it as a portfolio X collections website collab.`),Nt=r(s,"BR",{}),Tt=u(s,`
+			I'm plannig on adding more content, like simple html5 mini-games and some fun stuff like random
+			cat images`),Wt=r(s,"BR",{}),Gt=f(s),Ft=r(s,"BR",{}),qt=u(s,`
+			I would LOVE to know if you want me to add anything in this website, hit me by creating a
+			`),p=r(s,"A",{href:!0,id:!0,target:!0,rel:!0});var te=c(p);Ct=u(te,"github issue"),te.forEach(i),s.forEach(i),L.forEach(i),Lt.forEach(i),q=f(o),P(j.$$.fragment,o),this.h()},h(){document.title="/collections/ - Initial Release!",l(m,"class","bg-white"),l(B,"class","text-2xl text-light_true_gray"),l(h,"id","collection-title"),l(h,"class","flex flex-row items-baseline gap-1 text-3xl font-semibold"),le($.src,zt="/logos/logo.png")||l($,"src",zt),l($,"alt","user5522 icon"),l($,"class","h-10 rounded-full"),l(b,"id","collection-author"),l(b,"class","flex flex-row items-center justify-start gap-1 text-xl font-semibold text-lighter_true_gray sm:w-1/2"),l(k,"id","collection-date"),l(k,"class","flex items-center justify-start pl-10 text-xl font-semibold text-lighter_true_gray sm:w-1/2 sm:justify-end"),l(y,"class","flex flex-col sm:flex-row"),l(w,"id","collection-header"),l(E,"href","/github"),l(E,"target","_blank"),l(v,"href","https://github.com/user5522/website/issues"),l(v,"id","issue-link"),l(v,"target","_blank"),l(v,"rel","noreferrer"),l(p,"href","https://github.com/user5522/website/issues"),l(p,"id","issue-link"),l(p,"target","_blank"),l(p,"rel","noreferrer"),l(e,"class","text-xl"),l(g,"class","mx-auto flex max-w-4xl flex-col gap-16"),l(I,"class","init-div px-5")},m(o,V){G(o,D,V),G(o,m,V),J(_,m,null),t(m,tt),J(x,m,null),G(o,F,V),G(o,I,V),t(I,g),t(g,w),t(w,h),t(h,B),t(B,et),t(h,st),t(h,O),t(O,at),t(w,rt),t(w,y),t(y,b),t(b,$),t(b,ot),t(b,S),t(S,lt),t(y,it),t(y,k),t(k,A),t(A,nt),t(g,ut),t(g,e),t(e,ct),t(e,N),t(N,dt),t(e,ft),t(e,mt),t(e,ht),t(e,bt),t(e,vt),t(e,pt),t(e,gt),t(e,T),t(T,wt),t(e,yt),t(e,_t),t(e,E),t(E,xt),t(e,It),t(e,$t),J(R,e,null),t(e,kt),t(e,Et),t(e,Rt),t(e,v),t(v,jt),t(e,Vt),t(e,Dt),t(e,Bt),t(e,W),t(W,Ot),t(e,St),t(e,At),t(e,Nt),t(e,Tt),t(e,Wt),t(e,Gt),t(e,Ft),t(e,qt),t(e,p),t(p,Ct),G(o,q,V),J(j,o,V),C=!0},p:ie,i(o){C||(K(_.$$.fragment,o),K(x.$$.fragment,o),K(R.$$.fragment,o),K(j.$$.fragment,o),C=!0)},o(o){Q(_.$$.fragment,o),Q(x.$$.fragment,o),Q(R.$$.fragment,o),Q(j.$$.fragment,o),C=!1},d(o){o&&i(D),o&&i(m),Z(_),Z(x),o&&i(F),o&&i(I),Z(R),o&&i(q),Z(j,o)}}}class ge extends se{constructor(D){super(),ae(this,D,null,fe,re,{})}}export{ge as default};

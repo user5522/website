@@ -25,14 +25,23 @@
     "accusations.html": {
       "path": "accusations"
     },
-    "blog.html": {
-      "path": "blog"
+    "collections.html": {
+      "path": "collections"
     },
-    "blog/1.html": {
-      "path": "blog/1"
+    "collections/1.html": {
+      "path": "collections/1"
+    },
+    "collections/2.html": {
+      "path": "collections/2"
     },
     "credits.html": {
       "path": "credits"
+    },
+    "discord.html": {
+      "path": "discord"
+    },
+    "github.html": {
+      "path": "github"
     },
     "long.html": {
       "path": "long"
@@ -46,47 +55,38 @@
     "projects/vbot.html": {
       "path": "projects/vbot"
     },
-    "rl.html": {
-      "path": "rl"
-    },
-    "rl/discord.html": {
-      "path": "rl/discord"
-    },
-    "rl/github.html": {
-      "path": "rl/github"
-    },
-    "rl/reddit.html": {
-      "path": "rl/reddit"
-    },
-    "rl/sgsource.html": {
-      "path": "rl/sgsource"
-    },
-    "rl/snaksource.html": {
-      "path": "rl/snaksource"
-    },
-    "rl/steam.html": {
-      "path": "rl/steam"
-    },
-    "rl/twitter.html": {
-      "path": "rl/twitter"
-    },
-    "rl/vbot.html": {
-      "path": "rl/vbot"
-    },
-    "rl/vsource.html": {
-      "path": "rl/vsource"
-    },
-    "rl/wsource.html": {
-      "path": "rl/wsource"
-    },
-    "rl/xbox.html": {
-      "path": "rl/xbox"
-    },
-    "rl/yt.html": {
-      "path": "rl/yt"
+    "reddit.html": {
+      "path": "reddit"
     },
     "sandbox.html": {
       "path": "sandbox"
+    },
+    "sgsource.html": {
+      "path": "sgsource"
+    },
+    "snaksource.html": {
+      "path": "snaksource"
+    },
+    "source.html": {
+      "path": "source"
+    },
+    "steam.html": {
+      "path": "steam"
+    },
+    "twitter.html": {
+      "path": "twitter"
+    },
+    "vbot.html": {
+      "path": "vbot"
+    },
+    "vsource.html": {
+      "path": "vsource"
+    },
+    "xbox.html": {
+      "path": "xbox"
+    },
+    "yt.html": {
+      "path": "yt"
     }
   }
 }
