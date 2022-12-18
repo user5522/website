@@ -33,20 +33,20 @@
   <div>
     <div class="grid gap-5 px-5 sm:grid-cols-2 2xl:grid-cols-4">
       <a
-        href="/collections#placeholder"
-        id="placeholder"
-        class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-102 active:scale-95"
+        href="/collections/2"
+        id="Clembs-SMP-Early-access-screentshots"
+        class="rounded-xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
       >
         <div>
-          <div class="h-full">
+          <div class="h-full w-full">
             <div id="post_img" class="flex justify-center sm:h-2/3">
               <img
-                src="/placeholder.png"
-                alt="Placeholder"
-                class="object-cover"
+                src="/collections/csmpea.png"
+                alt="Clembs SMP Early Access banner"
+                class="object-cover rounded-t-xl"
               />
             </div>
-            <div class="sm:h-1/3">
+            <div class="sm:h-1/3 p-5">
               <div
                 id="post_title"
                 class="flex w-full flex-col items-baseline gap-1 py-2 md:flex-row"
@@ -54,18 +54,17 @@
                 <div
                   class="text-xl font-semibold md:flex md:w-1/2 md:justify-start"
                 >
-                  Placeholder post title
+                  Clembs SMP early access moments
                 </div>
                 <div
                   class="text-md text-lighter_true_gray md:flex md:w-1/2 md:justify-end"
                 >
-                  Post date: DD/MM/YYYY
+                  Post date: 18/12/2022
                 </div>
               </div>
               <div id="post_description" class="text-lg">
-                This is a description about this post's content, it is supposed
-                to be a summary for people to know what they will be reading.
-              </div>
+                Some screenshots from the Clembs Minecraft SMP winter early access,
+                thought I would share them here since it will be reset.</div>
             </div>
           </div>
         </div>
