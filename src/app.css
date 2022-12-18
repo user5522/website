@@ -3,96 +3,96 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply list-none
+	html {
+		@apply list-none
     bg-black font-poppins text-white;
-  }
-  a {
-    @apply text-blue-400;
-  }
-  .init-div {
-    @apply flex flex-col gap-5 pb-5 pt-28;
-  }
-  .blue-button {
-    @apply rounded-xl bg-blue-800
+	}
+	a {
+		@apply text-blue-400;
+	}
+	.init-div {
+		@apply flex flex-col gap-5 pb-5 pt-28;
+	}
+	.blue-button {
+		@apply rounded-xl bg-blue-800
     p-4 text-sm
     font-semibold
     text-blue-300 duration-200
     hover:scale-105 active:scale-95
     sm:p-5 sm:text-base;
-  }
-  .hidden-button {
-    @apply rounded-xl p-4
+	}
+	.hidden-button {
+		@apply rounded-xl p-4
     text-sm font-semibold
     duration-200
     hover:scale-105 hover:bg-dark_darker
     active:scale-95 sm:p-5
     sm:text-base;
-  }
+	}
 }
 
 /* chrome scrollbar shit (trying to make it like firefox's) */
 
 ::-webkit-scrollbar {
-  width: 6px;
+	width: 6px;
 }
 
 ::-webkit-scrollbar:hover {
-  width: 12px;
+	width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-  border: 2px solid rgba(0, 0, 0, 0);
-  background-clip: padding-box;
-  border-radius: 0.8rem;
-  background-color: #aaaaaa;
+	border: 2px solid rgba(0, 0, 0, 0);
+	background-clip: padding-box;
+	border-radius: 0.8rem;
+	background-color: #aaaaaa;
 }
 ::-webkit-scrollbar-thumb:hover {
-  border: 2px solid rgba(0, 0, 0, 0);
-  background-clip: padding-box;
-  border-radius: 0.8rem;
-  background-color: #999999;
+	border: 2px solid rgba(0, 0, 0, 0);
+	background-clip: padding-box;
+	border-radius: 0.8rem;
+	background-color: #999999;
 }
 
 ::-webkit-scrollbar-track-piece:start {
-  background: transparent url("/scrollbar/transparent.png") repeat-y;
+	background: transparent url('/scrollbar/transparent.png') repeat-y;
 }
 
 ::-webkit-scrollbar-track-piece:end {
-  background: transparent url("/scrollbar/transparent.png") repeat-y;
+	background: transparent url('/scrollbar/transparent.png') repeat-y;
 }
 
-a[target="_blank"] {
-  background-image: url(/icons/ext_link.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-  padding-right: 1rem;
-  background-size: 1rem 1rem;
+a[target='_blank'] {
+	background-image: url(/icons/ext_link.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 1rem;
+	background-size: 1rem 1rem;
 }
 
 .spacer_start {
-  position: absolute;
-  top: 10;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
+	position: absolute;
+	top: 10;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
 }
 
 .spacer_start svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 115px;
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 115px;
 }
 
 .spacer_start .shape-fill {
-  fill: #ffffff;
+	fill: #ffffff;
 }
 
 @media (max-width: 640px) {
-  .spacer_start svg {
-    width: calc(150% + 1.3px);
-    height: 110px;
-  }
+	.spacer_start svg {
+		width: calc(150% + 1.3px);
+		height: 110px;
+	}
 }
