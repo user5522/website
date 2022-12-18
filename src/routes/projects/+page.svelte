@@ -88,7 +88,7 @@
       </div>
     </a>
     <a
-      href="/rl/sgsource"
+      href="/sgsource"
       id="SquareGame"
       class="rounded-xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
     >
@@ -118,7 +118,7 @@
     </a>
     <a
       class="rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-      href="/rl/snaksource"
+      href="/snaksource"
       id="Snak"
     >
       <div>

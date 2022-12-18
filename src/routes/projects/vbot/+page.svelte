@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="flex justify-center sm:w-1/3 sm:pr-32">
-        <a href="../rl/vbot" target="blank">
+        <a href="/vbot" target="blank">
           <button class="blue-button text-lg">Invite Vbot</button>
         </a>
       </div>

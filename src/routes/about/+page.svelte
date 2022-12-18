@@ -118,21 +118,21 @@
     <div class="flex flex-col items-center gap-5">
       <div class="flex flex-row items-center gap-5">
         <a
-          href="/rl/yt"
+          href="/yt"
           class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/youtube.svg" alt="youtube link" class="h-10" />
         </a>
         <a
-          href="/rl/discord"
+          href="/discord"
           class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/discord.svg" alt="discord link" class="h-10" />
         </a>
         <a
-          href="/rl/github"
+          href="/github"
           class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
@@ -141,28 +141,28 @@
       </div>
       <div class="flex flex-row items-center gap-5">
         <a
-          href="/rl/twitter"
+          href="/twitter"
           class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/twitter.svg" alt="twitter link" class="h-10" />
         </a>
         <a
-          href="/rl/xbox"
+          href="/xbox"
           class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="/logos/xbox.svg" alt="xbox link" class="h-10" />
         </a>
         <a
-          href="/rl/steam"
+          href="/steam"
           class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >
           <img src="logos/steam.svg" alt="steam link" class="h-10" />
         </a>
         <a
-          href="/rl/reddit"
+          href="/reddit"
           class="duration-200 hover:scale-105 active:scale-90"
           target="blank"
         >

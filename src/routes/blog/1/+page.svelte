@@ -54,7 +54,7 @@
       <strong>Open-Source website??</strong><br />
       Yes, you heard it right, the source code for this website is just like all
       of my other projects', available
-      <a href="/rl/github" target="_blank">on my github profile.</a><br />
+      <a href="/github" target="_blank">on my github profile.</a><br />
       It is mainly because I <A2764 class="inline-block h-6 w-6" /> Open-Source &
       to allow anyone who wants to improve my projects do so.<br />
       It's also to track bugs & issues easily. Reminder for anyone who encounters

@@ -31,11 +31,11 @@
           <div class="font-semibold">Redirecting links:</div>
           <div>
             -
-            <a href="/rl">All Links</a>
+            <a href="">All Links</a>
           </div>
           <div class="flex flex-row gap-1">
             -
-            <a href="/rl/discord" class="flex"
+            <a href="/discord" class="flex"
               >Discord <img
                 src="/logos/discord.svg"
                 class="relative top-1 h-5 items-baseline pl-1"
@@ -45,7 +45,7 @@
           </div>
           <div class="flex flex-row gap-1">
             -
-            <a href="/rl/github" class="flex"
+            <a href="/github" class="flex"
               >Github <img
                 src="/logos/github.svg"
                 class="relative top-1 h-5 items-baseline pl-1"
@@ -55,7 +55,7 @@
           </div>
           <div class="flex flex-row gap-1">
             -
-            <a href="/rl/reddit" class="flex"
+            <a href="/reddit" class="flex"
               >Reddit <img
                 src="/logos/reddit.svg"
                 class="relative top-1 h-5 items-baseline pl-1"
@@ -65,7 +65,7 @@
           </div>
           <div class="flex flex-row gap-1">
             -
-            <a href="/rl/twitter" class="flex"
+            <a href="/twitter" class="flex"
               >Twitter <img
                 src="/logos/twitter.svg"
                 class="relative top-1 h-5 items-baseline pl-1"
@@ -75,7 +75,7 @@
           </div>
           <div class="flex flex-row gap-1">
             -
-            <a href="/rl/yt" class="flex"
+            <a href="/yt" class="flex"
               >Youtube <img
                 src="/logos/youtube.svg"
                 class="relative top-1 h-5 items-baseline pl-1"
@@ -85,7 +85,7 @@
           </div>
           <div class="flex flex-row gap-1">
             -
-            <a href="/rl/vbot" class="flex"
+            <a href="/vbot" class="flex"
               >Vbot Invite <img
                 src="/vbot.svg"
                 class="relative top-1 h-4 items-baseline pl-1"
