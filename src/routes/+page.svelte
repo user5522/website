@@ -5,7 +5,7 @@
   import Accusations from "$lib/accusations.svelte";
   import CloseButton from "$lib/closeButton.svelte";
   import Navbar from "$lib/navbar.svelte";
-  import WavesStart from "$lib/waves_start.svelte";
+  import WavesStart from "$lib/wavesStart.svelte";
   import Subtitle from "$lib/subtitle.svelte";
   import Footer from "$lib/footer.svelte";
 

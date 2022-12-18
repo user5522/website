@@ -1,6 +1,6 @@
 <script>
   import Navbar from "$lib/navbar.svelte";
-  import WavesStart from "$lib/waves_start.svelte";
+  import WavesStart from "$lib/wavesStart.svelte";
   import Footer from "$lib/footer.svelte";
   import { clickToCopy } from "$lib/clickToCopy.js";
   import AgeCounter from "$lib/ageCounter.svelte";
