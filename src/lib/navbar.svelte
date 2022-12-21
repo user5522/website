@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { clickOutside } from '$lib/clickOutside.js';
 
 	let clicks = 0;
 	let spinning = false;
@@ -13,7 +14,7 @@
 				clicks = 0;
 				spinning = false;
 				clearTimeout(timeout);
-			}, 1000);
+			}, 10000);
 		}
 	}
 
@@ -41,20 +42,26 @@
 
 	const navItems = [
 		{ name: 'Projects', href: 'projects' },
-		{ name: 'Collections', href: 'projects' },
-		{ name: 'About', href: 'projects' }
+		{ name: 'Collections', href: 'projects' }
 	];
+	const navMenuItems = [
+		{ name: 'About', href: 'about' },
+		{ name: 'Credits', href: 'credits' }
+	];
+
+	let linksVisible = false;
+	function handleClickOutside() {
+		linksVisible = false;
+	}
 </script>
 
-<div class="pb-28">
+<div class="duration-400 {isAnimated ? 'pb-[100px]' : 'pb-16'}">
 	<div
-		id="padding"
 		class="duration-400 transition-all fixed top-0 z-50 flex w-full flex-col justify-center overflow-auto align-middle {isAnimated
 			? 'p-3'
 			: ''}"
 	>
 		<div
-			id="navbar"
 			class="flex flex-row duration-400 transition-all bg-dark p-4 shadow-lg {isAnimated
 				? 'rounded-xl'
 				: 'sm:bg-opacity-50 sm:backdrop-blur-md'}"
@@ -80,7 +87,7 @@
 					</button>
 				</a>
 			</div>
-			<div class="flex w-1/2 justify-end">
+			<div class="flex w-1/2 gap-2 justify-end">
 				{#each navItems as navItem}
 					<a href={navItem.href} class="text-white">
 						<button
@@ -90,10 +97,53 @@
 						</button>
 					</a>
 				{/each}
+				<a href="/about" class="hidden sm:block text-white">
+					<button
+						class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
+					>
+						About
+					</button>
+				</a>
+				<div class="block sm:hidden">
+					<button
+						class="rounded-lg duration-200 items-center hover:scale-105 hover:bg-dark_light active:scale-95"
+						on:click={() => (linksVisible = !linksVisible)}
+					>
+						<p class="rotate-90 p-2 text-xl">:::</p>
+					</button>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<div
+	class="{isAnimated ? 'px-3' : ''} fixed duration-400 transition-all z-50 w-full {linksVisible
+		? 'block sm:hidden'
+		: 'hidden'}"
+	id="links-container"
+	use:clickOutside
+	on:click_outside={handleClickOutside}
+>
+	<div
+		id="links-subcontainer"
+		class="{isAnimated
+			? 'rounded-xl'
+			: ''} bg-dark h-1/2 duration-400 transition-all flex flex-col gap-2 w-full p-4"
+	>
+		{#each navMenuItems as navMenuItem}
+			<a
+				href={navMenuItem.href}
+				class="block text-white hover:bg-dark_light rounded-xl duration-200 hover:scale-102 active:scale-95 p-2"
+			>
+				{navMenuItem.name}
+			</a>
+		{/each}
+		<div class="block rounded-xl duration-200 bg-dark_darker p-3">
+			// This menu is a trial run for mobile devices!
+		</div>
+	</div>
+</div>
+
 <span bind:this={observedSpan} />
 
 <style>
