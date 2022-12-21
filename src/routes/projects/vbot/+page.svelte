@@ -1,17 +1,7 @@
-<script>
-	import Navbar from '$lib/navbar.svelte';
-	import WavesStart from '$lib/wavesStart.svelte';
-	import Footer from '$lib/footer.svelte';
-</script>
-
 <svelte:head>
 	<title>/projects/vbot</title>
 </svelte:head>
 
-<div class="bg-white">
-	<Navbar />
-	<WavesStart />
-</div>
 <div class="init-div px-5">
 	<div class="flex flex-col">
 		<div class="flex justify-center">
@@ -64,4 +54,3 @@
 		</div>
 	</div>
 </div>
-<Footer />

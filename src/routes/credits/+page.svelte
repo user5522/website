@@ -1,7 +1,4 @@
 <script>
-	import Navbar from '$lib/navbar.svelte';
-	import WavesStart from '$lib/wavesStart.svelte';
-	import Footer from '$lib/footer.svelte';
 	import { A2764, A1F633 } from 'svelte-twitter-emoji';
 	import { tooltip } from '$lib/tooltip.js';
 </script>
@@ -10,10 +7,6 @@
 	<title>/credits</title>
 </svelte:head>
 
-<div class="bg-white">
-	<Navbar />
-	<WavesStart />
-</div>
 <div class="init-div px-5">
 	<div class="flex flex-col items-center justify-center">
 		<div class="text-4xl">Credits</div>
@@ -91,4 +84,3 @@
 		</div>
 	</div>
 </div>
-<Footer />

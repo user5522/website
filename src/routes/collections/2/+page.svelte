@@ -1,7 +1,4 @@
 <script>
-	import Navbar from '$lib/navbar.svelte';
-	import WavesStart from '$lib/wavesStart.svelte';
-	import Footer from '$lib/footer.svelte';
 	import { A2764 } from 'svelte-twitter-emoji';
 </script>
 
@@ -9,10 +6,6 @@
 	<title>/collections/ - Clembs MCSMP - Early Access Screenshots</title>
 </svelte:head>
 
-<div class="bg-white">
-	<Navbar />
-	<WavesStart />
-</div>
 <div class="init-div px-5">
 	<div class="mx-auto flex max-w-4xl flex-col gap-16">
 		<div id="collection-header">
@@ -184,4 +177,3 @@
 		</div>
 	</div>
 </div>
-<Footer />

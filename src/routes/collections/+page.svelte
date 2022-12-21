@@ -1,7 +1,4 @@
 <script>
-	import Navbar from '$lib/navbar.svelte';
-	import WavesStart from '$lib/wavesStart.svelte';
-	import Footer from '$lib/footer.svelte';
 	import { onMount } from 'svelte';
 </script>
 
@@ -9,10 +6,6 @@
 	<title>/collections</title>
 </svelte:head>
 
-<div class="bg-white">
-	<Navbar />
-	<WavesStart />
-</div>
 <div class="init-div">
 	<div class="flex flex-col items-center justify-center">
 		<div class="flex flex-row">
@@ -103,4 +96,3 @@
 		</div>
 	</div>
 </div>
-<Footer />

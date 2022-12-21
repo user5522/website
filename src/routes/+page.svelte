@@ -4,10 +4,7 @@
 	import Modal, { bind } from 'svelte-simple-modal';
 	import Accusations from '$lib/accusations.svelte';
 	import CloseButton from '$lib/closeButton.svelte';
-	import Navbar from '$lib/navbar.svelte';
-	import WavesStart from '$lib/wavesStart.svelte';
 	import Subtitle from '$lib/subtitle.svelte';
-	import Footer from '$lib/footer.svelte';
 
 	const modal = writable(null);
 	const showModal = () => modal.set(bind(Accusations));
@@ -37,10 +34,6 @@
 	<title>Welcome - user5522.tk</title>
 </svelte:head>
 
-<div class="bg-white">
-	<Navbar />
-	<WavesStart />
-</div>
 <div class="init-div px-5">
 	<div class="flex flex-col items-center justify-center">
 		<div class="flex flex-row items-baseline">
@@ -109,4 +102,3 @@
 		</div>
 	</div>
 </div>
-<Footer />

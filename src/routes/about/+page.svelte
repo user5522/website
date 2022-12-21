@@ -1,7 +1,4 @@
 <script>
-	import Navbar from '$lib/navbar.svelte';
-	import WavesStart from '$lib/wavesStart.svelte';
-	import Footer from '$lib/footer.svelte';
 	import { clickToCopy } from '$lib/clickToCopy.js';
 	import AgeCounter from '$lib/ageCounter.svelte';
 	import { A1F44b, A1F633, A2764 } from 'svelte-twitter-emoji';
@@ -13,10 +10,6 @@
 	<title>/about</title>
 </svelte:head>
 
-<div class="bg-white">
-	<Navbar />
-	<WavesStart />
-</div>
 <div class="init-div px-5">
 	<div class="flex flex-col items-center justify-center gap-5">
 		<p class="text-4xl">About</p>
@@ -155,4 +148,4 @@
 		</div>
 	</div>
 </div>
-<Footer />
+
