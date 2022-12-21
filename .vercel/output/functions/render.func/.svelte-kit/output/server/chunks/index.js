@@ -246,11 +246,11 @@ function style_object_to_string(style_object) {
 }
 export {
   safe_not_equal as a,
-  subscribe as b,
+  each as b,
   create_ssr_component as c,
   add_attribute as d,
   escape as e,
-  each as f,
+  subscribe as f,
   getContext as g,
   createEventDispatcher as h,
   identity as i,
