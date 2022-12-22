@@ -1,5 +1,5 @@
 <script>
-	import { A1F633 } from 'svelte-twitter-emoji';
+	import Flushed from '$lib/twemojis/flushed.svelte';
 </script>
 
 <svelte:head>
@@ -14,7 +14,7 @@
 		<div class="flex flex-row gap-1">
 			<div class="px-10 text-xl">
 				Projects I'm working on that I want to share with you
-				<A1F633 class="inline-block h-7 w-7" />
+				<Flushed />
 			</div>
 		</div>
 	</div>

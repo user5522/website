@@ -1,7 +1,3 @@
-<script>
-	import { A2764 } from 'svelte-twitter-emoji';
-</script>
-
 <svelte:head>
 	<title>/collections/ - Clembs MCSMP - Early Access Screenshots</title>
 </svelte:head>

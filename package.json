@@ -30,7 +30,6 @@
 		"postcss": "^8.4.20",
 		"svelte-seo": "^1.4.1",
 		"svelte-simple-modal": "^1.4.5",
-		"svelte-sitemap": "^2.5.3",
-		"svelte-twitter-emoji": "^0.1.11"
+		"svelte-sitemap": "^2.5.3"
 	}
 }

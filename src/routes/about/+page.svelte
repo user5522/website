@@ -1,7 +1,9 @@
 <script>
 	import { clickToCopy } from '$lib/clickToCopy.js';
 	import AgeCounter from '$lib/ageCounter.svelte';
-	import { A1F44b, A1F633, A2764 } from 'svelte-twitter-emoji';
+	import Heart from '$lib/twemojis/heart.svelte';
+	import Flushed from '$lib/twemojis/flushed.svelte';
+	import WavingHand from '$lib/twemojis/wavingHand.svelte';
 	import { tooltip } from '$lib/tooltip.js';
 	let tooltipContent;
 </script>
@@ -16,7 +18,7 @@
 
 		<div class="flex flex-col items-center justify-center text-xl">
 			<div>
-				Hi I'm Oueslati <A1F44b class="inline-block h-6 w-6" />,
+				Hi I'm Oueslati <WavingHand />,
 			</div>
 			<div>
 				a <button
@@ -52,7 +54,7 @@
 							<li>- Making uselessly long lists</li>
 							<li>- The letter H</li>
 							<li>
-								- You, probably. <A1F633 class="inline-block h-6 w-6" />
+								- You, probably. <Flushed />
 							</li>
 						</ul>
 					</div>
@@ -67,7 +69,7 @@
 					<div class="flex flex-col py-5">
 						<ul class="text-lg">
 							<li>
-								- SvelteKit (<strong>7/10</strong> I really <A2764 class="inline-block h-6 w-6" /> it)
+								- SvelteKit (<strong>7/10</strong> I really <Heart /> it)
 							</li>
 							<li>- React (<strong>4/10</strong> not so good)</li>
 							<li>- Rust (<strong>3/10</strong> too hard for me)</li>
@@ -139,7 +141,7 @@
 					use:tooltip={{ text: 'Click to copy!' }}
 					class="relative inline-block rounded-xl  bg-dark p-1 duration-200 hover:scale-102 active:scale-95"
 				>
-					<div use:clickToCopy>oueslatim268@gmail.com</div>
+					<div use:clickToCopy>oueslatim@pm.me</div>
 				</div>
 			</div>
 		</div>
@@ -148,4 +150,3 @@
 		</div>
 	</div>
 </div>
-

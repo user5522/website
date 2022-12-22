@@ -1,7 +1,3 @@
-<script>
-	import { onMount } from 'svelte';
-</script>
-
 <svelte:head>
 	<title>/collections</title>
 </svelte:head>

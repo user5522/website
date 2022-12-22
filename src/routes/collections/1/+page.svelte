@@ -1,5 +1,5 @@
 <script>
-	import { A2764 } from 'svelte-twitter-emoji';
+	import Heart from '$lib/twemojis/heart.svelte';
 </script>
 
 <svelte:head>
@@ -40,8 +40,8 @@
 			Yes, you heard it right, the source code for this website is just like all of my other projects',
 			available
 			<a href="/github" target="_blank">on my github profile.</a><br />
-			It is mainly because I <A2764 class="inline-block h-6 w-6" /> Open-Source & to allow anyone who
-			wants to improve my projects do so.<br />
+			It is mainly because I <Heart /> Open-Source & to allow anyone who wants to improve my projects
+			do so.<br />
 			It's also to track bugs & issues easily. Reminder for anyone who encounters any problem to
 			<a
 				href="https://github.com/user5522/website/issues"

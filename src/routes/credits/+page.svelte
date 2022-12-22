@@ -1,5 +1,6 @@
 <script>
-	import { A2764, A1F633 } from 'svelte-twitter-emoji';
+	import Heart from '$lib/twemojis/heart.svelte';
+	import Flushed from '$lib/twemojis/flushed.svelte';
 	import { tooltip } from '$lib/tooltip.js';
 </script>
 
@@ -11,7 +12,7 @@
 	<div class="flex flex-col items-center justify-center">
 		<div class="text-4xl">Credits</div>
 		<div class="text-xl">
-			A place to say thank you <A2764 class="inline-block h-6 w-6" />
+			A place to say thank you <Heart />
 		</div>
 	</div>
 	<div class="flex flex-col items-center justify-center gap-4 text-xl">
@@ -72,7 +73,7 @@
 					use:tooltip={{ text: 'For visiting my website' }}
 					class="flex w-fit flex-col items-center justify-center rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95"
 				>
-					<div>You <A1F633 class="inline-block h-6 w-6" /></div>
+					<div>You <Flushed /></div>
 				</div>
 			</div>
 		</div>
@@ -80,7 +81,7 @@
 
 	<div class="flex justify-center">
 		<div class="text-xl">
-			Made with <A2764 class="inline-block h-6 w-6" /> by User5522.
+			Made with <Heart /> by User5522.
 		</div>
 	</div>
 </div>

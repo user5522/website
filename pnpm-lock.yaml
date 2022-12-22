@@ -16,7 +16,6 @@ specifiers:
   svelte-seo: ^1.4.1
   svelte-simple-modal: ^1.4.5
   svelte-sitemap: ^2.5.3
-  svelte-twitter-emoji: ^0.1.11
   tailwindcss: ^3.2.4
   vite: ^4.0.0
 
@@ -25,7 +24,6 @@ dependencies:
   svelte-seo: 1.4.1
   svelte-simple-modal: 1.4.5_svelte@3.55.0
   svelte-sitemap: 2.5.4
-  svelte-twitter-emoji: 0.1.11
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0_@sveltejs+kit@1.0.1
@@ -1829,10 +1827,6 @@ packages:
       fast-glob: 3.2.12
       minimist: 1.2.7
       xmlbuilder2: 3.0.2
-    dev: false
-
-  /svelte-twitter-emoji/0.1.11:
-    resolution: {integrity: sha512-6rl7oh2Q0qcQmD+D1YTLwFvj8YHP7F8XqD/jcnYQ96GXWKRR/d/iminT+kHpu52HgcgJMM4/M5nQSzqUKcyxjw==}
     dev: false
 
   /svelte/3.55.0:
