@@ -1,8 +1,4 @@
-<script>
-	import Footer from '$lib/footer.svelte';
-</script>
-
-<div class="p-10">
+<div class="init-div px-5">
 	<div id="cards-container" class="grid gap-5 sm:grid-cols-2 2xl:grid-cols-4">
 		<div class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95">
 			<div id="post_img">
@@ -54,5 +50,3 @@
 		</div>
 	</div>
 </div>
-
-<Footer />
