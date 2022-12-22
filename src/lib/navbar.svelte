@@ -40,12 +40,12 @@
 	});
 
 	const navItems = [
-		{ name: 'Projects', href: 'projects' },
-		{ name: 'Collections', href: 'collections' }
+		{ name: 'Projects', href: '../projects' },
+		{ name: 'Collections', href: '../collections' }
 	];
 	const navMenuItems = [
-		{ name: 'About', href: 'about' },
-		{ name: 'Credits', href: 'credits' }
+		{ name: 'About', href: '../about' },
+		{ name: 'Credits', href: '../credits' }
 	];
 
 	let linksVisible = false;
@@ -138,7 +138,8 @@
 			</a>
 		{/each}
 		<div class="block rounded-xl duration-200 bg-dark_darker p-3">
-			// This menu is a trial run for mobile devices! // Click anywhere outside of it to close it!
+			// This menu is a trial run for mobile devices!<br />
+			// Click anywhere outside of it to close it!
 		</div>
 	</div>
 </div>
