@@ -56,12 +56,12 @@
 
 <div class="duration-400 {isAnimated ? 'pb-[100px]' : 'pb-16'}">
 	<div
-		class="duration-400 transition-all fixed top-0 z-50 flex w-full flex-col justify-center overflow-auto align-middle {isAnimated
+		class="duration-400 fixed top-0 z-50 flex w-full flex-col justify-center overflow-auto align-middle transition-all {isAnimated
 			? 'p-3'
 			: ''}"
 	>
 		<div
-			class="flex flex-row duration-400 transition-all bg-dark p-4 shadow-lg {isAnimated
+			class="duration-400 flex flex-row bg-dark p-4 shadow-lg transition-all {isAnimated
 				? 'rounded-xl'
 				: 'sm:bg-opacity-50 sm:backdrop-blur-md'}"
 		>
@@ -86,7 +86,7 @@
 					</button>
 				</a>
 			</div>
-			<div class="flex w-1/2 gap-2 justify-end">
+			<div class="flex w-1/2 justify-end gap-2">
 				{#each navItems as navItem}
 					<a href={navItem.href} class="text-white">
 						<button
@@ -96,7 +96,7 @@
 						</button>
 					</a>
 				{/each}
-				<a href="/about" class="hidden sm:block text-white">
+				<a href="/about" class="hidden text-white sm:block">
 					<button
 						class="rounded-lg p-2 text-base font-medium duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
 					>
@@ -105,7 +105,7 @@
 				</a>
 				<div class="block sm:hidden">
 					<button
-						class="rounded-lg duration-200 items-center hover:scale-105 hover:bg-dark_light active:scale-95"
+						class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95"
 						on:click={() => (linksVisible = !linksVisible)}
 					>
 						<p class="rotate-90 p-2 text-xl">:::</p>
@@ -116,7 +116,7 @@
 	</div>
 </div>
 <div
-	class="{isAnimated ? 'px-3' : ''} fixed duration-400 transition-all z-50 w-full {linksVisible
+	class="{isAnimated ? 'px-3' : ''} duration-400 fixed z-50 w-full transition-all {linksVisible
 		? 'block sm:hidden'
 		: 'hidden'}"
 	id="links-container"
@@ -127,17 +127,17 @@
 		id="links-subcontainer"
 		class="{isAnimated
 			? 'rounded-xl'
-			: ''} bg-dark h-1/2 duration-400 transition-all flex flex-col gap-2 w-full p-4"
+			: ''} duration-400 flex h-1/2 w-full flex-col gap-2 bg-dark p-4 transition-all"
 	>
 		{#each navMenuItems as navMenuItem}
 			<a
 				href={navMenuItem.href}
-				class="block text-white hover:bg-dark_light rounded-xl duration-200 hover:scale-102 active:scale-95 p-2"
+				class="block rounded-xl p-2 text-white duration-200 hover:scale-102 hover:bg-dark_light active:scale-95"
 			>
 				{navMenuItem.name}
 			</a>
 		{/each}
-		<div class="block rounded-xl duration-200 bg-dark_darker p-3">
+		<div class="block rounded-xl bg-dark_darker p-3 duration-200">
 			// This menu is a trial run for mobile devices!<br />
 			// Click anywhere outside of it to close it!
 		</div>
