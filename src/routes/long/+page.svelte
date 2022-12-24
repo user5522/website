@@ -1,10 +1,3 @@
-<script>
-	import Navbar from '$lib/navbar.svelte';
-	import Footer from '$lib/footer.svelte';
-</script>
-
-<Navbar />
-
 <div class="flex flex-col items-center justify-center px-5 pb-10 text-xl font-semibold">
 	H, this is a long page made to test features later on
 </div>
@@ -948,4 +941,3 @@
 	dolor a fringilla. Donec vel viverra dui. Fusce ligula purus, aliquet non lacinia ac, dictum eget
 	metus.
 </div>
-<Footer />
