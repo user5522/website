@@ -16,4 +16,4 @@
 	var subtitle = subtitles[Math.floor(Math.random() * subtitles.length)];
 </script>
 
-<div class="pb-10 text-xl">A professional{subtitle}.</div>
+<div class="text-xl">A professional{subtitle}.</div>
