@@ -8,6 +8,25 @@
 
 	const modal = writable(null);
 	const showModal = () => modal.set(bind(Accusations));
+
+	const cardItems = [
+		{
+			title: 'Graphic Designs',
+			description:
+				"A collection of banners and logos that I created for CRBT's old profiles feature and other projects.",
+			imgURL: '/banners/banners.png',
+			imgAlt: 'banners',
+			href: '/projects/designs'
+		},
+		{
+			title: 'SquareGame',
+			description:
+				'A 2D game built with Unity, about a.. square character that navigates through levels..?\nCurrently in BETA',
+			imgURL: '/banners/SquareGame.png',
+			imgAlt: 'SquareGame banner',
+			href: '/sgsource'
+		}
+	];
 </script>
 
 <SvelteSeo
@@ -35,54 +54,90 @@
 </svelte:head>
 
 <div class="init-div px-5">
-	<div class="flex flex-col items-center justify-center">
-		<div class="flex flex-row items-baseline">
-			<div class="text-4xl">User5522</div>
-			<div class="text-base">/Username5522</div>
+	<div class="flex flex-col items-center justify-center gap-5">
+		<div class="flex justify-center flex-col items-center">
+			<div class="flex flex-row items-baseline">
+				<div class="text-4xl">User5522</div>
+				<div class="text-base">/Username5522</div>
+			</div>
+			<Subtitle />
 		</div>
-		<Subtitle />
-		<div class="flex flex-col items-center justify-center px-10">
+		<div class="flex flex-col items-center gap-5 justify-center">
 			<div class="overflow-hidden whitespace-nowrap text-2xl">
 				Welcome to <strong>user5522.tk</strong>!
 			</div>
-			<div class="py-5 text-lg">It's a good website, because:</div>
-			<div class="pb-5">
-				<div>
-					- It is made using <a target="_blank" href="https://kit.svelte.dev" rel="noreferrer"
-						>sveltekit</a
-					>
-				</div>
-				<div>- I made it :{')'}</div>
-				<div>
-					- It's fully opensource on
-					<a target="_blank" href="https://github.com/user5522/website" rel="noreferrer">
-						github
-					</a> (just like most of my projects)
-				</div>
-				<div>- It's good looking (real)</div>
-				<div>- It'll support more languages soon™</div>
-				<div>
-					- I have nothing else to compliment, but <a href="/about#Links">maybe you do</a>
+			<div
+				class="h-full w-full rounded-xl bg-dark duration-200 hover:scale-102 active:scale-95 sm:backdrop-blur-sm p-5"
+			>
+				<div class="text-xl text-center">It's a good website, because:</div>
+				<div class="pt-5">
+					<div>
+						- It is made using <a target="_blank" href="https://kit.svelte.dev" rel="noreferrer"
+							>sveltekit</a
+						>
+					</div>
+					<div>- I made it :{')'}</div>
+					<div>
+						- It's fully opensource on
+						<a target="_blank" href="https://github.com/user5522/website" rel="noreferrer">
+							github
+						</a> (just like most of my projects btw)
+					</div>
+					<div>- It's good looking imo</div>
+					<div>- It'll support more languages soon™</div>
+					<div>
+						- I have nothing else to compliment, but <a href="/about#Links">maybe you do</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="pb-5">
-			<div class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-102 active:scale-95">
-				Check out my projects, <a href="/projects">dis way.</a>
-			</div>
+		<div class="text-lg">I have a few projects, that include:</div>
+
+		<div class=" grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
+			{#each cardItems as cardItem}
+				<a
+					class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
+					href={cardItem.href}
+				>
+					<div>
+						<div class="h-full">
+							<div class="sm:h-2/3">
+								<div class="flex w-full items-center justify-center">
+									<img src={cardItem.imgURL} alt={cardItem.imgAlt} class="rounded-t-xl" />
+								</div>
+							</div>
+							<div class="p-5 sm:h-1/3">
+								<div class="flex flex-row items-baseline">
+									<div id="project_title" class=" text-xl font-bold">{cardItem.title}</div>
+								</div>
+								<div>
+									<div id="project_description" class="text-lg">
+										{cardItem.description}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			{/each}
 		</div>
 
 		<div class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-102 active:scale-95">
-			Learn a little about me, <a href="/about">here.</a>
+			Additional projects can be viewed, <a href="/projects">right here.</a>
 		</div>
+
+		<div class="rounded-xl bg-dark p-2 text-lg duration-200 hover:scale-102 active:scale-95">
+			Find out more about me, <a href="/about">here.</a>
+		</div>
+
 		<div>
-			<div class="pt-10 text-xl"><strong>Note:</strong></div>
-			<div>I am NOT wanted in several countries for commiting any sort of federal crime.</div>
-			<div class="pb-10">
-				I am an innocent individual, and I definitely didn't commit any of these crimes:
+			<strong class="text-xl">Unimportant ote:</strong>
+			<div>
+				Despite what you may have heard, I am not a wanted criminal in multiple countries.<br />
+				In fact, I am a law-abiding citizen who has never committed any federal offenses.
 			</div>
 		</div>
-		<div class="flex flex-row gap-4">
+		<div class="flex flex-row gap-5">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<Modal
 				show={$modal}
