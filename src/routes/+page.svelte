@@ -131,7 +131,7 @@
 		</div>
 
 		<div>
-			<strong class="text-xl">Unimportant ote:</strong>
+			<strong class="text-xl">Unimportant note:</strong>
 			<div>
 				Despite what you may have heard, I am not a wanted criminal in multiple countries.<br />
 				In fact, I am a law-abiding citizen who has never committed any federal offenses.
