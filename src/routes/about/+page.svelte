@@ -5,7 +5,6 @@
 	import Flushed from '$lib/twemojis/flushed.svelte';
 	import WavingHand from '$lib/twemojis/wavingHand.svelte';
 	import { tooltip } from '$lib/tooltip.js';
-	let tooltipContent;
 </script>
 
 <svelte:head>
@@ -43,7 +42,7 @@
 			>
 				<div class="flex flex-col p-5">
 					<div class="text-center text-2xl">I Like:</div>
-					<div class="flex flex-col py-5">
+					<div class="flex flex-col pt-5">
 						<ul class="text-lg">
 							<li>- Drinking water</li>
 							<li>- Open-Source projects</li>
@@ -66,7 +65,7 @@
 			>
 				<div class="flex flex-col p-5">
 					<div class="text-center text-2xl">Skills:</div>
-					<div class="flex flex-col py-5">
+					<div class="flex flex-col pt-5">
 						<ul class="text-lg">
 							<li>
 								- SvelteKit (<strong>7/10</strong> I really <Heart /> it)
@@ -91,7 +90,7 @@
 			>
 				<div class="flex flex-col p-5">
 					<div class="text-center text-2xl">Projects:</div>
-					<div class="flex flex-col py-5">
+					<div class="flex flex-col pt-5">
 						<ul class="text-lg">
 							<li>- Vbot - Multipurpose Discord bot</li>
 							<li>- SquareGame - 2D Unity game</li>
@@ -138,10 +137,9 @@
 			<div class="px-5">
 				for any suggestions/reports email me @
 				<div
-					use:tooltip={{ text: 'Click to copy!' }}
 					class="relative inline-block rounded-xl  bg-dark p-1 duration-200 hover:scale-102 active:scale-95"
 				>
-					<div use:clickToCopy>oueslatim@pm.me</div>
+					<a href="mailto:oueslatim@pm.me" class="text-white">oueslatim@pm.me</a>
 				</div>
 			</div>
 		</div>
