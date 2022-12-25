@@ -1,52 +1,17 @@
-<div class="init-div px-5">
-	<div id="cards-container" class="grid gap-5 sm:grid-cols-2 2xl:grid-cols-4">
-		<div class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95">
-			<div id="post_img">
-				<img src="/placeholder.png" alt="placeholder" />
-			</div>
-			<div id="post_title" class="flex flex-col items-baseline gap-1 py-2 sm:flex-row">
-				<div class="text-xl font-semibold">This is a much longer title</div>
-			</div>
-			<div id="post_description" class="text-lg">
-				This is a description about this post's content, it is supposed to be a summary for people
-				to know what they will be reading.
-			</div>
-		</div>
-		<div class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95">
-			<div id="post_img">
-				<img src="/placeholder.png" alt="placeholder" />
-			</div>
-			<div id="post_title" class="flex flex-col items-baseline gap-1 py-2 sm:flex-row">
-				<div class="text-xl font-semibold">This is a much longer title</div>
-			</div>
-			<div id="post_description" class="text-lg">
-				This is a description about this post's content, it is supposed to be a summary for people
-				to know what they will be reading.
-			</div>
-		</div>
-		<div class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95  ">
-			<div id="post_img">
-				<img src="/placeholder.png" alt="placeholder" />
-			</div>
-			<div id="post_title" class="flex flex-col items-baseline gap-1 py-2 sm:flex-row">
-				<div class="text-xl font-semibold">This is a much longer title</div>
-			</div>
-			<div id="post_description" class="text-lg">
-				This is a description about this post's content, it is supposed to be a summary for people
-				to know what they will be reading.
-			</div>
-		</div>
-		<div class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-105 active:scale-95  ">
-			<div id="post_img">
-				<img src="/placeholder.png" alt="placeholder" />
-			</div>
-			<div id="post_title" class="flex flex-col items-baseline gap-1 py-2 sm:flex-row">
-				<div class="text-xl font-semibold">This is a much longer title</div>
-			</div>
-			<div id="post_description" class="text-lg">
-				This is a description about this post's content, it is supposed to be a summary for people
-				to know what they will be reading.
-			</div>
+<div class="init-div px-5 flex justify-center h-full w-full items-center">
+	<div
+		class="bg-dark rounded-xl p-3 h-fit w-full hover:scale-102 active:scale-95 duration-200 sm:w-1/2 items-start flex flex-col justify-start bg-shapesmobile sm:bg-shapes bg-contain bg-no-repeat bg-center"
+	>
+		<!-- <img src="/idk.png" alt="yeah" /> -->
+		<div class="text-3xl pt-2 pl-2">Epic title here</div>
+		<div class="text-xl pt-2 pl-2">
+			Crazy awesome AND long descriptive description goes here. This description is so long and
+			detailed that it practically explodes with vivid imagery and elaborate language. It's the kind
+			of description that draws you in and keeps you captivated, eagerly soaking up every word and
+			savoring every detail.<br />
+
+			Also I made the background, I am still experimenting with it
+			<a href="/about#Links">is it cool?</a>
 		</div>
 	</div>
 </div>

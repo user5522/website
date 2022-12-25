@@ -36,6 +36,10 @@ module.exports = {
 			transitionDelay: {
 				10000: '10000ms'
 			},
+			backgroundImage: {
+				shapes: "url('/idk.png')",
+				shapesmobile: "url('/idkm.png')"
+			},
 			fontFamily: {
 				poppins: ['"Poppins"', ...defaultTheme.fontFamily.sans]
 			}
