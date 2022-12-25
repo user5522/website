@@ -1,5 +1,40 @@
 <script>
 	import Flushed from '$lib/twemojis/flushed.svelte';
+
+	const cardItems = [
+		{
+			title: 'Vbot',
+			description:
+				'A versatile Discord bot that is optimized for speed, responsiveness, and ease of use.\nCurrently in ALPHA',
+			imgURL: '/banners/Vbot.png',
+			imgAlt: 'Vbot banner',
+			href: '/projects/vbot'
+		},
+		{
+			title: 'Graphic Designs',
+			description:
+				"A collection of banners and logos that I created for CRBT's old profiles feature and other projects.",
+			imgURL: '/banners/banners.png',
+			imgAlt: 'banners',
+			href: '/projects/designs'
+		},
+		{
+			title: 'SquareGame',
+			description:
+				'A 2D game built with Unity, about a.. square character that navigates through levels..?\nCurrently in BETA',
+			imgURL: '/banners/SquareGame.png',
+			imgAlt: 'SquareGame banner',
+			href: '/sgsource'
+		},
+		{
+			title: 'Snak',
+			description:
+				'A snake game copycat with a touch of bugs, brought to life using Rust and the Bevy game engine.',
+			imgURL: '/banners/Snak.png',
+			imgAlt: 'Snak game banner',
+			href: '/snaksource'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -18,104 +53,37 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid gap-5 p-5 sm:grid-cols-2 2xl:grid-cols-4">
-		<a
-			class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-			href="/projects/vbot"
+	<div class="flex flex-row px-10 py-2">
+		<button class=" rounded-xl bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
+			>Sorted randomly</button
 		>
-			<div>
-				<div class="h-full">
-					<div class="sm:h-2/3">
-						<div class="flex w-full items-center justify-center">
-							<img src="/banners/Vbot.png" alt="Vbot Banner" class="rounded-t-xl" />
+	</div>
+	<div class="grid gap-5 px-5 sm:grid-cols-2 2xl:grid-cols-4">
+		{#each cardItems as cardItem}
+			<a
+				class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
+				href={cardItem.href}
+			>
+				<div>
+					<div class="h-full">
+						<div class="sm:h-2/3">
+							<div class="flex w-full items-center justify-center">
+								<img src={cardItem.imgURL} alt={cardItem.imgAlt} class="rounded-t-xl" />
+							</div>
 						</div>
-					</div>
-					<div class="p-5 sm:h-1/3">
-						<div class="flex flex-row items-baseline">
-							<div id="project_title" class=" text-xl font-bold">Vbot</div>
-						</div>
-						<div>
-							<div id="project_description" class="text-lg">
-								A multi-purpose Discord bot that is built to be fast, responsive & easy to use (&
-								all the rest of the marketting crap). [in ALPHA]
+						<div class="p-5 sm:h-1/3">
+							<div class="flex flex-row items-baseline">
+								<div id="project_title" class=" text-xl font-bold">{cardItem.title}</div>
+							</div>
+							<div>
+								<div id="project_description" class="text-lg">
+									{cardItem.description}
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</a>
-		<a
-			class="h-auto w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-			href="/projects/banners"
-		>
-			<div>
-				<div class="h-full">
-					<div class="sm:h-2/3">
-						<div class="flex w-full items-center justify-center">
-							<img src="/banners/banners.png" alt="banners" class="rounded-t-xl" />
-						</div>
-					</div>
-					<div class="p-5 sm:h-1/3">
-						<div class="flex flex-row items-baseline">
-							<div id="project_title" class=" text-xl font-bold">Banners & Logos</div>
-						</div>
-						<div>
-							<div id="project_description" class="text-lg">
-								A good amount of banners that I made for CRBT's old profiles feature & some logos
-								for my other projects.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
-		<a
-			href="/sgsource"
-			id="SquareGame"
-			class="rounded-xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-		>
-			<div>
-				<div class="h-full">
-					<div class="flex w-full items-center justify-center sm:h-2/3">
-						<img src="/banners/SquareGame.png" class="rounded-t-xl" alt="SquareGame" />
-					</div>
-					<div class="p-5 sm:h-1/3">
-						<div id="project_title" class="flex flex-col text-xl font-semibold sm:flex-row">
-							SquareGame
-						</div>
-						<div id="project_description" class="text-lg">
-							A Unity 2D game, about, well.. a 2D square that can move and goes through levels..?
-							[in BETA]
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
-		<a
-			class="rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-			href="/snaksource"
-			id="Snak"
-		>
-			<div>
-				<div class="h-full">
-					<div class="flex items-center justify-center sm:h-2/3">
-						<div class="h-full w-full">
-							<img src="/banners/Snak.png" alt="Snak" class="rounded-t-xl" />
-						</div>
-					</div>
-					<div class="p-5 sm:h-1/3">
-						<div class="flex flex-row items-baseline">
-							<div id="project_title" class="text-xl font-bold">Snak</div>
-						</div>
-						<div>
-							<div id="project_description" class="text-lg">
-								A, and believe me when I say it, buggy trash snake clone made in Rust with the Bevy
-								game engine.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
+			</a>
+		{/each}
 	</div>
 </div>
