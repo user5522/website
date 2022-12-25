@@ -1,14 +1,16 @@
 <svelte:head>
-	<title>/projects/banners</title>
+	<title>/projects/designs</title>
 </svelte:head>
 
 <div class="init-div">
 	<div class="flex flex-col items-center justify-center px-5">
-		<div class="flex flex-row items-baseline">
-			<div class="text-4xl">Banners & Logos</div>
-		</div>
-		<div class="flex flex-row items-center justify-center pb-10">
-			A gallery of all/most of my Banners & Logos
+		<div class="flex flex-col items-center justify-center">
+			<div class="flex flex-row">
+				<p class="text-4xl">Graphic designs</p>
+			</div>
+			<div class="flex flex-row gap-1">
+				<div class="px-10 text-xl">A showcase of most of my illustrations & designs</div>
+			</div>
 		</div>
 
 		<div class="flex flex-row items-center gap-1 pt-10 pb-5 text-3xl">

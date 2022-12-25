@@ -1,3 +1,7 @@
+<script>
+	export let glitch = false;
+</script>
+
 <footer class=" bottom-0 w-full bg-true_gray p-5">
 	<div class="flex flex-row">
 		<div class="flex flex-col">
@@ -16,7 +20,7 @@
 					<div>- <a href="/projects/vbot">Vbot (WIP)</a></div>
 					<div>
 						-
-						<a href="/projects/banners">Banners & Logos</a>
+						<a href="/projects/designs">Graphic designs</a>
 					</div>
 					<div>
 						-
@@ -123,7 +127,14 @@
 	<div class="pt-5 text-lighter_true_gray">
 		<div class="text-lighter_true_gray">© 2022 User552</div>
 		<div>
-			Found some annoying bugs?
+			Found some annoying <div
+				class="glitch inline-block bg-dark_light p-0.5 rounded-xl"
+				on:mouseenter={(glitch = true)}
+				on:mouseleave={(glitch = false)}
+			>
+				bugs
+			</div>
+			?
 			<a
 				href="https://github.com/user5522/website/issues"
 				target="blank"
@@ -133,3 +144,32 @@
 		</div>
 	</div>
 </footer>
+
+<style>
+	.glitch {
+		transform: translateY(0);
+		transition: transform 200ms ease-in-out;
+	}
+
+	@keyframes glitch {
+		0% {
+			transform: translateY(0) scale(1) rotate(0deg);
+		}
+		25% {
+			transform: translateY(-3px) scale(1.1) rotate(-3deg);
+		}
+		50% {
+			transform: translateY(0) scale(1) rotate(0deg);
+		}
+		75% {
+			transform: translateY(-3px) scale(1.1) rotate(-3deg);
+		}
+		100% {
+			transform: translateY(0) scale(1) rotate(0deg);
+		}
+	}
+
+	.glitch:hover {
+		animation: glitch 400ms ease-in-out infinite;
+	}
+</style>
