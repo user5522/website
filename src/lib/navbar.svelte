@@ -54,7 +54,7 @@
 	}
 </script>
 
-<div class="duration-400 {isAnimated ? 'pb-[100px]' : 'pb-16'}">
+<div class="duration-400  {isAnimated ? 'pb-[100px]' : 'pb-16'}">
 	<div
 		class="duration-400 fixed top-0 z-50 flex w-full flex-col justify-center overflow-auto align-middle transition-all {isAnimated
 			? 'p-3'

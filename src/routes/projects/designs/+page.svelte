@@ -108,7 +108,7 @@
 			<div class="flex flex-col">
 				<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">Vbot Logo</div>
 				<div class="rounded-xl bg-dark">
-					<img src="/vbot.svg" class="h-40 w-full p-8 sm:h-52 sm:p-10" alt="Logo" />
+					<img src="/vbot/vbot.svg" class="h-40 w-full p-8 sm:h-52 sm:p-10" alt="Logo" />
 				</div>
 			</div>
 		</div>
