@@ -8,13 +8,13 @@
     bg-black font-poppins text-white;
 	}
 	a {
-		@apply text-blue-400;
+		@apply text-blue-300;
 	}
 	.init-div {
 		@apply flex flex-col gap-5 pb-5 pt-28;
 	}
 	.blue-button {
-		@apply rounded-xl bg-blue-800
+		@apply rounded-xl bg-dark_blue
     p-4 text-sm
     font-semibold
     text-blue-300 duration-200
@@ -28,6 +28,10 @@
     hover:scale-105 hover:bg-dark_darker
     active:scale-95 sm:p-5
     sm:text-base;
+	}
+
+	::selection {
+		@apply bg-blue-300 text-dark;
 	}
 }
 

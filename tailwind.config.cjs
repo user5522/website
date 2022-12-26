@@ -11,7 +11,8 @@ module.exports = {
 				dark_darker: '#101010',
 				true_gray: '#191919',
 				light_true_gray: '#2f2f2f',
-				lighter_true_gray: '#5f5f5f'
+				lighter_true_gray: '#5f5f5f',
+				dark_blue: '#051531'
 			},
 			rotate: {
 				158: '158deg',
