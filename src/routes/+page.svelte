@@ -144,9 +144,9 @@
 				unstyled={false}
 				closeButton={CloseButton}
 				styleWindow={{
-					background: '#121212',
 					borderRadius: '.8rem'
 				}}
+				classContent="rounded-xl bg-dark"
 				><a>
 					<button class="blue-button" on:click={showModal}> View false accusations </button>
 				</a>

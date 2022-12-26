@@ -137,7 +137,7 @@
 				{navMenuItem.name}
 			</a>
 		{/each}
-		<div class="block rounded-xl bg-dark_darker p-3 duration-200">
+		<div class="block rounded-xl bg-dark_darker p-3 hover:scale-102 active:scale-95 duration-200">
 			// This menu is a trial run for mobile devices!<br />
 			// Click anywhere outside of it to close it!
 		</div>
