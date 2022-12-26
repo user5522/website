@@ -1,5 +1,80 @@
 <script>
 	export let glitch = false;
+
+	const websiteLinks = [
+		{
+			name: 'Homepage',
+			href: '/'
+		},
+		{
+			name: 'Accusations',
+			href: '/accusations'
+		},
+		{
+			name: 'Projects',
+			href: '/projects'
+		},
+		{
+			name: 'Vbot (WIP)',
+			href: '/projects/vbot'
+		},
+		{
+			name: 'Graphic designs',
+			href: '/projects/designs'
+		},
+		{
+			name: 'Credits',
+			href: '/credits'
+		},
+		{
+			name: 'Collections',
+			href: '/collections'
+		}
+	];
+	const redirectLinks = [
+		{
+			name: 'Discord',
+			href: '/discord',
+			imgURL: '/logos/discord.svg',
+			imgAlt: 'Discord Logo'
+		},
+		{
+			name: 'Github',
+			href: '/github',
+			imgURL: '/logos/github.svg',
+			imgAlt: 'Github Logo'
+		},
+		{
+			name: 'Reddit',
+			href: '/reddit',
+			imgURL: '/logos/reddit.svg',
+			imgAlt: 'Reddit Logo'
+		},
+		{
+			name: 'Twitter',
+			href: '/twitter',
+			imgURL: '/logos/twitter.svg',
+			imgAlt: 'Twitter Logo'
+		},
+		{
+			name: 'Xbox',
+			href: '/xbox',
+			imgURL: '/logos/xbox.svg',
+			imgAlt: 'Xbox Logo'
+		},
+		{
+			name: 'Youtube',
+			href: '/yt',
+			imgURL: '/logos/youtube.svg',
+			imgAlt: 'Youtube Logo'
+		},
+		{
+			name: 'Invite Vbot',
+			href: '/vbot',
+			imgURL: '/vbot/vbot.svg',
+			imgAlt: 'Vbot Logo'
+		}
+	];
 </script>
 
 <footer class=" bottom-0 w-full bg-true_gray p-5">
@@ -8,101 +83,25 @@
 			<div class="flex flex-col gap-5 sm:flex-row sm:gap-10">
 				<div class="flex flex-col">
 					<div class="font-semibold">Website links:</div>
-					<div>- <a href="/">Homepage</a></div>
-					<div>
-						-
-						<a href="/accusations">Accusations</a>
-					</div>
-					<div>
-						-
-						<a href="/projects">Projects</a>
-					</div>
-					<div>- <a href="/projects/vbot">Vbot (WIP)</a></div>
-					<div>
-						-
-						<a href="/projects/designs">Graphic designs</a>
-					</div>
-					<div>
-						-
-						<a href="/credits">Credits</a>
-					</div>
-					<div>
-						-
-						<a href="/collections">Collections</a>
-					</div>
+					{#each websiteLinks as websiteLink}
+						<div>- <a href={websiteLink.href}>{websiteLink.name}</a></div>
+					{/each}
 				</div>
 				<div class="flex flex-col">
 					<div class="font-semibold">Redirecting links:</div>
-					<div class="flex flex-row gap-1">
-						-
-						<a href="/discord" class="flex"
-							>Discord <img
-								src="/logos/discord.svg"
-								class="relative top-1 h-5 items-baseline pl-1"
-								alt="discord logo"
-							/></a
-						>
-					</div>
-					<div class="flex flex-row gap-1">
-						-
-						<a href="/github" class="flex"
-							>Github <img
-								src="/logos/github.svg"
-								class="relative top-1 h-5 items-baseline pl-1"
-								alt="github logo"
-							/></a
-						>
-					</div>
-					<div class="flex flex-row gap-1">
-						-
-						<a href="/reddit" class="flex"
-							>Reddit <img
-								src="/logos/reddit.svg"
-								class="relative top-1 h-5 items-baseline pl-1"
-								alt="reddit logo"
-							/></a
-						>
-					</div>
-					<div class="flex flex-row gap-1">
-						-
-						<a href="/twitter" class="flex"
-							>Twitter <img
-								src="/logos/twitter.svg"
-								class="relative top-1 h-5 items-baseline pl-1"
-								alt="twitter logo"
-							/></a
-						>
-					</div>
-					<div class="flex flex-row gap-1">
-						-
-						<a href="/xbox" class="flex"
-							>Xbox <img
-								src="/logos/xbox.svg"
-								class="relative top-1 h-5 items-baseline pl-1"
-								alt="xbox logo"
-							/></a
-						>
-					</div>
-					<div class="flex flex-row gap-1">
-						-
-						<a href="/yt" class="flex"
-							>Youtube <img
-								src="/logos/youtube.svg"
-								class="relative top-1 h-5 items-baseline pl-1"
-								alt="youtube logo"
-							/></a
-						>
-					</div>
-					<div class="flex flex-row gap-1">
-						-
-						<a href="/vbot" class="flex"
-							>Vbot Invite <img
-								src="/vbot.svg"
-								class="relative top-1 h-4 items-baseline pl-1"
-								alt="vbot logo"
-							/></a
-						>
-					</div>
+					{#each redirectLinks as redirectLink}
+						<div class="flex flex-row gap-1">
+							-
+							<a href={redirectLink.href} class="flex"
+								>{redirectLink.name}
+								<img
+									src={redirectLink.imgURL}
+									class="relative top-1 h-5 items-baseline pl-1"
+									alt={redirectLink.imgAlt}
+								/></a
+							>
+						</div>
+					{/each}
 				</div>
 				<div class="flex flex-col">
 					<div class="font-semibold">Website testing links:</div>
