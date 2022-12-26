@@ -1,3 +1,60 @@
+<script>
+	const CRBTbannerItems = [
+		{
+			title: 'Colorflow Banner',
+			imgURL: '/banners/colorflow.png',
+			imgAlt: 'Colorflow banner'
+		},
+		{
+			title: 'Bubbles Banner',
+			imgURL: '/banners/bubbles.png',
+			imgAlt: 'Bubbles banner'
+		},
+		{
+			title: 'Curve Banner [Remade]',
+			imgURL: '/banners/curve.png',
+			imgAlt: 'Curve banner, but remade'
+		},
+		{
+			title: 'Shapes Banner',
+			imgURL: '/banners/shapes.png',
+			imgAlt: 'Shapes banner'
+		},
+		{
+			title: 'Wallpaper Banner [remade]',
+			imgURL: '/banners/wallpaper.png',
+			imgAlt: "Wallpaper banner, but guess what? it's remade!"
+		},
+		{
+			title: 'More banners soon..',
+			imgURL: '/banners/banners.png',
+			imgAlt: 'More banners comming soon.. maybe.'
+		}
+	];
+	const projectBannerItems = [
+		{
+			title: 'SquareGame Banner',
+			imgURL: '/banners/SquareGame.png',
+			imgAlt: 'SquareGame banner'
+		},
+		{
+			title: 'Snak Banner',
+			imgURL: '/banners/Snak.png',
+			imgAlt: 'Snak banner'
+		},
+		{
+			title: 'Vbot Banner',
+			imgURL: '/banners/Vbot.png',
+			imgAlt: 'Vbot banner'
+		},
+		{
+			title: 'More banners soon..',
+			imgURL: '/banners/banners.png',
+			imgAlt: 'More banners comming soon.. maybe.'
+		}
+	];
+</script>
+
 <svelte:head>
 	<title>/projects/designs</title>
 </svelte:head>
@@ -17,80 +74,25 @@
 			<a href="https://crbt.app" target="_blank" rel="noreferrer">CRBT</a> Banners
 		</div>
 		<div class="grid gap-10 sm:grid-cols-2">
-			<div>
-				<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-					Colorflow Banner
+			{#each CRBTbannerItems as CRBTbannerItem}
+				<div>
+					<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
+						{CRBTbannerItem.title}
+					</div>
+					<img src={CRBTbannerItem.imgURL} class="rounded-xl" alt={CRBTbannerItem.imgAlt} />
 				</div>
-				<img src="/banners/colorflow.png" class="rounded-xl" alt="test" />
-			</div>
-
-			<div>
-				<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-					Bubbles Banner
-				</div>
-				<img src="/banners/bubbles.png" class="rounded-xl" alt="test" />
-			</div>
-
-			<div>
-				<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-					Curve Banner [remade]
-				</div>
-				<img src="/banners/curve.png" class="rounded-xl" alt="test" />
-			</div>
-
-			<div>
-				<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-					Shapes Banner
-				</div>
-				<img src="/banners/shapes.png" class="rounded-xl" alt="test" />
-			</div>
-
-			<div>
-				<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-					Wallpaper Banner [remade]
-				</div>
-				<img src="/banners/wallpaper.png" class="rounded-xl" alt="test" />
-			</div>
-
-			<div>
-				<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-					More banners soon..
-				</div>
-				<img src="/banners/banners.png" class="rounded-xl" alt="test" />
-			</div>
+			{/each}
 		</div>
 		<div class="flex flex-row items-center gap-1 pt-10 pb-5 text-3xl">Projects Banners</div>
-		<div class="flex flex-col gap-10">
-			<div class="flex flex-col gap-10 sm:flex-row">
+		<div class="grid gap-10 sm:grid-cols-2">
+			{#each projectBannerItems as projectBannerItem}
 				<div>
 					<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-						SquareGame Banner
+						{projectBannerItem.title}
 					</div>
-					<img src="/banners/SquareGame.png" class="rounded-xl" alt="SquareGame banner" />
+					<img src={projectBannerItem.imgURL} class="rounded-xl" alt={projectBannerItem.imgAlt} />
 				</div>
-				<div>
-					<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-						Snak Banner
-					</div>
-					<img src="/banners/Snak.png" class="rounded-xl" alt="Snak" />
-				</div>
-			</div>
-			<div class="flex flex-col gap-10 sm:flex-row">
-				<div>
-					<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-						Vbot Banner
-					</div>
-					<img src="/banners/Vbot.png" class="rounded-xl" alt="Vbot" />
-				</div>
-				<div class="flex flex-col gap-10 sm:flex-row">
-					<div>
-						<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-							More banners soon.
-						</div>
-						<img src="/banners/banners.png" class="rounded-xl" alt="All banners stacked" />
-					</div>
-				</div>
-			</div>
+			{/each}
 		</div>
 
 		<div id="Logos" class="flex items-center pt-10 pb-5 text-3xl">Logos</div>
