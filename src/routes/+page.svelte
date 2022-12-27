@@ -79,7 +79,7 @@
 					<div>- I made it :{')'}</div>
 					<div>
 						- It's fully opensource on
-						<a target="_blank" href="https://github.com/user5522/website" rel="noreferrer">
+						<a target="github" href="https://github.com/user5522/website" rel="noreferrer">
 							github
 						</a> (just like most of my projects btw)
 					</div>
@@ -148,7 +148,7 @@
 				}}
 				classContent="rounded-xl bg-dark"
 				><a>
-					<button class="blue-button" on:click={showModal}> View false accusations </button>
+					<button class="blue-button" on:click={showModal}>False accusations </button>
 				</a>
 				<a href="/accusations" class="text-white">
 					<button class="hidden-button">View page</button>

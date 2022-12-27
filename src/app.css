@@ -74,6 +74,14 @@ a[target='_blank'] {
 	background-size: 1rem 1rem;
 }
 
+a[target='github'] {
+	background-image: url(/logos/github.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 1.2rem;
+	background-size: 1rem 1rem;
+}
+
 .spacer_start {
 	position: absolute;
 	top: 10;
