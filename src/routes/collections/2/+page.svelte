@@ -47,7 +47,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=1AWhP_Ao-_oJ1K1uabQDrIvmniWt9HQ20"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 
@@ -58,7 +58,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=1y92djFMQeoD1E_8rp8kxo6A_hzcE-lfW"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 
@@ -67,7 +67,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=1TcSIvQLq3VURqlE6skS2MKYJYq9O4z1S"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 
@@ -78,7 +78,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=1OE1yy7FUbR6SY4y_F18tCwxEwkPjzZtG"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 
@@ -89,7 +89,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=168KHZ6kny34SoBUrxeFP6kRC05Kgcz--"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 
@@ -100,7 +100,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=1hl0gvKx9f0BC5-Nb8ZKM-iCrU8MGBNzy"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 				<div>
@@ -110,7 +110,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=1vNmPPaaT3K7KdNHADZ1QlxnAKL2dDJBB"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 				<div>
@@ -120,7 +120,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=1FWPV5YAO6_1IbaGN5yHI5Myc0OVGV5az"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 				<div>
@@ -130,7 +130,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=135zGYTC4CWvumuro2zUBTSHoq0z-E3un"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 				<div>
@@ -140,7 +140,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=1Ky59vMh0Kt1VscN6Ek58KzgROBuJFn3q"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 				<div>
@@ -150,7 +150,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=14U3Ff3z1ezO5qLAvrIqrzrzM9UhaYKqM"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 				<div>
@@ -160,7 +160,7 @@
 					<img
 						src="https://drive.google.com/uc?export=view&id=1Deoxa4n9UF-jvt60YYRl5QsHK56JUr6-"
 						class="rounded-xl"
-						alt="test"
+						alt=""
 					/>
 				</div>
 			</div>

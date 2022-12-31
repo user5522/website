@@ -1,6 +1,15 @@
 <script>
 	const cardItems = [
 		{
+			title: 'Goodbye 2022, welcome 2023',
+			description:
+				"Crazy how the year is literally ending in a few hours. I have no idea what I am going to talk about here, but it's probably a cool post, so read it please :)",
+			imgURL: '/collections/welcome2023.png',
+			imgAlt: 'I am going to kill myself next year I think',
+			href: '/collections/3',
+			postDate: '31/12/2022'
+		},
+		{
 			title: 'Clembs SMP early access screenshots',
 			description:
 				'Some screenshots from the Clembs Minecraft SMP winter early access, thought I would share them here since it will be reset.',
