@@ -89,6 +89,16 @@ a[target='twitter'] {
 	background-size: 1rem 1rem;
 }
 
+.tippy-box[data-theme~='dark'] {
+	background-color: #121212;
+	color: white;
+	padding: 12px;
+	border-radius: 10rem;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	font-weight: 700;
+}
+
 .spacer_start {
 	position: absolute;
 	top: 10;

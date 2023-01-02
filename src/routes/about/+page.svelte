@@ -1,10 +1,9 @@
 <script>
-	import { clickToCopy } from '$lib/clickToCopy.js';
 	import AgeCounter from '$lib/ageCounter.svelte';
 	import Heart from '$lib/twemojis/heart.svelte';
 	import Flushed from '$lib/twemojis/flushed.svelte';
 	import WavingHand from '$lib/twemojis/wavingHand.svelte';
-	import { tooltip } from '$lib/tooltip.js';
+	import tippy from 'svelte-tippy';
 </script>
 
 <svelte:head>
@@ -21,7 +20,16 @@
 			</div>
 			<div>
 				a <button
-					use:tooltip={{ text: '24 / 11 / 2006' }}
+					use:tippy={{
+						content: '24/11/2006',
+						arrow: false,
+						animation: 'shift-away',
+						interactive: true,
+						theme: 'dark',
+						placement: 'bottom',
+						duration: 0,
+						offset: [0, 5]
+					}}
 					class="relative duration-200 hover:scale-102 active:scale-95"
 				>
 					<strong class="rounded-xl bg-dark p-1"><AgeCounter /></strong></button
