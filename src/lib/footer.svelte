@@ -123,24 +123,22 @@
 			class="ml-auto h-28 w-28 rounded-full bg-light_true_gray grayscale sm:h-32 sm:w-32"
 		/>
 	</div>
+
 	<div class="pt-5 text-lighter_true_gray">
-		<div class="text-lighter_true_gray">© 2022 User552</div>
-		<div>
-			Found some annoying <div
-				class="glitch inline-block bg-dark_light p-0.5 rounded-xl"
-				on:mouseenter={(glitch = true)}
-				on:mouseleave={(glitch = false)}
-			>
-				bugs
-			</div>
-			?
-			<a
-				href="https://github.com/user5522/website/issues"
-				target="blank"
-				class="text-lighter_true_gray underline"
-				rel="noreferrer">report them by making an issue here!</a
-			>
+		Found some annoying <div
+			class="glitch inline-block bg-dark_light p-0.5 rounded-xl"
+			on:mouseenter={(glitch = true)}
+			on:mouseleave={(glitch = false)}
+		>
+			bugs
 		</div>
+		?
+		<a
+			href="https://github.com/user5522/website/issues"
+			target="blank"
+			class="text-lighter_true_gray underline"
+			rel="noreferrer">report them by making an issue here!</a
+		>
 	</div>
 </footer>
 
