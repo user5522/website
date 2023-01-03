@@ -139,7 +139,7 @@
 			{/each}
 			<div class="block rounded-xl bg-dark_darker p-3 hover:scale-102 active:scale-95 duration-200">
 				// This menu is still experimental!<br />
-				// Click anywhere outside of it to close it!
+				// Click anywhere outside to close it!
 			</div>
 		</div>
 	</div>
