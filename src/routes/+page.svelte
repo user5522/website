@@ -85,20 +85,28 @@
 			<Subtitle />
 		</div>
 		<div class="justify-center flex flex-col items-center">
-			<div class="text-2xl sm:text-3xl font-bold">
-				<span
-					class="bg-gradient-to-r p-0 from-orange-700 via-yellow-500 animate-text to-red-800 text-transparent bg-clip-text"
-					>Digital Designing</span
-				>,
-				<span
-					class="bg-gradient-to-r from-green-600 via-blue-600 animate-text to-purple-600 text-transparent bg-clip-text"
-					>Development</span
-				>
-				&
-				<span
-					class="bg-gradient-to-r from-dark_light via-slate-600 to-gray-900 text-transparent bg-clip-text animate-text"
-					>Problem solving</span
-				>
+			<div class="flex flex-col md:flex-row text-3xl font-bold gap-1">
+				<div>
+					<span
+						class="bg-gradient-to-r from-orange-700 via-yellow-500 animate-text to-red-800 text-transparent bg-clip-text"
+					>
+						Digital Designing</span
+					>,
+				</div>
+				<div>
+					<span
+						class="bg-gradient-to-r from-green-600 via-blue-600 animate-text to-purple-600 text-transparent bg-clip-text"
+					>
+						Development</span
+					>
+					&
+				</div>
+				<div>
+					<span
+						class="bg-gradient-to-r from-dark_light via-slate-600 to-gray-900 text-transparent bg-clip-text animate-text"
+						>Problem solving</span
+					>..
+				</div>
 			</div>
 			<div class="text-xl">are definitely things that I enjoy</div>
 		</div>
@@ -107,7 +115,7 @@
 			You can find out more about me, <a href="/about">here.</a>
 		</div>
 
-		<div class="text-2xl">Here are some projects I am working on:</div>
+		<div class="text-xl sm:text-2xl">Here are some projects I am working on:</div>
 		<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
 			{#each cardItems as cardItem}
 				<a
