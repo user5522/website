@@ -50,7 +50,7 @@
 		<div>
 			<strong>user5522.tk</strong> would not be as good as it is without the help of these amazing people:
 		</div>
-		<div class="flex flex-col gap-5 p-20">
+		<div class="flex flex-col gap-5">
 			<div style="margin-left: {getRandomX()}">
 				<div
 					use:tippy={{
