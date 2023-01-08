@@ -46,18 +46,18 @@
 		<p class="text-4xl">Projects</p>
 	</div>
 	<div class="flex flex-row gap-1">
-		<div class="px-10 text-xl">
+		<div class=" text-xl">
 			Projects I'm working on that I want to share with you
 			<Flushed />
 		</div>
 	</div>
 </div>
-<div class="flex flex-row px-10 py-2">
+<div class="flex flex-row  py-2">
 	<button class=" rounded-xl bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
 		>Sorted randomly</button
 	>
 </div>
-<div class="grid gap-5 px-5 sm:grid-cols-2 2xl:grid-cols-4">
+<div class="grid gap-5 sm:grid-cols-2 2xl:grid-cols-4">
 	{#each cardItems as cardItem}
 		<a
 			class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
