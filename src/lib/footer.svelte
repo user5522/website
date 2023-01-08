@@ -118,7 +118,7 @@
 		</div>
 
 		<img
-			src="/Logo_flat.svg"
+			src="/logo.svg"
 			alt="monochrome logo"
 			class="ml-auto h-28 w-28 rounded-full bg-light_true_gray grayscale sm:h-32 sm:w-32"
 		/>

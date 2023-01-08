@@ -30,7 +30,8 @@
 		<Navbar />
 		<WavesStart />
 	</div>
-
-	<slot />
+	<div class="init-div">
+		<slot />
+	</div>
 	<Footer />
 {/if}

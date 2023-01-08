@@ -5,7 +5,6 @@
 	import Modal, { bind } from 'svelte-simple-modal';
 	import CloseButton from '$lib/closeButton.svelte';
 	import Subtitle from '$lib/subtitle.svelte';
-	import tippy, { followCursor } from 'tippy.js';
 
 	const modal = writable(null);
 	const showModal = () => modal.set(bind(Accusations));
@@ -62,7 +61,7 @@
 		type: 'website',
 		images: [
 			{
-				url: '/Logo_flat.svg',
+				url: '/logo.svg',
 				width: 850,
 				height: 650,
 				alt: 'Logo OG image'
@@ -75,160 +74,146 @@
 	<title>Welcome - user5522.tk</title>
 </svelte:head>
 
-<div class="init-div px-5">
-	<div class="mx-auto flex max-w-4xl flex-col gap-7 justify-center items-center">
-		<div class="flex justify-center flex-col items-center">
-			<div class="flex flex-row items-baseline">
-				<div class="text-4xl">User5522</div>
-				<div class="text-xl">.tk</div>
-			</div>
-			<Subtitle />
+<div class="mx-auto flex max-w-4xl flex-col gap-7 justify-center items-center">
+	<div class="flex justify-center flex-col items-center">
+		<div class="flex flex-row items-baseline gap-2">
+			<img
+				src="/logo.svg"
+				class="bg-dark hover:scale-102 active:scale-95 duration-200 rounded-full h-14 self-center"
+				alt="User5522 logo"
+			/>
+			<div class="text-4xl">User5522</div>
 		</div>
-		<div class="justify-center flex flex-col items-center">
-			<div class="flex flex-col md:flex-row text-3xl font-bold gap-1">
-				<div>
-					<span
-						class="bg-gradient-to-r from-orange-700 via-yellow-500 animate-text to-red-800 text-transparent bg-clip-text"
-					>
-						Digital Designing</span
-					>,
-				</div>
-				<div>
-					<span
-						class="bg-gradient-to-r from-green-600 via-blue-600 animate-text to-purple-600 text-transparent bg-clip-text"
-					>
-						Development</span
-					>
-					&
-				</div>
-				<div>
-					<span
-						class="bg-gradient-to-r from-dark_light via-slate-600 to-gray-900 text-transparent bg-clip-text animate-text"
-						>Problem solving</span
-					>..
-				</div>
-			</div>
-			<div class="text-xl">are definitely things that I enjoy</div>
-		</div>
-
-		<div class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200">
-			You can find out more about me, <a href="/about">here.</a>
-		</div>
-
-		<div class="text-xl sm:text-2xl">Here are some projects I am working on:</div>
-		<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
-			{#each cardItems as cardItem}
-				<a
-					class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-					href={cardItem.href}
-				>
-					<div
-						use:tippy={{
-							content: cardItem.title,
-							followCursor: true,
-							plugins: [followCursor],
-							delay: 0,
-							duration: 0
-						}}
-					>
-						<div class="h-full">
-							<div class="sm:h-2/3">
-								<div class="flex w-full items-center justify-center">
-									<img src={cardItem.imgURL} alt={cardItem.imgAlt} class="rounded-t-xl" />
-								</div>
-							</div>
-							<div class="p-5 sm:h-1/3">
-								<div id="project_title" class=" text-xl font-bold">
-									{cardItem.title}
-								</div>
-								<div id="project_description" class="text-lg">
-									{cardItem.description}
-								</div>
-							</div>
-						</div>
-					</div>
-				</a>
-			{/each}
-		</div>
-		<div class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200">
-			You might wanna see more, <a href="/projects">right here.</a>
-		</div>
-
-		<div class="text-2xl">Here are some collections I made for some reason:</div>
-		<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
-			{#each collections as collection}
-				<a
-					href={collection.href}
-					id="Clembs-SMP-Early-access-screentshots"
-					class="rounded-xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-				>
-					<div
-						use:tippy={{
-							content: collection.title,
-							followCursor: true,
-							plugins: [followCursor],
-							delay: 0,
-							duration: 0
-						}}
-					>
-						<div class="h-full w-full">
-							<div id="post_img" class="flex justify-center sm:h-2/3">
-								<img src={collection.imgURL} alt={collection.imgAlt} class="rounded-t-xl" />
-							</div>
-							<div class="p-5 sm:h-1/3">
-								<div id="post_title" class="flex w-full flex-col items-baseline gap-1 py-2">
-									<div class="text-xl font-semibold">
-										{collection.title}
-									</div>
-									<div class="text-md text-lighter_true_gray">
-										Post date: {collection.postDate}
-									</div>
-								</div>
-								<div id="post_description" class="text-lg">
-									{collection.description}
-								</div>
-							</div>
-						</div>
-					</div>
-				</a>
-			{/each}
-		</div>
-		<div class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200">
-			For more, simply <a href="/collections">look here.</a>
-		</div>
-
-		<div>
-			<strong class="text-xl">Unimportant note:</strong>
+		<Subtitle />
+	</div>
+	<div class="justify-center flex flex-col items-center">
+		<div class="flex flex-col md:flex-row text-3xl font-bold gap-1">
 			<div>
-				Despite what you may have heard, I am not a wanted criminal in multiple countries.<br />
-				In fact, I am a law-abiding citizen who has never committed any federal offenses.
+				<span
+					class="bg-gradient-to-r from-orange-700 via-yellow-500 animate-text to-red-800 text-transparent bg-clip-text"
+				>
+					Digital Designing</span
+				>,
+			</div>
+			<div>
+				<span
+					class="bg-gradient-to-r from-green-600 via-blue-600 animate-text to-purple-600 text-transparent bg-clip-text"
+				>
+					Development</span
+				>
+				&
+			</div>
+			<div>
+				<span
+					class="bg-gradient-to-r from-dark_light via-slate-600 to-gray-900 text-transparent bg-clip-text animate-text"
+					>Problem solving</span
+				>..
 			</div>
 		</div>
-		<div class="flex flex-row gap-5">
-			<!-- svelte-ignore a11y-missing-attribute -->
-			<Modal
-				show={$modal}
-				unstyled={false}
-				closeButton={CloseButton}
-				styleWindow={{
-					borderRadius: '.8rem',
-					backgroundColor: '#121212'
-				}}
-				><a>
-					<button class="blue-button" on:click={showModal}>False accusations </button>
-				</a>
-				<a href="/accusations" class="text-white">
-					<button class="hidden-button">View page</button>
-				</a>
-			</Modal>
-		</div>
+		<div class="text-xl">are definitely things that I enjoy</div>
+	</div>
 
+	<div class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200">
+		You can find out more about me, <a href="/about">here.</a>
+	</div>
+
+	<div class="text-xl sm:text-2xl">Some projects I am working on:</div>
+	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
+		{#each cardItems as cardItem}
+			<a
+				class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
+				href={cardItem.href}
+			>
+				<div>
+					<div class="h-full">
+						<div class="sm:h-2/3">
+							<div class="flex w-full items-center justify-center">
+								<img src={cardItem.imgURL} alt={cardItem.imgAlt} class="rounded-t-xl" />
+							</div>
+						</div>
+						<div class="p-5 sm:h-1/3">
+							<div id="project_title" class=" text-xl font-bold">
+								{cardItem.title}
+							</div>
+							<div id="project_description" class="text-lg">
+								{cardItem.description}
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+		{/each}
+	</div>
+	<div class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200">
+		You might wanna see more, <a href="/projects">right here.</a>
+	</div>
+
+	<div class="text-2xl">Here are some collections I made for some reason:</div>
+	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
+		{#each collections as collection}
+			<a
+				href={collection.href}
+				id="Clembs-SMP-Early-access-screentshots"
+				class="rounded-xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
+			>
+				<div>
+					<div class="h-full w-full">
+						<div id="post_img" class="flex justify-center sm:h-2/3">
+							<img src={collection.imgURL} alt={collection.imgAlt} class="rounded-t-xl" />
+						</div>
+						<div class="p-5 sm:h-1/3">
+							<div id="post_title" class="flex w-full flex-col items-baseline gap-1 py-2">
+								<div class="text-xl font-semibold">
+									{collection.title}
+								</div>
+								<div class="text-md text-lighter_true_gray">
+									Post date: {collection.postDate}
+								</div>
+							</div>
+							<div id="post_description" class="text-lg">
+								{collection.description}
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+		{/each}
+	</div>
+	<div class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200">
+		For more, simply <a href="/collections">look here.</a>
+	</div>
+
+	<div>
+		<strong class="text-xl">Unimportant note:</strong>
 		<div>
-			<div class="text-green-600 italic opacity-50">
-				// No promise, but more content soon™<br />
-				// Tell me your opinion about this new experimental homepage
-				<a href="/about#Links">using one of these</a>.
-			</div>
+			Despite what you may have heard, I am not a wanted criminal in multiple countries.<br />
+			In fact, I am a law-abiding citizen who has never committed any federal offenses.
+		</div>
+	</div>
+	<div class="flex flex-row gap-5">
+		<!-- svelte-ignore a11y-missing-attribute -->
+		<Modal
+			show={$modal}
+			unstyled={false}
+			closeButton={CloseButton}
+			styleWindow={{
+				borderRadius: '.8rem',
+				backgroundColor: '#121212'
+			}}
+			><a>
+				<button class="blue-button" on:click={showModal}>False accusations </button>
+			</a>
+			<a href="/accusations" class="text-white">
+				<button class="hidden-button">View page</button>
+			</a>
+		</Modal>
+	</div>
+
+	<div>
+		<div class="text-green-600 italic opacity-50">
+			// No promise, but more content soon™<br />
+			// Tell me your opinion about this new experimental homepage
+			<a href="/about#Links">using one of these</a>.
 		</div>
 	</div>
 </div>

@@ -41,49 +41,47 @@
 	<title>/projects</title>
 </svelte:head>
 
-<div class="init-div">
-	<div class="flex flex-col items-center justify-center">
-		<div class="flex flex-row">
-			<p class="text-4xl">Projects</p>
-		</div>
-		<div class="flex flex-row gap-1">
-			<div class="px-10 text-xl">
-				Projects I'm working on that I want to share with you
-				<Flushed />
-			</div>
+<div class="flex flex-col items-center justify-center">
+	<div class="flex flex-row">
+		<p class="text-4xl">Projects</p>
+	</div>
+	<div class="flex flex-row gap-1">
+		<div class="px-10 text-xl">
+			Projects I'm working on that I want to share with you
+			<Flushed />
 		</div>
 	</div>
-	<div class="flex flex-row px-10 py-2">
-		<button class=" rounded-xl bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
-			>Sorted randomly</button
+</div>
+<div class="flex flex-row px-10 py-2">
+	<button class=" rounded-xl bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
+		>Sorted randomly</button
+	>
+</div>
+<div class="grid gap-5 px-5 sm:grid-cols-2 2xl:grid-cols-4">
+	{#each cardItems as cardItem}
+		<a
+			class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
+			href={cardItem.href}
 		>
-	</div>
-	<div class="grid gap-5 px-5 sm:grid-cols-2 2xl:grid-cols-4">
-		{#each cardItems as cardItem}
-			<a
-				class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-				href={cardItem.href}
-			>
-				<div>
-					<div class="h-full">
-						<div class="sm:h-2/3">
-							<div class="flex w-full items-center justify-center">
-								<img src={cardItem.imgURL} alt={cardItem.imgAlt} class="rounded-t-xl" />
-							</div>
+			<div>
+				<div class="h-full">
+					<div class="sm:h-2/3">
+						<div class="flex w-full items-center justify-center">
+							<img src={cardItem.imgURL} alt={cardItem.imgAlt} class="rounded-t-xl" />
 						</div>
-						<div class="p-5 sm:h-1/3">
-							<div class="flex flex-row items-baseline">
-								<div id="project_title" class=" text-xl font-bold">{cardItem.title}</div>
-							</div>
-							<div>
-								<div id="project_description" class="text-lg">
-									{cardItem.description}
-								</div>
+					</div>
+					<div class="p-5 sm:h-1/3">
+						<div class="flex flex-row items-baseline">
+							<div id="project_title" class=" text-xl font-bold">{cardItem.title}</div>
+						</div>
+						<div>
+							<div id="project_description" class="text-lg">
+								{cardItem.description}
 							</div>
 						</div>
 					</div>
 				</div>
-			</a>
-		{/each}
-	</div>
+			</div>
+		</a>
+	{/each}
 </div>
