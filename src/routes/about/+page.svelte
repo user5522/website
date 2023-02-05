@@ -51,12 +51,32 @@
 				<div class="text-center text-2xl">I Like:</div>
 				<div class="flex flex-col pt-5">
 					<ul class="text-lg">
-						<li>- Drinking water</li>
-						<li>- Open-Source projects</li>
-						<li>- Breathing air</li>
-						<li>- Coding & learning</li>
-						<li>- Eating food</li>
-						<li>- SvelteKit</li>
+						<li>
+							-
+							<span
+								class="bg-gradient-to-r from-orange-700 via-yellow-500 animate-text to-red-800 text-transparent bg-clip-text"
+							>
+								Digital Designing</span
+							>
+						</li>
+						<li>
+							-
+							<span
+								class="bg-gradient-to-r from-green-600 via-blue-600 animate-text to-purple-600 text-transparent bg-clip-text"
+							>
+								Developing</span
+							>
+						</li>
+						<li>
+							-
+							<span
+								class="bg-gradient-to-r from-dark_light via-slate-600 to-gray-900 text-transparent bg-clip-text animate-text"
+								>Problem solving</span
+							>
+						</li>
+						<li>- Drinking & eating</li>
+						<li>- Open-source stuff</li>
+						<li>- Breathing</li>
 						<li>- Making uselessly long lists</li>
 						<li>- The letter H</li>
 						<li>

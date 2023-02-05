@@ -1,0 +1,43 @@
+---
+title: "Now with mdsvex!"
+number: "4"
+author: "User5522"
+authorLogo: "/logos/logo.png"
+date: "10/01/2023"
+---
+
+Do you remember the complicated code for collections on the website's [GitHub](/source)? I don't either, ~~I have dementia~~.
+
+But that's no longer an issue, because now creating blogs is 10 times easier thanks to [mdsvex](https://mdsvex.pngwn.io/)!
+
+<br />
+
+*Thanks [Clembs](https://clembs.com) again.. for the brilliant idea (&& the help).*
+
+<br />
+
+Let me show you how effortless it is to create a collection:
+
+1 - Create a folder that is one number higher than the previous highest number. For example, `4` in this case.
+
+2 - Create a file named `+page.svx`.
+
+3 - At the top of the file, add the following variables:
+
+```
+title: "post title"
+number: "post number"
+author: "author name"
+authorLogo: "author logo URL"
+date: "post date"
+```
+
+4 - Below that, write your collection and include any images following the Markdown syntax.
+
+5 - ???
+
+6 - Profit!
+
+<br />
+
+Thanks for watching, don't forget to like & subscribe, share the video with your friends & loved one-s and I'll see you.. next time.

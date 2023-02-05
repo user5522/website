@@ -1,0 +1,45 @@
+---
+title: 'Initial Release!' 
+number: "1" 
+author: "User5522" 
+authorLogo: "/logos/logo.png" 
+date: "26/11/2022" 
+---
+<script>
+	import Heart from '$lib/twemojis/heart.svelte';
+</script>
+
+Finally! After what felt like, forever, I'm proud to announce user5522.tk reached it's initial
+release, **v1.0.0**!
+
+Website updates will now be weekly instead of daily (unless it's a critical bug) because, as much
+as I like web development, it is very tiring.
+
+New collectionss will be available whenever I have something new (Collections can be about anything,
+even stuff outside of my projects' updates) & hopefully you enjoy your stay here.
+<br />
+
+**Open-Source website??**
+
+Real @	[my github profile](/github)
+It's mainly because I <Heart /> Open-Source & to allow anyone who wants to improve my projects do
+so.
+It's also to track bugs & issues easily.
+<br />
+
+*Reminder for anyone who encounters any problem to [make an issue on github](https://github.com/user5522/website/issues)
+and report what's wrong. (a picture/video of the problem is appreciated :) )*
+
+<br/> 
+
+**What's the point of this place?**
+
+This website is basically (& for now) a place for me to showcase my projects & collection about my
+thoughts. Think about it as a portfolio X collections website collab.
+
+I'm plannig on adding more content, like simple html5 mini-games and some fun stuff like random cat
+images
+
+<br />
+
+I would LOVE to know if you want me to add anything in this website, hit me by creating a [github issue](https://github.com/user5522/website/issues)

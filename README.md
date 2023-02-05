@@ -30,6 +30,6 @@ if you have more questions, I don't care
 
 because i forgot
 
-[Emoji Catalgo Link](https://projects.iamcal.com/emoji-data/table.htm)
+- Collections & banners must be 2177x800 in resolution.
 
 [website link](https://user5522.tk)

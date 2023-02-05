@@ -1,0 +1,47 @@
+---
+title: 'Clembs MCSMP - Early Access Screenshots' 
+number: "2" 
+author: "User5522" 
+authorLogo: "/logos/logo.png" 
+date: "18/12/2022" 
+---
+<script>
+	let screenshots =
+		[
+			{caption: "my [otter] team base coords", gDriveID: "1AWhP_Ao-_oJ1K1uabQDrIvmniWt9HQ20", imgAlt: ""},
+			{caption: "Cool 1.19 cave I found", gDriveID: "1y92djFMQeoD1E_8rp8kxo6A_hzcE-lfW", imgAlt: ""},
+			{caption: "My shit nether spawn", gDriveID: "1TcSIvQLq3VURqlE6skS2MKYJYq9O4z1S", imgAlt: ""},
+			{caption: "Damn flying cow that got my coords leaked", gDriveID: "1OE1yy7FUbR6SY4y_F18tCwxEwkPjzZtG", imgAlt: ""},
+			{caption: "Me building a pillar next to navy's huge cock monument", gDriveID: "168KHZ6kny34SoBUrxeFP6kRC05Kgcz--", imgAlt: ""},
+			{caption: "Glowstone dog with a cock", gDriveID: "1hl0gvKx9f0BC5-Nb8ZKM-iCrU8MGBNzy", imgAlt: ""},
+			{caption: "Cool ocean monument near spawn", gDriveID: "1vNmPPaaT3K7KdNHADZ1QlxnAKL2dDJBB", imgAlt: ""},
+			{caption: "Stupid flying chicken at spawn", gDriveID: "1FWPV5YAO6_1IbaGN5yHI5Myc0OVGV5az", imgAlt: ""},
+			{caption: "Crazy bugged flying pig that we got to Y100", gDriveID: "135zGYTC4CWvumuro2zUBTSHoq0z-E3un", imgAlt: ""},
+			{caption: "Usered stuck on an other bugged flying pig", gDriveID: "1Ky59vMh0Kt1VscN6Ek58KzgROBuJFn3q", imgAlt: ""},
+			{caption: "Rare Pic of an otter swimming and clearly not drowning", gDriveID: "14U3Ff3z1ezO5qLAvrIqrzrzM9UhaYKqM", imgAlt: ""},
+			{caption: "Navy's huge cock.. monument", gDriveID: "1Deoxa4n9UF-jvt60YYRl5QsHK56JUr6-", imgAlt: ""}
+		];
+</script>
+
+The winter early access period for the [Clembs](https://clembs.com) SMP has ended on December 17th.
+The official launch will take place on December 18th, and the world from the early access period will be reset,
+so I thought why not share share some memorable moments and screenshots from the pre-launch period before everything starts fresh.
+It's kinda sad to see everything getting reset after all we've done,
+but it's exciting to see what the official launch will bring.
+Anyways, here are the screenshots:
+<br />
+<div class="grid gap-10 sm:grid-cols-2">
+	{#each screenshots as screenshot}
+		<li class="flex flex-col gap-2">
+		{screenshot.caption}
+		<img
+			src="https://drive.google.com/uc?export=view&id={screenshot.gDriveID}"
+			class="rounded-xl hover:scale-102 active:scale-95 duration-200"
+			alt=""
+		/>
+		</li>
+	{/each}
+</div>
+<br />
+
+[[Google Drive Folder Link]](https://drive.google.com/drive/folders/1_0dByKp8IfI53c7G-5GAhuupoUiUgKoU?usp=share_link)

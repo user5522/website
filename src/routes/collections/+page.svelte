@@ -1,6 +1,15 @@
 <script>
 	const cardItems = [
 		{
+			title: 'Now with mdsvex!',
+			description:
+				"After lots and lots of messing around & thanks to Clembs' invaluable assistance, collections now utilize .svx files for a user-friendly experience.",
+			imgURL: '/collections/nowwithmdsvex.png',
+			imgAlt: "Ok guys, I think I won't kms yet",
+			href: '/collections/4',
+			postDate: '10/01/2023'
+		},
+		{
 			title: 'Goodbye 2022, welcome 2023',
 			description:
 				"Crazy how the year is literally ending in a few hours. I have no idea what I am going to talk about here, but it's probably a cool post, so read it please :)",

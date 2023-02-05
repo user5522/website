@@ -76,48 +76,15 @@
 
 <div class="mx-auto flex max-w-4xl flex-col gap-7 justify-center items-center">
 	<div class="flex justify-center flex-col items-center">
-		<div class="flex flex-row items-baseline gap-2">
-			<img
-				src="/logo.svg"
-				class="bg-dark hover:scale-102 active:scale-95 duration-200 rounded-full h-14 self-center"
-				alt="User5522 logo"
-			/>
-			<div class="text-4xl">User5522</div>
-		</div>
+		<div class="text-4xl font-semibold">User5522</div>
 		<Subtitle />
-	</div>
-	<div class="justify-center flex flex-col items-center">
-		<div class="flex flex-col md:flex-row text-3xl font-bold gap-1">
-			<div>
-				<span
-					class="bg-gradient-to-r from-orange-700 via-yellow-500 animate-text to-red-800 text-transparent bg-clip-text"
-				>
-					Digital Designing</span
-				>,
-			</div>
-			<div>
-				<span
-					class="bg-gradient-to-r from-green-600 via-blue-600 animate-text to-purple-600 text-transparent bg-clip-text"
-				>
-					Development</span
-				>
-				&
-			</div>
-			<div>
-				<span
-					class="bg-gradient-to-r from-dark_light via-slate-600 to-gray-900 text-transparent bg-clip-text animate-text"
-					>Problem solving</span
-				>..
-			</div>
-		</div>
-		<div class="text-xl">are definitely things that I enjoy</div>
 	</div>
 
 	<div class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200">
-		You can find out more about me, <a href="/about">here.</a>
+		You can learn about me, <a href="/about">here.</a>
 	</div>
 
-	<div class="text-xl sm:text-2xl">Some projects I am working on:</div>
+	<div class="text-xl sm:text-2xl">Featured projects:</div>
 	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
 		{#each cardItems as cardItem}
 			<a
@@ -148,7 +115,7 @@
 		You might wanna see more, <a href="/projects">right here.</a>
 	</div>
 
-	<div class="text-2xl">Here are some collections I made for some reason:</div>
+	<div class="text-xl sm:text-2xl">Featured collections:</div>
 	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
 		{#each collections as collection}
 			<a
