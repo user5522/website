@@ -19,20 +19,20 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"mdsvex": "^0.10.6",
-		"prettier": "^2.8.0",
+		"prettier": "^2.8.4",
 		"prettier-plugin-svelte": "^2.8.1",
 		"prettier-plugin-tailwindcss": "^0.2.1",
-		"svelte": "^3.54.0",
+		"svelte": "^3.55.1",
 		"tailwindcss": "^3.2.4",
-		"vite": "^4.0.0"
+		"vite": "^4.1.2"
 	},
 	"type": "module",
 	"dependencies": {
+		"kit@latest": "link:sveltejs/kit@latest",
 		"pnpm": "^7.26.3",
 		"postcss": "^8.4.20",
-		"svelte-seo": "^1.4.1",
-		"svelte-simple-modal": "^1.4.5",
-		"svelte-sitemap": "^2.5.3",
+		"svelte-simple-modal": "^1.5.2",
+		"svelte-sitemap": "^2.6.0",
 		"svelte-tippy": "^1.3.2",
 		"tippy.js": "^6.3.7"
 	}

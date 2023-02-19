@@ -1,5 +1,5 @@
 <script>
-	import SvelteSeo from 'svelte-seo';
+	// import SvelteSeo from 'svelte-seo';
 	import { writable } from 'svelte/store';
 	import Accusations from '$lib/accusations.svelte';
 	import Modal, { bind } from 'svelte-simple-modal';
@@ -50,10 +50,10 @@
 	];
 </script>
 
-<SvelteSeo
+<!-- <SvelteSeo
 	title="User5522.tk"
 	description="Welcome to my website! A place where I share information about all my stuff!"
-	keywords="user5522 u5522 user5522.tk username5522 Epik_Kid"
+	keywords="user5522, u5522, user5522.tk, username5522, Epik_Kid"
 	openGraph={{
 		title: 'User5522.tk',
 		description: 'Welcome to my website! A place where I share information about all my stuff!',
@@ -64,11 +64,11 @@
 				url: '/logo.svg',
 				width: 850,
 				height: 650,
-				alt: 'Logo OG image'
+				alt: 'OG Logo image'
 			}
 		]
 	}}
-/>
+/> -->
 
 <svelte:head>
 	<title>Welcome - user5522.tk</title>
