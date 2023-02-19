@@ -19,6 +19,7 @@
 		{ id: '/(links)/vbot/source' },
 		{ id: '/(links)/xbox' },
 		{ id: '/(links)/yt' },
+		{ id: '/(links)/u3d' },
 		{ id: '/accusations' }
 	];
 </script>
