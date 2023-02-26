@@ -45,7 +45,7 @@
 
 <div class="flex flex-col items-center justify-center">
 	<div class="flex flex-row">
-		<p class="text-4xl">Collections</p>
+		<p class="text-4xl font-semibold">Collections</p>
 	</div>
 	<div>
 		<div class="text-xl">Everything I want to share</div>
@@ -58,7 +58,7 @@
 	>
 </div>
 
-<div class="grid gap-5 sm:grid-cols-2 2xl:grid-cols-4">
+<div class="grid sm:grid-cols-2 2xl:grid-cols-4 gap-5">
 	{#each cardItems as cardItem}
 		<a
 			href={cardItem.href}

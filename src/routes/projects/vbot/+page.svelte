@@ -4,7 +4,7 @@
 
 <div class="flex flex-col">
 	<div class="flex justify-center">
-		<div class="text-4xl">Vbot</div>
+		<div class="text-4xl font-semibold">Vbot</div>
 	</div>
 	<div class="flex flex-col items-center justify-center pb-20 sm:px-10">
 		<div class="text-2xl">An open-source multipurpose Discord app</div>

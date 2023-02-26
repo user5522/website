@@ -27,6 +27,14 @@
 			href: '/sgsource'
 		},
 		{
+			title: 'u3d',
+			description:
+				'An attempt to learn Unity 3D, you are a BEAN moving around and can glitch through walls (100% intended)',
+			imgURL: '/placeholder.png',
+			imgAlt: 'u3d banner',
+			href: '/u3d'
+		},
+		{
 			title: 'Snak',
 			description:
 				'A snake game copycat with a touch of bugs, brought to life using Rust and the Bevy game engine.',
@@ -43,7 +51,7 @@
 
 <div class="flex flex-col items-center justify-center">
 	<div class="flex flex-row">
-		<p class="text-4xl">Projects</p>
+		<p class="text-4xl font-semibold">Projects</p>
 	</div>
 	<div class="flex flex-row gap-1">
 		<div class=" text-xl">
@@ -57,7 +65,7 @@
 		>Sorted randomly</button
 	>
 </div>
-<div class="grid gap-5 sm:grid-cols-2 2xl:grid-cols-4">
+<div class="grid sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-5">
 	{#each cardItems as cardItem}
 		<a
 			class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"

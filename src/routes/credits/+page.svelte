@@ -13,7 +13,7 @@
 </svelte:head>
 
 <div class="flex flex-col items-center justify-center">
-	<div class="text-4xl">Credits</div>
+	<div class="text-4xl font-semibold">Credits</div>
 	<div class="text-xl">
 		A place to say thanks <Heart />
 	</div>

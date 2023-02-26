@@ -62,7 +62,7 @@
 <div class="flex flex-col items-center justify-center px-5">
 	<div class="flex flex-col items-center justify-center">
 		<div class="flex flex-row">
-			<p class="text-4xl">Graphic designs</p>
+			<p class="text-4xl font-semibold">Graphic designs</p>
 		</div>
 		<div class="flex flex-row gap-1">
 			<div class="px-10 text-xl">A showcase of most of my illustrations & designs</div>
