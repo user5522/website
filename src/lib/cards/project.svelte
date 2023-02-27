@@ -5,7 +5,7 @@
 	export let description;
 	export let imgAlt;
 
-	export let isDark = false;
+	export let isDark = true;
 </script>
 
 <a

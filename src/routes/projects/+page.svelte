@@ -45,7 +45,7 @@
 		}
 	];
 
-	export let isDark = false;
+	export let isDark = true;
 </script>
 
 <svelte:head>

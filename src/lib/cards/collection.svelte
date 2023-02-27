@@ -6,7 +6,7 @@
 	export let imgAlt;
 	export let postDate;
 
-	export let isDark = false;
+	export let isDark = true;
 </script>
 
 <a

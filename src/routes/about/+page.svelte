@@ -107,7 +107,7 @@
 		</div>
 	</div>
 	<div
-		class="rounded-xl bg-dark p-2 duration-200 hover:scale-102 active:scale-95 {isHidden
+		class="rounded-xl bg-dark p-2 whitespace-nowrap duration-200 hover:scale-102 active:scale-95 {isHidden
 			? 'hidden'
 			: 'block'}"
 	>
