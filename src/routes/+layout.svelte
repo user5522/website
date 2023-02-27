@@ -27,7 +27,7 @@
 </script>
 
 {#if $page.error || layoutExcl.some((item) => $page.route.id == item.id)}
-	<slot />
+	<div class={DarkTheme ? 'bg-black' : 'bg-white text-black'}><slot /></div>
 {:else}
 	<div class={DarkTheme ? 'bg-white' : 'bg-dark '}>
 		<Navbar isDark={DarkTheme} />
