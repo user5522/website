@@ -4,7 +4,6 @@
 	import Footer from '$lib/footer.svelte';
 	import { page } from '$app/stores';
 	import '../app.css';
-	export const prerender = true;
 
 	let layoutExcl = [
 		{ id: '/(links)/discord' },
@@ -22,17 +21,21 @@
 		{ id: '/(links)/u3d' },
 		{ id: '/accusations' }
 	];
+
+	let DarkTheme = true;
+	export const prerender = true;
 </script>
 
 {#if $page.error || layoutExcl.some((item) => $page.route.id == item.id)}
 	<slot />
 {:else}
-	<div class="bg-white">
-		<Navbar />
-		<WavesStart />
+	<div class={DarkTheme ? 'bg-white' : 'bg-dark '}>
+		<Navbar isDark={DarkTheme} />
+		<WavesStart isDark={DarkTheme} />
 	</div>
-	<div class="init-div">
+	<div class="init-div {DarkTheme ? 'bg-black text-white' : 'bg-white text-black'}">
+		<button on:click={() => (DarkTheme = !DarkTheme)}>Change Theme</button>
 		<slot />
 	</div>
-	<Footer />
+	<Footer isDark={DarkTheme} />
 {/if}

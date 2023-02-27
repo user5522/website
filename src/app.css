@@ -4,8 +4,7 @@
 
 @layer base {
 	html {
-		@apply list-none
-    bg-black font-poppins text-white;
+		@apply list-none font-poppins;
 	}
 	a {
 		@apply text-blue-300;
@@ -22,10 +21,10 @@
     sm:p-5 sm:text-base;
 	}
 	.hidden-button {
-		@apply rounded-xl p-4
-    text-sm font-semibold
-    duration-200
-    hover:scale-105 hover:bg-dark_darker
+		@apply rounded-xl bg-opacity-50
+    p-4 text-sm
+    font-semibold
+    duration-200 hover:scale-105 hover:bg-dark_darker
     active:scale-95 sm:p-5
     sm:text-base;
 	}
@@ -114,10 +113,6 @@ a[target='twitter'] {
 	display: block;
 	width: calc(100% + 1.3px);
 	height: 115px;
-}
-
-.spacer_start .shape-fill {
-	fill: #ffffff;
 }
 
 @media (max-width: 640px) {

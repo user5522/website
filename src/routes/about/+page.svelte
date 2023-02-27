@@ -1,7 +1,7 @@
 <script>
 	import AgeCounter from '$lib/ageCounter.svelte';
 	import Flushed from '$lib/twemojis/flushed.svelte';
-	import tippy from 'svelte-tippy';
+	import DarkTheme from '../+layout.svelte';
 
 	let isHidden = false;
 
@@ -29,21 +29,7 @@
 
 	<div class="flex flex-col items-center justify-center text-xl">
 		<div>
-			I'm a <button
-				use:tippy={{
-					content: '24/11/2006',
-					arrow: false,
-					animation: 'shift-away',
-					interactive: true,
-					theme: 'dark',
-					placement: 'bottom',
-					duration: 0,
-					offset: [0, 5]
-				}}
-				class="relative duration-200 hover:scale-102 active:scale-95"
-			>
-				<strong class="rounded-xl bg-dark p-1"><AgeCounter /></strong></button
-			>
+			I'm a <AgeCounter isDark={DarkTheme} />
 			year old <strong>HS student</strong> & a <strong>self-taught</strong> designer & developer.
 		</div>
 	</div>
