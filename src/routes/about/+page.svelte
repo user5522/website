@@ -1,7 +1,6 @@
 <script>
 	import AgeCounter from '$lib/ageCounter.svelte';
 	import Flushed from '$lib/twemojis/flushed.svelte';
-	import DarkTheme from '../+layout.svelte';
 
 	let isHidden = false;
 
@@ -29,7 +28,7 @@
 
 	<div class="flex flex-col items-center justify-center text-xl">
 		<div>
-			I'm a <AgeCounter isDark={DarkTheme} />
+			I'm a <AgeCounter />
 			year old <strong>HS student</strong> & a <strong>self-taught</strong> designer & developer.
 		</div>
 	</div>
