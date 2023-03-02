@@ -44,8 +44,6 @@
 			href: '/snaksource'
 		}
 	];
-
-	export let isDark = true;
 </script>
 
 <svelte:head>
@@ -64,10 +62,7 @@
 	</div>
 </div>
 <div class="flex flex-row  py-2">
-	<button
-		class=" rounded-xl {isDark
-			? 'bg-dark'
-			: 'bg-lighter_true_gray text-white'} p-2 duration-200 hover:scale-105 active:scale-95"
+	<button class=" rounded-xl text-white bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
 		>Sorted randomly</button
 	>
 </div>

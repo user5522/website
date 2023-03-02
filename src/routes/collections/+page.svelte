@@ -55,7 +55,7 @@
 </div>
 
 <div class="flex flex-row py-2">
-	<button class=" rounded-xl bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
+	<button class=" rounded-xl text-white bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
 		>Sorted by latest</button
 	>
 </div>

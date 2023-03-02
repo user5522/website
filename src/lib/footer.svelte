@@ -10,25 +10,18 @@
 			name: 'Accusations',
 			href: '/accusations'
 		},
+		{ name: 'About', href: '/about' },
 		{
 			name: 'Projects',
 			href: '/projects'
 		},
 		{
-			name: 'Vbot (WIP)',
-			href: '/projects/vbot'
-		},
-		{
-			name: 'Graphic designs',
-			href: '/projects/designs'
+			name: 'Collections',
+			href: '/collections'
 		},
 		{
 			name: 'Credits',
 			href: '/credits'
-		},
-		{
-			name: 'Collections',
-			href: '/collections'
 		}
 	];
 	let redirectLinks = [
@@ -120,9 +113,7 @@
 					{/each}
 				</div>
 				<div class="flex flex-col">
-					<div class="font-semibold {isDark ? 'text-white' : 'text-black'}">
-						Website testing links:
-					</div>
+					<div class="font-semibold {isDark ? 'text-white' : 'text-black'}">Testing links:</div>
 					{#each testingLinks as testingLink}
 						<div class={isDark ? 'text-white' : 'text-black'}>
 							-
