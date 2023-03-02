@@ -121,7 +121,7 @@
 	</div> -->
 
 	<div
-		class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200 {tip1Hide
+		class="bg-dark text-white p-3 rounded-xl hover:scale-102 active:scale-95 duration-200 {tip1Hide
 			? 'hidden'
 			: 'block'}"
 	>
@@ -145,7 +145,7 @@
 		{/each}
 	</div>
 	<div
-		class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200 {tip2Hide
+		class="bg-dark p-3 text-white rounded-xl hover:scale-102 active:scale-95 duration-200 {tip2Hide
 			? 'hidden'
 			: 'block'}"
 	>
@@ -170,7 +170,7 @@
 		{/each}
 	</div>
 	<div
-		class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200 {tip3Hide
+		class="bg-dark text-white p-3 rounded-xl hover:scale-102 active:scale-95 duration-200 {tip3Hide
 			? 'hidden'
 			: 'block'}"
 	>
@@ -199,7 +199,7 @@
 				backgroundColor: '#121212'
 			}}
 			><a>
-				<button class="blue-button" on:click={showModal}>False accusations </button>
+				<button class="blue-button" on:click={showModal}>False accusations</button>
 			</a>
 			<a href="/accusations" class="text-white">
 				<button class="hidden-button">View page</button>
