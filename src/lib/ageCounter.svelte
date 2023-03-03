@@ -4,6 +4,6 @@
 	let age = Math.floor(t) + '.' + (t % 1).toFixed(2).substring(2);
 </script>
 
-<div id="age" class="inline-block">
+<div id="age" class=" text-white inline-block">
 	{age}
 </div>

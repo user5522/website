@@ -4,11 +4,14 @@
 
 @layer base {
 	html {
-		@apply list-none
-    bg-black font-poppins text-white;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	}
+	body {
+		@apply list-none bg-white font-poppins text-black 
+	dark:bg-black dark:text-white;
 	}
 	a {
-		@apply text-blue-300;
+		@apply text-blue-800 dark:text-blue-300;
 	}
 	.init-div {
 		@apply flex flex-col gap-5 px-5 pb-5 pt-28;
@@ -24,9 +27,9 @@
 	.hidden-button {
 		@apply rounded-xl p-4
     text-sm font-semibold
-    duration-200
-    hover:scale-105 hover:bg-dark_darker
-    active:scale-95 sm:p-5
+    text-black duration-200 hover:scale-105
+    hover:bg-dark_darker active:scale-95
+    dark:text-white sm:p-5
     sm:text-base;
 	}
 
@@ -118,6 +121,13 @@ a[target='twitter'] {
 
 .spacer_start .shape-fill {
 	fill: #ffffff;
+}
+
+@media (min-width: 1536px) {
+	.spacer_start svg {
+		width: calc(90% + 1000px);
+		height: 120px;
+	}
 }
 
 @media (max-width: 640px) {

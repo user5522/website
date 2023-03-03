@@ -5,11 +5,13 @@
 	import Modal, { bind } from 'svelte-simple-modal';
 	import CloseButton from '$lib/closeButton.svelte';
 	import Subtitle from '$lib/subtitle.svelte';
+	import Project from '$lib/cards/project.svelte';
+	import Collection from '$lib/cards/collection.svelte';
 
 	const modal = writable(null);
 	const showModal = () => modal.set(bind(Accusations));
 
-	const cardItems = [
+	const projects = [
 		{
 			title: 'Graphic Designs',
 			description:
@@ -119,7 +121,7 @@
 	</div> -->
 
 	<div
-		class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200 {tip1Hide
+		class="bg-dark p-3 text-white rounded-xl hover:scale-102 active:scale-95 duration-200 {tip1Hide
 			? 'hidden'
 			: 'block'}"
 	>
@@ -132,33 +134,18 @@
 
 	<div class="text-xl sm:text-2xl">Featured projects:</div>
 	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
-		{#each cardItems as cardItem}
-			<a
-				class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-				href={cardItem.href}
-			>
-				<div>
-					<div class="h-full">
-						<div class="sm:h-2/3">
-							<div class="flex w-full items-center justify-center">
-								<img src={cardItem.imgURL} alt={cardItem.imgAlt} class="rounded-t-xl" />
-							</div>
-						</div>
-						<div class="p-5 sm:h-1/3">
-							<div id="project_title" class=" text-xl font-bold">
-								{cardItem.title}
-							</div>
-							<div id="project_description" class="text-lg">
-								{cardItem.description}
-							</div>
-						</div>
-					</div>
-				</div>
-			</a>
+		{#each projects as project}
+			<Project
+				href={project.href}
+				title={project.title}
+				description={project.description}
+				imgURL={project.imgURL}
+				imgAlt={project.imgAlt}
+			/>
 		{/each}
 	</div>
 	<div
-		class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200 {tip2Hide
+		class="bg-dark p-3 rounded-xl text-white hover:scale-102 active:scale-95 duration-200 {tip2Hide
 			? 'hidden'
 			: 'block'}"
 	>
@@ -172,36 +159,18 @@
 	<div class="text-xl sm:text-2xl">Featured collections:</div>
 	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
 		{#each collections as collection}
-			<a
+			<Collection
 				href={collection.href}
-				id="Clembs-SMP-Early-access-screentshots"
-				class="rounded-xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-			>
-				<div>
-					<div class="h-full w-full">
-						<div id="post_img" class="flex justify-center sm:h-2/3">
-							<img src={collection.imgURL} alt={collection.imgAlt} class="rounded-t-xl" />
-						</div>
-						<div class="p-5 sm:h-1/3">
-							<div id="post_title" class="flex w-full flex-col items-baseline gap-1 py-2">
-								<div class="text-xl font-semibold">
-									{collection.title}
-								</div>
-								<div class="text-md text-lighter_true_gray">
-									Post date: {collection.postDate}
-								</div>
-							</div>
-							<div id="post_description" class="text-lg">
-								{collection.description}
-							</div>
-						</div>
-					</div>
-				</div>
-			</a>
+				title={collection.title}
+				postDate={collection.postDate}
+				description={collection.description}
+				imgURL={collection.imgURL}
+				imgAlt={collection.imgAlt}
+			/>
 		{/each}
 	</div>
 	<div
-		class="bg-dark p-3 rounded-xl hover:scale-102 active:scale-95 duration-200 {tip3Hide
+		class="bg-dark p-3 rounded-xl text-white hover:scale-102 active:scale-95 duration-200 {tip3Hide
 			? 'hidden'
 			: 'block'}"
 	>
@@ -239,7 +208,7 @@
 	</div>
 
 	<div>
-		<div class="text-green-600 italic opacity-50">
+		<div class="text-green-600 italic dark:opacity-50">
 			// No promise, but more content soon™<br />
 			// Tell me your opinion about this new experimental homepage
 			<a href="/about#Links">using one of these</a>.

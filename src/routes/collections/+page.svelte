@@ -1,4 +1,5 @@
 <script>
+	import Collection from '$lib/cards/collection.svelte';
 	const cardItems = [
 		{
 			title: 'Now with mdsvex!',
@@ -53,38 +54,20 @@
 </div>
 
 <div class="flex flex-row py-2">
-	<button class=" rounded-xl bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
+	<button class=" rounded-xl text-white bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
 		>Sorted by latest</button
 	>
 </div>
 
 <div class="grid sm:grid-cols-2 2xl:grid-cols-4 gap-5">
 	{#each cardItems as cardItem}
-		<a
+		<Collection
 			href={cardItem.href}
-			id="Clembs-SMP-Early-access-screentshots"
-			class="rounded-xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
-		>
-			<div>
-				<div class="h-full w-full">
-					<div id="post_img" class="flex justify-center sm:h-2/3">
-						<img src={cardItem.imgURL} alt={cardItem.imgAlt} class="rounded-t-xl object-cover" />
-					</div>
-					<div class="p-5 sm:h-1/3">
-						<div id="post_title" class="flex w-full flex-col items-baseline gap-1 py-2 md:flex-row">
-							<div class="text-xl font-semibold md:flex md:w-2/3 md:justify-start">
-								{cardItem.title}
-							</div>
-							<div class="text-md text-lighter_true_gray md:flex md:w-1/3 md:justify-end">
-								Post date: {cardItem.postDate}
-							</div>
-						</div>
-						<div id="post_description" class="text-lg">
-							{cardItem.description}
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
+			title={cardItem.title}
+			postDate={cardItem.postDate}
+			description={cardItem.description}
+			imgURL={cardItem.imgURL}
+			imgAlt={cardItem.imgAlt}
+		/>
 	{/each}
 </div>

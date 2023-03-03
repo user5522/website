@@ -1,5 +1,6 @@
 <script>
 	import Flushed from '$lib/twemojis/flushed.svelte';
+	import Project from '$lib/cards/project.svelte';
 
 	const cardItems = [
 		{
@@ -61,35 +62,18 @@
 	</div>
 </div>
 <div class="flex flex-row  py-2">
-	<button class=" rounded-xl bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
+	<button class=" rounded-xl bg-dark text-white p-2 duration-200 hover:scale-105 active:scale-95"
 		>Sorted randomly</button
 	>
 </div>
 <div class="grid sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-5">
 	{#each cardItems as cardItem}
-		<a
-			class="w-full rounded-2xl bg-dark text-white duration-200 hover:scale-102 active:scale-95"
+		<Project
 			href={cardItem.href}
-		>
-			<div>
-				<div class="h-full">
-					<div class="sm:h-2/3">
-						<div class="flex w-full items-center justify-center">
-							<img src={cardItem.imgURL} alt={cardItem.imgAlt} class="rounded-t-xl" />
-						</div>
-					</div>
-					<div class="p-5 sm:h-1/3">
-						<div class="flex flex-row items-baseline">
-							<div id="project_title" class=" text-xl font-bold">{cardItem.title}</div>
-						</div>
-						<div>
-							<div id="project_description" class="text-lg">
-								{cardItem.description}
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
+			title={cardItem.title}
+			description={cardItem.description}
+			imgURL={cardItem.imgURL}
+			imgAlt={cardItem.imgAlt}
+		/>
 	{/each}
 </div>

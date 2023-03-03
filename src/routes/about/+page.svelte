@@ -82,7 +82,9 @@
 	</div>
 
 	<div id="Links" class="py-5 text-2xl font-semibold">Links</div>
-	<div class="flex flex-col items-center gap-5">
+	<div
+		class="flex flex-col items-center gap-5 bg-dark p-5 hover:scale-102 active:scale-95 duration-200 rounded-xl"
+	>
 		<div class="flex flex-row items-center gap-5">
 			<a href="/yt" class="duration-200 hover:scale-105 active:scale-90" target="blank">
 				<img src="/logos/youtube.svg" alt="youtube link" class="h-10" />
@@ -116,12 +118,12 @@
 			<div
 				class="relative inline-block rounded-xl  bg-dark p-1 duration-200 hover:scale-102 active:scale-95"
 			>
-				<a href="mailto:oueslatim@pm.me" class="text-white">oueslatim@pm.me</a>
+				<a href="mailto:oueslatim@pm.me" class="dark:text-white text-white">oueslatim@pm.me</a>
 			</div>
 		</div>
 	</div>
 	<div
-		class="rounded-xl bg-dark p-2 duration-200 hover:scale-102 active:scale-95 {isHidden
+		class="rounded-xl bg-dark text-white p-2 duration-200 hover:scale-102 active:scale-95 {isHidden
 			? 'hidden'
 			: 'block'}"
 	>

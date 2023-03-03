@@ -13,7 +13,7 @@
 		<button class="blue-button">Back to Homepage</button>
 	</a>
 </div>
-<div class="flex flex-col items-center justify-center px-5 pb-5 text-white">
+<div class="flex flex-col items-center justify-center px-5 pb-5">
 	<ul>
 		{#each titles as title}
 			<li>- {title}</li>
