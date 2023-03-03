@@ -1,7 +1,7 @@
 <script>
 	export let glitch = false;
 
-	const websiteLinks = [
+	let websiteLinks = [
 		{
 			name: 'Homepage',
 			href: '/'
@@ -31,7 +31,7 @@
 			href: '/collections'
 		}
 	];
-	const redirectLinks = [
+	let redirectLinks = [
 		{
 			name: 'Discord',
 			href: '/discord',
@@ -75,6 +75,10 @@
 			imgAlt: 'Vbot Logo'
 		}
 	];
+	let testingLinks = [
+		{ name: 'Long Page', href: '/long' },
+		{ name: 'Sandbox Page', href: '/sandbox' }
+	];
 </script>
 
 <footer class=" bottom-0 w-full bg-true_gray p-5 text-white">
@@ -84,7 +88,7 @@
 				<div class="flex flex-col">
 					<div class="font-semibold">Website links:</div>
 					{#each websiteLinks as websiteLink}
-						<div>- <a href={websiteLink.href}>{websiteLink.name}</a></div>
+						<div>- <a href={websiteLink.href} class="text-blue-300">{websiteLink.name}</a></div>
 					{/each}
 				</div>
 				<div class="flex flex-col">
@@ -92,7 +96,7 @@
 					{#each redirectLinks as redirectLink}
 						<div class="flex flex-row gap-1">
 							-
-							<a href={redirectLink.href} class="flex"
+							<a href={redirectLink.href} class="flex text-blue-300"
 								>{redirectLink.name}
 								<img
 									src={redirectLink.imgURL}
@@ -105,14 +109,12 @@
 				</div>
 				<div class="flex flex-col">
 					<div class="font-semibold">Website testing links:</div>
-					<div>
-						-
-						<a href="/long">Long page</a>
-					</div>
-					<div>
-						-
-						<a href="/sandbox">Sandbox page</a>
-					</div>
+					{#each testingLinks as testingLink}
+						<div>
+							-
+							<a href={testingLink.href} class="text-blue-300">{testingLink.name}</a>
+						</div>
+					{/each}
 				</div>
 			</div>
 		</div>
@@ -136,7 +138,7 @@
 		<a
 			href="https://github.com/user5522/website/issues"
 			target="blank"
-			class="text-lighter_true_gray underline"
+			class="dark:text-lighter_true_gray text-lighter_true_gray underline"
 			rel="noreferrer">report them by making an issue here!</a
 		>
 	</div>

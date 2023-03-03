@@ -1,5 +1,5 @@
 <script>
-	const CRBTbannerItems = [
+	let CRBTbannerItems = [
 		{
 			title: 'Colorflow Banner',
 			imgURL: '/banners/colorflow.png',
@@ -31,7 +31,7 @@
 			imgAlt: 'More banners comming soon.. maybe.'
 		}
 	];
-	const projectBannerItems = [
+	let projectBannerItems = [
 		{
 			title: 'SquareGame Banner',
 			imgURL: '/banners/SquareGame.png',
@@ -53,6 +53,22 @@
 			imgAlt: 'More banners comming soon.. maybe.'
 		}
 	];
+
+	let ClembsVisible = false;
+	let clicks = 0;
+
+	function handleClick() {
+		clicks++;
+
+		if (clicks >= 5) {
+			ClembsVisible = true;
+			const timeout = setTimeout(() => {
+				clicks = 0;
+				ClembsVisible = false;
+				clearTimeout(timeout);
+			}, 10000);
+		}
+	}
 </script>
 
 <svelte:head>
@@ -100,13 +116,19 @@
 			<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
 				User5522 Logo
 			</div>
-			<div class="rounded-xl bg-dark">
+			<div class="rounded-xl bg-dark hover:scale-102 active:scale-95 duration-200">
 				<img src="/logo.svg" class="mh-40 w-full sm:h-52" alt="Logo" />
 			</div>
 		</div>
 		<div class="flex flex-col">
-			<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">Vbot Logo</div>
-			<div class="rounded-xl bg-dark">
+			<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
+				Vbot Logo {ClembsVisible ? '(C) Clembs' : ''}
+			</div>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<div
+				class="rounded-xl bg-dark hover:scale-102 active:scale-95 duration-200"
+				on:click={handleClick}
+			>
 				<img src="/vbot/vbot.svg" class="h-40 w-full p-8 sm:h-52 sm:p-10" alt="Logo" />
 			</div>
 		</div>

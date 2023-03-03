@@ -121,11 +121,11 @@
 	</div> -->
 
 	<div
-		class="bg-dark p-3 text-white rounded-xl hover:scale-102 active:scale-95 duration-200 {tip1Hide
+		class="bg-dark p-3 text-white whitespace-nowrap overflow-hidden rounded-xl hover:scale-102 active:scale-95 duration-200 {tip1Hide
 			? 'hidden'
 			: 'block'}"
 	>
-		You can learn about me, <a href="/about">here.</a>
+		You can learn about me, <a href="/about" class="text-blue-300">here.</a>
 		<button
 			class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 px-2 py-1 text-xl"
 			on:click={() => toggleHide(tip1Hide, 'tip1Hide') && (tip1Hide = !tip1Hide)}>&times;</button
@@ -145,11 +145,11 @@
 		{/each}
 	</div>
 	<div
-		class="bg-dark p-3 rounded-xl text-white hover:scale-102 active:scale-95 duration-200 {tip2Hide
+		class="bg-dark p-3 rounded-xl overflow-hidden whitespace-nowrap text-white hover:scale-102 active:scale-95 duration-200 {tip2Hide
 			? 'hidden'
 			: 'block'}"
 	>
-		You might wanna see more, <a href="/projects">right here.</a>
+		You may want to see more, <a href="/projects" class="text-blue-300">right here.</a>
 		<button
 			class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 px-2 py-1 text-xl"
 			on:click={() => toggleHide(tip2Hide, 'tip2Hide') && (tip2Hide = !tip2Hide)}>&times;</button
@@ -170,11 +170,11 @@
 		{/each}
 	</div>
 	<div
-		class="bg-dark p-3 rounded-xl text-white hover:scale-102 active:scale-95 duration-200 {tip3Hide
+		class="bg-dark p-3 whitespace-nowrap overflow-hidden rounded-xl text-white hover:scale-102 active:scale-95 duration-200 {tip3Hide
 			? 'hidden'
 			: 'block'}"
 	>
-		For more, simply <a href="/collections">look here.</a>
+		For more, simply <a href="/collections" class="text-blue-300">look here.</a>
 		<button
 			class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 px-2 py-1 text-xl"
 			on:click={() => toggleHide(tip3Hide, 'tip3Hide') && (tip3Hide = !tip3Hide)}>&times;</button
@@ -208,7 +208,7 @@
 	</div>
 
 	<div>
-		<div class="text-green-600 italic dark:opacity-50">
+		<div class="text-green-600 font-semibold italic dark:opacity-50">
 			// No promise, but more content soon™<br />
 			// Tell me your opinion about this new experimental homepage
 			<a href="/about#Links">using one of these</a>.
