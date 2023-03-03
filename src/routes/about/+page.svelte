@@ -127,7 +127,7 @@
 			? 'hidden'
 			: 'block'}"
 	>
-		Looking for the website credits? <a href="/credits">Look here.</a>
+		Looking for the website credits? <a href="/credits" class="text-blue-300">Look here.</a>
 		<button
 			class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 px-2 py-1 text-xl"
 			on:click={toggleHide}>&times;</button
