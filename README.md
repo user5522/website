@@ -3,6 +3,8 @@
 A website, probably, now in sveltekit.
 hosted on [Vercel](https://vercel.com)
 
+## Try out the beta at beta.user5522.tk !
+
 Thought I'd make it open source because uh..
 
 ## Contribution
@@ -32,4 +34,4 @@ because i forgot
 
 - Collections & banners must be 2177x800 in resolution.
 
-[website link](https://user5522.tk)
+[website link](https://user5522.tk) | [beta link](https://beta.user5522.tk)
