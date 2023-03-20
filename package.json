@@ -31,6 +31,7 @@
 		"kit@latest": "link:sveltejs/kit@latest",
 		"pnpm": "^7.26.3",
 		"postcss": "^8.4.20",
+		"svelte-seo": "^1.5.3",
 		"svelte-simple-modal": "^1.5.2",
 		"svelte-sitemap": "^2.6.0",
 		"svelte-tippy": "^1.3.2",
