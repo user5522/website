@@ -67,8 +67,7 @@
 					: 'dark:sm:bg-opacity-50 sm:bg-opacity-50 sm:backdrop-blur-md dark:sm:backdrop-blur-md'}"
 			>
 				<div class="flex w-1/2 flex-row items-center gap-1 duration-300 sm:gap-2" id="branding">
-					<!-- svelte-ignore a11y-click-events-have-key-events -->
-					<div
+					<button
 						id="logo"
 						class="duration-200 hover:scale-105 active:scale-95"
 						on:click={handleClick}
@@ -80,7 +79,7 @@
 							alt="logo"
 							class:spin={spinning}
 						/>
-					</div>
+					</button>
 					<a href="/" class="text-white">
 						<button
 							id="brandingWoodmark"
@@ -92,7 +91,7 @@
 					</a>
 				</div>
 				<div class="flex w-1/2 justify-end gap-2">
-					<div class="sm:block hidden"><Theme /></div>
+					<!-- <div class="sm:block hidden"><Theme /></div> -->
 					{#each navItems as navItem}
 						<a
 							href={navItem.href}
@@ -140,7 +139,7 @@
 				</a>
 			{/each}
 
-			<Theme />
+			<!-- <Theme /> -->
 
 			<div
 				class="block rounded-xl bg-dark_darker dark:text-white text-black bg-opacity-50 p-3 hover:scale-102 active:scale-95 duration-200"
