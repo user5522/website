@@ -92,7 +92,6 @@
 					</a>
 				</div>
 				<div class="flex w-1/2 justify-end gap-2">
-					<div class="sm:block hidden"><Theme /></div>
 					{#each navItems as navItem}
 						<a
 							href={navItem.href}
@@ -115,6 +114,7 @@
 							<p class="rotate-90 p-2 text-xl">|||</p>
 						</button>
 					</div>
+					<div class="sm:block hidden self-center"><Theme /></div>
 				</div>
 			</div>
 		</div>
