@@ -1,12 +1,11 @@
 <script>
-	import Theme from '$lib/theme/theme.svelte';
+	// import Theme from '$lib/theme/theme.svelte';
 	import Navbar from '$lib/navbar.svelte';
 	import WavesStart from '$lib/wavesStart.svelte';
 	import Footer from '$lib/footer.svelte';
 	import { page } from '$app/stores';
 	import '../app.css';
 
-	export const prerender = true;
 
 	let layoutExcl = [
 		{ id: '/(links)/discord' },
