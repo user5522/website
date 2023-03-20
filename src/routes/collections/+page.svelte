@@ -1,6 +1,5 @@
 <script>
 	import Collection from '$lib/cards/collection.svelte';
-
 	const cardItems = [
 		{
 			title: 'Now with mdsvex!',
@@ -65,10 +64,10 @@
 		<Collection
 			href={cardItem.href}
 			title={cardItem.title}
+			postDate={cardItem.postDate}
 			description={cardItem.description}
 			imgURL={cardItem.imgURL}
 			imgAlt={cardItem.imgAlt}
-			postDate={cardItem.postDate}
 		/>
 	{/each}
 </div>

@@ -1,6 +1,7 @@
 <script>
 	import AgeCounter from '$lib/ageCounter.svelte';
 	import Flushed from '$lib/twemojis/flushed.svelte';
+	import tippy from 'svelte-tippy';
 
 	let isHidden = false;
 
@@ -28,7 +29,21 @@
 
 	<div class="flex flex-col items-center justify-center text-xl">
 		<div>
-			I'm a <AgeCounter />
+			I'm a <button
+				use:tippy={{
+					content: '24/11/2006',
+					arrow: false,
+					animation: 'shift-away',
+					interactive: true,
+					theme: 'dark',
+					placement: 'bottom',
+					duration: 0,
+					offset: [0, 5]
+				}}
+				class="relative duration-200 hover:scale-102 active:scale-95"
+			>
+				<strong class="rounded-xl bg-dark p-1"><AgeCounter /></strong></button
+			>
 			year old <strong>HS student</strong> & a <strong>self-taught</strong> designer & developer.
 		</div>
 	</div>
@@ -67,7 +82,9 @@
 	</div>
 
 	<div id="Links" class="py-5 text-2xl font-semibold">Links</div>
-	<div class="flex flex-col items-center gap-5">
+	<div
+		class="flex flex-col items-center gap-5 bg-dark p-5 hover:scale-102 active:scale-95 duration-200 rounded-xl"
+	>
 		<div class="flex flex-row items-center gap-5">
 			<a href="/yt" class="duration-200 hover:scale-105 active:scale-90" target="blank">
 				<img src="/logos/youtube.svg" alt="youtube link" class="h-10" />
@@ -101,16 +118,16 @@
 			<div
 				class="relative inline-block rounded-xl  bg-dark p-1 duration-200 hover:scale-102 active:scale-95"
 			>
-				<a href="mailto:oueslatim@pm.me" class="text-white">oueslatim@pm.me</a>
+				<a href="mailto:oueslatim@pm.me" class="dark:text-white text-white">oueslatim@pm.me</a>
 			</div>
 		</div>
 	</div>
 	<div
-		class="bg-dark text-white p-3 rounded-xl hover:scale-102 active:scale-95 duration-200 {isHidden
+		class="rounded-xl bg-dark text-white p-2 duration-200 hover:scale-102 active:scale-95 {isHidden
 			? 'hidden'
 			: 'block'}"
 	>
-		Looking for the website credits? <a href="/credits">Look here.</a>
+		Looking for the website credits? <a href="/credits" class="text-blue-300">Look here.</a>
 		<button
 			class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 px-2 py-1 text-xl"
 			on:click={toggleHide}>&times;</button

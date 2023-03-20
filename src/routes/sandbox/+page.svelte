@@ -1,6 +1,6 @@
 <div class="init-div px-5 flex justify-center h-full w-full items-center">
 	<div
-		class="bg-dark rounded-xl p-3 h-fit w-full hover:scale-102 active:scale-95 duration-200 sm:w-1/2 items-start flex flex-col justify-start bg-shapesmobile sm:bg-shapes bg-contain bg-no-repeat bg-center"
+		class="bg-dark rounded-xl p-3 h-fit w-full text-white hover:scale-102 active:scale-95 duration-200 sm:w-1/2 items-start flex flex-col justify-start bg-shapesmobile sm:bg-shapes bg-contain bg-no-repeat bg-center"
 	>
 		<!-- <img src="/idk.png" alt="yeah" /> -->
 		<div class="text-3xl pt-2 pl-2">Epic title here</div>

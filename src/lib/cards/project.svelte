@@ -1,17 +1,13 @@
 <script>
 	export let href;
-	export let imgURL;
 	export let title;
 	export let description;
+	export let imgURL;
 	export let imgAlt;
-
-	export let isDark = true;
 </script>
 
 <a
-	class="w-full rounded-2xl {isDark
-		? 'bg-dark'
-		: 'bg-lighter_true_gray'} text-white duration-200 shadow-lg hover:scale-102 active:scale-95"
+	class="w-full rounded-2xl bg-dark dark:text-white text-white duration-200 hover:scale-102 active:scale-95"
 	{href}
 >
 	<div>

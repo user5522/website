@@ -10,18 +10,25 @@
 			name: 'Accusations',
 			href: '/accusations'
 		},
-		{ name: 'About', href: '/about' },
 		{
 			name: 'Projects',
 			href: '/projects'
 		},
 		{
-			name: 'Collections',
-			href: '/collections'
+			name: 'Vbot (WIP)',
+			href: '/projects/vbot'
+		},
+		{
+			name: 'Graphic designs',
+			href: '/projects/designs'
 		},
 		{
 			name: 'Credits',
 			href: '/credits'
+		},
+		{
+			name: 'Collections',
+			href: '/collections'
 		}
 	];
 	let redirectLinks = [
@@ -69,39 +76,27 @@
 		}
 	];
 	let testingLinks = [
-		{
-			name: 'Long page',
-			href: '/long'
-		},
-		{
-			name: 'Sandbox page',
-			href: '/sandbox'
-		}
+		{ name: 'Long Page', href: '/long' },
+		{ name: 'Sandbox Page', href: '/sandbox' }
 	];
-
-	export let isDark = true;
 </script>
 
-<footer class=" bottom-0 w-full bg-true_gray {isDark ? '' : 'bg-opacity-50'} p-5">
+<footer class=" bottom-0 w-full bg-true_gray p-5 text-white">
 	<div class="flex flex-row">
 		<div class="flex flex-col">
 			<div class="flex flex-col gap-5 sm:flex-row sm:gap-10">
 				<div class="flex flex-col">
-					<div class="font-semibold {isDark ? 'text-white' : 'text-black'}">Website links:</div>
+					<div class="font-semibold">Website links:</div>
 					{#each websiteLinks as websiteLink}
-						<div class={isDark ? 'text-white' : 'text-black'}>
-							- <a class={isDark ? '' : 'text-blue-900'} href={websiteLink.href}
-								>{websiteLink.name}</a
-							>
-						</div>
+						<div>- <a href={websiteLink.href} class="text-blue-300">{websiteLink.name}</a></div>
 					{/each}
 				</div>
 				<div class="flex flex-col">
-					<div class="font-semibold {isDark ? 'text-white' : 'text-black'}">Redirecting links:</div>
+					<div class="font-semibold">Redirecting links:</div>
 					{#each redirectLinks as redirectLink}
-						<div class="flex flex-row gap-1 {isDark ? 'text-white' : 'text-black'}">
+						<div class="flex flex-row gap-1">
 							-
-							<a href={redirectLink.href} class="flex {isDark ? '' : 'text-blue-900'}"
+							<a href={redirectLink.href} class="flex text-blue-300"
 								>{redirectLink.name}
 								<img
 									src={redirectLink.imgURL}
@@ -113,12 +108,11 @@
 					{/each}
 				</div>
 				<div class="flex flex-col">
-					<div class="font-semibold {isDark ? 'text-white' : 'text-black'}">Testing links:</div>
+					<div class="font-semibold">Website testing links:</div>
 					{#each testingLinks as testingLink}
-						<div class={isDark ? 'text-white' : 'text-black'}>
+						<div>
 							-
-							<a href={testingLink.href} class={isDark ? '' : 'text-blue-900'}>{testingLink.name}</a
-							>
+							<a href={testingLink.href} class="text-blue-300">{testingLink.name}</a>
 						</div>
 					{/each}
 				</div>
@@ -132,11 +126,9 @@
 		/>
 	</div>
 
-	<div class="pt-5 {isDark ? 'text-lighter_true_gray' : 'text-true_gray'}">
+	<div class="pt-5 text-lighter_true_gray">
 		Found some annoying <div
-			class="glitch inline-block {isDark
-				? 'bg-dark_light'
-				: 'bg-lighter_true_gray'} p-0.5 rounded-xl"
+			class="glitch inline-block bg-dark_light p-0.5 rounded-xl"
 			on:mouseenter={(glitch = true)}
 			on:mouseleave={(glitch = false)}
 		>
@@ -146,7 +138,7 @@
 		<a
 			href="https://github.com/user5522/website/issues"
 			target="blank"
-			class="{isDark ? 'text-lighter_true_gray' : 'text-true_gray'} underline"
+			class="dark:text-lighter_true_gray text-lighter_true_gray underline"
 			rel="noreferrer">report them by making an issue here!</a
 		>
 	</div>
