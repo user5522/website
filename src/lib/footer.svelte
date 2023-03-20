@@ -76,6 +76,7 @@
 		}
 	];
 	let testingLinks = [
+		{ name: 'Beta Version', href: 'https://beta.user5522.tk' },
 		{ name: 'Long Page', href: '/long' },
 		{ name: 'Sandbox Page', href: '/sandbox' }
 	];
