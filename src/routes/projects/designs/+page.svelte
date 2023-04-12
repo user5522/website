@@ -1,4 +1,6 @@
 <script>
+	import Tip from '$lib/tip.svelte';
+
 	let CRBTbannerItems = [
 		{
 			title: 'Colorflow Banner',
@@ -94,18 +96,28 @@
 				<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
 					{CRBTbannerItem.title}
 				</div>
-				<img src={CRBTbannerItem.imgURL} class="rounded-xl" alt={CRBTbannerItem.imgAlt} />
+				<img
+					src={CRBTbannerItem.imgURL}
+					class="rounded-xl hover-anim"
+					alt={CRBTbannerItem.imgAlt}
+				/>
 			</div>
 		{/each}
 	</div>
-	<div class="flex flex-row items-center gap-1 pt-10 pb-5 text-3xl">Projects Banners</div>
+	<div class="flex flex-row items-center gap-1 pt-10 pb-5 text-3xl">Projects' Banners</div>
+	<Tip text="Corresponding projects can be found" href="/projects" linkText="in here." />
+
 	<div class="grid gap-10 sm:grid-cols-2">
 		{#each projectBannerItems as projectBannerItem}
 			<div>
 				<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
 					{projectBannerItem.title}
 				</div>
-				<img src={projectBannerItem.imgURL} class="rounded-xl" alt={projectBannerItem.imgAlt} />
+				<img
+					src={projectBannerItem.imgURL}
+					class="rounded-xl hover-anim"
+					alt={projectBannerItem.imgAlt}
+				/>
 			</div>
 		{/each}
 	</div>
@@ -116,19 +128,16 @@
 			<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
 				User5522 Logo
 			</div>
-			<div class="rounded-xl bg-dark hover:scale-102 active:scale-95 duration-200">
+			<div class="rounded-xl bg-dark hover-anim">
 				<img src="/logo.svg" class="mh-40 w-full sm:h-52" alt="Logo" />
 			</div>
 		</div>
 		<div class="flex flex-col">
 			<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-				Vbot Logo {ClembsVisible ? '(C) Clembs' : ''}
+				Vbot Logo {ClembsVisible ? '© Clembs' : ''}
 			</div>
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div
-				class="rounded-xl bg-dark hover:scale-102 active:scale-95 duration-200"
-				on:click={handleClick}
-			>
+			<div class="rounded-xl bg-dark hover-anim" on:click={handleClick}>
 				<img src="/vbot/vbot.svg" class="h-40 w-full p-8 sm:h-52 sm:p-10" alt="Logo" />
 			</div>
 		</div>

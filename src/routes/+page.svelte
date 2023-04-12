@@ -6,6 +6,7 @@
 	import CloseButton from '$lib/closeButton.svelte';
 	import Subtitle from '$lib/subtitle.svelte';
 	import Project from '$lib/cards/project.svelte';
+	import Tip from '$lib/tip.svelte';
 	import Collection from '$lib/cards/collection.svelte';
 
 	const modal = writable(null);
@@ -50,30 +51,6 @@
 			postDate: '26/11/2022'
 		}
 	];
-
-	let tip1Hide = false;
-	let tip2Hide = false;
-	let tip3Hide = false;
-
-	if (typeof localStorage !== 'undefined') {
-		tip1Hide = localStorage.getItem('tip1Hide') === 'true';
-		tip2Hide = localStorage.getItem('tip2Hide') === 'true';
-		tip3Hide = localStorage.getItem('tip3Hide') === 'true';
-	}
-
-	function toggleHide(tipHide, tipName) {
-		tipHide = !tipHide;
-		if (typeof localStorage !== 'undefined') {
-			localStorage.setItem(tipName, JSON.stringify(tipHide));
-		}
-		if (tipName === 'tip1Hide') {
-			tip1Hide = tipHide;
-		} else if (tipName === 'tip2Hide') {
-			tip2Hide = tipHide;
-		} else if (tipName === 'tip3Hide') {
-			tip3Hide = tipHide;
-		}
-	}
 </script>
 
 <SvelteSeo
@@ -106,31 +83,7 @@
 		<Subtitle />
 	</div>
 
-	<!-- <div class="h-screen justify-center items-center font-extrabold">
-		<div class="flex flex-col text-7xl">
-			<span class="bg-gradient-to-r from-orange-700 to-red-800 text-transparent bg-clip-text"
-				>Designer.</span
-			>
-			<span class="bg-gradient-to-r from-blue-600  to-purple-600 text-transparent bg-clip-text">
-				Developer.</span
-			>
-			<span class="bg-gradient-to-r from-dark_light to-slate-600 text-transparent bg-clip-text"
-				>Student.</span
-			>
-		</div>
-	</div> -->
-
-	<div
-		class="bg-dark p-3 text-white whitespace-nowrap overflow-hidden rounded-xl hover:scale-102 active:scale-95 duration-200 {tip1Hide
-			? 'hidden'
-			: 'block'}"
-	>
-		You can learn about me, <a href="/about" class="text-blue-300">here.</a>
-		<button
-			class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 px-2 py-1 text-xl"
-			on:click={() => toggleHide(tip1Hide, 'tip1Hide') && (tip1Hide = !tip1Hide)}>&times;</button
-		>
-	</div>
+	<Tip text="You can learn about me," href="/about" linkText="here." />
 
 	<div class="text-xl sm:text-2xl">Featured projects:</div>
 	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
@@ -144,17 +97,8 @@
 			/>
 		{/each}
 	</div>
-	<div
-		class="bg-dark p-3 rounded-xl overflow-hidden whitespace-nowrap text-white hover:scale-102 active:scale-95 duration-200 {tip2Hide
-			? 'hidden'
-			: 'block'}"
-	>
-		You may want to see more, <a href="/projects" class="text-blue-300">right here.</a>
-		<button
-			class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 px-2 py-1 text-xl"
-			on:click={() => toggleHide(tip2Hide, 'tip2Hide') && (tip2Hide = !tip2Hide)}>&times;</button
-		>
-	</div>
+
+	<Tip text="You may want to see more," href="/projects" linkText="right here." />
 
 	<div class="text-xl sm:text-2xl">Featured collections:</div>
 	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
@@ -169,17 +113,8 @@
 			/>
 		{/each}
 	</div>
-	<div
-		class="bg-dark p-3 whitespace-nowrap overflow-hidden rounded-xl text-white hover:scale-102 active:scale-95 duration-200 {tip3Hide
-			? 'hidden'
-			: 'block'}"
-	>
-		For more, simply <a href="/collections" class="text-blue-300">look here.</a>
-		<button
-			class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 px-2 py-1 text-xl"
-			on:click={() => toggleHide(tip3Hide, 'tip3Hide') && (tip3Hide = !tip3Hide)}>&times;</button
-		>
-	</div>
+
+	<Tip text="For more, simply" href="/collections" linkText="look here." />
 
 	<div>
 		<strong class="text-xl">Unimportant note:</strong>
