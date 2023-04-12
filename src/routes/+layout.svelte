@@ -6,7 +6,6 @@
 	import { page } from '$app/stores';
 	import '../app.css';
 
-
 	let layoutExcl = [
 		{ id: '/(links)/discord' },
 		{ id: '/(links)/github' },
@@ -42,4 +41,5 @@
 		<slot />
 	</div>
 	<Footer />
+	<div class="hidden 4xl:block text-xl">sorry, yer screen too big {':('}</div>
 {/if}

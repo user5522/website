@@ -34,6 +34,9 @@ module.exports = {
 				136: '36rem',
 				140: '38rem'
 			},
+			screens: {
+				'4xl': '3000px'
+			},
 			transitionDelay: {
 				10000: '10000ms'
 			},
