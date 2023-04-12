@@ -23,7 +23,7 @@
 	];
 </script>
 
-{#if $page.error || layoutExcl.some((item) => $page.route.id == item.id)}
+{#if $page.error || layoutExcl.some((item) => $page.route.id.toLowerCase() == item.id)}
 	<div class="dark:bg-black dark:text-white bg-white text-black">
 		<slot />
 	</div>
