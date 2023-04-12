@@ -18,6 +18,46 @@
 			localStorage.setItem('isHidden', isHidden);
 		}
 	}
+
+	let linksRow1 = [
+		{
+			href: '/yt',
+			imgURL: '/logos/youtube.svg',
+			imgAlt: 'Youtube'
+		},
+		{
+			href: '/discord',
+			imgURL: '/logos/discord.svg',
+			imgAlt: 'Discord'
+		},
+		{
+			href: '/github',
+			imgURL: '/logos/github.svg',
+			imgAlt: 'GitHub'
+		}
+	];
+	let linksRow2 = [
+		{
+			href: '/twitter',
+			imgURL: '/logos/twitter.svg',
+			imgAlt: 'Twitter'
+		},
+		{
+			href: '/steam',
+			imgURL: '/logos/steam.svg',
+			imgAlt: 'Steam'
+		},
+		{
+			href: '/xbox',
+			imgURL: '/logos/xbox.svg',
+			imgAlt: 'Xbox'
+		},
+		{
+			href: '/reddit',
+			imgURL: '/logos/reddit.svg',
+			imgAlt: 'Reddit'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -73,9 +113,7 @@
 					<li>• Snak - Broken snake clone to learn Rust</li>
 				</ul>
 				<div class="justify-center flex">
-					<a href="/projects">
-						<button class="blue-button text-lg">Everything &rarr;</button>
-					</a>
+					<a href="/projects" class="blue-button text-lg"> Everything &rarr; </a>
 				</div>
 			</div>
 		</div>
@@ -86,29 +124,26 @@
 		class="flex flex-col items-center gap-5 bg-dark p-5 hover:scale-102 active:scale-95 duration-200 rounded-xl"
 	>
 		<div class="flex flex-row items-center gap-5">
-			<a href="/yt" class="duration-200 hover:scale-105 active:scale-90" target="blank">
-				<img src="/logos/youtube.svg" alt="youtube link" class="h-10" />
-			</a>
-			<a href="/discord" class="duration-200 hover:scale-105 active:scale-90" target="blank">
-				<img src="/logos/discord.svg" alt="discord link" class="h-10" />
-			</a>
-			<a href="/github" class="duration-200 hover:scale-105 active:scale-90" target="blank">
-				<img src="/logos/github.svg" alt="github link" class="h-10" />
-			</a>
+			{#each linksRow1 as link}
+				<a
+					href={link.href}
+					class="duration-200 hover:scale-105 active:scale-90 rounded-full"
+					target="blank"
+				>
+					<img src={link.imgURL} alt={link.imgAlt} class="h-10" />
+				</a>
+			{/each}
 		</div>
 		<div class="flex flex-row items-center gap-5">
-			<a href="/twitter" class="duration-200 hover:scale-105 active:scale-90" target="blank">
-				<img src="/logos/twitter.svg" alt="twitter link" class="h-10" />
-			</a>
-			<a href="/xbox" class="duration-200 hover:scale-105 active:scale-90" target="blank">
-				<img src="/logos/xbox.svg" alt="xbox link" class="h-10" />
-			</a>
-			<a href="/steam" class="duration-200 hover:scale-105 active:scale-90" target="blank">
-				<img src="logos/steam.svg" alt="steam link" class="h-10" />
-			</a>
-			<a href="/reddit" class="duration-200 hover:scale-105 active:scale-90" target="blank">
-				<img src="/logos/reddit.svg" alt="reddit link" class="h-10" /></a
-			>
+			{#each linksRow2 as link}
+				<a
+					href={link.href}
+					class="duration-200 hover:scale-105 active:scale-90 rounded-full"
+					target="blank"
+				>
+					<img src={link.imgURL} alt={link.imgAlt} class="h-10" />
+				</a>
+			{/each}
 		</div>
 	</div>
 
