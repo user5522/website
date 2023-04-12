@@ -31,9 +31,9 @@
 							duration: 0,
 							offset: [0, 5]
 						}}
-						class="{isPinned ? 'absolute' : 'hidden'} top-2 right-2"
+						class="{isPinned ? 'absolute' : 'hidden'} top-2 right-2 rounded-full"
 					>
-						<img src="/icons/pin.svg" alt="Pin Icon" class="w-7 sm:w-9" />
+						<img src="/icons/pin.svg" alt="Pin Icon" class="bg-dark p-1 w-7 sm:w-9 rounded-full" />
 					</button>
 				</div>
 			</div>
