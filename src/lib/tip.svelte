@@ -1,12 +1,16 @@
 <script>
+	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
 
 	const isHidden = writable(false);
 
 	// Check if localStorage is defined
-	if (typeof localStorage !== 'undefined') {
-		isHidden.set(localStorage.getItem(text) === 'true');
-	}
+
+	onMount(() => {
+		if (typeof localStorage !== 'undefined') {
+			isHidden.set(localStorage.getItem(text) === 'true');
+		}
+	});
 
 	function toggleHide() {
 		isHidden.update((value) => {
