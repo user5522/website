@@ -201,9 +201,7 @@
 			><a>
 				<button class="blue-button" on:click={showModal}>False accusations </button>
 			</a>
-			<a href="/accusations" class="text-white">
-				<button class="hidden-button">View page</button>
-			</a>
+			<a href="/accusations" class="text-white hidden-button"> View page </a>
 		</Modal>
 	</div>
 

@@ -69,7 +69,7 @@
 				<div class="flex w-1/2 flex-row items-center gap-1 duration-300 sm:gap-2" id="branding">
 					<button
 						id="logo"
-						class="duration-200 hover:scale-105 active:scale-95"
+						class="duration-200 hover:scale-105 rounded-full active:scale-95"
 						on:click={handleClick}
 					>
 						<img
@@ -80,14 +80,13 @@
 							class:spin={spinning}
 						/>
 					</button>
-					<a href="/" class="text-white">
-						<button
-							id="brandingWoodmark"
-							class="rounded-lg p-2 text-base font-bold duration-200 hover:scale-105 text-black dark:text-white hover:bg-dark_light hover:bg-opacity-50 active:scale-95 sm:text-lg"
-							alt="branding woodmark"
-						>
-							User5522
-						</button>
+					<a
+						href="/"
+						id="brandingWoodmark"
+						class="rounded-lg p-2 text-base font-bold duration-200 hover:scale-105 text-black dark:text-white hover:bg-dark_light hover:bg-opacity-50 active:scale-95 sm:text-lg"
+						alt="branding woodmark"
+					>
+						User5522
 					</a>
 				</div>
 				<div class="flex w-1/2 justify-end gap-2">
@@ -95,15 +94,11 @@
 					{#each navItems as navItem}
 						<a
 							href={navItem.href}
-							class="text-white {navItem.isPCHide ? 'sm:hidden' : 'sm:block'} {navItem.isHide
+							class="{navItem.isPCHide ? 'sm:hidden' : 'sm:block'} {navItem.isHide
 								? 'hidden'
-								: 'block'}"
+								: 'block'}  rounded-lg p-2 text-base font-medium hover:bg-opacity-50 text-black dark:text-white duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
 						>
-							<button
-								class=" rounded-lg p-2 text-base font-medium hover:bg-opacity-50 text-black dark:text-white duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
-							>
-								{navItem.name}
-							</button>
+							{navItem.name}
 						</a>
 					{/each}
 					<div class="block sm:hidden">
