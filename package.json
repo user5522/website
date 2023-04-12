@@ -1,6 +1,6 @@
 {
 	"name": "user5522.tk",
-	"version": "1.0.6",
+	"version": "1.0.9",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
