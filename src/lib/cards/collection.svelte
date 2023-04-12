@@ -1,4 +1,6 @@
 <script>
+	import { tippy } from 'svelte-tippy';
+
 	export let href;
 	export let title;
 	export let description;
@@ -18,11 +20,21 @@
 			<div id="post_img" class="flex justify-center sm:h-2/3">
 				<div class="relative">
 					<img src={imgURL} alt={imgAlt} class="rounded-t-xl object-cover" />
-					<img
-						src="/icons/pin.svg"
-						alt="Pin Icon"
-						class="{isPinned ? 'absolute' : 'hidden'} top-2 right-2 w-7 sm:w-9"
-					/>
+					<button
+						use:tippy={{
+							content: 'This post is pinned.',
+							arrow: false,
+							animation: 'shift-away',
+							interactive: true,
+							theme: 'dark',
+							placement: 'left',
+							duration: 0,
+							offset: [0, 5]
+						}}
+						class="{isPinned ? 'absolute' : 'hidden'} top-2 right-2"
+					>
+						<img src="/icons/pin.svg" alt="Pin Icon" class="w-7 sm:w-9" />
+					</button>
 				</div>
 			</div>
 			<div class="p-5 sm:h-1/3">
