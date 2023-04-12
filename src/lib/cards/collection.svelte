@@ -11,10 +11,7 @@
 	export let isPinned = false;
 </script>
 
-<a
-	{href}
-	class="rounded-xl bg-dark text-white dark:text-white duration-200 hover:scale-102 active:scale-95"
->
+<a {href} class="rounded-xl bg-dark text-white dark:text-white hover-anim">
 	<div>
 		<div class="h-full w-full">
 			<div id="post_img" class="flex justify-center sm:h-2/3">
@@ -43,7 +40,7 @@
 						{title}
 					</div>
 					<div class="text-md text-lighter_true_gray 2xl:flex 2xl:w-3/6 2xl:justify-end">
-						Post date: {postDate}
+						Date: {postDate}
 					</div>
 				</div>
 				<div id="post_description" class="text-lg">
