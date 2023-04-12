@@ -6,10 +6,7 @@
 	export let imgAlt;
 </script>
 
-<a
-	class="w-full rounded-2xl bg-dark dark:text-white text-white duration-200 hover:scale-102 active:scale-95"
-	{href}
->
+<a {href} class="w-full rounded-2xl bg-dark dark:text-white text-white hover-anim">
 	<div>
 		<div class="h-full">
 			<div class="sm:h-2/3">
