@@ -59,7 +59,7 @@
 	>
 </div>
 
-<div class="grid sm:grid-cols-2 2xl:grid-cols-4 gap-5">
+<div class="grid sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-5">
 	{#each cardItems as cardItem}
 		<Collection
 			href={cardItem.href}
