@@ -90,7 +90,6 @@
 					</a>
 				</div>
 				<div class="flex w-1/2 justify-end gap-2">
-					<div class="sm:block hidden"><Theme /></div>
 					{#each navItems as navItem}
 						<a
 							href={navItem.href}
