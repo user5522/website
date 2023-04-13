@@ -90,7 +90,7 @@
 					</a>
 				</div>
 				<div class="flex w-1/2 justify-end gap-2">
-					<!-- <div class="sm:block hidden"><Theme /></div> -->
+					<div class="sm:block hidden"><Theme /></div>
 					{#each navItems as navItem}
 						<a
 							href={navItem.href}
@@ -109,6 +109,7 @@
 							<p class="rotate-90 p-2 text-xl">|||</p>
 						</button>
 					</div>
+					<div class="sm:block hidden self-center"><Theme /></div>
 				</div>
 			</div>
 		</div>
@@ -134,7 +135,7 @@
 				</a>
 			{/each}
 
-			<!-- <Theme /> -->
+			<Theme />
 
 			<div
 				class="block rounded-xl bg-dark_darker dark:text-white text-black bg-opacity-50 p-3 hover:scale-102 active:scale-95 duration-200"
