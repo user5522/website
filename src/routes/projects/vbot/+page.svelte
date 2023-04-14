@@ -24,8 +24,7 @@
 				Vbot has undergone a total overhaul with <a
 					href="https://discord.js.org/"
 					target="_blank"
-					rel="noreferrer"
-				>
+					rel="noreferrer">
 					Discord.JS</a
 				>, giving it lightning-fast speed and all the coolest features. But don't just take my word
 				for it, it's still a work in progress, so bear with me as I make Vbot the ultimate Discord

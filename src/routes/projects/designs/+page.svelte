@@ -99,8 +99,7 @@
 				<img
 					src={CRBTbannerItem.imgURL}
 					class="rounded-xl hover-anim"
-					alt={CRBTbannerItem.imgAlt}
-				/>
+					alt={CRBTbannerItem.imgAlt} />
 			</div>
 		{/each}
 	</div>
@@ -116,8 +115,7 @@
 				<img
 					src={projectBannerItem.imgURL}
 					class="rounded-xl hover-anim"
-					alt={projectBannerItem.imgAlt}
-				/>
+					alt={projectBannerItem.imgAlt} />
 			</div>
 		{/each}
 	</div>

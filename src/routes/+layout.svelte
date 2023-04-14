@@ -30,8 +30,7 @@
 {:else}
 	<div
 		class="dark:bg-white bg-dark"
-		style="transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;"
-	>
+		style="transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;">
 		<Navbar />
 		<WavesStart />
 	</div>

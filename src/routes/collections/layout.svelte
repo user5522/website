@@ -19,15 +19,13 @@
 		<div class="flex flex-col sm:flex-row">
 			<div
 				id="collection-author"
-				class="flex flex-row items-center justify-start gap-1 text-xl font-semibold text-lighter_true_gray sm:w-1/2"
-			>
+				class="flex flex-row items-center justify-start gap-1 text-xl font-semibold text-lighter_true_gray sm:w-1/2">
 				<img src={authorLogo} alt="author icon" class="h-10 rounded-full" />
 				<div>Author: {author}</div>
 			</div>
 			<div
 				id="collection-date"
-				class="flex items-center justify-start pl-10 text-xl font-semibold text-lighter_true_gray sm:w-1/2 sm:justify-end"
-			>
+				class="flex items-center justify-start pl-10 text-xl font-semibold text-lighter_true_gray sm:w-1/2 sm:justify-end">
 				<div>On: {date}</div>
 			</div>
 		</div>

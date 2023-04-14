@@ -50,8 +50,7 @@
 	<ul class="bg-dark text-white p-5 rounded-xl hover:scale-102 active:scale-95 duration-200">
 		<li>
 			- It is built with <a target="_blank" href="https://kit.svelte.dev" rel="noreferrer"
-				>sveltekit</a
-			>
+				>sveltekit</a>
 		</li>
 		<li>- It's created by me {':)'}</li>
 		<li>
@@ -83,8 +82,7 @@
 							duration: 0,
 							offset: [0, 5]
 						}}
-						class="flex whitespace-nowrap w-fit flex-col items-center justify-center rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95"
-					>
+						class="flex whitespace-nowrap w-fit flex-col items-center justify-center rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95">
 						<div>{person.name}</div>
 					</div>
 				</div>

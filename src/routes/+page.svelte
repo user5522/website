@@ -70,8 +70,7 @@
 				alt: 'OG Logo image'
 			}
 		]
-	}}
-/>
+	}} />
 
 <svelte:head>
 	<title>Welcome - user5522.tk</title>
@@ -93,8 +92,7 @@
 				title={project.title}
 				description={project.description}
 				imgURL={project.imgURL}
-				imgAlt={project.imgAlt}
-			/>
+				imgAlt={project.imgAlt} />
 		{/each}
 	</div>
 
@@ -109,8 +107,7 @@
 				postDate={collection.postDate}
 				description={collection.description}
 				imgURL={collection.imgURL}
-				imgAlt={collection.imgAlt}
-			/>
+				imgAlt={collection.imgAlt} />
 		{/each}
 	</div>
 
@@ -119,7 +116,8 @@
 	<div>
 		<strong class="text-xl">Unimportant note:</strong>
 		<div>
-			Despite what you may have heard, I am not a wanted criminal in multiple countries.<br />
+			Despite what you may have heard, I am not a wanted criminal in multiple countries.
+			<br />
 			In fact, I am a law-abiding citizen who has never committed any federal offenses.
 		</div>
 	</div>
@@ -132,19 +130,21 @@
 			styleWindow={{
 				borderRadius: '.8rem',
 				backgroundColor: '#121212'
-			}}
-			><a>
-				<button class="blue-button" on:click={showModal}>False accusations </button>
+			}}>
+			<a>
+				<button class="blue-button" on:click={showModal}>False accusations</button>
 			</a>
-			<a href="/accusations" class="hidden-button"> View page </a>
+			<a href="/accusations" class="hidden-button">View page</a>
 		</Modal>
 	</div>
 
 	<div>
 		<div class="text-green-600 font-semibold italic dark:opacity-50">
-			// No promise, but more content soon™<br />
+			// No promise, but more content soon™
+			<br />
 			// Tell me your opinion about this new experimental homepage
-			<a href="/about#Links">using one of these</a>.
+			<a href="/about#Links">using one of these</a>
+			.
 		</div>
 	</div>
 </div>

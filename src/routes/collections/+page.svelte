@@ -55,8 +55,7 @@
 
 <div class="flex flex-row py-2">
 	<button class=" rounded-xl text-white bg-dark p-2 duration-200 hover:scale-105 active:scale-95"
-		>Sorted by latest</button
-	>
+		>Sorted by latest</button>
 </div>
 
 <div class="grid sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-5">
@@ -67,7 +66,6 @@
 			postDate={cardItem.postDate}
 			description={cardItem.description}
 			imgURL={cardItem.imgURL}
-			imgAlt={cardItem.imgAlt}
-		/>
+			imgAlt={cardItem.imgAlt} />
 	{/each}
 </div>

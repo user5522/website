@@ -65,10 +65,8 @@
 					duration: 0,
 					offset: [0, 5]
 				}}
-				class="relative rounded-xl hover-anim"
-			>
-				<strong class="rounded-xl bg-dark p-1"><AgeCounter /></strong></button
-			>
+				class="relative rounded-xl hover-anim">
+				<strong class="rounded-xl bg-dark p-1"><AgeCounter /></strong></button>
 			year old <strong>HS student</strong> & a <strong>self-taught</strong> designer & developer.
 		</div>
 	</div>
@@ -111,8 +109,7 @@
 				<a
 					href={link.href}
 					class="duration-200 hover:scale-105 active:scale-90 rounded-full"
-					target="blank"
-				>
+					target="blank">
 					<img src={link.imgURL} alt={link.imgAlt} class="h-10" />
 				</a>
 			{/each}
@@ -122,8 +119,7 @@
 				<a
 					href={link.href}
 					class="duration-200 hover:scale-105 active:scale-90 rounded-full"
-					target="blank"
-				>
+					target="blank">
 					<img src={link.imgURL} alt={link.imgAlt} class="h-10" />
 				</a>
 			{/each}
@@ -135,8 +131,7 @@
 			for any suggestions/reports email me @
 			<div class="relative inline-block rounded-xl bg-dark p-1 hover-anim">
 				<a href="mailto:oueslatim@pm.me" class="dark:text-white rounded-xl text-white"
-					>oueslatim@pm.me</a
-				>
+					>oueslatim@pm.me</a>
 			</div>
 		</div>
 	</div>

@@ -63,8 +63,7 @@
 </div>
 <div class="flex flex-row  py-2">
 	<button class=" rounded-xl bg-dark text-white p-2 duration-200 hover:scale-105 active:scale-95"
-		>Sorted randomly</button
-	>
+		>Sorted randomly</button>
 </div>
 <div class="grid sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-5">
 	{#each cardItems as cardItem}
@@ -73,7 +72,6 @@
 			title={cardItem.title}
 			description={cardItem.description}
 			imgURL={cardItem.imgURL}
-			imgAlt={cardItem.imgAlt}
-		/>
+			imgAlt={cardItem.imgAlt} />
 	{/each}
 </div>
