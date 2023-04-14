@@ -4,6 +4,8 @@
 	export let author;
 	export let authorLogo;
 	export let date;
+
+	import './app.css';
 </script>
 
 <svelte:head>
@@ -36,3 +38,4 @@
 		<slot />
 	</div>
 </div>
+
