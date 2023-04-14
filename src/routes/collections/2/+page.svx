@@ -1,9 +1,13 @@
 ---
+number: 2
 title: 'Clembs MCSMP - Early Access Screenshots' 
-number: "2" 
+date: "18-12-2022"
+description: "Some screenshots from the Clembs Minecraft SMP winter early access, thought I would share them here since it will be reset."
+imgURL: "/collections/csmpea.png"
+imgAlt: "Clembs SMP Early Access banner"
 author: "User5522" 
 authorLogo: "/logos/logo.png" 
-date: "18/12/2022" 
+layout: "collection"
 ---
 <script>
 	let screenshots =
