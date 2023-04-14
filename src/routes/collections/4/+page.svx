@@ -24,7 +24,7 @@ Let me show you how effortless it is to create a collection:
 
 3 - At the top of the file, add the following variables:
 
-```
+```svx
 title: "post title"
 number: "post number"
 author: "author name"
