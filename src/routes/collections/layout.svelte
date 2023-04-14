@@ -20,7 +20,7 @@
 		</div>
 	</a>
 
-	<div id="collection-header" class="pb-16">
+	<div id="collection-header" class="pb-10">
 		<div id="collection-title" class="flex flex-row  items-baseline gap-1 text-3xl font-semibold">
 			<div class="text-2xl text-light_true_gray">#{number}</div>
 			<div>{title}</div>
