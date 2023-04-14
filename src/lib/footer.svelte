@@ -101,9 +101,7 @@
 								<img
 									src={redirectLink.imgURL}
 									class="relative top-1 h-5 items-baseline pl-1"
-									alt={redirectLink.imgAlt}
-								/></a
-							>
+									alt={redirectLink.imgAlt} /></a>
 						</div>
 					{/each}
 				</div>
@@ -122,16 +120,14 @@
 		<img
 			src="/logo.svg"
 			alt="monochrome logo"
-			class="ml-auto h-28 w-28 rounded-full bg-light_true_gray grayscale sm:h-32 sm:w-32"
-		/>
+			class="ml-auto h-28 w-28 rounded-full bg-light_true_gray grayscale sm:h-32 sm:w-32" />
 	</div>
 
 	<div class="pt-5 text-lighter_true_gray">
 		Found some annoying <div
 			class="glitch inline-block bg-dark_light p-0.5 rounded-xl"
 			on:mouseenter={(glitch = true)}
-			on:mouseleave={(glitch = false)}
-		>
+			on:mouseleave={(glitch = false)}>
 			bugs
 		</div>
 		?
@@ -139,8 +135,7 @@
 			href="https://github.com/user5522/website/issues"
 			target="blank"
 			class="dark:text-lighter_true_gray text-lighter_true_gray underline"
-			rel="noreferrer">report them by making an issue here!</a
-		>
+			rel="noreferrer">report them by making an issue here!</a>
 	</div>
 </footer>
 
