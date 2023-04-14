@@ -28,7 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"kit@latest": "link:sveltejs\\kit@latest",
+		"kit@latest": "link:sveltejs/kit@latest",
 		"pnpm": "^7.30.0",
 		"postcss": "^8.4.21",
 		"svelte-seo": "^1.5.3",
