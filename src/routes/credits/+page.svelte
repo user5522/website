@@ -46,8 +46,8 @@
 		Thanks for visiting <strong>user5522.tk</strong>, I really appreciate it.
 	</div>
 
-	<div class="text-xl text-center">You might've enjoyed this website, because:</div>
-	<ul class="bg-dark text-white p-5 rounded-xl hover:scale-102 active:scale-95 duration-200">
+	<div class="text-center text-xl">You might've enjoyed this website, because:</div>
+	<ul class="rounded-xl bg-dark p-5 text-white duration-200 hover:scale-102 active:scale-95">
 		<li>
 			- It is built with <a target="_blank" href="https://kit.svelte.dev" rel="noreferrer"
 				>sveltekit</a
@@ -69,7 +69,7 @@
 		<strong>user5522.tk</strong> wouldn't have been real without these amazing people:
 	</div>
 	<div class="">
-		<div class="grid sm:grid-cols-3 grid-cols-2 gap-5 text-white">
+		<div class="grid grid-cols-2 gap-5 text-white sm:grid-cols-3">
 			{#each people as person}
 				<div style="margin-top: {getRandomY()}; margin-right: {getRandomX()}">
 					<div
@@ -83,7 +83,7 @@
 							duration: 0,
 							offset: [0, 5]
 						}}
-						class="flex whitespace-nowrap w-fit flex-col items-center justify-center rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95"
+						class="flex w-fit flex-col items-center justify-center whitespace-nowrap rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95"
 					>
 						<div>{person.name}</div>
 					</div>
