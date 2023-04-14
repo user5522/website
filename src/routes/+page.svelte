@@ -72,6 +72,15 @@
 		]
 	}} />
 
+<Modal
+	show={$modal}
+	unstyled={false}
+	closeButton={CloseButton}
+	styleWindow={{
+		borderRadius: '.8rem',
+		backgroundColor: '#121212'
+	}} />
+
 <svelte:head>
 	<title>Welcome - user5522.tk</title>
 </svelte:head>
@@ -122,20 +131,8 @@
 		</div>
 	</div>
 	<div class="flex flex-row gap-5">
-		<!-- svelte-ignore a11y-missing-attribute -->
-		<Modal
-			show={$modal}
-			unstyled={false}
-			closeButton={CloseButton}
-			styleWindow={{
-				borderRadius: '.8rem',
-				backgroundColor: '#121212'
-			}}>
-			<a>
-				<button class="blue-button" on:click={showModal}>False accusations</button>
-			</a>
-			<a href="/accusations" class="hidden-button">View page</a>
-		</Modal>
+		<button class="blue-button" on:click={showModal}>False accusations</button>
+		<a href="/accusations" class="hidden-button">View page</a>
 	</div>
 
 	<div>

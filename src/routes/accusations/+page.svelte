@@ -9,9 +9,7 @@
 	<title>/accusations</title>
 </svelte:head>
 <div class="flex justify-center py-10">
-	<a href="/">
-		<button class="blue-button">Back to Homepage</button>
-	</a>
+	<a href="/" class="blue-button"> Back to Homepage </a>
 </div>
 <div class="flex flex-col items-center justify-center px-5 pb-5">
 	<ul>
