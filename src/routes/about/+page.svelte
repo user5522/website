@@ -1,7 +1,7 @@
 <script>
-	import AgeCounter from '$lib/ageCounter.svelte';
+	import AgeCounter from '$lib/utilities/ageCounter.svelte';
 	import Flushed from '$lib/twemojis/flushed.svelte';
-	import Tip from '$lib/tip.svelte';
+	import Tip from '$lib/components/tip.svelte';
 	import tippy from 'svelte-tippy';
 
 	let linksRow1 = [

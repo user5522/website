@@ -1,13 +1,13 @@
 <script>
-	import SvelteSeo from 'svelte-seo';
-	import { writable } from 'svelte/store';
 	import Accusations from '$lib/accusations.svelte';
-	import Modal, { bind } from 'svelte-simple-modal';
-	import CloseButton from '$lib/closeButton.svelte';
-	import Subtitle from '$lib/subtitle.svelte';
+	import Subtitle from '$lib/utilities/subtitle.svelte';
+	import SvelteSeo from 'svelte-seo';
+	import Tip from '$lib/components/tip.svelte';
 	import Project from '$lib/cards/project.svelte';
-	import Tip from '$lib/tip.svelte';
 	import Collection from '$lib/cards/collection.svelte';
+	import Modal, { bind } from 'svelte-simple-modal';
+	import { writable } from 'svelte/store';
+	import CloseButton from '$lib/icons/closeButton.svelte';
 
 	const modal = writable(null);
 	const showModal = () => modal.set(bind(Accusations));

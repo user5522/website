@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import { clickOutside } from '$lib/clickOutside.js';
+	import { clickOutside } from '$lib/utilities/clickOutside.js';
 	import Theme from '$lib/theme/theme.svelte';
 
 	let clicks = 0;

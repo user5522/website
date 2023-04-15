@@ -13,23 +13,23 @@ const parsedPosts = await Promise.all(
 			imgAlt: metadata.imgAlt,
 			pinned: metadata.pinned || false,
 			number: metadata.number,
-			slug // add slug property
+			slug
 		};
 	})
 );
 
-const sortedPosts = parsedPosts.sort((a, b) => {
-	if (a.pinned && !b.pinned) {
-		return -1;
-	} else if (!a.pinned && b.pinned) {
-		return 1;
-	} else if (a.number < !b.number) {
-		return -1;
-	} else if (a.number > !b.number) {
-		return 1;
-	} else {
-		return 0;
-	}
-});
+const sortPosts = (clicked) => {
+	return [...parsedPosts].sort((a, b) => {
+		if (a.pinned && !b.pinned) {
+			return -1;
+		} else if (!a.pinned && b.pinned) {
+			return 1;
+		} else if (clicked) {
+			return a.number - b.number;
+		} else {
+			return b.number - a.number;
+		}
+	});
+};
 
-export const allPosts = parsedPosts;
+export { parsedPosts, sortPosts };
