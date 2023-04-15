@@ -6,6 +6,8 @@
 	export let date;
 
 	import './app.css';
+	import '$lib/prism/prism-gruvbox-dark.css';
+	import '$lib/prism/prism.js';
 </script>
 
 <svelte:head>
