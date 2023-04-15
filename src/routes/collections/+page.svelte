@@ -1,6 +1,18 @@
 <script>
 	import Collection from '$lib/cards/collection.svelte';
-	import { allPosts } from '$lib/posts.js';
+	import { sortPosts } from '$lib/utilities/posts.js';
+	import { onMount } from 'svelte';
+
+	let clicked = false;
+	let sortedPosts = [];
+
+	const updateSortedPosts = () => {
+		sortedPosts = sortPosts(clicked);
+	};
+
+	onMount(() => {
+		updateSortedPosts();
+	});
 </script>
 
 <svelte:head>
@@ -17,13 +29,17 @@
 </div>
 
 <div class="flex flex-row py-2">
-	<button class="rounded-xl bg-dark p-2 text-white duration-200 hover:scale-105 active:scale-95"
-		>Sorted by latest</button
+	<button
+		class="rounded-xl bg-dark p-2 text-white duration-200 hover:scale-105 active:scale-95"
+		on:click={() => {
+			clicked = !clicked;
+			updateSortedPosts();
+		}}>Sorted by {clicked ? 'oldest' : 'latest'}</button
 	>
 </div>
 
 <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4">
-	{#each allPosts as post}
+	{#each sortedPosts as post}
 		<Collection
 			href={`/collections/${post.slug}`}
 			title={post.title}

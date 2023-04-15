@@ -34,7 +34,7 @@ number: post number # the number of the post, without quotes
 title: "post title"
 description: "post description" # a brief description of your post
 imgURL: "post banner image url"
-imgALT: "post banner image alt" # what your image is supposed to be
+imgAlt: "post banner image alt" # what your image is supposed to be
 author: "author name"
 authorLogo: "author logo URL"
 date: "post date" # follow the YYYY-MM-DD format for consistency

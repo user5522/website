@@ -1,7 +1,7 @@
 ---
 number: 1
 title: 'Initial Release!' 
-date: "26-11-2022"
+date: "2022-11-26"
 description: "Finally, after lots of work, user5522.tk is now at version 1.0.0. This collection talks about everything new and what's (probably) upcomming."
 imgURL: '/collections/initial-release.png'
 imgAlt: 'Initial release banner'

@@ -1,8 +1,8 @@
 ---
 number: 2
-title: 'Clembs MCSMP - Early Access Screenshots' 
-date: "18-12-2022"
-description: "Some screenshots from the Clembs Minecraft SMP winter early access, thought I would share them here since it will be reset."
+title: 'Clembs SMP Early Access Screenshots' 
+date: "2022-12-18"
+description: "Screenshots from the Clembs MC SMP winter early access, wanted to share them since it will be reset."
 imgURL: "/collections/csmpea.png"
 imgAlt: "Clembs SMP Early Access banner"
 author: "User5522" 
