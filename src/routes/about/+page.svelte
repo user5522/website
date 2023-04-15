@@ -1,4 +1,5 @@
 <script>
+	import Emailme from '$lib/components/emailme.svelte';
 	import AgeCounter from '$lib/utilities/ageCounter.svelte';
 	import Flushed from '$lib/twemojis/flushed.svelte';
 	import Tip from '$lib/components/tip.svelte';
@@ -130,16 +131,7 @@
 		</div>
 	</div>
 
-	<div class="pt-10">
-		<div class="px-5">
-			for any suggestions/reports email me @
-			<div class="relative inline-block rounded-xl bg-dark p-1 hover-anim">
-				<a href="mailto:oueslatim@pm.me" class="dark:text-white rounded-xl text-white"
-					>oueslatim@pm.me</a
-				>
-			</div>
-		</div>
-	</div>
+	<Emailme />
 
 	<Tip text="Looking for the website credits?" href="/credits" linkText="Look here." />
 </div>
