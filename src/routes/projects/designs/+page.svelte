@@ -134,16 +134,15 @@
 		</div>
 
 		<div class="flex flex-col">
-			<div
-				class="flex gap-1 items-center sm:items-center justify-center pb-2 text-xl font-semibold sm:justify-start"
-			>
+			<div class="flex sm:items-center justify-center pb-2 text-xl font-semibold sm:justify-start">
 				Vbot Logo
 			</div>
+
 			<button class="rounded-xl bg-dark cursor-default hover-anim" on:click={handleClick}>
 				<img src="/vbot/vbot.svg" class="h-40 w-full p-8 sm:h-52 sm:p-10" alt="Logo" />
 			</button>
 			<div
-				class="flex items-center justify-center pt-2 text-xl font-semibold sm:hidden {ClembsVisible
+				class="flex sm:items-center justify-center pb-2 text-xl font-semibold sm:justify-start rotate-180 {ClembsVisible
 					? 'block'
 					: 'hidden'}"
 			>
