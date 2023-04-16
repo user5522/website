@@ -1,5 +1,5 @@
 <script>
-	import Accusations from '$lib/accusations.svelte';
+	import Accusations from '$lib/accusations/accusations.svelte';
 	import Subtitle from '$lib/utilities/subtitle.svelte';
 	import SvelteSeo from 'svelte-seo';
 	import Tip from '$lib/components/tip.svelte';

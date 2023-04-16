@@ -1,5 +1,5 @@
 <script>
-	import Data from '$lib/accusations.json';
+	import Data from '$lib/accusations/accusations.json';
 
 	let titles = Data.map((item) => item.title);
 </script>
