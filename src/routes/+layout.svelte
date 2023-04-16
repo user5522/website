@@ -6,6 +6,7 @@
 	import '../app.css';
 
 	let layoutExcl = [
+		{ id: '/(links/beta' },
 		{ id: '/(links)/discord' },
 		{ id: '/(links)/github' },
 		{ id: '/(links)/reddit' },
