@@ -12,7 +12,7 @@
 	const modal = writable(null);
 	const showModal = () => modal.set(bind(Accusations));
 
-	const projects = [
+	let projects = [
 		{
 			title: 'Graphic Designs',
 			description:
@@ -31,7 +31,7 @@
 		}
 	];
 
-	const collections = [
+	let collections = [
 		{
 			title: 'Clembs SMP early access screenshots',
 			description:
@@ -54,20 +54,20 @@
 </script>
 
 <SvelteSeo
-	title="User5522.tk"
-	description="Welcome to my website! A place where I share information about all my stuff!"
+	title="User5522"
+	description="I make stuff, sometimes."
 	keywords="user5522, u5522, user5522.tk, username5522, Epik_Kid"
 	openGraph={{
 		title: 'User5522.tk',
-		description: 'Welcome to my website! A place where I share information about all my stuff!',
+		description: 'I make stuff, sometimes.',
 		url: 'https://user5522.tk/',
 		type: 'website',
 		images: [
 			{
 				url: '/logo.svg',
-				width: 850,
-				height: 650,
-				alt: 'OG Logo image'
+				width: 1200,
+				height: 630,
+				alt: 'User5522 Logo'
 			}
 		]
 	}}
