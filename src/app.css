@@ -102,38 +102,3 @@ a[target='twitter'] {
 	line-height: 1.25rem;
 	font-weight: 700;
 }
-
-.spacer_start {
-	position: absolute;
-	top: 10;
-	left: 0;
-	width: 100%;
-	overflow: hidden;
-	line-height: 0;
-	z-index: 0;
-}
-
-.spacer_start svg {
-	position: relative;
-	display: block;
-	width: calc(100% + 1.3px);
-	height: 115px;
-}
-
-.spacer_start .shape-fill {
-	fill: #ffffff;
-}
-
-@media (min-width: 1536px) {
-	.spacer_start svg {
-		width: calc(90% + 1000px);
-		height: 120px;
-	}
-}
-
-@media (max-width: 640px) {
-	.spacer_start svg {
-		width: calc(150% + 1.3px);
-		height: 110px;
-	}
-}
