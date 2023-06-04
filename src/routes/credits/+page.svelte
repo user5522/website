@@ -7,36 +7,31 @@
 		{
 			name: 'Family & Friends',
 			name2: '',
-			reason: 'For all the good influence they had on me',
-			reason2: ''
+			reason: 'For all the good influence they had on me'
 		},
 		{
 			name: 'The Svelte.JS Team',
 			name2: '',
-			reason: 'For making an awesome JS framework',
-			reason2: ''
+			reason: 'For making an awesome JS framework'
 		},
 		{
 			name: 'Vercel',
 			name2: 'Clembs',
-			reason: 'For being an epic host',
-			reason2: 'For all the help & the placeholder img'
+			reason: 'For being an epic host || For all the tips and help'
 		},
 		{
 			name: 'The mdsvex Team',
 			name2: '',
-			reason: 'For creating an aweomse MD preprocessor',
-			reason2: ''
+			reason: 'For creating an aweomse MD preprocessor'
 		},
 		{
 			name: 'Tailwind Labs',
 			name2: '',
-			reason: 'For building a very helpful CSS framework',
-			reason2: ''
+			reason: 'For building a very helpful CSS framework'
 		},
-		{ name: '& You!', name2: '', reason: 'For visiting this website!', reason2: '' }
+		{ name: '& You!', name2: '', reason: 'For visiting this website!' }
 	];
-	let repitionCount = 5;
+	let repitionCount = 3;
 </script>
 
 <svelte:head>
@@ -44,7 +39,7 @@
 </svelte:head>
 
 <div class="flex flex-col items-center justify-center gap-5">
-	<p class="text-4xl font-semibold">Credits</p>
+	<div class="text-4xl font-semibold">Credits</div>
 
 	<div
 		class="mx-auto font-medium flex w-full max-w-3xl flex-col items-center justify-center text-xl"
@@ -63,7 +58,7 @@
 								<div
 									class="text-2xl font-semibold"
 									use:tippy={{
-										content: '/*TEMP UNAVAILABLE/*',
+										content: reason,
 										arrow: false,
 										animation: 'shift-away',
 										interactive: true,
