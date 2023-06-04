@@ -144,7 +144,7 @@
 		<div class="text-green-600 font-semibold italic dark:opacity-50">
 			// No promise, but more content soon™<br />
 			// Tell me your opinion about this new experimental homepage
-			<a href="/about#Links">using one of these</a>.
+			<a href="/about#Links" class="text-blue-800 dark:text-blue-300">using one of these</a>.
 		</div>
 	</div>
 </div>
