@@ -4,14 +4,25 @@
 	export let author;
 	export let authorLogo;
 	export let date;
+
+	import './app.css';
+	import '$lib/prism/prism-gruvbox-dark.css';
+	import '$lib/prism/prism.js';
 </script>
 
 <svelte:head>
 	<title>/collections/ - {title}</title>
 </svelte:head>
 
-<div class="mx-auto flex max-w-4xl w-full flex-col gap-16">
-	<div id="collection-header">
+<div class="mx-auto flex w-full max-w-4xl flex-col gap-3">
+	<a href="/collections" class="flex">
+		<div class="hover-anim flex flex-row gap-3 rounded-xl bg-dark py-2 px-3">
+			<img src="/icons/arrow_left.svg" alt="left arrow" />
+			<div class="text-xl font-medium text-white">Back</div>
+		</div>
+	</a>
+
+	<div id="collection-header" class="pb-10">
 		<div id="collection-title" class="flex flex-row  items-baseline gap-1 text-3xl font-semibold">
 			<div class="text-2xl text-light_true_gray">#{number}</div>
 			<div>{title}</div>
@@ -30,6 +41,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div class="text-xl">
 		<slot />
 	</div>

@@ -1,18 +1,18 @@
 <script>
+	import Accusations from '$lib/accusations/accusations.svelte';
+	import Subtitle from '$lib/utilities/subtitle.svelte';
 	import SvelteSeo from 'svelte-seo';
-	import { writable } from 'svelte/store';
-	import Accusations from '$lib/accusations.svelte';
-	import Modal, { bind } from 'svelte-simple-modal';
-	import CloseButton from '$lib/closeButton.svelte';
-	import Subtitle from '$lib/subtitle.svelte';
+	import Tip from '$lib/components/tip.svelte';
 	import Project from '$lib/cards/project.svelte';
-	import Tip from '$lib/tip.svelte';
 	import Collection from '$lib/cards/collection.svelte';
+	import Modal, { bind } from 'svelte-simple-modal';
+	import { writable } from 'svelte/store';
+	import CloseButton from '$lib/icons/closeButton.svelte';
 
 	const modal = writable(null);
 	const showModal = () => modal.set(bind(Accusations));
 
-	const projects = [
+	let projects = [
 		{
 			title: 'Graphic Designs',
 			description:
@@ -31,7 +31,7 @@
 		}
 	];
 
-	const collections = [
+	let collections = [
 		{
 			title: 'Clembs SMP early access screenshots',
 			description:
@@ -54,20 +54,20 @@
 </script>
 
 <SvelteSeo
-	title="User5522.tk"
-	description="Welcome to my website! A place where I share information about all my stuff!"
+	title="User5522"
+	description="I make stuff, sometimes."
 	keywords="user5522, u5522, user5522.tk, username5522, Epik_Kid"
 	openGraph={{
 		title: 'User5522.tk',
-		description: 'Welcome to my website! A place where I share information about all my stuff!',
+		description: 'I make stuff, sometimes.',
 		url: 'https://user5522.tk/',
 		type: 'website',
 		images: [
 			{
 				url: '/logo.svg',
-				width: 850,
-				height: 650,
-				alt: 'OG Logo image'
+				width: 1200,
+				height: 630,
+				alt: 'User5522 Logo'
 			}
 		]
 	}} />
@@ -131,8 +131,20 @@
 		</div>
 	</div>
 	<div class="flex flex-row gap-5">
-		<button class="blue-button" on:click={showModal}>False accusations</button>
-		<a href="/accusations" class="hidden-button">View page</a>
+		<!-- svelte-ignore a11y-missing-attribute -->
+		<Modal
+			show={$modal}
+			unstyled={false}
+			closeButton={CloseButton}
+			styleWindow={{
+				borderRadius: '.8rem',
+				backgroundColor: '#121212'
+			}}
+			><a>
+				<button class="blue-button" on:click={showModal}>False accusations </button>
+			</a>
+			<a href="/accusations" class="dark:text-white text-black hidden-button">View page</a>
+		</Modal>
 	</div>
 
 	<div>

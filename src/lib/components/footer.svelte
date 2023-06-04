@@ -77,7 +77,8 @@
 	];
 	let testingLinks = [
 		{ name: 'Long Page', href: '/long' },
-		{ name: 'Sandbox Page', href: '/sandbox' }
+		{ name: 'Sandbox Page', href: '/sandbox' },
+		{ name: 'Beta Website', href: '/beta' }
 	];
 </script>
 

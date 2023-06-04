@@ -1,11 +1,12 @@
 <script>
-	import Navbar from '$lib/navbar.svelte';
-	import WavesStart from '$lib/wavesStart.svelte';
-	import Footer from '$lib/footer.svelte';
+	import Navbar from '$lib/components/navbar.svelte';
+	import WavesStart from '$lib/components/wavesStart.svelte';
+	import Footer from '$lib/components/footer.svelte';
 	import { page } from '$app/stores';
 	import '../app.css';
 
 	let layoutExcl = [
+		{ id: '/(links/beta' },
 		{ id: '/(links)/discord' },
 		{ id: '/(links)/github' },
 		{ id: '/(links)/reddit' },

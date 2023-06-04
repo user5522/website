@@ -30,13 +30,17 @@
 </script>
 
 <div class="py-5" class:hidden={$isHidden}>
-	<div class="rounded-xl bg-dark text-white p-2 hover-anim">
-		{text} <a {href} class="text-blue-300">{linkText}</a>
-		<button
-			class="items-center rounded-lg duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 px-2 py-1 text-xl"
-			on:click={toggleHide}
-		>
-			&times;
-		</button>
+	<div class="flex flex-row gap-2 bg-dark text-white rounded-xl p-2 hover-anim">
+		<div class="self-center">
+			{text} <a {href} class="text-blue-300">{linkText}</a>
+		</div>
+		<div class="self-center">
+			<button
+				class="hover:bg-dark_light px-2 py-1 rounded-lg text-xl hover-anim"
+				on:click={toggleHide}
+			>
+				&times;
+			</button>
+		</div>
 	</div>
 </div>

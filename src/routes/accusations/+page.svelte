@@ -1,6 +1,6 @@
 <script>
-	import Footer from '$lib/footer.svelte';
-	import Data from '$lib/accusations.json';
+	import Footer from '$lib/components/footer.svelte';
+	import Data from '$lib/accusations/accusations.json';
 
 	let titles = Data.map((item) => item.title);
 </script>

@@ -1,5 +1,5 @@
 <script>
-	import Tip from '$lib/tip.svelte';
+	import Tip from '$lib/components/tip.svelte';
 
 	let CRBTbannerItems = [
 		{
@@ -130,13 +130,21 @@
 				<img src="/logo.svg" class="mh-40 w-full sm:h-52" alt="Logo" />
 			</div>
 		</div>
+
 		<div class="flex flex-col">
-			<div class="flex justify-center pb-2 text-xl font-semibold sm:justify-start">
-				Vbot Logo {ClembsVisible ? '© Clembs' : ''}
+			<div class="flex sm:items-center justify-center pb-2 text-xl font-semibold sm:justify-start">
+				Vbot Logo
 			</div>
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div class="rounded-xl bg-dark hover-anim" on:click={handleClick}>
+
+			<button class="rounded-xl bg-dark cursor-default hover-anim" on:click={handleClick}>
 				<img src="/vbot/vbot.svg" class="h-40 w-full p-8 sm:h-52 sm:p-10" alt="Logo" />
+			</button>
+			<div
+				class="flex sm:items-center justify-center pb-2 text-xl font-semibold sm:justify-start rotate-180 {ClembsVisible
+					? 'block'
+					: 'hidden'}"
+			>
+				© Clembs
 			</div>
 		</div>
 	</div>

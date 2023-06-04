@@ -1,9 +1,13 @@
 ---
+number: 4
 title: "Now with mdsvex!"
-number: "4"
+description: "After lots and lots of messing around & thanks to Clembs' invaluable assistance, collections now utilize .svx files for a user-friendly experience."
+date: "2023-01-10"
+imgURL: "/collections/nowwithmdsvex.png"
+imgAlt: "Ok guys, I think I won't kms yet"
 author: "User5522"
 authorLogo: "/logos/logo.png"
-date: "10/01/2023"
+layout: "collection"
 ---
 
 Do you remember the complicated code for collections on the website's [GitHub](/source)? I don't either, ~~I have dementia~~.
@@ -16,20 +20,26 @@ But that's no longer an issue, because now creating blogs is 10 times easier tha
 
 <br />
 
-Let me show you how effortless it is to create a collection:
+Let me show you how easy it is to create a collection:
 
-1 - Create a folder that is one number higher than the previous highest number. For example, `4` in this case.
+1 - Create a folder that is one number higher than the previous highest number. For example, `5` in this post's case.
 
-2 - Create a file named `+page.svx`.
+2 - Create a file named `+page.svx` inside that folder
 
-3 - At the top of the file, add the following variables:
+3 - At the top of the file, add the following metadata:
 
-```
+```svx
+---
+number: post number # the number of the post, without quotes
 title: "post title"
-number: "post number"
+description: "post description" # a brief description of your post
+imgURL: "post banner image url"
+imgAlt: "post banner image alt" # what your image is supposed to be
 author: "author name"
 authorLogo: "author logo URL"
-date: "post date"
+date: "post date" # follow the YYYY-MM-DD format for consistency
+layout: "collection"
+---
 ```
 
 4 - Below that, write your collection and include any images following the Markdown syntax.

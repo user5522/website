@@ -1,98 +1,105 @@
 <script>
+	import Emailme from '$lib/components/emailme.svelte';
 	import Heart from '$lib/twemojis/heart.svelte';
-	import Flushed from '$lib/twemojis/flushed.svelte';
 	import tippy from 'svelte-tippy';
 
-	const getRandomX = () => {
-		return `${Math.random() * 100}%`;
-	};
-	const getRandomY = () => {
-		return `${Math.random() * 10}%`;
-	};
-
-	let people = [
-		{
-			name: 'You',
-			reason: 'For visiting this website'
-		},
+	let credits = [
 		{
 			name: 'Family & Friends',
-			reason: 'For having a good influence on me'
+			name2: '',
+			reason: 'For all the good influence they had on me'
 		},
 		{
-			name: 'Svelte',
-			reason: 'For being an awesome framework'
+			name: 'The Svelte.JS Team',
+			name2: '',
+			reason: 'For making an awesome JS framework'
 		},
 		{
 			name: 'Vercel',
-			reason: 'For being epic'
+			name2: 'Clembs',
+			reason: 'For being an epic host || For all the tips and help'
 		},
 		{
-			name: 'Clembs',
-			reason: 'For all the help & the placeholder img'
-		}
+			name: 'The mdsvex Team',
+			name2: '',
+			reason: 'For creating an aweomse MD preprocessor'
+		},
+		{
+			name: 'Tailwind Labs',
+			name2: '',
+			reason: 'For building a very helpful CSS framework'
+		},
+		{ name: '& You!', name2: '', reason: 'For visiting this website!' }
 	];
+	let repitionCount = 3;
 </script>
 
 <svelte:head>
 	<title>/credits</title>
 </svelte:head>
 
-<div class="flex flex-col items-center justify-center">
+<div class="flex flex-col items-center justify-center gap-5">
 	<div class="text-4xl font-semibold">Credits</div>
-</div>
-<div class="flex flex-col items-center justify-center gap-4 text-xl">
-	<div>
-		Thanks for visiting <strong>user5522.tk</strong>, I really appreciate it.
-	</div>
 
-	<div class="text-xl text-center">You might've enjoyed this website, because:</div>
-	<ul class="bg-dark text-white p-5 rounded-xl hover:scale-102 active:scale-95 duration-200">
-		<li>
-			- It is built with <a target="_blank" href="https://kit.svelte.dev" rel="noreferrer"
-				>sveltekit</a>
-		</li>
-		<li>- It's created by me {':)'}</li>
-		<li>
-			- it's open source on
-			<a target="github" href="https://github.com/user5522/website" rel="noreferrer"> GitHub </a> (just
-			like most of my projects btw)
-		</li>
-		<li>- It's visually appealing</li>
-		<li>
-			- Something that I forgot, but <a href="/about#Links">maybe you didn't</a>.
-		</li>
-	</ul>
-
-	<div>
-		<strong>user5522.tk</strong> wouldn't have been real without these amazing people:
+	<div
+		class="mx-auto font-medium flex w-full max-w-3xl flex-col items-center justify-center text-xl"
+	>
+		<div>Thanks for giving my website a visit, I really hope you enjoyed it!</div>
+		<div>It wouldn't have been possible without the help of many awesome people</div>
+		<div>Such as:</div>
 	</div>
-	<div class="">
-		<div class="grid sm:grid-cols-3 grid-cols-2 gap-5 text-white">
-			{#each people as person}
-				<div style="margin-top: {getRandomY()}; margin-right: {getRandomX()}">
-					<div
-						use:tippy={{
-							content: person.reason,
-							arrow: false,
-							animation: 'shift-away',
-							interactive: true,
-							theme: 'dark',
-							placement: 'bottom',
-							duration: 0,
-							offset: [0, 5]
-						}}
-						class="flex whitespace-nowrap w-fit flex-col items-center justify-center rounded-full bg-dark p-4 duration-200 hover:scale-102 active:scale-95">
-						<div>{person.name}</div>
+	<div class="grid gap-5 sm:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3">
+		{#each credits as { name, name2, reason }}
+			<div class="flex flex-col p-2 items-center">
+				{#if name2}
+					<div class="grid gap-x-5 grid-cols-2">
+						{#each Array(repitionCount).fill() as _}
+							{#each [name, name2] as credit}
+								<div
+									class="text-2xl font-semibold"
+									use:tippy={{
+										content: reason,
+										arrow: false,
+										animation: 'shift-away',
+										interactive: true,
+										theme: 'dark',
+										placement: 'bottom',
+										duration: 0,
+										offset: [0, 5]
+									}}
+								>
+									{credit}
+								</div>
+							{/each}
+						{/each}
 					</div>
-				</div>
-			{/each}
-		</div>
+				{:else}
+					{#each Array(repitionCount).fill() as _}
+						<div
+							class="text-2xl font-semibold"
+							use:tippy={{
+								content: reason,
+								arrow: false,
+								animation: 'shift-away',
+								interactive: true,
+								theme: 'dark',
+								placement: 'bottom',
+								duration: 0,
+								offset: [0, 5]
+							}}
+						>
+							{name}
+						</div>
+					{/each}
+				{/if}
+			</div>
+		{/each}
 	</div>
-</div>
 
-<div class="flex  justify-center">
-	<div class="text-xl">
-		Made with <Heart /> by User5522.
+	<div class="flex items-center justify-center gap-1 text-2xl font-semibold">
+		Made with <Heart /> by
+		<a href="/" class="dark:text-white text-black">User5522</a>.
 	</div>
+
+	<Emailme />
 </div>
