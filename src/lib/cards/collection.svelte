@@ -39,7 +39,7 @@
 					<div class="text-xl font-semibold 2xl:flex 2xl:w-4/6 2xl:justify-start">
 						{title}
 					</div>
-					<div class="text-md text-lighter_true_gray 2xl:flex 2xl:w-3/6 2xl:justify-end">
+					<div class="text-md opacity-60 2xl:flex 2xl:w-3/6 2xl:justify-end">
 						Date: {postDate}
 					</div>
 				</div>
