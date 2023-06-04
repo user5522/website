@@ -84,39 +84,43 @@
 
 <footer class=" bottom-0 w-full bg-true_gray p-5 text-white">
 	<div class="flex flex-row">
-		<div class="flex flex-col">
-			<div class="flex flex-col gap-5 sm:flex-row sm:gap-10">
-				<div class="flex flex-col">
-					<div class="font-semibold">Website links:</div>
-					{#each websiteLinks as websiteLink}
-						<div>- <a href={websiteLink.href} class="text-blue-300">{websiteLink.name}</a></div>
-					{/each}
-				</div>
-				<div class="flex flex-col">
-					<div class="font-semibold">Redirecting links:</div>
-					{#each redirectLinks as redirectLink}
-						<div class="flex flex-row gap-1">
-							-
-							<a href={redirectLink.href} class="flex text-blue-300"
-								>{redirectLink.name}
+		<div class="flex flex-col gap-5 sm:flex-row sm:gap-16">
+			<div class="flex flex-col">
+				<div class="font-semibold uppercase pb-2">user5522</div>
+				{#each websiteLinks as websiteLink}
+					<ul>
+						<li>
+							<a href={websiteLink.href} class="text-blue-300">{websiteLink.name}</a>
+						</li>
+					</ul>
+				{/each}
+			</div>
+			<div class="flex flex-col">
+				<div class="font-semibold uppercase pb-2">links</div>
+				{#each redirectLinks as redirectLink}
+					<ul>
+						<li>
+							<a href={redirectLink.href} class="flex flex-row gap-1 text-blue-300">
 								<img
 									src={redirectLink.imgURL}
-									class="relative top-1 h-5 items-baseline pl-1"
+									class="relative h-5 w-5 self-center"
 									alt={redirectLink.imgAlt}
-								/></a
-							>
-						</div>
-					{/each}
-				</div>
-				<div class="flex flex-col">
-					<div class="font-semibold">Website testing links:</div>
-					{#each testingLinks as testingLink}
-						<div>
-							-
+								/>
+								{redirectLink.name}
+							</a>
+						</li>
+					</ul>
+				{/each}
+			</div>
+			<div class="flex flex-col">
+				<div class="font-semibold uppercase pb-2">beta</div>
+				{#each testingLinks as testingLink}
+					<ul>
+						<li>
 							<a href={testingLink.href} class="text-blue-300">{testingLink.name}</a>
-						</div>
-					{/each}
-				</div>
+						</li>
+					</ul>
+				{/each}
 			</div>
 		</div>
 
@@ -128,7 +132,7 @@
 	</div>
 
 	<div class="pt-5 text-lighter_true_gray">
-		Found some annoying <div
+		Found some <div
 			class="glitch inline-block bg-dark_light p-0.5 rounded-xl"
 			on:mouseenter={(glitch = true)}
 			on:mouseleave={(glitch = false)}
@@ -140,7 +144,7 @@
 			href="https://github.com/user5522/website/issues"
 			target="blank"
 			class="dark:text-lighter_true_gray text-lighter_true_gray underline"
-			rel="noreferrer">report them by making an issue here!</a
+			rel="noreferrer">report them by submitting an issue here!</a
 		>
 	</div>
 </footer>
