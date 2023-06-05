@@ -1,16 +1,14 @@
 <script>
 	import Accusations from '$lib/accusations/accusations.svelte';
 	import Subtitle from '$lib/utilities/subtitle.svelte';
+	import Name from '$lib/utilities/name.svelte';
 	import SvelteSeo from 'svelte-seo';
 	import Tip from '$lib/components/tip.svelte';
+	import Modal from '$lib/components/modal.svelte';
 	import Project from '$lib/cards/project.svelte';
 	import Collection from '$lib/cards/collection.svelte';
-	import Modal, { bind } from 'svelte-simple-modal';
-	import { writable } from 'svelte/store';
-	import CloseButton from '$lib/icons/closeButton.svelte';
 
-	const modal = writable(null);
-	const showModal = () => modal.set(bind(Accusations));
+	let showModal = false;
 
 	let projects = [
 		{
@@ -79,7 +77,7 @@
 
 <div class="mx-auto flex max-w-4xl flex-col gap-7 justify-center items-center">
 	<div class="flex justify-center flex-col items-center">
-		<div class="text-4xl font-semibold">User5522</div>
+		<Name />
 		<Subtitle />
 	</div>
 
@@ -124,20 +122,10 @@
 		</div>
 	</div>
 	<div class="flex flex-row gap-5">
-		<!-- svelte-ignore a11y-missing-attribute -->
-		<Modal
-			show={$modal}
-			unstyled={false}
-			closeButton={CloseButton}
-			styleWindow={{
-				borderRadius: '.8rem',
-				backgroundColor: '#121212'
-			}}
-			><a>
-				<button class="blue-button" on:click={showModal}>False accusations </button>
-			</a>
-			<a href="/accusations" class="dark:text-white text-black hidden-button">View page</a>
-		</Modal>
+		<button class="blue-button" on:click={() => (showModal = true)}>False accusations</button>
+		<a href="/accusations" class="hidden-button"
+			><p class="dark:text-white text-black ">View page</p></a
+		>
 	</div>
 
 	<div>
@@ -148,3 +136,8 @@
 		</div>
 	</div>
 </div>
+
+<Modal bind:showModal>
+	<div class="font-semibold text-2xl" slot="header">False Accusations</div>
+	<Accusations />
+</Modal>
