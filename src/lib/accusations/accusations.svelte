@@ -5,9 +5,9 @@
 </script>
 
 <div class="flex flex-col items-center justify-center bg-dark py-5 text-white">
-	<ul>
+	<ul class="list-disc list-inside">
 		{#each titles as title}
-			<li>- {title}</li>
+			<li>{title}</li>
 		{/each}
 	</ul>
 </div>
