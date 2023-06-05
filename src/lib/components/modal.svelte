@@ -9,7 +9,7 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <dialog
-	class="max-w-screen-md max-h-full sm:max-h-140 sm:rounded-xl bg-dark text-white backdrop:backdrop-grayscale backdrop:bg-black backdrop:bg-opacity-50"
+	class="max-w-screen-md max-h-full sm:max-h-140 sm:rounded-xl bg-white text-black dark:bg-dark dark:text-white backdrop:backdrop-grayscale backdrop:bg-black backdrop:bg-opacity-50"
 	bind:this={dialog}
 	on:close={() => (showModal = false)}
 	on:click|self={() => dialog.close()}
