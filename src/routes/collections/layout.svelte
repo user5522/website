@@ -5,6 +5,7 @@
 	export let authorLogo;
 	export let date;
 
+	import Back from '$lib/components/back.svelte';
 	import './app.css';
 	import '$lib/prism/prism-gruvbox-dark.css';
 	import '$lib/prism/prism.js';
@@ -16,10 +17,7 @@
 
 <div class="mx-auto flex w-full max-w-4xl flex-col gap-3">
 	<a href="/collections" class="flex">
-		<div class="hover-anim flex flex-row gap-3 rounded-xl bg-dark py-2 px-3">
-			<img src="/icons/arrow_left.svg" alt="left arrow" />
-			<div class="text-xl font-medium text-white">Back</div>
-		</div>
+		<Back />
 	</a>
 
 	<div id="collection-header" class="pb-10">
