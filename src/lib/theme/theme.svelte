@@ -32,7 +32,7 @@
 		checked={darkMode}
 		on:click={handleSwitchDarkMode}
 		type="checkbox"
-		class="rounded-xl p-1 dark:text-white text-black hover:bg-opacity-50 duration-200
+		class="rounded-full p-1 dark:text-white text-black hover:bg-opacity-50 duration-200
 	hover:scale-102 hover:bg-dark_light active:scale-95 flex flex-row gap-2"
 	>
 		<div class={darkMode ? 'bg-white rounded-xl p-3' : 'bg-dark rounded-xl p-3'} />
