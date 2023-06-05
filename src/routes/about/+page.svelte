@@ -77,26 +77,26 @@
 		<div class="flex flex-col p-2">
 			<div class="text-2xl font-semibold">I Like:</div>
 			<div class="flex flex-col">
-				<ul class="text-lg">
-					<li>• Designing</li>
-					<li>• Drinking & eating</li>
-					<li>• Open-source stuff</li>
-					<li>• Developing</li>
-					<li>• Making useless long lists</li>
-					<li>• The letter H</li>
-					<li>• You, probably. <Flushed /></li>
+				<ul class="text-lg list-disc list-inside">
+					<li>Designing</li>
+					<li>Drinking & eating</li>
+					<li>Open-source stuff</li>
+					<li>Developing</li>
+					<li>Making useless long lists</li>
+					<li>The letter H</li>
+					<li>You, probably. <Flushed /></li>
 				</ul>
 			</div>
 		</div>
 		<div class="flex flex-col p-2">
 			<div class="text-2xl font-semibold">Projects:</div>
 			<div class="flex flex-col gap-5">
-				<ul class="text-lg">
-					<li>• Vbot - Multipurpose Discord bot</li>
-					<li>• This website</li>
-					<li>• SquareGame - 2D Unity game</li>
-					<li>• u3d - My first Unity 3D game attempt</li>
-					<li>• Snak - Broken snake clone to learn Rust</li>
+				<ul class="text-lg list-disc list-inside">
+					<li>Vbot - Multipurpose Discord bot</li>
+					<li>This website</li>
+					<li>SquareGame - 2D Unity game</li>
+					<li>u3d - My first Unity 3D game attempt</li>
+					<li>Snak - Broken snake clone to learn Rust</li>
 				</ul>
 				<div class="justify-center flex">
 					<a href="/projects" class="blue-button text-lg"> Everything &rarr; </a>
