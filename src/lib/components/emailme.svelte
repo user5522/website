@@ -19,17 +19,17 @@
 </script>
 
 <div class="pt-10">
-	<div class="px-5">
-		For any suggestions
+	<div class="flex flex-row px-5 items-center">
+		<p>For any suggestions</p>
 		<button
-			class="inline-block text-base align-middle cursor-default"
+			class="inline-block text-base align-middle cursor-pointer"
 			on:click={handleClick}
 			class:scale={scaling}>/</button
 		>
-		reports email me
-		<button class="inline-block cursor-default" on:click={handleClick} class:spin={spinning}
-			>@</button
-		>
+		<p>reports email me</p>
+		<button class="inline-block cursor-pointer px-1" on:click={handleClick} class:spin={spinning}>
+			@
+		</button>
 		<div class="relative inline-block rounded-xl bg-dark p-1 hover-anim">
 			<a href="mailto:oueslatim@pm.me" class="dark:text-white rounded-xl text-white"
 				>oueslatim@pm.me</a
