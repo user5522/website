@@ -2,7 +2,7 @@
 	export let onClose;
 </script>
 
-<button on:click={onClose} class="absolute top-5 right-5 z-50"
+<button on:click={onClose} class="rounded-full"
 	><img
 		src="/icons/close.svg"
 		alt="Close popup"
