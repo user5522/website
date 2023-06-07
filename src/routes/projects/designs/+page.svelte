@@ -100,6 +100,7 @@
 					src={CRBTbannerItem.imgURL}
 					class="rounded-xl hover-anim"
 					alt={CRBTbannerItem.imgAlt}
+					loading="lazy"
 				/>
 			</div>
 		{/each}
@@ -117,6 +118,7 @@
 					src={projectBannerItem.imgURL}
 					class="rounded-xl hover-anim"
 					alt={projectBannerItem.imgAlt}
+					loading="lazy"
 				/>
 			</div>
 		{/each}
@@ -129,7 +131,7 @@
 				User5522 Logo
 			</div>
 			<div class="rounded-xl bg-dark hover-anim">
-				<img src="/logo.svg" class="mh-40 w-full sm:h-52" alt="Logo" />
+				<img src="/logo.svg" class="mh-40 w-full sm:h-52" alt="Logo" loading="lazy" />
 			</div>
 		</div>
 
@@ -139,7 +141,7 @@
 			</div>
 
 			<button class="rounded-xl bg-dark cursor-default hover-anim" on:click={handleClick}>
-				<img src="/vbot/vbot.svg" class="h-40 w-full p-8 sm:h-52 sm:p-10" alt="Logo" />
+				<img src="/vbot/vbot.svg" class="h-40 w-full p-8 sm:h-52 sm:p-10" alt="Logo" loading="lazy" />
 			</button>
 			<div
 				class="flex sm:items-center justify-center pb-2 text-xl font-semibold sm:justify-start rotate-180 {ClembsVisible

@@ -30,7 +30,7 @@ This year was [exciting/full of surprises] for me, with some of the things I'm m
 
 {#each list as listing}
 	<li class="flex flex-col gap-2">- {listing.caption}
-	<img src={listing.imgURL} class="rounded-xl hover:scale-102 active:scale-95 duration-200" alt={listing.alt}/></li>
+	<img src={listing.imgURL} class="rounded-xl hover:scale-102 active:scale-95 duration-200" alt={listing.alt} loading="lazy"/></li>
 {/each}
 
 As for what I'm looking forward to in 2023, I'm excited to see what new technologies and software

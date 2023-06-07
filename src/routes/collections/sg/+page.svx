@@ -27,7 +27,12 @@ I am planning to refactor the **`playerController.cs`** script's code & add coyo
 (which is basically the ability to jump even after falling off from a platform for a tiny amount of time,
 mostly to make the game feel more responsive)
 
-<img src="https://drive.google.com/uc?export=view&id=19QfoRY3u_z6cq7Jp6kpEUf6NoUPQY2aQ" alt="coyote time example" class="rounded-xl hover-anim" />
+<img 
+    src="https://drive.google.com/uc?export=view&id=19QfoRY3u_z6cq7Jp6kpEUf6NoUPQY2aQ" 
+    alt="coyote time example"
+    class="rounded-xl hover-anim" 
+    loading="lazy"
+/>
 
 & also add something to limit the speed of the fall of the player. 
 

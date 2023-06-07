@@ -33,7 +33,7 @@
 			on:click={reroll}
 		>
 			<div class="duration-500 active:rotate-360">
-				<img src="/icons/arrow_path.svg" alt="arrow path" class="w-6 h-6" />
+				<img src="/icons/arrow_path.svg" alt="arrow path" class="w-6 h-6" loading="lazy" />
 			</div>
 			<p class="sm:hidden font-semibold">Reroll</p>
 		</button>

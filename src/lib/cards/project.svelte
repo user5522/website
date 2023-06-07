@@ -11,7 +11,7 @@
 		<div class="h-full">
 			<div class="sm:h-2/3">
 				<div class="flex w-full items-center justify-center">
-					<img src={imgURL} alt={imgAlt} class="rounded-t-xl" />
+					<img src={imgURL} alt={imgAlt} class="rounded-t-xl" loading="lazy" />
 				</div>
 			</div>
 			<div class="p-5 sm:h-1/3">

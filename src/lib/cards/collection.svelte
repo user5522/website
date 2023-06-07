@@ -16,7 +16,7 @@
 		<div class="h-full w-full">
 			<div id="post_img" class="flex justify-center sm:h-2/3">
 				<div class="relative">
-					<img src={imgURL} alt={imgAlt} class="rounded-t-xl object-cover" />
+					<img src={imgURL} alt={imgAlt} class="rounded-t-xl object-cover" loading="lazy" />
 					<button
 						use:tippy={{
 							content: 'This post is pinned.',
@@ -30,7 +30,12 @@
 						}}
 						class="{isPinned ? 'absolute' : 'hidden'} top-2 right-2 rounded-full"
 					>
-						<img src="/icons/pin.svg" alt="Pin Icon" class="bg-dark p-1 w-7 sm:w-9 rounded-full" />
+						<img
+							src="/icons/pin.svg"
+							alt="Pin Icon"
+							class="bg-dark p-1 w-7 sm:w-9 rounded-full"
+							loading="lazy"
+						/>
 					</button>
 				</div>
 			</div>

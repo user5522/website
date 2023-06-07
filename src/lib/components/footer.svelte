@@ -105,6 +105,7 @@
 									src={redirectLink.imgURL}
 									class="relative h-5 w-5 self-center"
 									alt={redirectLink.imgAlt}
+									loading="lazy"
 								/>
 								{redirectLink.name}
 							</a>
@@ -128,6 +129,7 @@
 			src="/logo.svg"
 			alt="monochrome logo"
 			class="ml-auto h-28 w-28 rounded-full bg-light_true_gray grayscale sm:h-32 sm:w-32"
+			loading="lazy"
 		/>
 	</div>
 

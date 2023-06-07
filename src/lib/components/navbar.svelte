@@ -78,6 +78,7 @@
 							class="h-9 items-center rounded-full bg-dark_light bg-opacity-50 backdrop-blur-md sm:h-10"
 							alt="logo"
 							class:spin={spinning}
+							loading="lazy"
 						/>
 					</button>
 					<a

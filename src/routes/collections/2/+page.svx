@@ -42,6 +42,7 @@ Anyways, here are the screenshots:
 			src="https://drive.google.com/uc?export=view&id={screenshot.gDriveID}"
 			class="rounded-xl hover:scale-102 active:scale-95 duration-200"
 			alt=""
+			loading="lazy"
 		/>
 		</li>
 	{/each}

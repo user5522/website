@@ -15,7 +15,7 @@
 	<div class="flex flex-col gap-10 sm:flex-row justify-center">
 		<div class="flex justify-center">
 			<div class="rounded-xl bg-dark hover:scale-102 active:scale-95 duration-200">
-				<img src="/vbot/vbotbranding.png" alt="vbot branding" class=" h-56 p-10" />
+				<img src="/vbot/vbotbranding.png" alt="vbot branding" class=" h-56 p-10" loading="lazy" />
 			</div>
 		</div>
 		<div class="sm:w-2/4">

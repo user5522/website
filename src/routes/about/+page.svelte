@@ -114,7 +114,7 @@
 					class="duration-200 hover:scale-105 active:scale-90 rounded-full"
 					target="blank"
 				>
-					<img src={link.imgURL} alt={link.imgAlt} class="h-10" />
+					<img src={link.imgURL} alt={link.imgAlt} class="h-10" loading="lazy"/>
 				</a>
 			{/each}
 		</div>
@@ -125,7 +125,7 @@
 					class="duration-200 hover:scale-105 active:scale-90 rounded-full"
 					target="blank"
 				>
-					<img src={link.imgURL} alt={link.imgAlt} class="h-10" />
+					<img src={link.imgURL} alt={link.imgAlt} class="h-10" loading="lazy" />
 				</a>
 			{/each}
 		</div>

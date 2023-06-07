@@ -30,7 +30,7 @@
 				id="collection-author"
 				class="flex flex-row items-center justify-start gap-1 text-xl font-semibold text-lighter_true_gray sm:w-1/2"
 			>
-				<img src={authorLogo} alt="author icon" class="h-10 rounded-full" />
+				<img src={authorLogo} alt="author icon" class="h-10 rounded-full" loading="lazy" />
 				<div>Author: {author}</div>
 			</div>
 			<div
