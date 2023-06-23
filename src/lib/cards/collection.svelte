@@ -11,7 +11,7 @@
 	export let isPinned = false;
 </script>
 
-<a {href} class="rounded-xl bg-dark text-white dark:text-white hover-anim">
+<a {href} class="rounded-xl bg-dark max-w-xl text-white dark:text-white hover-anim">
 	<div>
 		<div class="h-full w-full">
 			<div id="post_img" class="flex justify-center sm:h-2/3">
@@ -40,11 +40,11 @@
 				</div>
 			</div>
 			<div class="p-5 sm:h-1/3">
-				<div id="post_title" class="flex w-full flex-col items-baseline gap-1 py-2 2xl:flex-row">
-					<div class="text-xl font-semibold 2xl:flex 2xl:w-4/6 2xl:justify-start">
+				<div id="post_title" class="flex w-full flex-col items-baseline gap-1 py-2">
+					<div class="text-xl font-semibold">
 						{title}
 					</div>
-					<div class="text-md opacity-60 2xl:flex 2xl:w-3/6 2xl:justify-end">
+					<div class="text-md opacity-60">
 						Date: {postDate}
 					</div>
 				</div>
