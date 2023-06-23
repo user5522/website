@@ -55,7 +55,7 @@
 </script>
 
 <div use:clickOutside on:click_outside={handleClickOutside}>
-	<div class="duration-400  {isAnimated ? 'pb-[100px]' : 'pb-16'}">
+	<div class="duration-400 {isAnimated ? 'pb-[100px]' : 'pb-16'}">
 		<div
 			class="duration-400 fixed top-0 z-50 flex w-full flex-col justify-center overflow-auto align-middle transition-all {isAnimated
 				? 'p-3'
@@ -129,20 +129,13 @@
 			{#each navItems as navMenuItem}
 				<a
 					href={navMenuItem.href}
+					on:click={() => (linksVisible = !linksVisible)}
 					class="block rounded-xl p-2 dark:text-white text-black hover:bg-opacity-50 duration-200 hover:scale-102 hover:bg-dark_light active:scale-95"
 				>
 					{navMenuItem.name}
 				</a>
 			{/each}
-
 			<Theme />
-
-			<div
-				class="block rounded-xl bg-dark_darker dark:text-white text-black bg-opacity-50 p-3 hover:scale-102 active:scale-95 duration-200"
-			>
-				// This menu is still experimental!<br />
-				// Click anywhere outside to close it!
-			</div>
 		</div>
 	</div>
 </div>
