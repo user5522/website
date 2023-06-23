@@ -13,8 +13,11 @@
 	a {
 		@apply text-blue-800 dark:text-blue-300;
 	}
-	.init-div {
+	/* .init-div {
 		@apply flex flex-col gap-5 px-5 pb-5 pt-28;
+	} */
+	.init-div {
+		@apply mx-auto flex w-full max-w-5xl flex-col gap-3 px-5 pb-5 pt-28 2xl:max-w-7xl;
 	}
 	.blue-button {
 		@apply rounded-xl bg-dark_blue
