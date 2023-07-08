@@ -55,14 +55,19 @@
 	{:else if fileTag === 'video'}
 		<meta property="og:video" content={downloadURL} />
 	{/if}
+
+	<title>{$page.params.slug}</title>
 </svelte:head>
 
+<!-- svelte-ignore a11y-media-has-caption a11y-missing-attribute -->
 {#if fileTag === 'img'}
-	<meta property="og:image" content={downloadURL} />
-	<img src={downloadURL} />
+	<img src={downloadURL} class="absolute inset-0 m-auto" />
 {:else if fileTag === 'video'}
-	<meta property="og:video" content={downloadURL} />
-	<video src={downloadURL} controls />
+	<video
+		src={downloadURL}
+		controls
+		class="absolute inset-0 max-w-full max-h-full m-auto select-none"
+	/>
 {:else}
 	<script src={downloadURL}></script>
 {/if}
