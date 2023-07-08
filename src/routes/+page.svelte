@@ -1,159 +1,222 @@
 <script>
-	import Accusations from '$lib/accusations/accusations.svelte';
-	import Subtitle from '$lib/utilities/subtitle.svelte';
-	import SvelteSeo from 'svelte-seo';
-	import Tip from '$lib/components/tip.svelte';
-	import Project from '$lib/cards/project.svelte';
-	import Collection from '$lib/cards/collection.svelte';
-	import Modal, { bind } from 'svelte-simple-modal';
-	import { writable } from 'svelte/store';
-	import CloseButton from '$lib/icons/closeButton.svelte';
+	import { storage } from '$lib/firebase.js';
+	import { ref, listAll, getDownloadURL } from 'firebase/storage';
+	import { createEventDispatcher } from 'svelte';
 
-	const modal = writable(null);
-	const showModal = () => modal.set(bind(Accusations));
+	let folders = [];
+	let files = [];
+	let currentFolderPath = '';
+	let isLoading = false;
 
-	let projects = [
-		{
-			title: 'Graphic Designs',
-			description:
-				"A collection of banners and logos that I created for CRBT's old profiles feature and other projects.",
-			imgURL: '/banners/banners.png',
-			imgAlt: 'banners',
-			href: '/projects/designs'
-		},
-		{
-			title: 'SquareGame',
-			description:
-				'A 2D game built with Unity, about a.. square character that navigates through levels..?\nCurrently in BETA',
-			imgURL: '/banners/SquareGame.png',
-			imgAlt: 'SquareGame banner',
-			href: '/sgsource'
+	const dispatch = createEventDispatcher();
+
+	async function browseFolder(folderRef) {
+		isLoading = true;
+		if (folderRef === '..') {
+			const folders = currentFolderPath.split('/');
+			folders.pop();
+			currentFolderPath = folders.join('/');
+		} else if (folderRef === '') {
+			currentFolderPath = '';
+		} else {
+			currentFolderPath += `/${folderRef}`;
 		}
-	];
+		await fetchFilesAndFolders();
+	}
 
-	let collections = [
-		{
-			title: 'Clembs SMP early access screenshots',
-			description:
-				'Some screenshots from the Clembs Minecraft SMP winter early access, thought I would share them here since it will be reset soon.',
-			imgURL: '/collections/csmpea.png',
-			imgAlt: 'Clembs SMP Early Access banner',
-			href: '/collections/2',
-			postDate: '18/12/2022'
-		},
-		{
-			title: 'Initial release!',
-			description:
-				"Finally, after lots of work, user5522.tk is now at version 1.0.0. This collection talks about everything new and what's (probably) upcomming.",
-			imgURL: '/collections/initial-release.png',
-			imgAlt: 'Initial release banner',
-			href: '/collections/1',
-			postDate: '26/11/2022'
+	async function fetchFilesAndFolders() {
+		const listRef = ref(storage, currentFolderPath);
+
+		try {
+			const res = await listAll(listRef);
+
+			folders = res.prefixes.map((folderRef) => ({
+				name: folderRef.name
+			}));
+
+			const filePromises = res.items.map(async (itemRef) => {
+				const fileUrl = await getDownloadURL(itemRef);
+				return {
+					name: itemRef.name,
+					url: fileUrl
+				};
+			});
+
+			files = await Promise.all([...filePromises]);
+
+			const timeout = setTimeout(() => {
+				isLoading = false;
+				clearTimeout(timeout);
+			}, 100);
+		} catch (error) {
+			console.error('Error fetching file list:', error);
 		}
-	];
+	}
+
+	fetchFilesAndFolders();
+
+	$: {
+		dispatch('folderChange', currentFolderPath);
+	}
 </script>
 
-<SvelteSeo
-	title="User5522"
-	description="I make stuff, sometimes."
-	keywords="user5522, u5522, user5522.tk, username5522, Epik_Kid"
-	openGraph={{
-		title: 'User5522.tk',
-		description: 'I make stuff, sometimes.',
-		url: 'https://user5522.tk/',
-		type: 'website',
-		images: [
-			{
-				url: '/logo.svg',
-				width: 1200,
-				height: 630,
-				alt: 'User5522 Logo'
-			}
-		]
-	}} />
+<!--
+href={index === 0
+	? '/'
+	: `/${currentFolderPath
+			.split('/')
+			.slice(0, index + 1)
+			.join('/')}`}
+on:click={(event) => {
+	event.preventDefault();
+	browseFolder(
+		currentFolderPath
+			.split('/')
+			.slice(0, index + 1)
+			.join('/')
+	);
+}} 
+-->
 
-<Modal
-	show={$modal}
-	unstyled={false}
-	closeButton={CloseButton}
-	styleWindow={{
-		borderRadius: '.8rem',
-		backgroundColor: '#121212'
-	}} />
-
-<svelte:head>
-	<title>Welcome - user5522.tk</title>
-</svelte:head>
-
-<div class="mx-auto flex max-w-4xl flex-col gap-7 justify-center items-center">
-	<div class="flex justify-center flex-col items-center">
-		<div class="text-4xl font-semibold">User5522</div>
-		<Subtitle />
-	</div>
-
-	<Tip text="You can learn about me," href="/about" linkText="here." />
-
-	<div class="text-xl sm:text-2xl">Featured projects:</div>
-	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
-		{#each projects as project}
-			<Project
-				href={project.href}
-				title={project.title}
-				description={project.description}
-				imgURL={project.imgURL}
-				imgAlt={project.imgAlt} />
+<header class="flex flex-row">
+	<!-- TODO: make this work properly lol -->
+	<div>Index</div>
+	{#if currentFolderPath !== ''}
+		{#each currentFolderPath.split('/') as folder, index (folder)}
+			<div>
+				{folder}
+			</div>
+			<span class="mx-1">/</span>
 		{/each}
-	</div>
+	{/if}
+</header>
+<div class="relative w-full">
+	<table class="w-full">
+		<thead>
+			<tr><button class="pl-8">Name</button></tr>
+		</thead>
+		<tbody>
+			{#if currentFolderPath !== ''}
+				<tr class="w-full">
+					<button
+						class="px-3 text-blue-300 text-start hover:underline"
+						on:click={() => browseFolder('..')}
+					>
+						.. Back
+					</button>
+				</tr>
+			{/if}
+			{#if files.length === 0 && folders.length === 0}
+				<tr><p class="pl-3">This Folder Is Empty.</p></tr>
+			{:else}
+				{#each folders as folder}
+					<tr>
+						<button
+							class="items-baseline pl-2 select-text"
+							on:click={() => browseFolder(folder.name)}
+						>
+							<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									class="inline-block"
+								>
+									<path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" />
+								</svg></span
+							>
+							<p class="inline-block text-blue-300 hover:underline">{folder.name}/</p>
+						</button>
+					</tr>
+				{/each}
+				{#each files as file}
+					<tr>
+						<a href={file.url} class="pl-2" target="_blank" rel="noopener noreferrer">
+							<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="currentColor"
+									viewBox="0 0 20 20"
+									class="{file.name.slice(-4) == '.png' ||
+									file.name.slice(-4) == '.jpg' ||
+									file.name.slice(-4) == 'webp'
+										? 'block'
+										: 'hidden'} inline-block"
+								>
+									<path
+										clip-rule="evenodd"
+										d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
+										fill-rule="evenodd"
+									/>
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="currentColor"
+									viewBox="0 0 20 20"
+									class="{file.name.slice(-4) == '.mp4' ||
+									file.name.slice(-4) == '.mov' ||
+									file.name.slice(-4) == 'webm'
+										? 'block'
+										: 'hidden'} inline-block"
+								>
+									<path
+										clip-rule="evenodd"
+										d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm3 2h6v4H7V5zm8 8v2h1v-2h-1zm-2-2H7v4h6v-4zm2 0h1V9h-1v2zm1-4V5h-1v2h1zM5 5v2H4V5h1zm0 4H4v2h1V9zm-1 4h1v2H4v-2z"
+										fill-rule="evenodd"
+									/>
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									aria-hidden="true"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1.5"
+									viewBox="0 0 24 24"
+									class="{file.name.slice(-4) == '.gif'
+										? 'block'
+										: 'hidden'} inline-block fill-none stroke-current text-gray-300"
+								>
+									<path
+										d="M12.75 8.25v7.5m6-7.5h-3V12m0 0v3.75m0-3.75H18M9.75 9.348c-1.03-1.464-2.698-1.464-3.728 0-1.03 1.465-1.03 3.84 0 5.304 1.03 1.464 2.699 1.464 3.728 0V12h-1.5M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</span>
+							<p class="inline-block text-blue-300 hover:underline">{file.name}</p>
+						</a>
+					</tr>
+				{/each}
+			{/if}
+		</tbody>
+		<tfoot>
+			<tr class="flex justify-start"
+				><td class="pl-2"
+					>{folders.length} Folder{folders.length > 1 || folders.length == 0 ? 's' : ''}, {files.length}
+					File{files.length > 1 || files.length == 0 ? 's' : ''}</td
+				></tr
+			>
+		</tfoot>
+	</table>
 
-	<Tip text="You may want to see more," href="/projects" linkText="right here." />
-
-	<div class="text-xl sm:text-2xl">Featured collections:</div>
-	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
-		{#each collections as collection}
-			<Collection
-				href={collection.href}
-				title={collection.title}
-				postDate={collection.postDate}
-				description={collection.description}
-				imgURL={collection.imgURL}
-				imgAlt={collection.imgAlt} />
-		{/each}
-	</div>
-
-	<Tip text="For more, simply" href="/collections" linkText="look here." />
-
-	<div>
-		<strong class="text-xl">Unimportant note:</strong>
-		<div>
-			Despite what you may have heard, I am not a wanted criminal in multiple countries.
-			<br />
-			In fact, I am a law-abiding citizen who has never committed any federal offenses.
+	{#if isLoading}
+		<div
+			class="absolute top-0 left-0 flex items-center justify-center w-full h-full bg-[#404040] bg-opacity-100"
+		>
+			<div class="lds-spinner">
+				<div />
+				<div />
+				<div />
+				<div />
+				<div />
+				<div />
+				<div />
+				<div />
+				<div />
+				<div />
+				<div />
+				<div />
+			</div>
 		</div>
-	</div>
-	<div class="flex flex-row gap-5">
-		<!-- svelte-ignore a11y-missing-attribute -->
-		<Modal
-			show={$modal}
-			unstyled={false}
-			closeButton={CloseButton}
-			styleWindow={{
-				borderRadius: '.8rem',
-				backgroundColor: '#121212'
-			}}
-			><a>
-				<button class="blue-button" on:click={showModal}>False accusations </button>
-			</a>
-			<a href="/accusations" class="dark:text-white text-black hidden-button">View page</a>
-		</Modal>
-	</div>
-
-	<div>
-		<div class="text-green-600 font-semibold italic dark:opacity-50">
-			// No promise, but more content soon™
-			<br />
-			// Tell me your opinion about this new experimental homepage
-			<a href="/about#Links">using one of these</a>
-			.
-		</div>
-	</div>
+	{/if}
 </div>
