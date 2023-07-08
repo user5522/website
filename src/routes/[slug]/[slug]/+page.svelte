@@ -49,9 +49,19 @@
 	}
 </script>
 
+<svelte:head>
+	{#if fileTag === 'img'}
+		<meta property="og:image" content={downloadURL} />
+	{:else if fileTag === 'video'}
+		<meta property="og:video" content={downloadURL} />
+	{/if}
+</svelte:head>
+
 {#if fileTag === 'img'}
+	<meta property="og:image" content={downloadURL} />
 	<img src={downloadURL} />
 {:else if fileTag === 'video'}
+	<meta property="og:video" content={downloadURL} />
 	<video src={downloadURL} controls />
 {:else}
 	<script src={downloadURL}></script>
