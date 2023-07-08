@@ -93,7 +93,7 @@ on:click={(event) => {
 <div class="relative w-full">
 	<table class="w-full">
 		<thead>
-			<tr><button class="pl-8">Name</button></tr>
+			<tr class="flex justify-start"><th class="pl-8">Name</th></tr>
 		</thead>
 		<tbody>
 			{#if currentFolderPath !== ''}
