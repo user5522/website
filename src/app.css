@@ -6,6 +6,9 @@
 	body {
 		@apply flex flex-col text-[#dadada] list-none bg-[#383838];
 	}
+	a {
+		@apply text-blue-300 hover:underline hover:text-[#d1c5e9];
+	}
 	svg {
 		@apply w-4 h-4 text-gray-300 select-none fill-current;
 	}
@@ -15,13 +18,21 @@
 	table {
 		@apply w-full border-spacing-0;
 	}
+	thead > tr > * {
+		border: 1px #292929;
+		border-right-style: solid;
+	}
+	thead > tr > :last-child,
+	thead > tr > :first-child {
+		border-right-style: none;
+	}
 	* {
-		@apply box-border font-bold;
+		@apply box-border font-semibold;
 		font-family: monospace;
 	}
 	thead,
 	tfoot {
-		@apply bg-[#353535] h-6 items-center w-full border border-[#292929];
+		@apply bg-[#353535] w-full border border-[#292929];
 	}
 	header {
 		@apply bg-[#404040] w-full py-[6px] px-3 border-solid border-[#292929] border;
