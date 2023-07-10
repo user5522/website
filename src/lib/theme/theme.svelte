@@ -27,15 +27,12 @@
 	}
 </script>
 
-<div>
-	<button
-		checked={darkMode}
-		on:click={handleSwitchDarkMode}
-		type="checkbox"
-		class="rounded-full p-1 dark:text-white text-black hover:bg-opacity-50 duration-200
-	hover:scale-102 hover:bg-dark_light active:scale-95 flex flex-row gap-2"
-	>
-		<div class={darkMode ? 'bg-white rounded-xl p-3' : 'bg-dark rounded-xl p-3'} />
-		<div class="block sm:hidden">{darkMode ? 'Light Theme' : 'Dark Theme'}</div>
-	</button>
-</div>
+<button
+	checked={darkMode}
+	on:click={handleSwitchDarkMode}
+	type="checkbox"
+	class="flex flex-row gap-2 p-1 text-black duration-200 rounded-full dark:text-white hover:bg-opacity-50 hover:scale-102 hover:bg-dark_light active:scale-95"
+>
+	<div class={darkMode ? 'bg-white rounded-xl p-3' : 'bg-dark rounded-xl p-3'} />
+	<div class="block sm:hidden">{darkMode ? 'Light Theme' : 'Dark Theme'}</div>
+</button>
