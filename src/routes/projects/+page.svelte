@@ -22,7 +22,7 @@
 	<div class="flex flex-row gap-1">
 		<div class="text-xl text-center">
 			Projects I'm working on that I want to share with you
-			<Emoji emoji="/flushed.svg" alt="flushed emoji" />
+			<Emoji emoji="flushed.svg" alt="flushed emoji" />
 		</div>
 	</div>
 </div>
