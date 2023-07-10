@@ -1,40 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="802.707"
-   height="668"
-   viewBox="0 0 802.707 668"
-   version="1.1"
-   id="svg3"
-   sodipodi:docname="Vbot.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs7" />
-  <sodipodi:namedview
-     id="namedview5"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.78592814"
-     inkscape:cx="365.80952"
-     inkscape:cy="268.47238"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg3" />
-  <path
-     id="Vbot"
-     d="M401.33,667.965l-56.408-93.828L631.3,97.557H517.5L288.038,479.422v.035L-.016,0H113.2L288.5,291.809l57.531-95.727L228.2,0H342l60.914,101.4L463.828,0H802.692L401.33,668Z"
-     transform="translate(0.016 -0.004)"
-     style="fill:#ffffff" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 802.71 668" xmlns="http://www.w3.org/2000/svg">
+<path transform="translate(.016 -.004)" d="M401.33,667.965l-56.408-93.828L631.3,97.557H517.5L288.038,479.422v.035L-.016,0H113.2L288.5,291.809l57.531-95.727L228.2,0H342l60.914,101.4L463.828,0H802.692L401.33,668Z" fill="#fff"/>
 </svg>

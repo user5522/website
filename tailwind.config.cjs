@@ -7,6 +7,7 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
+				current: 'currentColor',
 				dark: '#121212',
 				dark_light: '#1f1f1f',
 				dark_darker: '#101010',
@@ -37,6 +38,9 @@ module.exports = {
 			},
 			screens: {
 				'4xl': '3000px'
+			},
+			lineHeight: {
+				24: '96px'
 			},
 			transitionDelay: {
 				10000: '10000ms'
