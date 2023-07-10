@@ -73,10 +73,6 @@
 	}
 </script>
 
-<svelte:head>
-	<title>/projects/designs</title>
-</svelte:head>
-
 <div class="flex flex-col items-center justify-center px-5">
 	<div class="flex flex-col items-center justify-center">
 		<div class="flex flex-row">
@@ -131,17 +127,22 @@
 				User5522 Logo
 			</div>
 			<div class="rounded-xl bg-dark hover-anim">
-				<img src="/logo.svg" class="mh-40 w-full sm:h-52" alt="Logo" loading="lazy" />
+				<img src="/logo.svg" class="w-full mh-40 sm:h-52" alt="Logo" loading="lazy" />
 			</div>
 		</div>
 
 		<div class="flex flex-col">
-			<div class="flex sm:items-center justify-center pb-2 text-xl font-semibold sm:justify-start">
+			<div class="flex justify-center pb-2 text-xl font-semibold sm:items-center sm:justify-start">
 				Vbot Logo
 			</div>
 
-			<button class="rounded-xl bg-dark cursor-default hover-anim" on:click={handleClick}>
-				<img src="/vbot/vbot.svg" class="h-40 w-full p-8 sm:h-52 sm:p-10" alt="Logo" loading="lazy" />
+			<button class="cursor-default rounded-xl bg-dark hover-anim" on:click={handleClick}>
+				<img
+					src="/vbot/vbot.svg"
+					class="w-full h-40 p-8 sm:h-52 sm:p-10"
+					alt="Logo"
+					loading="lazy"
+				/>
 			</button>
 			<div
 				class="flex sm:items-center justify-center pb-2 text-xl font-semibold sm:justify-start rotate-180 {ClembsVisible
