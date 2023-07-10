@@ -5,7 +5,7 @@
 	export let authorLogo;
 	export let date;
 
-	import Back from '$lib/components/back.svelte';
+	import Back from '$lib/components/buttons/back.svelte';
 	import './app.css';
 	import '$lib/prism/prism-gruvbox-dark.css';
 	import '$lib/prism/prism.js';
@@ -15,13 +15,10 @@
 	<title>/collections/ - {title}</title>
 </svelte:head>
 
-<div class="mx-auto flex w-full max-w-4xl flex-col gap-3">
-	<a href="/collections" class="flex">
-		<Back />
-	</a>
-
+<div class="flex flex-col w-full max-w-4xl gap-3 mx-auto">
+	<Back href="/collections" />
 	<div id="collection-header" class="pb-10">
-		<div id="collection-title" class="flex flex-row  items-baseline gap-1 text-3xl font-semibold">
+		<div id="collection-title" class="flex flex-row items-baseline gap-1 text-3xl font-semibold">
 			<div class="text-2xl text-light_true_gray">#{number}</div>
 			<div>{title}</div>
 		</div>
