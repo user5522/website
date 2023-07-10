@@ -2,6 +2,7 @@
 	let clicks = 0;
 	let spinning = false;
 	let scaling = false;
+
 	function handleClick() {
 		clicks++;
 
@@ -18,24 +19,18 @@
 	}
 </script>
 
-<div class="pt-10">
-	<div class="flex flex-row px-5 items-center">
-		<p>For any suggestions</p>
-		<button
-			class="inline-block text-base align-middle cursor-pointer"
-			on:click={handleClick}
-			class:scale={scaling}>/</button
-		>
-		<p>reports email me</p>
-		<button class="inline-block cursor-pointer px-1" on:click={handleClick} class:spin={spinning}>
-			@
-		</button>
-		<div class="relative inline-block rounded-xl bg-dark p-1 hover-anim">
-			<a href="mailto:oueslatim@pm.me" class="dark:text-white rounded-xl text-white"
-				>oueslatim@pm.me</a
-			>
-		</div>
-	</div>
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<div class="flex flex-row flex-wrap items-center">
+	<p class="whitespace-nowrap">For any suggestions</p>
+	<p class="cursor-pointer" on:click={handleClick} class:scale={scaling}>/</p>
+	<p class="whitespace-nowrap">reports email me</p>
+	<p class="px-1 cursor-pointer" on:click={handleClick} class:spin={spinning}>@</p>
+	<a
+		href="mailto:oueslatim@pm.me"
+		class="p-1 text-white dark:text-white rounded-xl bg-dark hover-anim"
+	>
+		oueslatim@pm.me
+	</a>
 </div>
 
 <style>
