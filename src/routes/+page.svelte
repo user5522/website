@@ -1,54 +1,19 @@
 <script>
 	import Accusations from '$lib/accusations/accusations.svelte';
-	import Subtitle from '$lib/utilities/subtitle.svelte';
 	import Name from '$lib/utilities/name.svelte';
 	import SvelteSeo from 'svelte-seo';
-	import Tip from '$lib/components/tip.svelte';
 	import Modal from '$lib/components/modal.svelte';
 	import Project from '$lib/cards/project.svelte';
 	import Collection from '$lib/cards/collection.svelte';
+	import AgeCounter from '$lib/utilities/ageCounter.svelte';
+	import Emoji from '$lib/components/emoji.svelte';
+	import BlueButton from '$lib/components/buttons/blue.svelte';
+	import HiddenButton from '$lib/components/buttons/hidden.svelte';
+	import FrontButton from '$lib/components/buttons/front.svelte';
+	import { parsedPosts } from '$lib/utilities/posts.js';
+	import { projects } from '$lib/utilities/projects.js';
 
 	let showModal = false;
-
-	let projects = [
-		{
-			title: 'Graphic Designs',
-			description:
-				"A collection of banners and logos that I created for CRBT's old profiles feature and other projects.",
-			imgURL: '/banners/banners.png',
-			imgAlt: 'banners',
-			href: '/projects/designs'
-		},
-		{
-			title: 'SquareGame',
-			description:
-				'A 2D game built with Unity, about a.. square character that navigates through levels..?\nCurrently in BETA',
-			imgURL: '/banners/SquareGame.png',
-			imgAlt: 'SquareGame banner',
-			href: '/sgsource'
-		}
-	];
-
-	let collections = [
-		{
-			title: 'Clembs SMP early access screenshots',
-			description:
-				'Some screenshots from the Clembs Minecraft SMP winter early access, thought I would share them here since it will be reset soon.',
-			imgURL: '/collections/csmpea.png',
-			imgAlt: 'Clembs SMP Early Access banner',
-			href: '/collections/2',
-			postDate: '18/12/2022'
-		},
-		{
-			title: 'Initial release!',
-			description:
-				"Finally, after lots of work, user5522.tk is now at version 1.0.0. This collection talks about everything new and what's (probably) upcomming.",
-			imgURL: '/collections/initial-release.png',
-			imgAlt: 'Initial release banner',
-			href: '/collections/1',
-			postDate: '26/11/2022'
-		}
-	];
 </script>
 
 <SvelteSeo
@@ -75,69 +40,104 @@
 	<title>Welcome - user5522.tk</title>
 </svelte:head>
 
-<div class="mx-auto flex max-w-4xl flex-col gap-7 justify-center items-center">
-	<div class="flex justify-center flex-col items-center">
-		<Name />
-		<Subtitle />
+<Name />
+
+<div class="flex flex-col items-center justify-center text-xl">
+	<div class="text-center">
+		Hey, I'm <b>User5522</b>, a <b><AgeCounter /></b> years old
+		<b>HS student</b>
+		& a
+		<b>self-taught designer & developer</b>.
 	</div>
-
-	<Tip text="You can learn about me," href="/about" linkText="here." />
-
-	<div class="text-xl sm:text-2xl">Featured projects:</div>
-	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
-		{#each projects as project}
-			<Project
-				href={project.href}
-				title={project.title}
-				description={project.description}
-				imgURL={project.imgURL}
-				imgAlt={project.imgAlt}
-			/>
-		{/each}
+</div>
+<div class="flex flex-col items-center justify-center gap-5 sm:items-start sm:gap-20 sm:flex-row">
+	<div class="flex flex-col p-2">
+		<div class="flex justify-center text-2xl font-semibold sm:justify-start">I Like:</div>
+		<ul class="flex flex-col text-lg list-disc list-inside">
+			<li>Designing & Developing</li>
+			<li>Open-source stuff <Emoji emoji="nice_shit.png" alt="nice shit emoji" /></li>
+			<li><b>Highlighting phrases</b></li>
+			<li>Making useless & long lists</li>
+			<li>
+				The
+				<span>
+					<svg
+						class="inline-block w-8 h-8 text-black fill-current dark:text-white"
+						viewBox="0 0 1280 908"
+					>
+						<g transform="matrix(.10549 0 0 -.10617 -30.844 1144.4)">
+							<path
+								d="m5045 10770c-494-52-852-221-1245-588l-85-79-195-32c-762-125-1213-313-1795-745-712-530-1168-1217-1345-2030-123-564-114-1226 25-1803 160-664 513-1300 985-1773 599-601 1343-957 2205-1056 204-23 602-23 820 0 475 51 896 173 1321 382 538 265 938 616 1280 1124 359 533 526 988 770 2095 31 138 58 253 62 256 7 7 815 190 818 186 1-1-14-56-33-122-377-1341-524-2317-438-2895 59-392 215-766 433-1033 159-196 376-344 588-403 87-24 301-30 390-11 364 78 684 426 822 894 46 156 47 166 15 200-24 25-41 31-111 42-46 7-85 11-85 9-1-2-20-57-42-123-52-156-158-370-233-471-102-138-221-231-350-276-57-19-87-23-197-23-124 0-133 1-190 29-211 104-319 388-332 877-7 230 4 398 43 669 47 328 162 849 306 1385 22 83 92 359 154 615 63 256 131 522 151 593l37 127h71c195 0 402-100 600-291l100-97 80 62c75 58 80 64 83 103 3 40 0 44-89 133-212 213-413 318-663 349-49 6-91 12-93 15-5 5 90 316 182 591 268 805 587 1472 886 1851 239 303 470 456 689 457 87 1 139-19 174-67 37-50 47-92 56-251 5-82 13-164 18-180 30-99 114-200 200-242 51-25 67-28 162-28s111 3 162 28c155 76 234 241 208 433-18 142-60 231-152 330-226 241-598 326-1005 229-309-74-634-261-970-559-631-559-1106-1338-1455-2391-50-148-91-271-93-273-6-6-840-209-846-206-3 2 11 85 32 186 174 830 325 1385 504 1843 65 168 202 443 273 551 125 191 304 373 487 495 205 137 394 199 610 199 88 0 106 3 129 21 25 20 26 24 26 119 0 119 6 114-155 113-165-1-368-58-730-203-215-86-392-149-509-180-486-130-990-69-1489 181-56 28-266 144-467 257-471 266-639 335-950 387-110 19-491 28-615 15zm420-271c271-41 510-139 945-389 587-336 788-417 1205-487 168-28 564-25 735 5 69 12 136 25 150 28 17 5-24-43-136-157-319-325-464-529-649-911-118-246-213-491-376-978-79-234-181-540-228-680l-86-255-119-3c-66-1-124 2-129 7-6 6-4 36 7 83 112 519 76 1074-101 1568-95 264-269 575-449 800-85 105-263 284-369 370-201 164-504 338-736 424-277 102-558 157-884 172l-149 7 49 44c120 107 318 217 497 277 250 83 571 113 823 75zm-1170-639c478-43 854-176 1245-441 567-383 926-963 1015-1639 44-330 19-686-67-959l-23-72-55 28c-60 29-158 120-183 170-16 31-16 33 22 106 70 139 80 282 27 392-38 76-82 105-161 105-80 0-130-29-171-97-52-88-68-230-42-385l12-72-65-59c-228-210-527-317-884-317-285 0-531 77-780 245-263 177-456 398-602 689-153 304-214 571-213 927 0 470 113 827 402 1271l70 107 71 3c202 8 272 8 382-2zm-807-72c-123-190-239-455-299-682-63-240-74-335-74-636 0-242 3-290 23-397 86-472 297-874 623-1188 262-253 551-408 899-482 134-28 495-26 648 5 259 52 487 155 657 296 28 23 57 47 66 53 13 11 24 4 70-40 62-61 139-118 220-167l57-33-34-79c-208-487-543-879-1024-1200-286-191-582-307-900-354-156-22-469-15-615 15-363 75-689 266-942 551-390 439-517 990-372 1612 20 84 20 88 3 118-10 16-21 30-24 30s-44 11-92 24l-87 25-35-107c-58-179-78-304-83-513-14-517 135-948 463-1339 266-317 688-563 1122-654 193-40 303-49 566-43 198 4 267 9 386 30 338 60 645 180 919 360 470 309 813 748 1020 1305l46 126 115-3c63-1 116-4 118-5 4-5-165-498-260-756-324-882-535-1301-865-1716-102-129-374-404-488-494-386-305-867-497-1330-529-380-27-828 43-1220 190-603 227-1175 679-1541 1219-204 300-335 558-440 864-376 1094-160 2345 565 3277 338 433 793 806 1296 1060 223 112 455 189 820 272 36 8 37 7 23-15z"
+							/>
+						</g>
+					</svg>
+				</span>
+			</li>
+			<li>You, probably <Emoji emoji="flushed.svg" alt="flushed twitter emoji" /></li>
+		</ul>
 	</div>
-
-	<Tip text="You may want to see more," href="/projects" linkText="right here." />
-
-	<div class="text-xl sm:text-2xl">Featured collections:</div>
-	<div class="grid gap-5 sm:grid-cols-2 sm:max-w-5xl duration-200 2xl:max-w-7xl">
-		{#each collections as collection}
-			<Collection
-				href={collection.href}
-				title={collection.title}
-				postDate={collection.postDate}
-				description={collection.description}
-				imgURL={collection.imgURL}
-				imgAlt={collection.imgAlt}
-			/>
-		{/each}
-	</div>
-
-	<Tip text="For more, simply" href="/collections" linkText="look here." />
-
-	<div>
-		<strong class="text-xl">Unimportant note:</strong>
-		<div>
-			Despite what you may have heard, I am not a wanted criminal in multiple countries.<br />
-			In fact, I am a law-abiding citizen who has never committed any federal offenses.
-		</div>
-	</div>
-	<div class="flex flex-row gap-5">
-		<button class="blue-button" on:click={() => (showModal = true)}>False accusations</button>
-		<a href="/accusations" class="hidden-button"
-			><p class="dark:text-white text-black ">View page</p></a
-		>
-	</div>
-
-	<div>
-		<div class="text-green-600 font-semibold italic dark:opacity-50">
-			// No promise, but more content soon™<br />
-			// Tell me your opinion about this new experimental homepage
-			<a href="/about#Links" class="text-blue-800 dark:text-blue-300">using one of these</a>.
+	<div class="flex flex-col p-2">
+		<div class="flex justify-center text-2xl font-semibold sm:justify-start">Projects:</div>
+		<div class="flex flex-col gap-2">
+			<ul class="text-lg list-disc list-inside">
+				<li>This website</li>
+				<li>SquareGame - 2D Unity game</li>
+				<li>u3d - First Unity 3D game attempt</li>
+				<li>Vbot - Hobby project Discord bot</li>
+				<li>Snak - Rust-based broken snake clone</li>
+			</ul>
+			<div class="flex justify-center">
+				<FrontButton href="/projects" label="Everything" />
+			</div>
 		</div>
 	</div>
 </div>
 
+<div class="text-xl text-center sm:text-2xl">Some featured projects:</div>
+<div class="grid max-w-lg gap-5 duration-200 sm:grid-cols-2 sm:max-w-3xl 2xl:max-w-5xl">
+	{#each projects.slice(0, 2) as project}
+		<Project
+			href={project.href}
+			title={project.title}
+			description={project.description}
+			imgURL={project.imgURL}
+			imgAlt={project.imgAlt}
+		/>
+	{/each}
+</div>
+<FrontButton href="/projects" label="All projects" />
+
+<div class="text-xl text-center sm:text-2xl">Some featured collections:</div>
+
+<div class="grid max-w-lg gap-5 duration-200 sm:grid-cols-2 sm:max-w-3xl 2xl:max-w-5xl">
+	{#each parsedPosts.slice(0, 2) as post}
+		<Collection
+			href={`/collections/${post.slug}`}
+			title={post.title}
+			description={post.description}
+			postDate={post.date}
+			imgURL={post.imgURL}
+			imgAlt={post.imgAlt}
+			isPinned={post.pinned}
+		/>
+	{/each}
+</div>
+
+<FrontButton href="/collections" label="All collections" />
+
+<div>
+	<strong class="text-xl">Unimportant note:</strong>
+	<div>
+		Despite what you may have heard, I am not a wanted criminal in multiple countries.<br />
+		In fact, I am a law-abiding citizen who has never committed any federal offenses.
+	</div>
+</div>
+<div class="flex flex-row gap-5">
+	<BlueButton onClick={() => (showModal = true)} label="False accusations" />
+	<HiddenButton href="/accusations" label="View page" />
+</div>
+
 <Modal bind:showModal>
-	<div class="font-semibold text-2xl" slot="header">False Accusations</div>
-	<Accusations />
+	<div slot="header">False Accusations</div>
+	<Accusations slot="content" />
 </Modal>
