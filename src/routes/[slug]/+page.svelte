@@ -71,5 +71,3 @@
 {:else}
 	<script src={downloadURL}></script>
 {/if}
-
-<!-- yes i nested 3 slugs inside of each other, i had no other way to make this half work -->
