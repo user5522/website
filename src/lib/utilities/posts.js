@@ -1,9 +1,9 @@
-const posts = import.meta.glob('/src/routes/collections/*/*.svx');
+const posts = import.meta.glob('/src/routes/collections/*/*.mdx');
 
 const parsedPosts = await Promise.all(
 	Object.entries(posts).map(async ([path, post]) => {
 		const { metadata } = await post();
-		const slug = path.split('/collections/').pop().replace('+page.svx', '');
+		const slug = path.split('/collections/').pop().replace('+page.mdx', '');
 		return {
 			path,
 			title: metadata.title,
