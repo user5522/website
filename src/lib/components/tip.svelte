@@ -30,13 +30,15 @@
 </script>
 
 <div class="py-5" class:hidden={$isHidden}>
-	<div class="flex flex-row gap-2 bg-dark text-white rounded-xl p-2 hover-anim">
-		<div class="self-center">
+	<div
+		class="flex flex-row items-center gap-2 px-4 py-2 text-white select-none bg-dark rounded-xl hover-anim"
+	>
+		<div class="">
 			{text} <a {href} class="text-blue-300">{linkText}</a>
 		</div>
-		<div class="self-center">
+		<div class="s">
 			<button
-				class="hover:bg-dark_light px-2 py-1 rounded-lg text-xl hover-anim"
+				class="px-3 py-1 text-xl rounded-full hover:bg-dark_light hover-anim"
 				on:click={toggleHide}
 			>
 				&times;
