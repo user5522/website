@@ -1,6 +1,5 @@
 <script>
 	import Emailme from '$lib/components/emailme.svelte';
-	import Heart from '$lib/twemojis/heart.svelte';
 	import tippy from 'svelte-tippy';
 
 	let credits = [
@@ -34,25 +33,20 @@
 	let repitionCount = 3;
 </script>
 
-<svelte:head>
-	<title>/credits</title>
-</svelte:head>
-
 <div class="flex flex-col items-center justify-center gap-5">
 	<div class="text-4xl font-semibold">Credits</div>
 
 	<div
-		class="mx-auto font-medium flex w-full max-w-3xl flex-col items-center justify-center text-xl"
+		class="flex flex-col items-center justify-center w-full max-w-3xl mx-auto text-xl font-medium text-center"
 	>
-		<div>Thanks for giving my website a visit, I really hope you enjoyed it!</div>
-		<div>It wouldn't have been possible without the help of many awesome people</div>
-		<div>Such as:</div>
+		<div>Thanks for visiting! I hope you enjoyed my website!</div>
+		<div>Special thanks to these awesome people:</div>
 	</div>
 	<div class="grid gap-5 sm:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3">
 		{#each credits as { name, name2, reason }}
-			<div class="flex flex-col p-2 items-center">
+			<div class="flex flex-col items-center p-2">
 				{#if name2}
-					<div class="grid gap-x-5 grid-cols-2">
+					<div class="grid grid-cols-2 gap-x-5">
 						{#each Array(repitionCount).fill() as _}
 							{#each [name, name2] as credit}
 								<div
@@ -96,9 +90,9 @@
 		{/each}
 	</div>
 
-	<div class="flex items-center justify-center gap-1 text-2xl font-semibold">
-		Made with <Heart /> by
-		<a href="/" class="dark:text-white text-black">User5522</a>.
+	<div class="flex flex-row items-center gap-1 text-2xl font-semibold">
+		<p>By</p>
+		<a href="/" class="text-black dark:text-white">User5522</a>
 	</div>
 
 	<Emailme />
