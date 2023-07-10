@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import BlueButton from '$lib/components/buttons/blue.svelte';
 </script>
 
 <svelte:head>
@@ -18,7 +19,7 @@
 		<div class="flex flex-col gap-5">
 			<div class="flex justify-center text-2xl">Maybe try one of these solutions:</div>
 			<ul
-				class="list-disc list-inside rounded-xl bg-dark text-white p-3 text-lg duration-200 hover:scale-102 active:scale-95"
+				class="p-3 text-lg text-white list-disc list-inside duration-200 rounded-xl bg-dark hover:scale-102 active:scale-95"
 			>
 				<li>Checking if the URL/Link you received exists</li>
 				<li>Taking a quick sip of water</li>
@@ -37,16 +38,11 @@
 		</div>
 	</div>
 	<div class="flex flex-row gap-5">
-		<a href="/">
-			<button class="blue-button">Return to homepage</button>
-		</a>
-		<a href="/about#Links">
-			<button class="blue-button">Contact me</button>
-		</a>
+		<BlueButton link href="/" label="Return to homepage" />
 	</div>
 </div>
 <div
-	class="absolute top-0 right-0 select-none rotate-180 text-8xl font-semibold dark:text-white text-black opacity-50 dark:opacity-30 sm:text-9xl"
+	class="absolute top-0 right-0 font-semibold text-black rotate-180 opacity-50 select-none text-8xl dark:text-white dark:opacity-30 sm:text-9xl"
 >
 	Damn.
 </div>
