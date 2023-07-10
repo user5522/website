@@ -1,5 +1,5 @@
 <script>
-	import CloseButton from '$lib/icons/closeButton.svelte';
+	import CloseButton from '$lib/components/buttons/close.svelte';
 	export let showModal;
 
 	let dialog;
@@ -7,22 +7,25 @@
 	$: if (dialog && showModal) dialog.showModal();
 </script>
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore  a11y-click-events-have-key-events a11y-autofocus -->
 <dialog
-	class="max-w-screen-md max-h-full sm:max-h-140 sm:rounded-xl bg-white text-black dark:bg-dark dark:text-white backdrop:backdrop-grayscale backdrop:bg-black backdrop:bg-opacity-50"
+	class="max-w-screen-md max-h-full text-black bg-white backdrop:overscroll-contain sm:max-h-140 sm:rounded-xl dark:bg-dark dark:text-white backdrop:backdrop-grayscale backdrop:bg-black backdrop:bg-opacity-50"
+	autofocus
 	bind:this={dialog}
 	on:close={() => (showModal = false)}
 	on:click|self={() => dialog.close()}
 >
-	<div on:click|stopPropagation>
-		<slot name="header" />
-
-		<slot />
-		<!-- svelte-ignore a11y-missing-attribute a11y-autofocus -->
-		<div class="absolute sm:top-10 sm:right-20 top-5 right-16">
-			<a autofocus on:click={() => dialog.close()} class="fixed">
-				<CloseButton />
-			</a>
+	<div on:click|stopPropagation class="flex flex-col gap-3">
+		<div class="text-3xl font-bold">
+			<slot name="header" />
+		</div>
+		<div>
+			<slot name="content" />
+			<div class="absolute sm:top-10 sm:right-20 top-5 right-16">
+				<div class="fixed">
+					<CloseButton class={showModal ? 'block' : 'invisible'} onClose={() => dialog.close()} />
+				</div>
+			</div>
 		</div>
 	</div>
 </dialog>
