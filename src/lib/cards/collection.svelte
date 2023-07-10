@@ -1,6 +1,7 @@
 <script>
 	import { tippy } from 'svelte-tippy';
 
+	export let isPinned = false;
 	export let href;
 	export let title;
 	export let description;
@@ -8,49 +9,49 @@
 	export let imgAlt;
 	export let postDate;
 
-	export let isPinned = false;
+	let id = title.replace(' ', '-').toLowerCase();
 </script>
 
-<a {href} class="rounded-xl bg-dark max-w-xl text-white dark:text-white hover-anim">
+<a
+	{href}
+	{id}
+	class="max-w-xl text-white select-none rounded-xl bg-dark dark:text-white hover-anim"
+>
 	<div>
-		<div class="h-full w-full">
-			<div id="post_img" class="flex justify-center sm:h-2/3">
-				<div class="relative">
-					<img src={imgURL} alt={imgAlt} class="rounded-t-xl object-cover" loading="lazy" />
-					<button
-						use:tippy={{
-							content: 'This post is pinned.',
-							arrow: false,
-							animation: 'shift-away',
-							interactive: true,
-							theme: 'dark',
-							placement: 'left',
-							duration: 0,
-							offset: [0, 5]
-						}}
-						class="{isPinned ? 'absolute' : 'hidden'} top-2 right-2 rounded-full"
-					>
-						<img
-							src="/icons/pin.svg"
-							alt="Pin Icon"
-							class="bg-dark p-1 w-7 sm:w-9 rounded-full"
-							loading="lazy"
-						/>
-					</button>
-				</div>
+		<div class="flex justify-center sm:h-2/3">
+			<div class="relative">
+				<img src={imgURL} alt={imgAlt} class="rounded-t-xl" loading="lazy" />
+				<img
+					use:tippy={{
+						content: 'This post is pinned.',
+						arrow: false,
+						animation: 'shift-away',
+						interactive: true,
+						theme: 'dark',
+						placement: 'left',
+						duration: 0,
+						offset: [0, 5]
+					}}
+					src="/icons/pin.svg"
+					alt="Pinned"
+					class="p-1 rounded-full bg-dark w-7 sm:w-9 {isPinned
+						? 'absolute'
+						: 'hidden'} top-2 right-2"
+					loading="lazy"
+				/>
 			</div>
-			<div class="p-5 sm:h-1/3">
-				<div id="post_title" class="flex w-full flex-col items-baseline gap-1 py-2">
-					<div class="text-xl font-semibold">
-						{title}
-					</div>
-					<div class="text-md opacity-60">
-						Date: {postDate}
-					</div>
+		</div>
+		<div class="flex flex-col gap-2 p-5 sm:h-1/3">
+			<span>
+				<div class="text-xl font-bold">
+					{title}
 				</div>
-				<div id="post_description" class="text-lg">
-					{description}
+				<div class="text-md opacity-60">
+					Date: {postDate}
 				</div>
+			</span>
+			<div class="text-lg">
+				{description}
 			</div>
 		</div>
 	</div>
