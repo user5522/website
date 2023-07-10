@@ -1,34 +1,26 @@
 <script>
-	let letters = [
-		{
-			letter: 'U'
-		},
-		{
-			letter: 's'
-		},
-		{
-			letter: 'e'
-		},
-		{
-			letter: 'r'
-		},
-		{
-			letter: '5'
-		},
-		{
-			letter: '5'
-		},
-		{
-			letter: '2'
-		},
-		{
-			letter: '2'
-		}
-	];
+	import { page } from '$app/stores';
+
+	let hostname = $page.url.hostname.split('.');
+	let [subdomain] = hostname;
+	let exists = true;
+
+	if (subdomain == $page.url.hostname || subdomain == 'www') {
+		subdomain = '';
+		exists = false;
+	}
 </script>
 
-<div class="text-4xl font-semibold flex flex-row">
-	{#each letters as letters}
-		<div class="active:pt-4 duration-200 rounded-xl hover:cursor-pointer">{letters.letter}</div>
-	{/each}
+<div
+	class="flex {subdomain
+		? 'flex-col items-center'
+		: 'flex-row items-baseline'} sm:flex-row sm:items-baseline cursor-default"
+>
+	<div class="flex-none text-2xl font-bold uppercase sm:normal-case">
+		{subdomain}{exists ? '.' : ''}
+	</div>
+	<div class="flex justify-center flex-grow">
+		<div class="text-6xl font-bold leading-24">User5522</div>
+	</div>
+	<div class="{subdomain ? 'uppercase' : ''} sm:normal-case text-2xl font-bold">.tk</div>
 </div>
