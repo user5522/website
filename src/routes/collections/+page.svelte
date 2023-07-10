@@ -15,10 +15,6 @@
 	});
 </script>
 
-<svelte:head>
-	<title>/collections</title>
-</svelte:head>
-
 <div class="flex flex-col items-center justify-center">
 	<div class="flex flex-row">
 		<p class="text-4xl font-semibold">Collections</p>
@@ -28,14 +24,16 @@
 	</div>
 </div>
 
-<div class="flex flex-row py-2">
+<div class="flex flex-row py-2 ml-0 mr-auto">
 	<button
-		class="rounded-xl bg-dark p-2 text-white duration-200 hover:scale-105 active:scale-95"
+		class="p-2 text-white duration-200 rounded-xl bg-dark hover:scale-105 active:scale-95"
 		on:click={() => {
 			clicked = !clicked;
 			updateSortedPosts();
-		}}>Sorted by {clicked ? 'oldest' : 'latest'}</button
+		}}
 	>
+		Sorted by {clicked ? 'oldest' : 'latest'}
+	</button>
 </div>
 
 <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4">
