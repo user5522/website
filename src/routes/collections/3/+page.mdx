@@ -1,14 +1,15 @@
 ---
 number: 3
 title: 'Goodbye 2022, welcome 2023'
-description: "Crazy how the year is literally ending in a few hours. I have no idea what I am going to talk about here"
-date: "2022-12-31"
-imgURL: "/collections/welcome2023.png"
-imgAlt: "I am going to kill myself next year I think"
-author: "User5522"
-authorLogo: "/logos/logo.png"
-layout: "collection"
+description: 'Crazy how the year is literally ending in a few hours. I have no idea what I am going to talk about here'
+date: '2022-12-31'
+imgURL: '/collections/welcome2023.png'
+imgAlt: 'I am going to kill myself next year I think'
+author: 'User5522'
+authorLogo: '/logos/logo.png'
+layout: 'collection'
 ---
+
 <script>
 	let list = 
 		[
@@ -29,8 +30,9 @@ look back at some of what I did in this year and talk about what I expect from 2
 This year was [exciting/full of surprises] for me, with some of the things I'm most proud of including:
 
 {#each list as listing}
-	<li class="flex flex-col gap-2">- {listing.caption}
-	<img src={listing.imgURL} class="rounded-xl hover:scale-102 active:scale-95 duration-200" alt={listing.alt} loading="lazy"/></li>
+
+<li class="flex flex-col gap-2">- {listing.caption}
+<img src={listing.imgURL} class="rounded-xl hover:scale-102 active:scale-95 duration-200" alt={listing.alt} loading="lazy"/></li>
 {/each}
 
 As for what I'm looking forward to in 2023, I'm excited to see what new technologies and software

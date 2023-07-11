@@ -4,7 +4,7 @@
 	import Footer from '$lib/components/footer.svelte';
 	import '../app.css';
 
-	let layoutExcl = [{ id: '/accusations' }, { id: '/projects/vbot' }];
+	let layoutExcl = [{ id: '/accusations' }];
 </script>
 
 <svelte:head>

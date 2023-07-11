@@ -10,7 +10,6 @@
 	html:has(dialog[open]:modal) {
 		overflow: hidden;
 	}
-
 	body {
 		@apply absolute flex min-h-screen w-full list-none flex-col bg-white font-poppins text-black dark:bg-black dark:text-white;
 	}

@@ -103,7 +103,7 @@
 				<ul class="flex flex-row justify-center gap-2">
 					{#each socials as social}
 						<li>
-							<a href={social.href} target="blank rounded-full">
+							<a href={social.href} target="blank" class="rounded-full p-0">
 								<img
 									src={social.imgURL}
 									class="self-center inline-block w-7 h-7"

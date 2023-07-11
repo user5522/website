@@ -33,6 +33,6 @@
 	type="checkbox"
 	class="flex flex-row gap-2 p-1 text-black duration-200 rounded-full dark:text-white hover:bg-opacity-50 hover:scale-102 hover:bg-dark_light active:scale-95"
 >
-	<div class={darkMode ? 'bg-white rounded-xl p-3' : 'bg-dark rounded-xl p-3'} />
-	<div class="block sm:hidden">{darkMode ? 'Light Theme' : 'Dark Theme'}</div>
+	<div class="{darkMode ? 'bg-white' : 'bg-dark'} rounded-xl p-3" />
+	<div class="block sm:hidden">{darkMode ? 'Light' + ' ' : 'Dark' + ' '} Theme</div>
 </button>
