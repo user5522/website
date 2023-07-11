@@ -38,7 +38,7 @@
 
 <footer class="w-full bg-dark dark:bg-opacity-70 bg-opacity-90 absolute bottom-0">
 	<Seperator />
-	<div class="max-w-5xl gap-7 px-5 py-10 mx-auto flex flex-col border border-red-600">
+	<div class="max-w-5xl gap-7 px-5 py-10 mx-auto flex flex-col">
 		<div class="flex flex-row">
 			<a href="/" class="mr-auto ml-0 h-20 w-20 sm:h-32 sm:w-32 rounded-full">
 				<img
