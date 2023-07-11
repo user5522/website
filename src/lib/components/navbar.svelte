@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { clickOutside } from '$lib/utilities/clickOutside';
 	import Theme from '$lib/theme/theme.svelte';
+	import Seperator from '$lib/components/seperator.svelte';
 
 	let clicks = 0;
 	let spinning = false;
@@ -103,8 +104,12 @@
 					<div class="self-center hidden rounded-full sm:block"><Theme /></div>
 				</div>
 			</nav>
+			<div class={isAnimated ? 'hidden' : 'block'}>
+				<Seperator />
+			</div>
 		</div>
 	</div>
+
 	<div
 		class="{isAnimated
 			? 'px-3'
