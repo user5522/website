@@ -1,5 +1,6 @@
 <script>
 	import { socials } from '$lib/utilities/socials.js';
+	import Seperator from '$lib/components/seperator.svelte';
 	export let glitch = false;
 
 	let websiteLinks = [
@@ -35,72 +36,85 @@
 	];
 </script>
 
-<footer class="flex flex-col w-full gap-3 p-5 text-white bg-true_gray">
-	<div class="flex flex-row">
-		<div class="flex flex-col gap-5 sm:flex-row sm:gap-16">
-			<div class="flex flex-col gap-2">
-				<div class="font-semibold uppercase">user5522</div>
-				<ul>
-					{#each websiteLinks as websiteLink}
+<footer class="w-full bg-dark dark:bg-opacity-70 bg-opacity-90 absolute bottom-0">
+	<Seperator />
+	<div class="max-w-5xl gap-7 px-5 py-10 mx-auto flex flex-col border border-red-600">
+		<div class="flex flex-row">
+			<a href="/" class="mr-auto ml-0 h-20 w-20 sm:h-32 sm:w-32 rounded-full">
+				<img
+					src="/logo.svg"
+					alt="monochrome logo"
+					class="rounded-full h-20 w-20 grayscale sm:h-32 sm:w-32"
+					loading="lazy"
+				/>
+			</a>
+			<div class="flex flex-row ml-auto mr-0">
+				<div class="flex flex-col gap-2 pr-32">
+					<div class="font-semibold text-base text-white">User5522</div>
+					<ul>
+						{#each websiteLinks as websiteLink}
+							<li>
+								<a
+									href={websiteLink.href}
+									class="text-gray-300 hover:underline dark:text-gray-300 text-sm"
+								>
+									{websiteLink.name}
+								</a>
+							</li>
+						{/each}
+					</ul>
+				</div>
+				<div class="flex flex-col gap-2 pr-32">
+					<div class="font-semibold text-base text-white">Labs</div>
+					<ul>
+						{#each testingLinks as testingLink}
+							<li>
+								<a
+									href={testingLink.href}
+									class="text-gray-300 hover:underline dark:text-gray-300 text-sm"
+								>
+									{testingLink.name}
+								</a>
+							</li>
+						{/each}
+					</ul>
+				</div>
+			</div>
+		</div>
+		<Seperator />
+		<div class="flex flex-col gap-3 sm:flex-row">
+			<div class="text-gray-300">
+				Found some <div
+					class="glitch inline-block bg-dark_light text-gray-300 p-0.5 rounded-xl"
+					on:mouseenter={(glitch = true)}
+					on:mouseleave={(glitch = false)}
+				>
+					bugs
+				</div>
+				?
+				<a
+					href="https://github.com/user5522/website/issues"
+					target="blank"
+					class="underline text-gray-300 dark:text-gray-300 hover:no-underline"
+					rel="noreferrer">report them by submitting an issue here!</a
+				>
+			</div>
+			<div class="sm:mr-0 sm:ml-auto">
+				<ul class="flex flex-row justify-center gap-2">
+					{#each socials as social}
 						<li>
-							<a href={websiteLink.href} class="text-blue-300">{websiteLink.name}</a>
+							<a href={social.href} target="blank rounded-full">
+								<img
+									src={social.imgURL}
+									class="self-center inline-block w-7 h-7"
+									alt="{social.name} Logo"
+									loading="lazy"
+								/>
+							</a>
 						</li>
 					{/each}
 				</ul>
 			</div>
-			<div class="flex flex-col gap-2">
-				<div class="font-semibold uppercase">beta</div>
-				<ul>
-					{#each testingLinks as testingLink}
-						<li>
-							<a href={testingLink.href} class="text-blue-300">{testingLink.name}</a>
-						</li>
-					{/each}
-				</ul>
-			</div>
-		</div>
-
-		<img
-			src="/logo.svg"
-			alt="monochrome logo"
-			class="ml-auto rounded-full h-28 w-28 bg-light_true_gray grayscale sm:h-32 sm:w-32"
-			loading="lazy"
-		/>
-	</div>
-
-	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<div class="flex flex-col gap-3 sm:flex-row">
-		<div class="text-lighter_true_gray">
-			Found some <div
-				class="glitch inline-block bg-dark_light p-0.5 rounded-xl"
-				on:mouseenter={(glitch = true)}
-				on:mouseleave={(glitch = false)}
-			>
-				bugs
-			</div>
-			?
-			<a
-				href="https://github.com/user5522/website/issues"
-				target="blank"
-				class="underline dark:text-lighter_true_gray text-lighter_true_gray"
-				rel="noreferrer">report them by submitting an issue here!</a
-			>
-		</div>
-		<div class="sm:mr-0 sm:ml-auto">
-			<ul class="flex flex-row justify-center gap-2">
-				{#each socials as social}
-					<li>
-						<a href={social.href} target="blank">
-							<img
-								src={social.imgURL}
-								class="self-center inline-block w-7 h-7"
-								alt="{social.name} Logo"
-								loading="lazy"
-							/>
-						</a>
-					</li>
-				{/each}
-			</ul>
 		</div>
 	</div>
 </footer>

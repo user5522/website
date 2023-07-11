@@ -5,14 +5,14 @@
 @layer base {
 	html {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		@apply overflow-auto;
+		@apply overflow-auto scroll-smooth;
 	}
 	html:has(dialog[open]:modal) {
 		overflow: hidden;
 	}
 
 	body {
-		@apply flex list-none flex-col bg-white font-poppins text-black dark:bg-black dark:text-white;
+		@apply absolute flex min-h-screen w-full list-none flex-col bg-white font-poppins text-black dark:bg-black dark:text-white;
 	}
 	a {
 		@apply text-blue-800 dark:text-blue-300;
