@@ -17,9 +17,6 @@ dependencies:
   prismjs:
     specifier: ^1.29.0
     version: 1.29.0
-  svelte-seo:
-    specifier: ^1.5.3
-    version: 1.5.3
   svelte-tippy:
     specifier: ^1.3.2
     version: 1.3.2
@@ -2330,10 +2327,6 @@ packages:
     dependencies:
       svelte: 3.59.2
     dev: true
-
-  /svelte-seo@1.5.3:
-    resolution: {integrity: sha512-xkaVGNaQOWiNYApx6ehFSEVfdpfzy4pJLKWqQucFepl4SxJWcKDugCcND2k8bF4FskQ1M/4v4/Js35dDE/xFjg==}
-    dev: false
 
   /svelte-sitemap@2.6.0:
     resolution: {integrity: sha512-WcwsuIeo8iJFG9a5cgvXwXEGoyjk6Zowb6JmL5BbwfnFXMzakGa1+mQjthw5Ni3UV/gGbE0PgJvc7Ygir3LmFg==}

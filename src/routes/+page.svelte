@@ -1,7 +1,6 @@
 <script>
 	import Accusations from '$lib/accusations/accusations.svelte';
 	import Name from '$lib/utilities/name.svelte';
-	import SvelteSeo from 'svelte-seo';
 	import Modal from '$lib/components/modal.svelte';
 	import Project from '$lib/cards/project.svelte';
 	import Collection from '$lib/cards/collection.svelte';
@@ -10,34 +9,40 @@
 	import BlueButton from '$lib/components/buttons/blue.svelte';
 	import HiddenButton from '$lib/components/buttons/hidden.svelte';
 	import FrontButton from '$lib/components/buttons/front.svelte';
+	import { page } from '$app/stores';
 	import { parsedPosts } from '$lib/utilities/posts.js';
 	import { projects } from '$lib/utilities/projects.js';
 
 	let showModal = false;
-</script>
 
-<SvelteSeo
-	title="User5522"
-	description="I make stuff, sometimes."
-	keywords="user5522, u5522, user5522.tk, username5522, Epik_Kid"
-	openGraph={{
-		title: 'User5522.tk',
-		description: 'I make stuff, sometimes.',
-		url: 'https://user5522.tk/',
-		type: 'website',
-		images: [
-			{
-				url: '/logo.svg',
-				width: 1200,
-				height: 630,
-				alt: 'User5522 Logo'
-			}
-		]
-	}}
-/>
+	let title = 'User5522';
+	let description = "Hey I'm User5522 and I make stuff, sometimes.";
+	let image = '/logo.svg';
+	let url = $page.url.host;
+</script>
 
 <svelte:head>
 	<title>Welcome - user5522.tk</title>
+	<meta name="title" content={title} />
+	<meta name="author" content={url} />
+	<meta name="description" content={description} />
+
+	<meta property="og:site_name" content={url.charAt(0).toUpperCase()} />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:image" content={image} />
+	<meta property="og:url" content={url} />
+	<meta property="og:type" content="website" />
+
+	<link rel="canonical" href={url} />
+	<meta name="”robots”" content="”follow,index”" />
+	<meta name="”googlebot”" content="”follow,index”" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content={url.charAt(0).toUpperCase()} />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content={image} />
 </svelte:head>
 
 <Name />
