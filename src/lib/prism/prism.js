@@ -1,5 +1,6 @@
-//prismjs.com/download.html#themes=prism-dark&languages=markup+css+clike+javascript+csharp+json+json5+markdown+rust&plugins=toolbar+copy-to-clipboard */
-https: var _self =
+/* PrismJS 1.29.0
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+csharp+markdown+rust&plugins=toolbar+copy-to-clipboard */
+var _self =
 		'undefined' != typeof window
 			? window
 			: 'undefined' != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope
@@ -891,32 +892,6 @@ Prism.languages.clike = {
 		char: { pattern: RegExp(_), greedy: !0 }
 	}),
 		(e.languages.dotnet = e.languages.cs = e.languages.csharp);
-})(Prism);
-(Prism.languages.json = {
-	property: { pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?=\s*:)/, lookbehind: !0, greedy: !0 },
-	string: { pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?!\s*:)/, lookbehind: !0, greedy: !0 },
-	comment: { pattern: /\/\/.*|\/\*[\s\S]*?(?:\*\/|$)/, greedy: !0 },
-	number: /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
-	punctuation: /[{}[\],]/,
-	operator: /:/,
-	boolean: /\b(?:false|true)\b/,
-	null: { pattern: /\bnull\b/, alias: 'keyword' }
-}),
-	(Prism.languages.webmanifest = Prism.languages.json);
-!(function (n) {
-	var e = /("|')(?:\\(?:\r\n?|\n|.)|(?!\1)[^\\\r\n])*\1/;
-	n.languages.json5 = n.languages.extend('json', {
-		property: [
-			{ pattern: RegExp(e.source + '(?=\\s*:)'), greedy: !0 },
-			{
-				pattern: /(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*:)/,
-				alias: 'unquoted'
-			}
-		],
-		string: { pattern: e, greedy: !0 },
-		number:
-			/[+-]?\b(?:NaN|Infinity|0x[a-fA-F\d]+)\b|[+-]?(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:[eE][+-]?\d+\b)?/
-	});
 })(Prism);
 !(function (n) {
 	function e(n) {

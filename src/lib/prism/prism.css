@@ -1,158 +1,114 @@
-/**
- * Gruvbox dark theme
- *
- * Adapted from a theme based on:
- * Vim Gruvbox dark Theme (https://github.com/morhetz/gruvbox)
- *
- * @author Azat S. <to@azat.io>
- * @version 1.0
- */
+/* PrismJS 1.29.0
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+csharp+markdown+rust&plugins=toolbar+copy-to-clipboard */
 
+/* Edited a little bit to match the ui of the website */
 code[class*='language-'],
 pre[class*='language-'] {
-	color: #ebdbb2; /* fg1 / fg */
-	font-family: Consolas, Monaco, 'Andale Mono', monospace;
-	direction: ltr;
+	color: #ccc;
+	background: 0 0;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
+	word-wrap: normal;
 	line-height: 1.5;
-	border-radius: 12px;
-
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
-
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
 }
-
-pre[class*='language-']::-moz-selection,
-pre[class*='language-'] ::-moz-selection,
-code[class*='language-']::-moz-selection,
-code[class*='language-'] ::-moz-selection {
-	color: #fbf1c7; /* fg0 */
-	background: #7c6f64; /* bg4 */
-}
-
-pre[class*='language-']::selection,
-pre[class*='language-'] ::selection,
-code[class*='language-']::selection,
-code[class*='language-'] ::selection {
-	color: #fbf1c7; /* fg0 */
-	background: #7c6f64; /* bg4 */
-}
-
-/* Code blocks */
 pre[class*='language-'] {
 	padding: 1em;
 	margin: 0.5em 0;
 	overflow: auto;
 }
-
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-	background: #1d2021; /* bg0_h */
+	background: #2d2d2d;
+	border-radius: 1em;
 }
-
-/* Inline code */
 :not(pre) > code[class*='language-'] {
 	padding: 0.1em;
 	border-radius: 0.3em;
+	white-space: normal;
 }
-
+.token.block-comment,
+.token.cdata,
 .token.comment,
-.token.prolog,
-.token.cdata {
-	color: #a89984; /* fg4 / gray1 */
-}
-
-.token.delimiter,
-.token.boolean,
-.token.keyword,
-.token.selector,
-.token.important,
-.token.atrule {
-	color: #fb4934; /* red2 */
-}
-
-.token.operator,
-.token.punctuation,
-.token.attr-name {
-	color: #a89984; /* fg4 / gray1 */
-}
-
-.token.tag,
-.token.tag .punctuation,
 .token.doctype,
-.token.builtin {
-	color: #fabd2f; /* yellow2 */
+.token.prolog {
+	color: #999;
 }
-
-.token.entity,
-.token.number,
-.token.symbol {
-	color: #d3869b; /* purple2 */
+.token.punctuation {
+	color: #ccc;
 }
-
-.token.property,
+.token.attr-name,
+.token.deleted,
+.token.namespace,
+.token.tag {
+	color: #e2777a;
+}
+.token.function-name {
+	color: #6196cc;
+}
+.token.boolean,
+.token.function,
+.token.number {
+	color: #f08d49;
+}
+.token.class-name,
 .token.constant,
-.token.variable {
-	color: #fb4934; /* red2 */
+.token.property,
+.token.symbol {
+	color: #f8c555;
 }
-
-.token.string,
-.token.char {
-	color: #b8bb26; /* green2 */
+.token.atrule,
+.token.builtin,
+.token.important,
+.token.keyword,
+.token.selector {
+	color: #cc99cd;
 }
-
 .token.attr-value,
-.token.attr-value .punctuation {
-	color: #a89984; /* fg4 / gray1 */
+.token.char,
+.token.regex,
+.token.string,
+.token.variable {
+	color: #7ec699;
 }
-
+.token.entity,
+.token.operator,
 .token.url {
-	color: #b8bb26; /* green2 */
-	text-decoration: underline;
+	color: #67cdcc;
 }
-
-.token.function {
-	color: #fabd2f; /* yellow2 */
+.token.bold,
+.token.important {
+	font-weight: 700;
 }
-
-.token.regex {
-	background: #b8bb26; /* green2 */
-}
-
-.token.bold {
-	font-weight: bold;
-}
-
 .token.italic {
 	font-style: italic;
 }
-
+.token.entity {
+	cursor: help;
+}
 .token.inserted {
-	background: #a89984; /* fg4 / gray1 */
+	color: green;
 }
-
-.token.deleted {
-	background: #fb4934; /* red2 */
-}
-
 div.code-toolbar {
 	position: relative;
 }
 div.code-toolbar > .toolbar {
 	position: absolute;
 	z-index: 10;
-	top: 0.5em;
-	right: 0.5em;
+	top: 0.3em;
+	right: 0.2em;
 	transition: opacity 0.3s ease-in-out;
-	opacity: 0.5;
+	opacity: 0;
 }
 div.code-toolbar:hover > .toolbar {
 	opacity: 1;
@@ -162,7 +118,16 @@ div.code-toolbar:focus-within > .toolbar {
 }
 div.code-toolbar > .toolbar > .toolbar-item {
 	display: inline-block;
+	padding: 12px;
+	content: url('/icons/search.svg');
 }
+div.code-toolbar > .toolbar > .toolbar-item :hover {
+	content: url('/icons/search.svg');
+}
+div.code-toolbar > .toolbar > .toolbar-item :focus {
+	content: url('/icons/theletterH.svg');
+}
+
 div.code-toolbar > .toolbar > .toolbar-item > a {
 	cursor: pointer;
 }
@@ -174,6 +139,7 @@ div.code-toolbar > .toolbar > .toolbar-item > button {
 	line-height: normal;
 	overflow: visible;
 	padding: 0;
+	user-select: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -187,7 +153,7 @@ div.code-toolbar > .toolbar > .toolbar-item > span {
 	background: #f5f2f0;
 	background: rgba(224, 224, 224, 0.2);
 	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
-	border-radius: 0.5em;
+	border-radius: 1em;
 }
 div.code-toolbar > .toolbar > .toolbar-item > a:focus,
 div.code-toolbar > .toolbar > .toolbar-item > a:hover,
