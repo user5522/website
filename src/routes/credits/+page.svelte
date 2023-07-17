@@ -36,11 +36,15 @@
 <div class="flex flex-col items-center justify-center gap-5">
 	<div class="text-4xl font-semibold">Credits</div>
 
-	<div
-		class="flex flex-col items-center justify-center w-full max-w-3xl mx-auto text-xl font-medium text-center"
-	>
-		<div>Thanks for visiting! I hope you enjoyed my website!</div>
-		<div>Special thanks to these awesome people:</div>
+	<div class="text-xl">
+		<a
+			class="text-black dark:text-white"
+			href="https://files.user5522.tk/hellofriends.mp4"
+			target="_blank"
+		>
+			A wonderful heartfelt thank you
+		</a>
+		to these awesome people:
 	</div>
 	<div class="grid gap-5 sm:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3">
 		{#each credits as { name, name2, reason }}
@@ -50,7 +54,7 @@
 						{#each Array(repitionCount).fill() as _}
 							{#each [name, name2] as credit}
 								<div
-									class="text-2xl font-semibold"
+									class="text-2xl"
 									use:tippy={{
 										content: reason,
 										arrow: false,
@@ -70,7 +74,7 @@
 				{:else}
 					{#each Array(repitionCount).fill() as _}
 						<div
-							class="text-2xl font-semibold"
+							class="text-2xl"
 							use:tippy={{
 								content: reason,
 								arrow: false,
@@ -90,9 +94,14 @@
 		{/each}
 	</div>
 
-	<div class="flex flex-row items-center gap-1 text-2xl font-semibold">
+	<div class="flex flex-row items-center gap-1 text-4xl font-semibold">
 		<p>By</p>
 		<a href="/" class="text-black dark:text-white">User5522</a>
+	</div>
+
+	<div class="max-w-xs sm:max-w-full w-full mx-auto">
+		<div class="sm:text-6xl text-4xl font-bold text-left">Thanks</div>
+		<div class="sm:text-6xl text-4xl font-bold text-right">For Visiting</div>
 	</div>
 
 	<Emailme />
