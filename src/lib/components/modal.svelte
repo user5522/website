@@ -22,8 +22,8 @@
 		<div>
 			<slot name="content" />
 			<div class="absolute sm:top-10 sm:right-20 top-5 right-16">
-				<div class="fixed">
-					<CloseButton class={showModal ? 'block' : 'invisible'} onClose={() => dialog.close()} />
+				<div class="fixed {showModal ? 'block' : 'invisible'}">
+					<CloseButton onClose={() => dialog.close()} />
 				</div>
 			</div>
 		</div>
