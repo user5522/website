@@ -1,5 +1,6 @@
 <script>
 	import { tippy } from 'svelte-tippy';
+	import Separator from '$lib/components/separator.svelte';
 
 	export let isPinned = false;
 	export let href;
@@ -15,7 +16,7 @@
 <a
 	{href}
 	{id}
-	class="max-w-xl text-white select-none rounded-xl bg-dark dark:text-white hover-anim"
+	class="max-w-xl text-white select-none rounded-xl bg-dark-500 dark:text-white hover-anim"
 >
 	<div>
 		<div class="flex justify-center sm:h-2/3">
@@ -34,13 +35,14 @@
 					}}
 					src="/icons/pin.svg"
 					alt="Pinned"
-					class="p-1 rounded-full bg-dark w-7 sm:w-9 {isPinned
+					class="p-1 rounded-full bg-dark-500 w-7 sm:w-9 {isPinned
 						? 'absolute'
 						: 'hidden'} top-2 right-2"
 					loading="lazy"
 				/>
 			</div>
 		</div>
+		<Separator dontUseLightTheme />
 		<div class="flex flex-col gap-2 p-5 sm:h-1/3">
 			<span>
 				<div class="text-xl font-bold">
