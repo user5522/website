@@ -1,6 +1,6 @@
 <script>
 	import { socials } from '$lib/utilities/socials.js';
-	import Seperator from '$lib/components/seperator.svelte';
+	import Separator from '$lib/components/separator.svelte';
 	export let glitch = false;
 
 	let websiteLinks = [
@@ -36,20 +36,20 @@
 	];
 </script>
 
-<footer class="w-full bg-dark dark:bg-opacity-70 bg-opacity-90 absolute bottom-0">
-	<Seperator />
-	<div class="max-w-5xl gap-7 px-5 py-10 mx-auto flex flex-col">
-		<div class="flex flex-row">
-			<a href="/" class="mr-auto ml-0 h-20 w-20 sm:h-32 sm:w-32 rounded-full">
+<footer class="w-full bg-dark-900 bg-opacity-90 absolute bottom-0">
+	<Separator />
+	<div class="max-w-xl sm:max-w-5xl gap-7 px-5 py-10 mx-auto flex flex-col">
+		<div class="flex flex-row justify-center sm:justify-normal">
+			<a href="/" class="mr-auto ml-0 h-32 w-32 rounded-full hidden sm:block">
 				<img
 					src="/logo.svg"
 					alt="monochrome logo"
-					class="rounded-full h-20 w-20 grayscale sm:h-32 sm:w-32"
+					class="rounded-full h-20 w-20 grayscale sm:h-32 sm:w-32 max-w-none"
 					loading="lazy"
 				/>
 			</a>
-			<div class="flex flex-row ml-auto mr-0">
-				<div class="flex flex-col gap-2 pr-32">
+			<div class="flex flex-row sm:ml-auto mr-0 gap-10 sm:gap-32 sm:pr-32">
+				<div class="flex flex-col gap-2">
 					<div class="font-semibold text-base text-white">User5522</div>
 					<ul>
 						{#each websiteLinks as websiteLink}
@@ -64,7 +64,7 @@
 						{/each}
 					</ul>
 				</div>
-				<div class="flex flex-col gap-2 pr-32">
+				<div class="flex flex-col gap-2">
 					<div class="font-semibold text-base text-white">Labs</div>
 					<ul>
 						{#each testingLinks as testingLink}
@@ -81,11 +81,11 @@
 				</div>
 			</div>
 		</div>
-		<Seperator />
+		<Separator />
 		<div class="flex flex-col gap-3 sm:flex-row">
-			<div class="text-gray-300">
+			<div class="text-gray-300 text-center sm:text-left">
 				Found some <div
-					class="glitch inline-block bg-dark_light text-gray-300 p-0.5 rounded-xl"
+					class="glitch inline-block bg-dark-300 text-gray-300 p-0.5 rounded-xl"
 					on:mouseenter={(glitch = true)}
 					on:mouseleave={(glitch = false)}
 				>
