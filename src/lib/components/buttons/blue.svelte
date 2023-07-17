@@ -2,7 +2,7 @@
 	export let link = false;
 	export let onClick;
 	export let label;
-	export let href;
+	export let href = '';
 </script>
 
 {#if link}

@@ -1,7 +1,7 @@
 <script>
 	export let link = true;
-	export let href;
-	export let onClick;
+	export let href = '';
+	export let onClick = '';
 	export let label;
 </script>
 
