@@ -26,7 +26,7 @@
 
 <div class="flex flex-row py-2 ml-0 mr-auto">
 	<button
-		class="p-2 text-white duration-200 rounded-xl bg-dark hover:scale-105 active:scale-95"
+		class="p-2 text-white duration-200 rounded-xl bg-dark-500 hover:scale-105 active:scale-95"
 		on:click={() => {
 			clicked = !clicked;
 			updateSortedPosts();

@@ -18,10 +18,10 @@
 	}
 
 	.blue-button {
-		@apply select-none rounded-xl bg-dark_blue p-4 text-sm font-semibold text-blue-300 duration-200 hover:scale-102 active:scale-95 sm:p-5 sm:text-base;
+		@apply bg-dark_blue select-none rounded-xl p-4 text-sm font-semibold text-blue-300 duration-200 hover:scale-102 active:scale-95 sm:p-5 sm:text-base;
 	}
 	.hidden-button {
-		@apply rounded-xl p-4 text-sm font-semibold text-black duration-200 hover:scale-102 hover:bg-dark_darker hover:bg-opacity-50 active:scale-95 dark:text-white sm:p-5 sm:text-base;
+		@apply hover:bg-dark_darker rounded-xl p-4 text-sm font-semibold text-black duration-200 hover:scale-102 hover:bg-opacity-50 active:scale-95 dark:text-white sm:p-5 sm:text-base;
 	}
 	.hover-anim {
 		@apply duration-200 hover:scale-102 active:scale-95;
@@ -58,25 +58,10 @@
 }
 
 a[target='_blank'] {
-	background-image: url(/icons/ext_link.svg);
+	background-image: url('/icons/ext_link.svg');
 	background-repeat: no-repeat;
 	background-position: right;
 	padding-right: 1rem;
-	background-size: 1rem 1rem;
-}
-
-a[target='github'] {
-	background-image: url(/logos/github.svg);
-	background-repeat: no-repeat;
-	background-position: right;
-	padding-right: 1.2rem;
-	background-size: 1rem 1rem;
-}
-a[target='twitter'] {
-	background-image: url(/logos/twitter.svg);
-	background-repeat: no-repeat;
-	background-position: right;
-	padding-right: 1.2rem;
 	background-size: 1rem 1rem;
 }
 

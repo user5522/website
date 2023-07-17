@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { clickOutside } from '$lib/utilities/clickOutside';
 	import Theme from '$lib/theme/theme.svelte';
-	import Seperator from '$lib/components/seperator.svelte';
+	import Separator from '$lib/components/separator.svelte';
 
 	let clicks = 0;
 	let spinning = false;
@@ -61,7 +61,7 @@
 				: 'shadow-lg'}"
 		>
 			<nav
-				class="duration-400 flex flex-row items-center gap-2 dark:bg-dark bg-white p-4 shadow-lg transition-all {isAnimated
+				class="duration-500 flex flex-row items-center gap-2 dark:bg-dark-500 bg-white p-4 shadow-lg transition-all {isAnimated
 					? 'rounded-xl'
 					: 'dark:sm:bg-opacity-50 sm:bg-opacity-50 sm:backdrop-blur-md dark:sm:backdrop-blur-md'}"
 			>
@@ -69,7 +69,7 @@
 				<img
 					id="brandingLogo"
 					src="/logo.svg"
-					class="duration-200 bg-opacity-50 rounded-full h-9 bg-dark_light backdrop-blur-md sm:h-10 hover:scale-105 active:scale-95"
+					class="duration-200 bg-opacity-50 rounded-full h-9 bg-dark-300 backdrop-blur-md sm:h-10 hover:scale-105 active:scale-95"
 					alt="logo"
 					class:spin={spinning}
 					loading="lazy"
@@ -78,7 +78,7 @@
 				<a
 					href="/"
 					id="brandingWoodmark"
-					class="p-2 text-base font-bold text-black duration-200 rounded-lg hover:bg-opacity-50 dark:text-white hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
+					class="p-2 text-base font-bold text-black duration-200 rounded-lg hover:bg-opacity-50 dark:text-white hover:scale-105 hover:bg-dark-300 active:scale-95 sm:text-lg"
 				>
 					User5522
 				</a>
@@ -88,14 +88,14 @@
 							href={navItem.href}
 							class="{navItem.isHide
 								? 'hidden sm:block'
-								: 'block sm:hidden'}  rounded-lg p-2 text-base font-semibold hover:bg-opacity-50 text-black dark:text-white duration-200 hover:scale-105 hover:bg-dark_light active:scale-95 sm:text-lg"
+								: 'block sm:hidden'}  rounded-lg p-2 text-base font-semibold hover:bg-opacity-50 text-black dark:text-white duration-200 hover:scale-105 hover:bg-dark-300 active:scale-95 sm:text-lg"
 						>
 							{navItem.name}
 						</a>
 					{/each}
 					<div class="block sm:hidden">
 						<button
-							class="items-center duration-200 rounded-lg hover:scale-105 hover:bg-opacity-50 hover:bg-dark_light active:scale-95"
+							class="items-center duration-200 rounded-lg hover:scale-105 hover:bg-opacity-50 hover:bg-dark-300 active:scale-95"
 							on:click={() => (linksVisible = !linksVisible)}
 						>
 							<p class="p-2 text-xl rotate-90">|||</p>
@@ -105,7 +105,7 @@
 				</div>
 			</nav>
 			<div class={isAnimated ? 'hidden' : 'block'}>
-				<Seperator />
+				<Separator />
 			</div>
 		</div>
 	</div>
@@ -116,25 +116,26 @@
 			: ''} shadow-lg duration-400 fixed z-50 w-full transition-all {linksVisible
 			? 'block sm:hidden'
 			: 'hidden'}"
-		id="links-container"
 	>
 		<div
-			id="links-subcontainer"
 			class="{isAnimated
 				? 'rounded-xl'
-				: ''} duration-400 flex h-1/2 w-full flex-col gap-2 dark:bg-dark bg-white p-4 transition-all"
+				: ''} duration-400 flex h-1/2 w-full flex-col gap-2 dark:bg-dark-500 bg-white p-4 transition-all"
 		>
 			{#each navItems as navMenuItem}
 				<a
 					href={navMenuItem.href}
 					on:click={() => (linksVisible = !linksVisible)}
-					class="block p-2 text-black duration-200 rounded-xl dark:text-white hover:bg-opacity-50 hover:scale-102 hover:bg-dark_light active:scale-95"
+					class="block p-2 text-black duration-200 rounded-xl dark:text-white hover:bg-opacity-50 hover:scale-102 hover:bg-dark-300 active:scale-95"
 				>
 					{navMenuItem.name}
 				</a>
 			{/each}
 
 			<div><Theme /></div>
+		</div>
+		<div class={linksVisible && !isAnimated ? 'block' : 'hidden'}>
+			<Separator />
 		</div>
 	</div>
 </header>

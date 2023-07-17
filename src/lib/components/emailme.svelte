@@ -27,7 +27,7 @@
 	<p class="px-1 cursor-pointer" on:click={handleClick} class:spin={spinning}>@</p>
 	<a
 		href="mailto:oueslatim@pm.me"
-		class="p-1 text-white dark:text-white rounded-xl bg-dark hover-anim"
+		class="p-1 text-white dark:text-white rounded-xl bg-dark-500 hover-anim"
 	>
 		oueslatim@pm.me
 	</a>

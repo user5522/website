@@ -31,8 +31,8 @@
 	checked={darkMode}
 	on:click={handleSwitchDarkMode}
 	type="checkbox"
-	class="flex flex-row gap-2 p-1 text-black duration-200 rounded-full dark:text-white hover:bg-opacity-50 hover:scale-102 hover:bg-dark_light active:scale-95"
+	class="flex flex-row gap-2 p-1 text-black duration-200 rounded-full dark:text-white hover:bg-opacity-50 hover:scale-102 hover:bg-dark-300 active:scale-95"
 >
-	<div class="{darkMode ? 'bg-white' : 'bg-dark'} rounded-xl p-3" />
+	<div class="{darkMode ? 'bg-white' : 'bg-dark-500'} rounded-xl p-3" />
 	<div class="block sm:hidden">{darkMode ? 'Light' + ' ' : 'Dark' + ' '} Theme</div>
 </button>

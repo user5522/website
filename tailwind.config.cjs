@@ -7,14 +7,22 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				current: 'currentColor',
-				dark: '#121212',
-				dark_light: '#1f1f1f',
-				dark_darker: '#101010',
-				true_gray: '#191919',
-				light_true_gray: '#2f2f2f',
-				lighter_true_gray: '#5f5f5f',
-				dark_blue: '#051531'
+				dark: {
+					300: '#1f1f1f',
+					500: '#121212',
+					700: '#101010',
+					900: '#0d0d0d'
+				},
+				tgray: {
+					100: '#5f5f5f',
+					200: '#cdcdcd',
+					300: '#2f2f2f',
+					500: '#191919'
+				},
+				dark_blue: {
+					500: '#051531'
+				},
+				current: 'currentColor'
 			},
 			rotate: {
 				158: '158deg',

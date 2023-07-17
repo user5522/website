@@ -29,7 +29,7 @@
 	</div>
 	<div class="">
 		<button
-			class="flex flex-row items-center gap-2 p-2 bg-dark rounded-xl sm:rounded-full hover-anim"
+			class="flex flex-row items-center gap-2 p-2 bg-dark-500 rounded-xl sm:rounded-full hover-anim"
 			on:click={reroll}
 		>
 			<div class="duration-500 active:rotate-360">
