@@ -29,8 +29,7 @@
 						href="https://google.com/search?q=have+you+tried+turning+it+off+and+on+again"
 						class="text-blue-300"
 						target="_blank"
-						rel="noreferrer">Turning it off & on again?</a
-					>
+						rel="noreferrer">Turning it off & on again?</a>
 				</li>
 				<li>Waiting till this gets fixed</li>
 			</ul>

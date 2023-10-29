@@ -1,6 +1,6 @@
 export function clickToCopy(node, target) {
 	async function copyText() {
-		let text = target ? document.querySelector(target).innerText : node.innerText;
+		const text = target ? document.querySelector(target).innerText : node.innerText;
 
 		try {
 			await navigator.clipboard.writeText(text);

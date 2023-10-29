@@ -1,13 +1,16 @@
-<script>
-	import BackButton from '$lib/components/buttons/back.svelte';
-</script>
+<div class="mx-auto flex max-w-4xl flex-col gap-7 justify-center items-center">
+	<div
+		class="bg-dark rounded-xl p-3 h-fit w-full text-white hover:scale-102 active:scale-95 duration-200 sm:w-1/2 items-start flex flex-col justify-start bg-shapesmobile sm:bg-shapes bg-contain bg-no-repeat bg-center">
+		<!-- <img src="/idk.png" alt="yeah" /> -->
+		<div class="text-3xl pt-2 pl-2">Epic title here</div>
+		<div class="text-xl pt-2 pl-2">
+			Crazy awesome AND long descriptive description goes here. This description is so long and
+			detailed that it practically explodes with vivid imagery and elaborate language. It's the kind
+			of description that draws you in and keeps you captivated, eagerly soaking up every word and
+			savoring every detail.<br />
 
-<div class="flex flex-col items-center justify-center w-screen h-[70vh] gap-10">
-	<div class="flex flex-col items-center gap-2">
-		<div class="text-5xl font-semibold">How empty..</div>
-		<div class="text-3xl font-semibold">Maybe come back later?</div>
-	</div>
-	<div>
-		<BackButton href="/" label="Homepage" />
+			Also I made the background, I am still experimenting with it
+			<a href="/about#Links">is it cool?</a>
+		</div>
 	</div>
 </div>
