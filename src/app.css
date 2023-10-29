@@ -18,10 +18,10 @@
 	}
 
 	.blue-button {
-		@apply bg-dark_blue select-none rounded-xl p-4 text-sm font-semibold text-blue-300 duration-200 hover:scale-102 active:scale-95 sm:p-5 sm:text-base;
+		@apply bg-dark_blue-500 select-none rounded-xl p-4 text-sm font-semibold text-blue-300 duration-200 hover:scale-102 active:scale-95 sm:p-5 sm:text-base;
 	}
 	.hidden-button {
-		@apply hover:bg-dark_darker rounded-xl p-4 text-sm font-semibold text-black duration-200 hover:scale-102 hover:bg-opacity-50 active:scale-95 dark:text-white sm:p-5 sm:text-base;
+		@apply hover:bg-dark-700 rounded-xl p-4 text-sm font-semibold text-black duration-200 hover:scale-102 hover:bg-opacity-50 active:scale-95 dark:text-white sm:p-5 sm:text-base;
 	}
 	.hover-anim {
 		@apply duration-200 hover:scale-102 active:scale-95;

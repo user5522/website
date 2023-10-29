@@ -43,6 +43,15 @@ const projects = [
 		imgAlt: 'u3d banner',
 		href: '/u3d',
 		number: '5'
+	},
+	{
+		title: 'Timtable',
+		description:
+			'A Flutter-based timetable Android App',
+		imgURL: '/placeholder.png',
+		imgAlt: 'timetable banner',
+		href: '/timetable',
+		number: '6'
 	}
 ];
 
