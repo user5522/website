@@ -1,80 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-	html {
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		@apply overflow-auto scroll-smooth;
-	}
-	html:has(dialog[open]:modal) {
-		overflow: hidden;
-	}
-	body {
-		@apply absolute flex min-h-screen w-full list-none flex-col bg-white font-poppins text-black dark:bg-black dark:text-white;
-	}
-	a {
-		@apply text-blue-800 dark:text-blue-300;
-	}
-
-	.blue-button {
-		@apply bg-dark_blue-500 select-none rounded-xl p-4 text-sm font-semibold text-blue-300 duration-200 hover:scale-102 active:scale-95 sm:p-5 sm:text-base;
-	}
-	.hidden-button {
-		@apply hover:bg-dark-700 rounded-xl p-4 text-sm font-semibold text-black duration-200 hover:scale-102 hover:bg-opacity-50 active:scale-95 dark:text-white sm:p-5 sm:text-base;
-	}
-	.hover-anim {
-		@apply duration-200 hover:scale-102 active:scale-95;
-	}
+* {
+    font-family: 'Lucida Console', monospace;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
-::-webkit-scrollbar {
-	width: 6px;
+a {
+    color: var(--link-color);
 }
 
-::-webkit-scrollbar:hover {
-	width: 12px;
+.page {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    max-width: 56rem;
 }
 
-::-webkit-scrollbar-thumb {
-	border: 2px solid rgba(0, 0, 0, 0);
-	background-clip: padding-box;
-	border-radius: 0.8rem;
-	background-color: #aaaaaa;
-}
-::-webkit-scrollbar-thumb:hover {
-	border: 2px solid rgba(0, 0, 0, 0);
-	background-clip: padding-box;
-	border-radius: 0.8rem;
-	background-color: #999999;
+.place-right {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    margin-left: auto;
 }
 
-::-webkit-scrollbar-track-piece:start {
-	background: transparent url('/scrollbar/transparent.png') repeat-y;
-}
-
-::-webkit-scrollbar-track-piece:end {
-	background: transparent url('/scrollbar/transparent.png') repeat-y;
-}
-
-a[target='_blank'] {
-	background-image: url('/icons/ext_link.svg');
-	background-repeat: no-repeat;
-	background-position: right;
-	padding-right: 1rem;
-	background-size: 1rem 1rem;
-}
-
-.tippy-box[data-theme~='dark'] {
-	background-color: #121212;
-	color: white;
-	padding: 12px;
-	border-radius: 10rem;
-	font-size: 0.875rem;
-	line-height: 1.25rem;
-	font-weight: 700;
-}
-
-.material-symbols-outlined {
-	font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+select {
+    border-radius: 5px;
 }

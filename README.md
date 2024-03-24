@@ -1,37 +1,38 @@
-# website | user5522.tk
+# create-svelte
 
-A website, probably, now in sveltekit.
-hosted on [Vercel](https://vercel.com)
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-## Try out the beta at beta.user5522.tk !
+## Creating a project
 
-Thought I'd make it open source because uh..
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Contribution
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-idk man do your thing, make a pull request
-and if good pr I accept pr
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-but idk man this website seems like one of the websites
-of all time.
+## Developing
 
-## FAQ
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-Is this website poggers certified?
+```bash
+npm run dev
 
-- b
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-Are you mentally ill and do you owe the IRS 500 Trillion
-bucks worth of taxes??
+## Building
 
-- uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh no
+To create a production version of your app:
 
-if you have more questions, I don't care
+```bash
+npm run build
+```
 
-## Reminder(s) to self
+You can preview the production build with `npm run preview`.
 
-because i forgot
-
-- Collections & banners must be 2177x800 in resolution.
-
-[website link](https://user5522.tk) | [beta link](https://beta.user5522.tk)
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

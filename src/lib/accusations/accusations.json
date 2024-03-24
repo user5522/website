@@ -1,374 +1,324 @@
 [
-	{ "title": "Abusive Sexual Contact", "importance": "critical" },
-	{ "title": "Advocating Overthrow of Government", "importance": "critical" },
-	{ "title": "Aggravated Assault/Battery", "importance": "critical" },
-	{ "title": "Aggravated Identity Theft", "importance": "critical" },
-	{ "title": "Aggravated Sexual Abuse", "importance": "critical" },
-	{ "title": "Aiming a Laser Pointer at an Aircraft", "importance": "critical" },
-	{ "title": "Airplane Hijacking", "importance": "critical" },
-	{ "title": "Anti-racketeering", "importance": "critical" },
-	{ "title": "Antitrust", "importance": "critical" },
-	{ "title": "Armed Robbery", "importance": "critical" },
-	{ "title": "Arson", "importance": "critical" },
-	{ "title": "Assassination", "importance": "critical" },
-	{ "title": "Assault with a Deadly Weapon", "importance": "critical" },
-	{ "title": "Assaulting or Killing Federal Officer", "importance": "critical" },
-	{ "title": "Assisting or Instigating Escape", "importance": "critical" },
-	{ "title": "Attempt to commit Murder/Manslaughter", "importance": "critical" },
-	{ "title": "Bank Burglary", "importance": "critical" },
-	{ "title": "Bankruptcy Fraud/Embezzlement", "importance": "critical" },
-	{ "title": "Bank Larceny", "importance": "critical" },
-	{ "title": "Bank Robbery", "importance": "critical" },
-	{ "title": "Blackmail", "importance": "critical" },
-	{ "title": "Bombing Matters", "importance": "critical" },
-	{ "title": "Bond Default", "importance": "critical" },
+	{ "title": "Abusive Sexual Contact" },
+	{ "title": "Advocating Overthrow of Government" },
+	{ "title": "Aggravated Assault/Battery" },
+	{ "title": "Aggravated Identity Theft" },
+	{ "title": "Aggravated Sexual Abuse" },
+	{ "title": "Aiming a Laser Pointer at an Aircraft" },
+	{ "title": "Airplane Hijacking" },
+	{ "title": "Anti-racketeering" },
+	{ "title": "Antitrust" },
+	{ "title": "Armed Robbery" },
+	{ "title": "Arson" },
+	{ "title": "Assassination" },
+	{ "title": "Assault with a Deadly Weapon" },
+	{ "title": "Assaulting or Killing Federal Officer" },
+	{ "title": "Assisting or Instigating Escape" },
+	{ "title": "Attempt to commit Murder/Manslaughter" },
+	{ "title": "Bank Burglary" },
+	{ "title": "Bankruptcy Fraud/Embezzlement" },
+	{ "title": "Bank Larceny" },
+	{ "title": "Bank Robbery" },
+	{ "title": "Blackmail" },
+	{ "title": "Bombing Matters" },
+	{ "title": "Bond Default" },
 	{
-		"title": "Breaking and/or Entering Carrier Facilities",
-		"importance": "critical"
+		"title": "Breaking and/or Entering Carrier Facilities"
 	},
-	{ "title": "Bribery Crimes", "importance": "critical" },
-	{ "title": "Certification of Checks (Fraud)", "importance": "critical" },
-	{ "title": "Child Abuse", "importance": "critical" },
-	{ "title": "Child Exploitation", "importance": "critical" },
-	{ "title": "Child Pornography", "importance": "critical" },
+	{ "title": "Bribery Crimes" },
+	{ "title": "Certification of Checks (Fraud)" },
+	{ "title": "Child Abuse" },
+	{ "title": "Child Exploitation" },
+	{ "title": "Child Pornography" },
 	{
-		"title": "Civil Action to Restrain Harassment of a Victim or Witness",
-		"importance": "critical"
+		"title": "Civil Action to Restrain Harassment of a Victim or Witness"
 	},
-	{ "title": "Coercion", "importance": "critical" },
-	{ "title": "Commodities Price Fixing", "importance": "critical" },
-	{ "title": "Computer Crime", "importance": "critical" },
-	{ "title": "Concealing Escaped Prisoner", "importance": "critical" },
-	{ "title": "Concealing Person from Arrest", "importance": "critical" },
-	{ "title": "Concealment of Assets", "importance": "critical" },
+	{ "title": "Coercion" },
+	{ "title": "Commodities Price Fixing" },
+	{ "title": "Computer Crime" },
+	{ "title": "Concealing Escaped Prisoner" },
+	{ "title": "Concealing Person from Arrest" },
+	{ "title": "Concealment of Assets" },
 	{
-		"title": "Conspiracy (in matters under FBI jurisdiction)",
-		"importance": "critical"
+		"title": "Conspiracy (in matters under FBI jurisdiction)"
 	},
 	{
-		"title": "Conspiracy to Impede or Injure an Officer",
-		"importance": "critical"
+		"title": "Conspiracy to Impede or Injure an Officer"
 	},
-	{ "title": "Contempt of Court", "importance": "critical" },
-	{ "title": "Continuing Criminal Enterprise", "importance": "critical" },
-	{ "title": "Conveying False Information", "importance": "critical" },
-	{ "title": "Copyright Matters", "importance": "critical" },
-	{ "title": "Counterfeiting", "importance": "critical" },
-	{ "title": "Counterintelligence Crimes", "importance": "critical" },
-	{ "title": "Credit/Debit Card Fraud", "importance": "critical" },
-	{ "title": "Crime Aboard Aircraft", "importance": "critical" },
-	{ "title": "Crimes on Government Reservations", "importance": "critical" },
-	{ "title": "Crimes on Indian Reservations", "importance": "critical" },
-	{ "title": "Criminal Contempt of Court", "importance": "critical" },
-	{ "title": "Criminal Forfeiture", "importance": "critical" },
-	{ "title": "Criminal Infringement of a Copyright", "importance": "critical" },
-	{ "title": "Cyber Crimes", "importance": "critical" },
-	{ "title": "Damage to Religious Property", "importance": "critical" },
-	{ "title": "Delivery to Consignee", "importance": "critical" },
-	{ "title": "Demands Against the U.S.", "importance": "critical" },
+	{ "title": "Contempt of Court" },
+	{ "title": "Continuing Criminal Enterprise" },
+	{ "title": "Conveying False Information" },
+	{ "title": "Copyright Matters" },
+	{ "title": "Counterfeiting" },
+	{ "title": "Counterintelligence Crimes" },
+	{ "title": "Credit/Debit Card Fraud" },
+	{ "title": "Crime Aboard Aircraft" },
+	{ "title": "Crimes on Government Reservations" },
+	{ "title": "Crimes on Indian Reservations" },
+	{ "title": "Criminal Contempt of Court" },
+	{ "title": "Criminal Forfeiture" },
+	{ "title": "Criminal Infringement of a Copyright" },
+	{ "title": "Cyber Crimes" },
+	{ "title": "Damage to Religious Property" },
+	{ "title": "Delivery to Consignee" },
+	{ "title": "Demands Against the U.S." },
 	{
-		"title": "Destruction of Aircraft or Motor Vehicles Used in Foreign Commerce",
-		"importance": "critical"
+		"title": "Destruction of Aircraft or Motor Vehicles Used in Foreign Commerce"
 	},
-	{ "title": "Destruction of an Energy Facility", "importance": "critical" },
+	{ "title": "Destruction of an Energy Facility" },
 	{
-		"title": "Destruction of Property to Prevent Seizure",
-		"importance": "critical"
+		"title": "Destruction of Property to Prevent Seizure"
 	},
 	{
-		"title": "Destruction of Records in Federal Investigations and Bankruptcy",
-		"importance": "critical"
+		"title": "Destruction of Records in Federal Investigations and Bankruptcy"
 	},
 	{
-		"title": "Destruction of Corporate Audit Records",
-		"importance": "critical"
+		"title": "Destruction of Corporate Audit Records"
 	},
 	{
-		"title": "Destruction of Veterans\u00e2\u20ac\u2122 Memorials",
-		"importance": "critical"
+		"title": "Destruction of Veterans\u00e2\u20ac\u2122 Memorials"
 	},
-	{ "title": "Detention of Armed Vessel", "importance": "critical" },
+	{ "title": "Detention of Armed Vessel" },
 	{
-		"title": "Disclosure of Confidential Information",
-		"importance": "critical"
+		"title": "Disclosure of Confidential Information"
 	},
-	{ "title": "Domestic Security", "importance": "critical" },
-	{ "title": "Domestic Terrorism", "importance": "critical" },
-	{ "title": "Domestic Violence", "importance": "critical" },
-	{ "title": "Drive-by Shooting", "importance": "critical" },
-	{ "title": "Drug Abuse Violations", "importance": "critical" },
-	{ "title": "Drug Smuggling", "importance": "critical" },
-	{ "title": "Drug Trafficking", "importance": "critical" },
-	{ "title": "DUI/DWI on Federal Property", "importance": "critical" },
-	{ "title": "Economic Espionage", "importance": "critical" },
-	{ "title": "Election Law Crimes", "importance": "critical" },
-	{ "title": "Embezzlement", "importance": "critical" },
-	{ "title": "Embezzlement Against Estate", "importance": "critical" },
-	{ "title": "Entering Train to Commit Crime", "importance": "critical" },
-	{ "title": "Enlistment to Serve Against the U.S.", "importance": "critical" },
-	{ "title": "Environmental Scheme Crimes", "importance": "critical" },
+	{ "title": "Domestic Security" },
+	{ "title": "Domestic Terrorism" },
+	{ "title": "Domestic Violence" },
+	{ "title": "Drive-by Shooting" },
+	{ "title": "Drug Abuse Violations" },
+	{ "title": "Drug Smuggling" },
+	{ "title": "Drug Trafficking" },
+	{ "title": "DUI/DWI on Federal Property" },
+	{ "title": "Economic Espionage" },
+	{ "title": "Election Law Crimes" },
+	{ "title": "Embezzlement" },
+	{ "title": "Embezzlement Against Estate" },
+	{ "title": "Entering Train to Commit Crime" },
+	{ "title": "Enlistment to Serve Against the U.S." },
+	{ "title": "Environmental Scheme Crimes" },
 	{
-		"title": "Escaping Custody/Escaped Federal Prisoners",
-		"importance": "critical"
+		"title": "Escaping Custody/Escaped Federal Prisoners"
 	},
-	{ "title": "Examiner Performing Other Services", "importance": "critical" },
-	{ "title": "Exportation of Drugs", "importance": "critical" },
-	{ "title": "Extortion", "importance": "critical" },
-	{ "title": "Failure to Appear on Felony Offense", "importance": "critical" },
+	{ "title": "Examiner Performing Other Services" },
+	{ "title": "Exportation of Drugs" },
+	{ "title": "Extortion" },
+	{ "title": "Failure to Appear on Felony Offense" },
 	{
-		"title": "Failure to Pay Legal Child Support Obligations",
-		"importance": "critical"
+		"title": "Failure to Pay Legal Child Support Obligations"
 	},
-	{ "title": "False Bail", "importance": "critical" },
-	{ "title": "False Pretenses", "importance": "critical" },
+	{ "title": "False Bail" },
+	{ "title": "False Pretenses" },
 	{
-		"title": "False Statements Relating to Health Care Matters",
-		"importance": "critical"
+		"title": "False Statements Relating to Health Care Matters"
 	},
-	{ "title": "Falsely Claiming Citizenship", "importance": "critical" },
+	{ "title": "Falsely Claiming Citizenship" },
 	{
-		"title": "False Declarations before Grand Jury or Court",
-		"importance": "critical"
+		"title": "False Declarations before Grand Jury or Court"
 	},
 	{
-		"title": "False Entries in Records of Interstate Carriers",
-		"importance": "critical"
+		"title": "False Entries in Records of Interstate Carriers"
 	},
-	{ "title": "False Information and Hoaxes", "importance": "critical" },
+	{ "title": "False Information and Hoaxes" },
 	{
-		"title": "False Statement to Obtain Unemployment Compensation",
-		"importance": "critical"
+		"title": "False Statement to Obtain Unemployment Compensation"
 	},
-	{ "title": "Federal Aviation Act", "importance": "critical" },
+	{ "title": "Federal Aviation Act" },
 	{
-		"title": "Federal Civil Rights Violations (hate crimes, police misconduct)",
-		"importance": "critical"
+		"title": "Federal Civil Rights Violations (hate crimes, police misconduct)"
 	},
-	{ "title": "Female Genital Mutilation", "importance": "critical" },
+	{ "title": "Female Genital Mutilation" },
 	{
-		"title": "Financial Transactions with Foreign Government",
-		"importance": "critical"
+		"title": "Financial Transactions with Foreign Government"
 	},
-	{ "title": "First Degree Murder", "importance": "critical" },
+	{ "title": "First Degree Murder" },
 	{
-		"title": "Flight to Avoid Prosecution or Giving Testimony",
-		"importance": "critical"
+		"title": "Flight to Avoid Prosecution or Giving Testimony"
 	},
-	{ "title": "Forced Labor", "importance": "critical" },
-	{ "title": "Forcible Rape", "importance": "critical" },
-	{ "title": "Forgery", "importance": "critical" },
+	{ "title": "Forced Labor" },
+	{ "title": "Forcible Rape" },
+	{ "title": "Forgery" },
 	{
-		"title": "Fraud Activity in Connection with Electronic Mail",
-		"importance": "critical"
+		"title": "Fraud Activity in Connection with Electronic Mail"
 	},
-	{ "title": "Fraud Against the Government", "importance": "critical" },
-	{ "title": "Genocide", "importance": "critical" },
-	{ "title": "Hacking Crimes", "importance": "critical" },
-	{ "title": "Harboring Terrorists", "importance": "critical" },
+	{ "title": "Fraud Against the Government" },
+	{ "title": "Genocide" },
+	{ "title": "Hacking Crimes" },
+	{ "title": "Harboring Terrorists" },
 	{
-		"title": "Harming Animals Used in Law Enforcement",
-		"importance": "critical"
+		"title": "Harming Animals Used in Law Enforcement"
 	},
-	{ "title": "Hate Crime Acts", "importance": "critical" },
+	{ "title": "Hate Crime Acts" },
 	{ "title": "Hi, this is an easteregg :)", "importance": "easteregg" },
-	{ "title": "Homicide", "importance": "critical" },
-	{ "title": "Hostage Taking", "importance": "critical" },
-	{ "title": "Identity Theft", "importance": "critical" },
-	{ "title": "Illegal Possession of Firearms", "importance": "critical" },
-	{ "title": "Immigration Offenses", "importance": "critical" },
-	{ "title": "Impersonator Making Arrest or Search", "importance": "critical" },
-	{ "title": "Importation of Drugs", "importance": "critical" },
-	{ "title": "Influencing Juror by Writing", "importance": "critical" },
-	{ "title": "Injuring Officer", "importance": "critical" },
-	{ "title": "Insider Trading Crimes", "importance": "critical" },
-	{ "title": "Insurance Fraud", "importance": "critical" },
+	{ "title": "Homicide" },
+	{ "title": "Hostage Taking" },
+	{ "title": "Identity Theft" },
+	{ "title": "Illegal Possession of Firearms" },
+	{ "title": "Immigration Offenses" },
+	{ "title": "Impersonator Making Arrest or Search" },
+	{ "title": "Importation of Drugs" },
+	{ "title": "Influencing Juror by Writing" },
+	{ "title": "Injuring Officer" },
+	{ "title": "Insider Trading Crimes" },
+	{ "title": "Insurance Fraud" },
 	{
-		"title": "Interference with the Operation of a Satellite",
-		"importance": "critical"
+		"title": "Interference with the Operation of a Satellite"
 	},
-	{ "title": "International Parental Kidnapping", "importance": "critical" },
-	{ "title": "International Terrorism", "importance": "critical" },
-	{ "title": "Interstate Domestic Violence", "importance": "critical" },
+	{ "title": "International Parental Kidnapping" },
+	{ "title": "International Terrorism" },
+	{ "title": "Interstate Domestic Violence" },
 	{
-		"title": "Interstate Violation of Protection Order",
-		"importance": "critical"
+		"title": "Interstate Violation of Protection Order"
 	},
-	{ "title": "Larceny", "importance": "critical" },
-	{ "title": "Lobbying with Appropriated Moneys", "importance": "critical" },
-	{ "title": "Mailing Threatening Communications", "importance": "critical" },
-	{ "title": "Major Fraud Against the U.S.", "importance": "critical" },
-	{ "title": "Manslaughter", "importance": "critical" },
-	{ "title": "Medical/Health Care Fraud", "importance": "critical" },
+	{ "title": "Larceny" },
+	{ "title": "Lobbying with Appropriated Moneys" },
+	{ "title": "Mailing Threatening Communications" },
+	{ "title": "Major Fraud Against the U.S." },
+	{ "title": "Manslaughter" },
+	{ "title": "Medical/Health Care Fraud" },
 	{
-		"title": "Missile Systems Designed to Destroy Aircraft",
-		"importance": "critical"
+		"title": "Missile Systems Designed to Destroy Aircraft"
 	},
-	{ "title": "Misuse of Passport", "importance": "critical" },
+	{ "title": "Misuse of Passport" },
 	{
-		"title": "Misuse of Visas, Permits, or Other Documents",
-		"importance": "critical"
+		"title": "Misuse of Visas, Permits, or Other Documents"
 	},
-	{ "title": "Molestation", "importance": "critical" },
-	{ "title": "Money Laundering", "importance": "critical" },
-	{ "title": "Motor Vehicle Theft", "importance": "critical" },
-	{ "title": "Murder by a Federal Prisoner", "importance": "critical" },
+	{ "title": "Molestation" },
+	{ "title": "Money Laundering" },
+	{ "title": "Motor Vehicle Theft" },
+	{ "title": "Murder by a Federal Prisoner" },
 	{
-		"title": "Murder Committed During Drug-related Drive-by shooting",
-		"importance": "critical"
+		"title": "Murder Committed During Drug-related Drive-by shooting"
 	},
 	{
-		"title": "Murder Committed in Federal Government Facility",
-		"importance": "critical"
+		"title": "Murder Committed in Federal Government Facility"
 	},
-	{ "title": "Narcotics Violations", "importance": "critical" },
+	{ "title": "Narcotics Violations" },
 	{
-		"title": "Obstructing Examination of Financial Institution",
-		"importance": "critical"
+		"title": "Obstructing Examination of Financial Institution"
 	},
-	{ "title": "Obstruction of Court Orders", "importance": "critical" },
-	{ "title": "Obstruction of Federal audit", "importance": "critical" },
-	{ "title": "Obstruction of Justice", "importance": "critical" },
+	{ "title": "Obstruction of Court Orders" },
+	{ "title": "Obstruction of Federal audit" },
+	{ "title": "Obstruction of Justice" },
 	{
-		"title": "Obstruction of Criminal Investigations",
-		"importance": "critical"
+		"title": "Obstruction of Criminal Investigations"
 	},
-	{ "title": "Officer Failing to Make Reports", "importance": "critical" },
-	{ "title": "Partial Birth Abortion", "importance": "critical" },
+	{ "title": "Officer Failing to Make Reports" },
+	{ "title": "Partial Birth Abortion" },
 	{
-		"title": "Penalties for Neglect or Refusal to Answer Subpoena",
-		"importance": "critical"
+		"title": "Penalties for Neglect or Refusal to Answer Subpoena"
 	},
-	{ "title": "Peonage", "importance": "critical" },
-	{ "title": "Perjury", "importance": "critical" },
-	{ "title": "Picketing or Parading", "importance": "critical" },
-	{ "title": "Pirating", "importance": "critical" },
-	{ "title": "Possession by Restricted Persons", "importance": "critical" },
+	{ "title": "Peonage" },
+	{ "title": "Perjury" },
+	{ "title": "Picketing or Parading" },
+	{ "title": "Pirating" },
+	{ "title": "Possession by Restricted Persons" },
 	{
-		"title": "Possession of False Papers to Defraud the U.S.",
-		"importance": "critical"
+		"title": "Possession of False Papers to Defraud the U.S."
 	},
-	{ "title": "Possession of Narcotics", "importance": "critical" },
-	{ "title": "Possession of Child Pornography", "importance": "critical" },
+	{ "title": "Possession of Narcotics" },
+	{ "title": "Possession of Child Pornography" },
 	{
-		"title": "Private Correspondence with Foreign Government",
-		"importance": "critical"
+		"title": "Private Correspondence with Foreign Government"
 	},
-	{ "title": "Probation Violation", "importance": "critical" },
-	{ "title": "Product Tampering", "importance": "critical" },
+	{ "title": "Probation Violation" },
+	{ "title": "Product Tampering" },
 	{
-		"title": "Prohibition of Illegal Gambling Businesses",
-		"importance": "critical"
+		"title": "Prohibition of Illegal Gambling Businesses"
 	},
-	{ "title": "Prostitution", "importance": "critical" },
-	{ "title": "Protection of Foreign Officials", "importance": "critical" },
-	{ "title": "Public Corruption Crimes", "importance": "critical" },
-	{ "title": "Racketeering", "importance": "critical" },
-	{ "title": "Radiological Dispersal Devices", "importance": "critical" },
-	{ "title": "Ransom Money", "importance": "critical" },
-	{ "title": "Rape", "importance": "critical" },
-	{ "title": "Receiving the Proceeds of Extortion", "importance": "critical" },
+	{ "title": "Prostitution" },
+	{ "title": "Protection of Foreign Officials" },
+	{ "title": "Public Corruption Crimes" },
+	{ "title": "Racketeering" },
+	{ "title": "Radiological Dispersal Devices" },
+	{ "title": "Ransom Money" },
+	{ "title": "Rape" },
+	{ "title": "Receiving the Proceeds of Extortion" },
 	{
-		"title": "Recording or Listening to Grand or Petit Juries While Deliberating",
-		"importance": "critical"
+		"title": "Recording or Listening to Grand or Petit Juries While Deliberating"
 	},
 	{
-		"title": "Reentry of an Alien Removed on National Security Grounds",
-		"importance": "critical"
+		"title": "Reentry of an Alien Removed on National Security Grounds"
 	},
-	{ "title": "Registration of Certain Organizations", "importance": "critical" },
-	{ "title": "Reproduction of Citizenship Papers", "importance": "critical" },
-	{ "title": "Resistance to Extradition Agent", "importance": "critical" },
-	{ "title": "Rescue of Seized Property", "importance": "critical" },
+	{ "title": "Registration of Certain Organizations" },
+	{ "title": "Reproduction of Citizenship Papers" },
+	{ "title": "Resistance to Extradition Agent" },
+	{ "title": "Rescue of Seized Property" },
 	{
-		"title": "Retaliating Against a Federal Judge by False Claim or Slander of Title",
-		"importance": "critical"
+		"title": "Retaliating Against a Federal Judge by False Claim or Slander of Title"
 	},
 	{
-		"title": "Retaliating Against a Witness, Victim, or an Informant",
-		"importance": "critical"
+		"title": "Retaliating Against a Witness, Victim, or an Informant"
 	},
-	{ "title": "Robbery", "importance": "critical" },
+	{ "title": "Robbery" },
 	{
-		"title": "Robberies and Burglaries Involving Controlled Substances",
-		"importance": "critical"
+		"title": "Robberies and Burglaries Involving Controlled Substances"
 	},
-	{ "title": "Sabotage", "importance": "critical" },
-	{ "title": "Sale of Citizenship Papers", "importance": "critical" },
-	{ "title": "Sale of Stolen Vehicles", "importance": "critical" },
-	{ "title": "Searches Without Warrant", "importance": "critical" },
-	{ "title": "Second Degree Murder", "importance": "critical" },
-	{ "title": "Serial Murders", "importance": "critical" },
-	{ "title": "Sexual Abuse", "importance": "critical" },
-	{ "title": "Sexual Abuse of a Minor", "importance": "critical" },
-	{ "title": "Sexual Assault", "importance": "critical" },
-	{ "title": "Sexual Battery", "importance": "critical" },
-	{ "title": "Sexual Conduct with a Minor", "importance": "critical" },
-	{ "title": "Sexual Exploitation", "importance": "critical" },
-	{ "title": "Sex Trafficking", "importance": "critical" },
-	{ "title": "Shoplifting", "importance": "critical" },
-	{ "title": "Smuggling", "importance": "critical" },
+	{ "title": "Sabotage" },
+	{ "title": "Sale of Citizenship Papers" },
+	{ "title": "Sale of Stolen Vehicles" },
+	{ "title": "Searches Without Warrant" },
+	{ "title": "Second Degree Murder" },
+	{ "title": "Serial Murders" },
+	{ "title": "Sexual Abuse" },
+	{ "title": "Sexual Abuse of a Minor" },
+	{ "title": "Sexual Assault" },
+	{ "title": "Sexual Battery" },
+	{ "title": "Sexual Conduct with a Minor" },
+	{ "title": "Sexual Exploitation" },
+	{ "title": "Sex Trafficking" },
+	{ "title": "Shoplifting" },
+	{ "title": "Smuggling" },
 	{
-		"title": "Solicitation to Commit a Crime of Violence",
-		"importance": "critical"
+		"title": "Solicitation to Commit a Crime of Violence"
 	},
 	{
-		"title": "Stalking (In Violation of Restraining Order)",
-		"importance": "critical"
+		"title": "Stalking (In Violation of Restraining Order)"
 	},
 	{
-		"title": "Stolen Property; Buying, Receiving, or Possessing",
-		"importance": "critical"
+		"title": "Stolen Property; Buying, Receiving, or Possessing"
 	},
-	{ "title": "Subornation of Perjury", "importance": "critical" },
-	{ "title": "Suits Against Government Officials", "importance": "critical" },
+	{ "title": "Subornation of Perjury" },
+	{ "title": "Suits Against Government Officials" },
 	{
-		"title": "Tampering with a Witness, Victim, or Informant",
-		"importance": "critical"
+		"title": "Tampering with a Witness, Victim, or Informant"
 	},
-	{ "title": "Tampering with Consumer Products", "importance": "critical" },
-	{ "title": "Tampering with Vessels", "importance": "critical" },
-	{ "title": "Theft of Trade Secrets", "importance": "critical" },
-	{ "title": "Torture", "importance": "critical" },
+	{ "title": "Tampering with Consumer Products" },
+	{ "title": "Tampering with Vessels" },
+	{ "title": "Theft of Trade Secrets" },
+	{ "title": "Torture" },
 	{
-		"title": "Trafficking in Counterfeit Goods or Services",
-		"importance": "critical"
+		"title": "Trafficking in Counterfeit Goods or Services"
 	},
 	{
-		"title": "Transmission of Wagering Information (Gambling)",
-		"importance": "critical"
+		"title": "Transmission of Wagering Information (Gambling)"
 	},
 	{
-		"title": "Transportation into State Prohibiting Sale",
-		"importance": "critical"
+		"title": "Transportation into State Prohibiting Sale"
 	},
-	{ "title": "Transportation of Slaves from U.S.", "importance": "critical" },
-	{ "title": "Transportation of Stolen Vehicles", "importance": "critical" },
-	{ "title": "Transportation of Terrorists", "importance": "critical" },
-	{ "title": "Trespassing", "importance": "critical" },
-	{ "title": "Treason", "importance": "critical" },
+	{ "title": "Transportation of Slaves from U.S." },
+	{ "title": "Transportation of Stolen Vehicles" },
+	{ "title": "Transportation of Terrorists" },
+	{ "title": "Trespassing" },
+	{ "title": "Treason" },
 	{
-		"title": "Unauthorized Removal of Classified Documents",
-		"importance": "critical"
+		"title": "Unauthorized Removal of Classified Documents"
 	},
 	{
-		"title": "Use of Fire or Explosives to Destroy Property",
-		"importance": "critical"
+		"title": "Use of Fire or Explosives to Destroy Property"
 	},
-	{ "title": "Use of Weapons of Mass Destruction", "importance": "critical" },
-	{ "title": "Vandalism", "importance": "critical" },
-	{ "title": "Video Voyeurism", "importance": "critical" },
+	{ "title": "Use of Weapons of Mass Destruction" },
+	{ "title": "Vandalism" },
+	{ "title": "Video Voyeurism" },
 	{
-		"title": "Violation of Prohibitions Governing Atomic Weapons",
-		"importance": "critical"
+		"title": "Violation of Prohibitions Governing Atomic Weapons"
 	},
-	{ "title": "Violence at International airports", "importance": "critical" },
+	{ "title": "Violence at International airports" },
 	{
-		"title": "Violent Crimes in Aid of Racketeering Activity",
-		"importance": "critical"
+		"title": "Violent Crimes in Aid of Racketeering Activity"
 	},
 	{
-		"title": "Willful Wrecking of a Train Resulting in Death",
-		"importance": "critical"
+		"title": "Willful Wrecking of a Train Resulting in Death"
 	},
-	{ "title": "Wire Fraud", "importance": "critical" }
+	{ "title": "Wire Fraud" }
 ]
