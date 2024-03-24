@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
+	import Nav from '$lib/components/nav.svelte';
 
 	let catImageUrl = '';
 
@@ -14,11 +15,11 @@
 	<title>{$page.status}: {$page.error?.message}</title>
 </svelte:head>
 
-<a href="/">home</a>
+<Nav />
 <h1>Oh no! An error occured!</h1>
 <p>here is a random cat instead:</p>
 {#if catImageUrl}
-	<img src={catImageUrl} style="max-width: 500px;" alt="random cat" />
+	<img src={catImageUrl} style="max-width: 500px;" class="cat" alt="random cat" />
 {:else}
 	<p>loading..</p>
 {/if}

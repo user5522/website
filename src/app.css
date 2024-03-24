@@ -25,3 +25,17 @@ a {
 select {
     border-radius: 5px;
 }
+
+.cat {
+    width: 300px;
+
+    @media (min-width: 640px) {
+        width: 400px;
+    }
+}
+
+.separate {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
