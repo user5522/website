@@ -1,0 +1,1 @@
+const prerender: boolean = true;
