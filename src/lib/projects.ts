@@ -13,5 +13,10 @@ export let projects: {link: string, name: string, description: string }[] = [
         link: "https://github.com/user5522/squaregame",
         name: "SquareGame",
         description: "A Unity 2D platformer game."
+    },
+    {
+        link: "https://github.com/user5522/u3d",
+        name: "u3d",
+        description: "A Unity 3D, supposedly fast paced, platformer game."
     }
 ];
