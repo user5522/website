@@ -22,6 +22,6 @@ export let projects: {link: string, name: string, description: string }[] = [
     {
         link: "https://github.com/user5522/snak",
         name: "snak",
-        description: "A snake game made in rust using Bevy Engine"
+        description: "A snake game made in rust using Bevy Engine."
     }
 ];
