@@ -28,5 +28,10 @@ export let socials: { link: string; name: string; activity: Activity }[] = [
 		link: 'https://github.com/user5522',
 		name: 'GitHub',
 		activity: 'Very active'
+	},
+	{
+		link: 'mailto:oueslatim@pm.me',
+		name: 'Email',
+		activity: 'For serious stuff'
 	}
 ];
