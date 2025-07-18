@@ -1,0 +1,16 @@
+---
+const links = [
+  { href: "/", name: "home" },
+  { href: "/accusations", name: "accusations" },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<div class="separate">
+  {
+    links.map(
+      (link) => currentPath !== link.href && <a href={link.href}>{link.name}</a>
+    )
+  }
+</div>
