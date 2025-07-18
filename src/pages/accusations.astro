@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Nav from "../components/Nav.astro";
+import accusations from "../data/accusations.json";
+---
+
+<Layout title="Accusations - User5522">
+  <Nav />
+  <h1>minor felonies i may or may not have commited</h1>
+  <ul>
+    {accusations.map((accusation) => <li>{accusation.title}</li>)}
+  </ul>
+</Layout>

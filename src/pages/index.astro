@@ -1,0 +1,107 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const projects = [
+  {
+    link: "https://github.com/user5522/timetable",
+    name: "Timetable",
+    description:
+      "A Flutter based material 3 designed timetable android app for managing schedules.",
+  },
+  {
+    link: "https://github.com/user5522/website",
+    name: "website",
+    description: "A Svelte powered website/portfolio hosted on vercel.",
+  },
+  {
+    link: "https://github.com/user5522/snak",
+    name: "snak",
+    description: "A Bevy Engine snake game written in rust.",
+  },
+  {
+    link: "https://github.com/user5522/squaregame",
+    name: "SquareGame",
+    description: "A Unity 2D platformer game.",
+  },
+  {
+    link: "https://github.com/user5522/u3d",
+    name: "u3d",
+    description: "A Unity 3D, supposedly fast paced, platformer game.",
+  },
+];
+
+const socials = [
+  {
+    link: "https://twitter.com/user_5522",
+    name: "Twitter",
+    activity: "Somewhat active",
+  },
+  {
+    link: "https://discord.com/users/619210431809978368",
+    name: "Discord",
+    activity: "Somewhat active",
+  },
+  {
+    link: "https://www.reddit.com/u/epicgamerman2",
+    name: "Reddit",
+    activity: "Not active at all",
+  },
+  {
+    link: "https://steamcommunity.com/id/username5522/",
+    name: "Steam",
+    activity: "Not active at all",
+  },
+  {
+    link: "https://youtube.com/@user5522",
+    name: "Youtube",
+    activity: "Not active at all",
+  },
+  {
+    link: "https://github.com/user5522",
+    name: "GitHub",
+    activity: "Very active",
+  },
+  {
+    link: "mailto:oueslatim@pm.me",
+    name: "Email",
+    activity: "For serious stuff",
+  },
+];
+---
+
+<Layout title="User5522">
+  <h1>i'm User5522</h1>
+  <p>
+    i make cool, usually useful stuff that solves my problems, often inspired by
+    other projects or just stuff that doesn't exist yet / doesn't work the way i
+    want it to.
+  </p>
+  <p>some of my projects include:</p>
+  <ul>
+    {
+      projects.map((project) => (
+        <li
+          set:html={`<a href="${project.link}" target="_blank">${project.name}</a>: ${project.description}`}
+        />
+      ))
+    }
+  </ul>
+  <p>
+    if you are interested in what i do, check out my <a
+      href="https://github.com/user5522"
+      target="_blank">GitHub</a
+    >.
+  </p>
+
+  <h2>Social</h2>
+  <p>i'm not active everywhere but do always feel free to reach out</p>
+  <ul>
+    {
+      socials.map((social) => (
+        <li
+          set:html={`<a href="${social.link}" target="_blank">${social.name}</a>: ${social.activity}`}
+        />
+      ))
+    }
+  </ul>
+</Layout>

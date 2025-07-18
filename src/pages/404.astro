@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Nav from "../components/Nav.astro";
+---
+
+<Layout title="404 - Page Not Found">
+  <Nav />
+  <h1>Oh no! An error occured!</h1>
+  <p>here is a random cat instead:</p>
+  <div id="cat-container">
+    <p>loading..</p>
+  </div>
+</Layout>
+
+<script>
+  async function loadCat() {
+    try {
+      const response = await fetch("https://cataas.com/cat");
+      const catContainer = document.getElementById("cat-container");
+      if (catContainer) {
+        catContainer.innerHTML = `<img src="${response.url}" style="max-width: 500px;" class="cat" alt="random kitty" />`;
+      }
+    } catch (error) {
+      console.error("Failed to load cat:", error);
+    }
+  }
+
+  loadCat();
+</script>

@@ -1,0 +1,150 @@
+---
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "User5522",
+  description = "I make cool stuff that solves problems",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <script is:inline>
+      function initTheme() {
+        const theme = localStorage.getItem("theme") || "system";
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+
+        document.documentElement.setAttribute("data-theme", theme);
+
+        if (theme === "system") {
+          document.documentElement.classList.toggle("dark", prefersDark);
+        } else {
+          document.documentElement.classList.toggle("dark", theme === "dark");
+        }
+      }
+
+      initTheme();
+    </script>
+  </head>
+  <body>
+    <div id="theme-switch" class="place-top-right">
+      <select id="theme-selector">
+        <option value="system">System</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </div>
+    <main class="page">
+      <slot />
+    </main>
+
+    <script>
+      const themeSelector = document.getElementById(
+        "theme-selector"
+      ) as HTMLSelectElement;
+      const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)");
+
+      themeSelector.value = localStorage.getItem("theme") || "system";
+
+      function updateTheme(theme: string) {
+        localStorage.setItem("theme", theme);
+        document.documentElement.setAttribute("data-theme", theme);
+
+        if (theme === "system") {
+          document.documentElement.classList.toggle(
+            "dark",
+            prefersDarkMode.matches
+          );
+        } else {
+          document.documentElement.classList.toggle("dark", theme === "dark");
+        }
+      }
+
+      themeSelector.addEventListener("change", (e) => {
+        updateTheme((e.target as HTMLSelectElement).value);
+      });
+
+      prefersDarkMode.addEventListener("change", (e) => {
+        if (localStorage.getItem("theme") === "system") {
+          document.documentElement.classList.toggle("dark", e.matches);
+        }
+      });
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  * {
+    font-family: "Lucida Console", monospace;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  a {
+    color: var(--link-color);
+  }
+
+  .page {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    max-width: 56rem;
+  }
+
+  .place-top-right {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.75rem;
+  }
+
+  select {
+    border-radius: 5px;
+  }
+
+  .cat {
+    width: 300px;
+  }
+
+  @media (min-width: 640px) {
+    .cat {
+      width: 400px;
+    }
+  }
+
+  .separate {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  :root {
+    --background-color: #fff;
+    --text-color: #000;
+    --link-color: #1a0dab;
+  }
+
+  :root.dark {
+    --background-color: #202124;
+    --text-color: #fff;
+    --link-color: #8ab4f8;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root[data-theme="system"] {
+      --background-color: #202124;
+      --text-color: #fff;
+      --link-color: #8ab4f8;
+    }
+  }
+</style>
