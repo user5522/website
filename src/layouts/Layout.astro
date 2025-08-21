@@ -2,11 +2,13 @@
 export interface Props {
   title?: string;
   description?: string;
+  color?: string;
 }
 
 const {
   title = "User5522",
   description = "I make cool stuff that solves problems",
+  color = "#0B77BB",
 } = Astro.props;
 ---
 
@@ -15,6 +17,7 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content={color} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/favicon.webp" />
     <title>{title}</title>
